@@ -1,7 +1,9 @@
-site_name: AstroSite
+site_name: NUSH Astro
 
 theme:
   name: 'material'
+  features:
+    - navigation.tabs
 
   # 404 page
   static_templates:
@@ -55,4 +57,11 @@ extra_javascript:
 
 nav:
   - Home: index.md
-  - 'Getting Started.md'
+  - Starhopping Guide:
+      - Getting Started: starhopping/index.md
+  - Orbital Mech:
+      - Getting Started: orbital/index.md
+      - Basics:
+          - 'orbital/Universal Gravitation.md'
+      - Energy:
+          - 'orbital/Total Energy of Binary System.md'
