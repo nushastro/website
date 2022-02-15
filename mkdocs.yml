@@ -49,6 +49,8 @@ markdown_extensions:
       emoji_generator: !!python/name:materialx.emoji.to_svg
   - pymdownx.arithmatex:
       generic: true
+  - attr_list
+  - md_in_html
 
 extra_javascript:
   - javascripts/mathjax.js
@@ -59,9 +61,17 @@ nav:
   - Home: index.md
   - Starhopping Guide:
       - Getting Started: starhopping/index.md
-  - Orbital Mech:
+  - Orbital Mechanics:
       - Getting Started: orbital/index.md
       - Basics:
           - 'orbital/Universal Gravitation.md'
       - Energy:
           - 'orbital/Total Energy of Binary System.md'
+  - Stars:
+      - Getting Started: stellar/index.md
+      - Basics:
+          - stellar/basics/star_structure.md
+          - stellar/basics/energy_generation.md
+      - Magnitude:
+          - stellar/magnitude/absolute_magnitude.md
+  - Slides: slides/index.md
