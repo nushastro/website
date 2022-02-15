@@ -7,6 +7,7 @@ The slides for the theory sessions can be found below:
 
 ## 04-2-2022
 - Y1 Theory: [The Solar System](Solar%20System%20(Y1s,%204-2-2022).pptx)
+- Junior Theory: [More on the Celestial Sphere](More%20on%20the%20Celestial%20Sphere%20(Junior%20Theory,%2004-2-2022).pptx)
 - Senior Theory: [Wien and Stefan Boltzmann Laws](Wien%20and%20Stefan-Boltzmann%20Laws%20(Senior%20Theory,%204-2-2022).pptx)
 
 ## 11-2-2022
