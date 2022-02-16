@@ -15,6 +15,7 @@ Now that we know how energy in the star is made. How is it produced? Let us find
 !!! note
     The subsequent analysis of the radiative zone and convective zone is done with respect to a sun-like star. Depending on
     the mass of the star, the radiative zone can be the inside or outside layer of the star.
+    The reason is complex but put simply the sun's fusion rate is not high enough to create a temperature gradient strong enough to facilitate convection. It also has a high enough density gradient to prevent convection.
 
 ## The Radiative Zone
 
