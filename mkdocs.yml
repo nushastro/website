@@ -64,14 +64,17 @@ nav:
   - Orbital Mechanics:
       - Getting Started: orbital/index.md
       - Basics:
-          - 'orbital/Universal Gravitation.md'
+          - 'orbital/universal_gravitation.md'
       - Energy:
-          - 'orbital/Total Energy of Binary System.md'
+          - 'orbital/binary_system_total_energy.md'
   - Stars:
       - Getting Started: stellar/index.md
       - Basics:
           - stellar/basics/star_structure.md
           - stellar/basics/energy_generation.md
       - Magnitude:
-          - stellar/magnitude/absolute_magnitude.md
+          - stellar/magnitude/apparent_absolute_magnitude.md
+  - Practical:
+      - Getting Started: practical/index.md
+      - practical/accessories.md
   - Slides: slides/index.md
