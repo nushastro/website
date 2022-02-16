@@ -61,13 +61,13 @@ nav:
   - Home: index.md
   - Starhopping Guide:
       - Getting Started: starhopping/index.md
-  - Orbital Mechanics:
+  - Celestial Mechanics:
       - Getting Started: orbital/index.md
       - Basics:
           - 'orbital/universal_gravitation.md'
       - Energy:
           - 'orbital/binary_system_total_energy.md'
-  - Stars:
+  - Stellar Astronomy:
       - Getting Started: stellar/index.md
       - Basics:
           - stellar/basics/star_structure.md
