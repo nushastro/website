@@ -65,7 +65,9 @@ nav:
       - Getting Started: orbital/index.md
       - Basics:
           - 'orbital/universal_gravitation.md'
-      - Energy:
+          - 'orbital/conservation_of_quantities.md'
+          - 'orbital/trajectory_of_particle.md'
+      - Binary Stars:
           - 'orbital/binary_system_total_energy.md'
   - Stellar Astronomy:
       - Getting Started: stellar/index.md
