@@ -51,6 +51,8 @@ markdown_extensions:
       generic: true
   - attr_list
   - md_in_html
+  - pymdownx.tabbed:
+      alternate_style: true
 
 extra_javascript:
   - javascripts/mathjax.js
