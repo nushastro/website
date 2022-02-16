@@ -51,6 +51,8 @@ markdown_extensions:
       generic: true
   - attr_list
   - md_in_html
+  - pymdownx.tabbed:
+      alternate_style: true
 
 extra_javascript:
   - javascripts/mathjax.js
@@ -61,17 +63,21 @@ nav:
   - Home: index.md
   - Starhopping Guide:
       - Getting Started: starhopping/index.md
-  - Orbital Mechanics:
+  - Celestial Mechanics:
       - Getting Started: orbital/index.md
       - Basics:
-          - 'orbital/Universal Gravitation.md'
+          - 'orbital/universal_gravitation.md'
       - Energy:
-          - 'orbital/Total Energy of Binary System.md'
-  - Stars:
+          - 'orbital/binary_system_total_energy.md'
+  - Stellar Astronomy:
       - Getting Started: stellar/index.md
       - Basics:
           - stellar/basics/star_structure.md
           - stellar/basics/energy_generation.md
       - Magnitude:
-          - stellar/magnitude/absolute_magnitude.md
+          - stellar/magnitude/apparent_absolute_magnitude.md
+  - Practical:
+      - practical/index.md
+      - practical/telescopes.md
+      - practical/accessories.md
   - Slides: slides/index.md

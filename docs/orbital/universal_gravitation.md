@@ -42,4 +42,3 @@ The following is a list of the variables we use for masses, which are usually re
 | Mass of Moon, $M_{moon}$              | $7.348 \times 10^{22}$                             |
 
 Traditionally, you will use these values in questions designed by normal Astronomy and Physics teachers, although some may intend to be deliberately provocative and ask for the values of rather strange functions. Luckily in the case, you will get a constants sheet to make sure you are on the right page. We shall not show the 
-

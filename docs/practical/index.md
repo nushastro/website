@@ -1,0 +1,3 @@
+# Astronomy Practicals
+
+We hold practical sessions every Friday from 7.30 pm to 10.30 pm. We often meet, separating Juniors and Seniors in order to follow the Safe Management Measures (SMM) in Singapore. We utilise many practical instruments like Telescopes and Eyepieces to look at the Night Sky and find stars, clusters and many other Deep Space Objects (DSOs). See the attached pages to get to know more about our club's [scopes](./telescopes) and [accessories](./accessories).
