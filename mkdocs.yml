@@ -75,6 +75,7 @@ nav:
       - Magnitude:
           - stellar/magnitude/apparent_absolute_magnitude.md
   - Practical:
-      - Getting Started: practical/index.md
+      - practical/index.md
+      - practical/telescopes.md
       - practical/accessories.md
   - Slides: slides/index.md
