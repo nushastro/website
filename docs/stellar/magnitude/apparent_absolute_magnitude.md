@@ -49,7 +49,7 @@ Using this method, we have been able to standardize the following variables for 
 |$m_{sun} = m_\bigodot$|-26.7 (VERY LOW)|
 |$m_{moon}$ (when brightest)|-12.9 (Quite Low)|
 |$m_{venus}$ (when brightest)|-4.9|
-|$m_{sirius$ (brightest star)|-1.5|
+|$m_{sirius}$ (brightest star)|-1.5|
 |$m_{vega}$ (reference point)|+0.0|
 |$m_{min}$ (faintest star visible to the naked eye|+6.0|
 
@@ -75,4 +75,6 @@ By this, we note that the sun is a million times brighter than the moon in the E
 
 ## Absolute Magnitude
 
-One thing to note is that we don't know if a sky in the night sky is dim simply because it's dim or because it's too far away to be visible. Hence, many decided to build on Pogson's "apparent" magnitude system with a new conception known to man as the **Absolute Magnitude**.
+One thing to note is that we don't know if a sky in the night sky is dim simply because it's dim or because it's too far away to be visible. Hence, many decided to build on Pogson's "apparent" magnitude system with a new conception known to man as the **Absolute Magnitude**. (see the origins of the system [here](https://articles.adsabs.harvard.edu/cgi-bin/nph-iarticle_query?2006JAHH....9..173H&defaultprint=YES&filetype=.pdf))
+
+
