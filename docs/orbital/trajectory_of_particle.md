@@ -45,6 +45,7 @@ Wherein $GMm\vec{C}$ is a constant vector of integration that lies in the plane 
 Now, using the same triple product result from above, we get the following:
 
 $$v^2\vec{r} - (\vec v \cdot \vec r)\vec v = \frac{GM}{r} \vec r + GM \vec C$$
+
 From here, we let $\alpha$ denote the angle between $v$ and $r$. Thus we get:
 
 $$v^2\vec{r} - (vr\cos\alpha)\vec v = \frac{GM}{r} \vec r + GM \vec C$$
@@ -67,7 +68,7 @@ $$r = \frac{L^2}{GMm^2(1+C\cos\theta)}$$
 
 This is a standard form to describe the trajectory of $m$, and we can conclude that $\vec C$ depicts this thing known as the eccentricity *vector*, $e\hat{e}$, which is a completely new concept I haven't introduced. We will get to it soon.
 
-## Computing $e$
+## Computing Eccentricity
 
 However, one way to compute $e$ now is to do the following:
 
@@ -102,7 +103,8 @@ $$\epsilon = \sqrt{1 + \frac{2EL^2}{(GMm^2)m}}$$
 
 This is a much better way of depicting the eccentricity, $\epsilon$. This is also a pretty important result whcih can help us map the trajectory of a particle.
 
-## Circular Trajectories
+## Orbit Patterns
+### The Circular Orbit
 This should ideally be a no-brainer. Circular Orbits are simply orbits with $\epsilon = 0$, hence we get the following:
 
 $$\frac{2EL^2}{(GMm)^2m} = -1$$
@@ -133,7 +135,7 @@ $$v = \sqrt{\frac{GM}{r}}$$
 
 This can also help us get the escape velocity, using a parabolic trajectory instead.
 
-## Parabolic Trajectory
+### The Parabolic Orbit
 In a parabolic trajectory, $\epsilon = 1$, which means that 
 
 $$\frac{2EL^2}{(GMm)^2m} = 0$$
@@ -148,7 +150,7 @@ $$v = \sqrt{\frac{2GM}{r}}$$
 
 This is in fact the escape velocity of an orbit, since the object moves to an infinitely far away point after this. This is due to the fact that having $E = 0$ means that there cannot be a bounding effect on the mass anymore.
 
-## Elliptical Orbit
+### The Elliptical Orbit
 Alright, so this is the main part of this entire article.
 
 We note that $\epsilon$ does not have a specific value in the case of an elliptical orbit, since $\epsilon$ follows the following formula, based on the semi-major axis, $a$ and semi-minor axis, $b$:
