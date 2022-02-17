@@ -16,41 +16,31 @@ will get hotter and more luminous over time. As the number of hydrogen atoms per
 
 # Subgiant
 
-Eventually the core runs out of hydrogen to fuse. It becomes _inert_ (unable to "react" via nuclear processes, i.e. fusion). Fusion stops _entirely_. There is no longer any pressure support, so gravity pulls outer layers inwards, which causes the core to contract and heat up until the area _around the core_ heats up enough to start fusing hydrogen, creating a _shell_ of hydrogen fusion. (this lasts 1 billion years for the sun)
+Eventually the core runs out of hydrogen to fuse. It becomes _inert_ (unable to "react" via nuclear processes, i.e. fusion). Fusion stops _entirely_. There is no longer any pressure support, so gravity pulls outer layers inwards, which causes the core to contract and heat up until the area _around the core_ heats up enough to start fusing hydrogen, creating a _shell_ of hydrogen fusion. (this shell lasts 1 billion years for the sun)
 
-insert image of h shell.
-
-temporary one:
-
-![](https://media.discordapp.net/attachments/699781597515481159/943518576881598524/image-removebg-preview.png)
+![](../assets/subgiant.png)
 
 # Red Giant Branch (RGB)
 
-Due to the increased temperature, the hydrogen fusion rate is faster and radiation pressure is higher. This actually causes the outer layers of the star to expand to maintain the pressure gradient. Due to decreased pressure and increase surface area this causes the surface temperature to drop.
-
-The outer envelope is grossly extended and thus at a density below that of a vacuum on Earth. It is only weakly held by gravitational force to the rest of the star and easily ejected. However the contracted helium core is incredibly dense. It is only about one-third its original size.
-
-temporary one:
+Due to the increased temperature, the hydrogen fusion rate (in the shell) is faster and radiation pressure is higher. This actually causes the outer layers of the star to expand to maintain the pressure gradient. Due to decreased pressure and increase surface area this causes the surface temperature to drop and for it to turn red.
 
 ![](https://media.discordapp.net/attachments/699781597515481159/943518999449309244/unknown.png)
 
+The outer envelope is so extended that it is only weakly held by gravitational force to the rest of the star and easily ejected. However the contracted helium core is incredibly dense. It is only about one-third its original size.
+
 The core contraction and envelope expansion is very rapid, taking only a few million years. In this time the temperature of the star will cool from its main sequence value of 6,000–30,000 K to around 5,000 K. Hence there are very few stars in that area in the HR diagram
 
-insert image of hertzsprung gap
-
-temporary one:
-
 ![](https://media.discordapp.net/attachments/699781597515481159/943521162154082394/unknown.png)
+
+> hertzsprung gap
 
 Hydrogen fusion in the shell produces more helium. This gets dumped onto the core, adding to its mass, causing it to heat up even more. When the core temperature reaches **100 million K**, the helium nuclei now have sufficient kinetic energy to overcome the strong coulombic repulsion and fuse together, forming carbon-12 in a two-stage process. (triple alpha process)
 
 It first fuses 2 He-4 to Be-8. However, this is slightly endothermic, and Be-8 is highly unstable and decays back into smaller nuclei with a half-life of $8.19 \times 10^{−17}s$. Unless within that time a third alpha particle fuses with the beryllium-8 nucleus to produce an excited resonance state of carbon-12 [Holye state](https://en.wikipedia.org/wiki/Carbon-12#Hoyle_state). But even this usually goes back to 3 He-4 nuclei, but about every 1 in 2423.1 times it releases energy and changes into the stable base form of carbon-12
 
-insert triple alpha process
+![](../assets/triple_alpha.png)
 
 As a side effect of the process, some carbon nuclei fuse with additional helium to produce a stable isotope of oxygen and energy:
-
-temp image
 
 ![](https://media.discordapp.net/attachments/699781597515481159/943523818591363082/wEDlfYfko2yBAAAAABJRU5ErkJggg.png)
 
