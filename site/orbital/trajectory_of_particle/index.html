@@ -499,30 +499,43 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#computing-e" class="md-nav__link">
-    Computing \(e\)
+  <a href="#computing-eccentricity" class="md-nav__link">
+    Computing Eccentricity
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#circular-trajectories" class="md-nav__link">
-    Circular Trajectories
+  <a href="#orbit-patterns" class="md-nav__link">
+    Orbit Patterns
+  </a>
+  
+    <nav class="md-nav" aria-label="Orbit Patterns">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#the-circular-orbit" class="md-nav__link">
+    The Circular Orbit
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#parabolic-trajectory" class="md-nav__link">
-    Parabolic Trajectory
+        
+          <li class="md-nav__item">
+  <a href="#the-parabolic-orbit" class="md-nav__link">
+    The Parabolic Orbit
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#elliptical-orbit" class="md-nav__link">
-    Elliptical Orbit
+        
+          <li class="md-nav__item">
+  <a href="#the-elliptical-orbit" class="md-nav__link">
+    The Elliptical Orbit
   </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -869,30 +882,43 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#computing-e" class="md-nav__link">
-    Computing \(e\)
+  <a href="#computing-eccentricity" class="md-nav__link">
+    Computing Eccentricity
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#circular-trajectories" class="md-nav__link">
-    Circular Trajectories
+  <a href="#orbit-patterns" class="md-nav__link">
+    Orbit Patterns
+  </a>
+  
+    <nav class="md-nav" aria-label="Orbit Patterns">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#the-circular-orbit" class="md-nav__link">
+    The Circular Orbit
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#parabolic-trajectory" class="md-nav__link">
-    Parabolic Trajectory
+        
+          <li class="md-nav__item">
+  <a href="#the-parabolic-orbit" class="md-nav__link">
+    The Parabolic Orbit
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#elliptical-orbit" class="md-nav__link">
-    Elliptical Orbit
+        
+          <li class="md-nav__item">
+  <a href="#the-elliptical-orbit" class="md-nav__link">
+    The Elliptical Orbit
   </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -932,8 +958,8 @@
 <div class="arithmatex">\[\vec v \times \vec L = \frac{GMm}{r} \vec r + GMm \vec C\]</div>
 <p>Wherein <span class="arithmatex">\(GMm\vec{C}\)</span> is a constant vector of integration that lies in the plane of motion of <span class="arithmatex">\(m\)</span>.</p>
 <p>Now, using the same triple product result from above, we get the following:</p>
-<p><span class="arithmatex">\(<span class="arithmatex">\(v^2\vec{r} - (\vec v \cdot \vec r)\vec v = \frac{GM}{r} \vec r + GM \vec C\)</span>\)</span>
-From here, we let <span class="arithmatex">\(\alpha\)</span> denote the angle between <span class="arithmatex">\(v\)</span> and <span class="arithmatex">\(r\)</span>. Thus we get:</p>
+<div class="arithmatex">\[v^2\vec{r} - (\vec v \cdot \vec r)\vec v = \frac{GM}{r} \vec r + GM \vec C\]</div>
+<p>From here, we let <span class="arithmatex">\(\alpha\)</span> denote the angle between <span class="arithmatex">\(v\)</span> and <span class="arithmatex">\(r\)</span>. Thus we get:</p>
 <div class="arithmatex">\[v^2\vec{r} - (vr\cos\alpha)\vec v = \frac{GM}{r} \vec r + GM \vec C\]</div>
 <p>Finally we take the dot product with <span class="arithmatex">\(\vec r\)</span> on both sides of the equation.</p>
 <div class="arithmatex">\[(vr)^2 - (vr\cos\alpha)(\vec r \cdot \vec v) = GMr + GM \vec r \cdot \vec C\]</div>
@@ -944,7 +970,7 @@ From here, we let <span class="arithmatex">\(\alpha\)</span> denote the angle be
 <p>From here, we can continue to represent <span class="arithmatex">\(r\)</span> in terms of <span class="arithmatex">\(L\)</span>, <span class="arithmatex">\(m\)</span>, <span class="arithmatex">\(G\)</span>, <span class="arithmatex">\(M\)</span>, <span class="arithmatex">\(C\)</span> and <span class="arithmatex">\(\theta\)</span>:</p>
 <div class="arithmatex">\[r = \frac{L^2}{GMm^2(1+C\cos\theta)}\]</div>
 <p>This is a standard form to describe the trajectory of <span class="arithmatex">\(m\)</span>, and we can conclude that <span class="arithmatex">\(\vec C\)</span> depicts this thing known as the eccentricity <em>vector</em>, <span class="arithmatex">\(e\hat{e}\)</span>, which is a completely new concept I haven't introduced. We will get to it soon.</p>
-<h2 id="computing-e">Computing <span class="arithmatex">\(e\)</span></h2>
+<h2 id="computing-eccentricity">Computing Eccentricity</h2>
 <p>However, one way to compute <span class="arithmatex">\(e\)</span> now is to do the following:</p>
 <p><span class="arithmatex">\(<span class="arithmatex">\(e = \sec\theta \left(\frac{L^2}{GMm^2r} - 1\right)\)</span>\)</span>
 Since this <span class="arithmatex">\(e\)</span> is simply the instantaneous eccentricity vector magnitude, we conclude that the actualy eccentricity, <span class="arithmatex">\(\epsilon\)</span> is when <span class="arithmatex">\(\theta = 0\)</span>. Hence, we have that:</p>
@@ -962,7 +988,8 @@ Since this <span class="arithmatex">\(e\)</span> is simply the instantaneous ecc
 <p>And notice that we got the expression for Total Energy, <span class="arithmatex">\(E\)</span> back! Now we can substitute that in, and get a more decent result:</p>
 <div class="arithmatex">\[\epsilon = \sqrt{1 + \frac{2EL^2}{(GMm^2)m}}\]</div>
 <p>This is a much better way of depicting the eccentricity, <span class="arithmatex">\(\epsilon\)</span>. This is also a pretty important result whcih can help us map the trajectory of a particle.</p>
-<h2 id="circular-trajectories">Circular Trajectories</h2>
+<h2 id="orbit-patterns">Orbit Patterns</h2>
+<h3 id="the-circular-orbit">The Circular Orbit</h3>
 <p>This should ideally be a no-brainer. Circular Orbits are simply orbits with <span class="arithmatex">\(\epsilon = 0\)</span>, hence we get the following:</p>
 <div class="arithmatex">\[\frac{2EL^2}{(GMm)^2m} = -1\]</div>
 <p>Hence, we can express <span class="arithmatex">\(E\)</span> as follows:</p>
@@ -978,7 +1005,7 @@ Since this <span class="arithmatex">\(e\)</span> is simply the instantaneous ecc
 <p>This can help us get orbital speed, <span class="arithmatex">\(v\)</span>, at radius <span class="arithmatex">\(r\)</span>.</p>
 <div class="arithmatex">\[v = \sqrt{\frac{GM}{r}}\]</div>
 <p>This can also help us get the escape velocity, using a parabolic trajectory instead.</p>
-<h2 id="parabolic-trajectory">Parabolic Trajectory</h2>
+<h3 id="the-parabolic-orbit">The Parabolic Orbit</h3>
 <p>In a parabolic trajectory, <span class="arithmatex">\(\epsilon = 1\)</span>, which means that </p>
 <div class="arithmatex">\[\frac{2EL^2}{(GMm)^2m} = 0\]</div>
 <p>Here, we note that <span class="arithmatex">\(L \ne 0\)</span>, since it is physically impossible in any orbit. This means that the total energy, <span class="arithmatex">\(E = 0\)</span>, which also means the following:</p>
@@ -986,7 +1013,7 @@ Since this <span class="arithmatex">\(e\)</span> is simply the instantaneous ecc
 <p>From here, we can represent the new orbital speed, <span class="arithmatex">\(v\)</span> as:</p>
 <div class="arithmatex">\[v = \sqrt{\frac{2GM}{r}}\]</div>
 <p>This is in fact the escape velocity of an orbit, since the object moves to an infinitely far away point after this. This is due to the fact that having <span class="arithmatex">\(E = 0\)</span> means that there cannot be a bounding effect on the mass anymore.</p>
-<h2 id="elliptical-orbit">Elliptical Orbit</h2>
+<h3 id="the-elliptical-orbit">The Elliptical Orbit</h3>
 <p>Alright, so this is the main part of this entire article.</p>
 <p>We note that <span class="arithmatex">\(\epsilon\)</span> does not have a specific value in the case of an elliptical orbit, since <span class="arithmatex">\(\epsilon\)</span> follows the following formula, based on the semi-major axis, <span class="arithmatex">\(a\)</span> and semi-minor axis, <span class="arithmatex">\(b\)</span>:</p>
 <div class="arithmatex">\[\epsilon = \sqrt{1-\left(\frac{b}{a}\right)^2}\]</div>
