@@ -20,11 +20,15 @@ Eventually the core runs out of hydrogen to fuse. It becomes _inert_ (unable to 
 
 ![](../assets/subgiant.png)
 
+> structure of a subgiant
+
 # Red Giant Branch (RGB)
 
 Due to the increased temperature, the hydrogen fusion rate (in the shell) is faster and radiation pressure is higher. This actually causes the outer layers of the star to expand to maintain the pressure gradient. Due to decreased pressure and increase surface area this causes the surface temperature to drop and for it to turn red.
 
-![](https://media.discordapp.net/attachments/699781597515481159/943518999449309244/unknown.png)
+![](../assets/subgiant_branch.png)
+
+> Stellar evolutionary track so far, Yellow - main sequence. Orange - subgiant branch
 
 The outer envelope is so extended that it is only weakly held by gravitational force to the rest of the star and easily ejected. However the contracted helium core is incredibly dense. It is only about one-third its original size.
 
@@ -46,21 +50,33 @@ As a side effect of the process, some carbon nuclei fuse with additional helium 
 
 Once the temperature is hot enough helium fusion begins in a matter of minutes or hours. This sudden onset of helium core fusion (or "burning") is called the _helium flash_.
 
-# Horizontal Branch
+# Horizontal Branch (HB)
 
 The energy released from the helium flash allows the core to cool and expand. This decreases the radiation pressure and the star contracts. This result in a hotter outer layer of the star but a smaller overall size. The rise in effective temperature and decrease in surface area are such that the luminosity remains roughly constant.
 
-insert image
+![](../assets/horizontal_branch.png)
+
+> structure of a sun-like star on the horizontal branch
+
+![](../assets/horizontal_branch_hr.png)
+
+> Stellar evolutionary track so far, Red - RGB. Orange-Yellow: HB
 
 Our sun has sufficient helium fuel for this stage to last for about 100 million years
 
 fun fact: more stars less massive than $2M_\odot$, the helium cores have the same mass when helium fusion starts, regardless of total solar mass. So the helium fusion luminosity on the horizontal branch is the same (Hydrogen shell fusion causes total luminosity to vary, but for most stars they are very similar)
 
-# Asymptotic Giant Branch
+# Asymptotic Giant Branch (AGB)
 
 Eventually all the helium in the core has fused into carbon and oxygen and so the core becomes inert again and contracts. Carbon and oxygen nuclei have more protons in them than helium does so the repulsion is greater, and require higher temperature and pressure. (Carbon burning, the next available fusion process, occurs at 500-900 million K and at densities of $3 \times 10^9 kg/m^3$). Stars less than 8 times the mass of our sun can't reach those temperatures and densities. The core contraction does however generate sufficient heat for the surrounding layer of helium to start fusing, that is helium shell burning starts. Energy from the helium-burning in turn heats up surrounding unused hydrogen which also starts shell burning. This is basically the RGB all over again, and for the same reason the star expands to a red giant (again)
 
-picture of hydrogen shell, helium shell and inert carbon-oxygen core
+![](../assets/AGB.png)
+
+> structure of an AGB star
+
+![](../assets/AGB_HR.PNG)
+
+> Stellar evolutionary track so far
 
 If the helium fuel in the He-burning shell runs low, the outward radiation pressure drops off. As this was previously holding out the shell of hydrogen gas, this shell now contracts, heats up enough to ignite and start fusion, converting hydrogen to helium. This helium "ash" in turn falls onto the helium shell, heating it up until the helium shell is hot enough to re-ignite in a helium-shell flash, producing a _thermal pulse_. Increased radiation pressure now causes the hydrogen shell to expand and cool, shutting down H-shell fusion.
 
@@ -74,8 +90,13 @@ Once the outer layers of the star are ejected the core is left exposed. It is ho
 
 A planetary nebula only lasts for about 20,000 years before dispersing into interstellar medium.
 
-insert cat eye nebula
+![](../assets/cat_eye.png)
+![](../assets/helix_nebula.png)
 
-insert helix nebula
+> cat eye nebula (top) and helix nebula (bottom) are both planetary nebulae
+
+![](../assets/full_hr.png)
+
+> Stellar evolutionary track
 
 # White dwarf
