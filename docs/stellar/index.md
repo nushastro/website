@@ -1,8 +1,5 @@
 # Stars
 
-!!! attention
-    Disclaimer: Some portions of the following sections are copied directly from the Astrigue 2018 Booklet.
-
 We all know what a star is. It is a massive, luminous ball of plasma that is held together by gravity. The sun,
 of course, is the nearest star to Earth and is the main source of energy for Earth. Not all stars are like our sun. They come
 in various sizes, colours, brightness and temperatures.

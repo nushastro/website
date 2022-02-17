@@ -76,6 +76,9 @@ nav:
       - Basics:
           - stellar/basics/star_structure.md
           - stellar/basics/energy_generation.md
+      - Classification:
+          - stellar/classification/hr_diagram.md
+          - stellar/classification/classification.md
       - Magnitude:
           - stellar/magnitude/apparent_absolute_magnitude.md
       - Evolution:
