@@ -81,6 +81,8 @@ nav:
           - stellar/classification/classification.md
       - Magnitude:
           - stellar/magnitude/apparent_absolute_magnitude.md
+      - Evolution:
+          - stellar/evolution/sun_like.md
   - Practical:
       - practical/index.md
       - practical/telescopes.md
