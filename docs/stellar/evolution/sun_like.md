@@ -42,7 +42,8 @@ Hydrogen fusion in the shell produces more helium. This gets dumped onto the cor
 
 It first fuses 2 He-4 to Be-8. However, this is slightly endothermic, and Be-8 is highly unstable and decays back into smaller nuclei with a half-life of $8.19 \times 10^{−17}s$. Unless within that time a third alpha particle fuses with the beryllium-8 nucleus to produce an excited resonance state of carbon-12 [Holye state](https://en.wikipedia.org/wiki/Carbon-12#Hoyle_state). But even this usually goes back to 3 He-4 nuclei, but about every 1 in 2423.1 times it releases energy and changes into the stable base form of carbon-12
 
-![](../assets/triple_alpha_bad.png)
+![triple_alpha.svg](../assets/triple_alpha.svg#only-light)
+![triple_alpha.svg](../assets/triple_alpha_dark.svg#only-dark)
 
 As a side effect of the process, some carbon nuclei fuse with additional helium to produce a stable isotope of oxygen and energy:
 
