@@ -16,6 +16,9 @@ But since Singapore’s education system is an extremely demanding, rigourous an
 for most Singaporean I'm sure that this is far more memorable: "**O**h **B**oy, **A**n **F** **G**rade 
 **K**ills **M**e".
 
+!!! note "No one asked"
+    The most memorable mnemonic is **O**bama **B**ough a **F**ricking **G**iant **K**illing **M**achine
+
 The system can be extended to include other stars. W is a spectral class that comes
 before O and describes Wolf-Rayet stars, which are extremely hot and bluish, sometimes
 characterised by luminosities so intense that outer layers are occasionally blown away by its
