@@ -11,8 +11,8 @@ There are three main types of nuclear fusion that occur in stars. Depending on t
 mass of the star, different types of fusion will be dominant in the core of the star.
 
 ## Proton-Proton Chain
-
-![PP-chain.png](../assets/PP-chain.png)
+![PP-chain.svg](../assets/PP-chain.svg#only-light)
+![PP-chain.svg](../assets/PP-chain_dark.svg#only-dark)
 
 The first is the proton-proton (PP) chain, which fuses hydrogen into helium. This
 reaction begins at around 6 million K and usually occurs in stars of one solar mass or below.
@@ -35,7 +35,8 @@ barriers, allowing them to exist in places classically impermissible. Thus, a ve
 number of protons will actually "tunnel" through the Coulomb barrier and react with each other.
 
 ## Carbon-Nitrogen-Oxygen (CNO) Cycle
-![cno.png](../assets/cno.png)
+![cno.svg](../assets/cno.svg#only-light)
+![cno.svg](../assets/cno_dark.svg#only-dark)
 
 This cycle involves elements heavier than hydrogen and helium, and is dominant in stars slightly heavier than the sun at 
 around 1.3 solar masses. Of course, this PP chain still operates alongside this cycle in the star, but the
@@ -43,7 +44,8 @@ CNO cycle is relatively faster. As you can see, the carbon-12 nucleus is regener
 indirectly converted into helium at the end. This means that the carbon-12 nucleus is in fact a catalyst.
 
 ## Triple Alpha Process
-![triple_alpha.png](../assets/triple_alpha.png)
+![triple_alpha.svg](../assets/triple_alpha.svg#only-light)
+![triple_alpha.svg](../assets/triple_alpha_dark.svg#only-dark)
 
 The triple alpha process requires alot of energy and thus, occurs largely in higher mass stars and red giants. 
 You can see why. Here we combine 3 helium-4 nuclei to form a carbon-12 nucleus, releasing energy in the process. 
@@ -52,10 +54,15 @@ charge. The temperature needs to be much higher to supply enough energy for this
 
 ## Energy Production
 
-In nuclear physics, the mass of atoms are given in atomic mass units, or amu or u
-for short. The carbon-12 atom is defined to be exactly 12 u in mass, and so a hydrogen atom, or one proton, is around 
-1 u in mass. A proton by itself (i.e. a hydrogen nucleus) actually has a mass of 1.007276466812 u, for reasons that you 
-will see. In the PP chain, where four hydrogen nuclei (protons) are converted into one helium nucleus (2 proton, 
-2 neutrons), the sum of masses of the four protons is 0.7% larger than the mass of one helium nucleus. This mass defect 
+In nuclear physics, the mass of atoms are given in atomic mass units (or u for short).
+The carbon-12 atom is defined to be exactly 12 u in mass, and so a hydrogen atom, or one proton, is around 
+$1 u$ in mass. A proton by itself (i.e. a hydrogen nucleus) actually has a mass of $1.007276466812 u$, 
+for reasons that you will see. 
+
+In the PP chain, where four hydrogen nuclei (protons) are converted into one helium nucleus (2 proton, 
+2 neutrons), the sum of masses of the four protons is 0.7% larger than the mass of one helium nucleus. This **mass defect** 
 is actually converted to energy according to $E = m c^2$ in the PP chain. This energy is also known as the 
 binding energy, which comes from the strong nuclear force holding the nuclei together.
+
+To understand how something can weigh less than the sum of its parts, the video below by PBS Space Time is recommended.
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Xo232kyTsO0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
