@@ -1,4 +1,8 @@
-# Stellar formation
+# Evolution of a sun-like star
+
+This information is useful, for the most part because you are living next to a sun(-like) star
+
+## Stellar formation
 
 gas/dust cloud
 
@@ -6,7 +10,7 @@ gravity attract cloud together
 
 protostar begings emitting light and gravity attracts a circumstellar disk
 
-# Main sequence
+## Main sequence
 
 about 90% of lifetime
 
@@ -14,7 +18,7 @@ hydrogen fusion
 
 will get hotter and more luminous over time. As the number of hydrogen atoms per unit mass decrease, so too does their energy output provided through nuclear fusion. This results in a decrease in pressure support (radiation), which causes the core to contract in size until the increased density and temperature bring the core pressure in to equilibrium with the layers above. The higher temperature causes the remaining hydrogen to undergo fusion at a more rapid rate, thereby generating the energy needed to maintain the equilibrium, and hence becoming more luminous over time. This explains why the main sequence is a broad band rather than a narrow line as stars move up and to the right on this band as they age.
 
-# Subgiant
+## Subgiant
 
 Eventually the core runs out of hydrogen to fuse. It becomes _inert_ (unable to "react" via nuclear processes, i.e. fusion). Fusion stops _entirely_. There is no longer any pressure support, so gravity pulls outer layers inwards, which causes the core to contract and heat up until the area _around the core_ heats up enough to start fusing hydrogen, creating a _shell_ of hydrogen fusion. (this shell lasts 1 billion years for the sun)
 
@@ -22,7 +26,7 @@ Eventually the core runs out of hydrogen to fuse. It becomes _inert_ (unable to 
 
 > structure of a subgiant
 
-# Red Giant Branch (RGB)
+## Red Giant Branch (RGB)
 
 Due to the increased temperature, the hydrogen fusion rate (in the shell) is faster and radiation pressure is higher. This actually causes the outer layers of the star to expand to maintain the pressure gradient. Due to decreased pressure and increase surface area this causes the surface temperature to drop and for it to turn red.
 
@@ -51,7 +55,7 @@ As a side effect of the process, some carbon nuclei fuse with additional helium 
 
 Once the temperature is hot enough helium fusion begins in a matter of minutes or hours. This sudden onset of helium core fusion (or "burning") is called the _helium flash_.
 
-# Horizontal Branch (HB)
+## Horizontal Branch (HB)
 
 The energy released from the helium flash allows the core to cool and expand. This decreases the radiation pressure and the star contracts. This result in a hotter outer layer of the star but a smaller overall size. The rise in effective temperature and decrease in surface area are such that the luminosity remains roughly constant.
 
@@ -67,7 +71,7 @@ Our sun has sufficient helium fuel for this stage to last for about 100 million 
 
 fun fact: more stars less massive than $2M_\odot$, the helium cores have the same mass when helium fusion starts, regardless of total solar mass. So the helium fusion luminosity on the horizontal branch is the same (Hydrogen shell fusion causes total luminosity to vary, but for most stars they are very similar)
 
-# Asymptotic Giant Branch (AGB)
+## Asymptotic Giant Branch (AGB)
 
 Eventually all the helium in the core has fused into carbon and oxygen and so the core becomes inert again and contracts. Carbon and oxygen nuclei have more protons in them than helium does so the repulsion is greater, and require higher temperature and pressure. (Carbon burning, the next available fusion process, occurs at 500-900 million K and at densities of $3 \times 10^9 kg/m^3$). Stars less than 8 times the mass of our sun can't reach those temperatures and densities. The core contraction does however generate sufficient heat for the surrounding layer of helium to start fusing, that is helium shell burning starts. Energy from the helium-burning in turn heats up surrounding unused hydrogen which also starts shell burning. This is basically the RGB all over again, and for the same reason the star expands to a red giant (again)
 
@@ -85,7 +89,7 @@ Over time the frequency of thermal pulses increases. During a thermal pulse nucl
 
 Large convection currents in AGB stars carry material produced in the thin helium-burning shell up to the surface which are ejected, which contains heavier elements.
 
-# Planetary Nebulae
+## Planetary Nebulae
 
 Once the outer layers of the star are ejected the core is left exposed. It is hot enough to emit ultraviolet light to _ionize_ the ejected material, which causes the cloud to glow
 
@@ -100,4 +104,4 @@ A planetary nebula only lasts for about 20,000 years before dispersing into inte
 
 > Stellar evolutionary track
 
-# White dwarf
+## White dwarf
