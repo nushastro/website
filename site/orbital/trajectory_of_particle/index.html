@@ -1,0 +1,1284 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      <link rel="icon" href="../../assets/favicon.png">
+      <meta name="generator" content="mkdocs-1.2.3, mkdocs-material-8.1.8">
+    
+    
+      
+        <title>The Trajectory of a Particle in Orbit - NUSH Astro</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.6e60f8b8.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.e6a45f82.min.css">
+        
+      
+    
+    
+    
+      
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent="">
+  
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#the-trajectory-of-a-particle-in-orbit" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="NUSH Astro" class="md-header__button md-logo" aria-label="NUSH Astro" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m21.9 8.9-1.7 1-4-6.9 1.7-1 4 6.9m-12.1-1 3 5.2 6.1-3.5-3-5.2-6.1 3.5m1.6 4.8-2-3.5-4.3 2.5 2 3.5 4.3-2.5m-9.3 1.9 1 1.7 2.6-1.5-1-1.7-2.6 1.5m10-.6-.3-.4-4.3 2.5.3.4c.2.3.5.6.8.8L7 22h2l1.4-4.3h.1L12 22h2l-1.9-5.6c.5-.7.5-1.6 0-2.4z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            NUSH Astro
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              The Trajectory of a Particle in Orbit
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      <form class="md-header__option" data-md-component="palette">
+        
+          
+          
+          <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent=""  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+          
+            <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_2" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3z"/></svg>
+            </label>
+          
+        
+          
+          
+          <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="black" data-md-color-accent=""  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_2">
+          
+            <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6zm0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4zM7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/></svg>
+            </label>
+          
+        
+      </form>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../.." class="md-tabs__link">
+      Home
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../starhopping/" class="md-tabs__link">
+        Starhopping Guide
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+    
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../" class="md-tabs__link md-tabs__link--active">
+        Celestial Mechanics
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../stellar/" class="md-tabs__link">
+        Stellar Astronomy
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../practical/" class="md-tabs__link">
+        Practical
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../../slides/" class="md-tabs__link">
+      Slides
+    </a>
+  </li>
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="NUSH Astro" class="md-nav__button md-logo" aria-label="NUSH Astro" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m21.9 8.9-1.7 1-4-6.9 1.7-1 4 6.9m-12.1-1 3 5.2 6.1-3.5-3-5.2-6.1 3.5m1.6 4.8-2-3.5-4.3 2.5 2 3.5 4.3-2.5m-9.3 1.9 1 1.7 2.6-1.5-1-1.7-2.6 1.5m10-.6-.3-.4-4.3 2.5.3.4c.2.3.5.6.8.8L7 22h2l1.4-4.3h.1L12 22h2l-1.9-5.6c.5-.7.5-1.6 0-2.4z"/></svg>
+
+    </a>
+    NUSH Astro
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        Home
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2">
+          Starhopping Guide
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Starhopping Guide" data-md-level="1">
+        <label class="md-nav__title" for="__nav_2">
+          <span class="md-nav__icon md-icon"></span>
+          Starhopping Guide
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../starhopping/" class="md-nav__link">
+        Getting Started
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3">
+          Celestial Mechanics
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Celestial Mechanics" data-md-level="1">
+        <label class="md-nav__title" for="__nav_3">
+          <span class="md-nav__icon md-icon"></span>
+          Celestial Mechanics
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../" class="md-nav__link">
+        Getting Started
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_2" type="checkbox" id="__nav_3_2" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_2">
+          Basics
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Basics" data-md-level="2">
+        <label class="md-nav__title" for="__nav_3_2">
+          <span class="md-nav__icon md-icon"></span>
+          Basics
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../universal_gravitation/" class="md-nav__link">
+        Universal Gravitation
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_3" type="checkbox" id="__nav_3_3" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_3">
+          Orbital Mechanics
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Orbital Mechanics" data-md-level="2">
+        <label class="md-nav__title" for="__nav_3_3">
+          <span class="md-nav__icon md-icon"></span>
+          Orbital Mechanics
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../conservation_of_quantities/" class="md-nav__link">
+        Conservation of Quantities in Orbital Motion
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          The Trajectory of a Particle in Orbit
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        The Trajectory of a Particle in Orbit
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#computing-eccentricity" class="md-nav__link">
+    Computing Eccentricity
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#orbit-patterns" class="md-nav__link">
+    Orbit Patterns
+  </a>
+  
+    <nav class="md-nav" aria-label="Orbit Patterns">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#the-circular-orbit" class="md-nav__link">
+    The Circular Orbit
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#the-parabolic-orbit" class="md-nav__link">
+    The Parabolic Orbit
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#the-elliptical-orbit" class="md-nav__link">
+    The Elliptical Orbit
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_4" type="checkbox" id="__nav_3_4" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_4">
+          Binary Stars
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Binary Stars" data-md-level="2">
+        <label class="md-nav__title" for="__nav_3_4">
+          <span class="md-nav__icon md-icon"></span>
+          Binary Stars
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../binary_system_total_energy/" class="md-nav__link">
+        Total Energy of Binary System
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_4">
+          Stellar Astronomy
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Stellar Astronomy" data-md-level="1">
+        <label class="md-nav__title" for="__nav_4">
+          <span class="md-nav__icon md-icon"></span>
+          Stellar Astronomy
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../stellar/" class="md-nav__link">
+        Getting Started
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4_2" type="checkbox" id="__nav_4_2" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_4_2">
+          Basics
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Basics" data-md-level="2">
+        <label class="md-nav__title" for="__nav_4_2">
+          <span class="md-nav__icon md-icon"></span>
+          Basics
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../stellar/basics/star_structure/" class="md-nav__link">
+        Structure of a Star
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../stellar/basics/energy_generation/" class="md-nav__link">
+        Energy Generation
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4_3" type="checkbox" id="__nav_4_3" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_4_3">
+          Classification
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Classification" data-md-level="2">
+        <label class="md-nav__title" for="__nav_4_3">
+          <span class="md-nav__icon md-icon"></span>
+          Classification
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../stellar/classification/hr_diagram/" class="md-nav__link">
+        Hertsprung-Russell Diagram
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../stellar/classification/classification/" class="md-nav__link">
+        Classification of Stars
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4_4" type="checkbox" id="__nav_4_4" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_4_4">
+          Magnitude
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Magnitude" data-md-level="2">
+        <label class="md-nav__title" for="__nav_4_4">
+          <span class="md-nav__icon md-icon"></span>
+          Magnitude
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../stellar/magnitude/apparent_absolute_magnitude/" class="md-nav__link">
+        Apparent and Absolute Magnitude
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4_5" type="checkbox" id="__nav_4_5" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_4_5">
+          Evolution
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Evolution" data-md-level="2">
+        <label class="md-nav__title" for="__nav_4_5">
+          <span class="md-nav__icon md-icon"></span>
+          Evolution
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../stellar/evolution/the_beginning/" class="md-nav__link">
+        The Beginning
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../stellar/evolution/sun_like/" class="md-nav__link">
+        Evolution of a sun-like star
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5" type="checkbox" id="__nav_5" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_5">
+          Practical
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Practical" data-md-level="1">
+        <label class="md-nav__title" for="__nav_5">
+          <span class="md-nav__icon md-icon"></span>
+          Practical
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../practical/" class="md-nav__link">
+        Astronomy Practicals
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../practical/telescopes/" class="md-nav__link">
+        Telescopes
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../practical/accessories/" class="md-nav__link">
+        Accessories
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../slides/" class="md-nav__link">
+        Slides
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#computing-eccentricity" class="md-nav__link">
+    Computing Eccentricity
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#orbit-patterns" class="md-nav__link">
+    Orbit Patterns
+  </a>
+  
+    <nav class="md-nav" aria-label="Orbit Patterns">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#the-circular-orbit" class="md-nav__link">
+    The Circular Orbit
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#the-parabolic-orbit" class="md-nav__link">
+    The Parabolic Orbit
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#the-elliptical-orbit" class="md-nav__link">
+    The Elliptical Orbit
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content" data-md-component="content">
+            <article class="md-content__inner md-typeset">
+              
+                
+
+<h1 id="the-trajectory-of-a-particle-in-orbit">The Trajectory of a Particle in Orbit</h1>
+<p>We note that the gravitational force, <span class="arithmatex">\(\vec F_g\)</span> is still defined as below:</p>
+<div class="arithmatex">\[\vec F_g = - G \frac{Mm}{r^2} \hat r\]</div>
+<p>From here, since we note that <span class="arithmatex">\(\vec F_{net} = \vec F_g\)</span>, we have the following expression:</p>
+<div class="arithmatex">\[\vec F_g = - G \frac{Mm}{r^2} \hat r = m\vec a\]</div>
+<p>From here we can derive the centripetal acceleration at any point, <span class="arithmatex">\(\vec a\)</span>:</p>
+<div class="arithmatex">\[\vec a = - G \frac{M}{r^2} \hat r\]</div>
+<p>Since we have this expression, we can now introduce <span class="arithmatex">\(\vec L\)</span> to these expressions:</p>
+<div class="arithmatex">\[\vec a \times \vec L = - G \frac{M}{r^2} \hat r \times \vec L\]</div>
+<p>From here, we have one important observation to note, that being as follows:</p>
+<div class="arithmatex">\[\frac{d}{dt} \left(\vec v \times \vec L\right) = \dot{\vec{v}} \times \vec L + \vec v \times \dot{\vec{L}} = \vec a \times \vec L\]</div>
+<p>and since we have the following:</p>
+<div class="arithmatex">\[\begin{align*}\vec a \times \left(\vec b \times \vec c \right) &amp;= \begin{pmatrix}a_x \\ a_y \\ a_z \end{pmatrix} \times \left(\begin{pmatrix}b_x \\ b_y \\ b_z \end{pmatrix} \times \begin{pmatrix}c_x \\ c_y \\ c_z \end{pmatrix} \right)\\ &amp;= \begin{pmatrix}a_x \\ a_y \\ a_z \end{pmatrix} \times \begin{pmatrix}b_yc_z - b_z c_y \\ b_zc_x - b_xc_z \\ b_xc_y - b_yc_x \end{pmatrix} \\ &amp;= \begin{pmatrix}a_y(b_xc_y - b_yc_x) - a_z(b_zc_x - b_xc_z) \\ a_z(b_yc_z - b_z c_y) - a_x(b_xc_y - b_yc_x) \\ a_x(b_zc_x - b_xc_z) - a_y(b_yc_z - b_z c_y) \end{pmatrix}\\ &amp;= \begin{pmatrix}(a_yc_y + a_zc_z)b_x - (a_yb_y + a_zb_z)c_x \\ (a_xc_x + a_zc_z)b_y - (a_xb_x + a_zb_z)c_y \\ (a_xc_x + a_yc_y)b_z - (a_xb_x + a_yb_y)c_z\end{pmatrix}\\ &amp;= \begin{pmatrix}(a_xc_x + a_yc_y + a_zc_z)b_x - (a_xb_x + a_yb_y + a_zb_z)c_x \\ (a_xc_x + a_yc_y a_zc_z)b_y - (a_xb_x + a_yb_y + a_zb_z)c_y \\ (a_xc_x + a_yc_y + a_zc_z)b_z - (a_xb_x + a_yb_y + a_zb_z)c_z\end{pmatrix}\\ &amp;= \begin{pmatrix}(\vec a \cdot \vec c)b_x - (\vec a \cdot \vec b)c_x \\ (\vec a \cdot \vec c)b_y - (\vec a \cdot \vec b)c_y \\ (\vec a \cdot \vec c)b_z - (\vec a \cdot \vec b)c_z\end{pmatrix}\\&amp;=(\vec a \cdot \vec c)\vec b - (\vec a \cdot \vec b) \vec c\end{align*}\]</div>
+<p>We get the following as well:</p>
+<div class="arithmatex">\[\begin{align*}- G \frac{M}{r^2} \hat r \times \vec L &amp;= - G \frac{Mm}{r^3} \vec r \times (\vec r \times \vec v) \\ &amp;= \frac{-GMm}{r^3} \left[ (\vec r \cdot \vec v) \vec r -(r^2)\vec v\right] \\ &amp;= \frac{GMm}{r^3} \left[(r^2)\vec v - (rv) \vec r\right]\end{align*}\]</div>
+<p>We now observe something else as well:</p>
+<div class="arithmatex">\[\begin{align*}\frac{d}{dt} \left( \frac{GMm}{r} \vec r \right) &amp;= GMm \frac{\vec v r - \vec r v}{r^2} \\ &amp;= \frac{GMm}{r^3} \left[\vec v (r^2) - \vec r (vr) \right]\end{align*}\]</div>
+<p>From here, we are able to determine the following equality:</p>
+<div class="arithmatex">\[\frac{d}{dt} \left(\vec v \times \vec L\right) = \frac{d}{dt} \left( \frac{GMm}{r} \vec r \right)\]</div>
+<p>Which also yields the following result:</p>
+<div class="arithmatex">\[\vec v \times \vec L = \frac{GMm}{r} \vec r + GMm \vec C\]</div>
+<p>Wherein <span class="arithmatex">\(GMm\vec{C}\)</span> is a constant vector of integration that lies in the plane of motion of <span class="arithmatex">\(m\)</span>.</p>
+<p>Now, using the same triple product result from above, we get the following:</p>
+<div class="arithmatex">\[v^2\vec{r} - (\vec v \cdot \vec r)\vec v = \frac{GM}{r} \vec r + GM \vec C\]</div>
+<p>From here, we let <span class="arithmatex">\(\alpha\)</span> denote the angle between <span class="arithmatex">\(v\)</span> and <span class="arithmatex">\(r\)</span>. Thus we get:</p>
+<div class="arithmatex">\[v^2\vec{r} - (vr\cos\alpha)\vec v = \frac{GM}{r} \vec r + GM \vec C\]</div>
+<p>Finally we take the dot product with <span class="arithmatex">\(\vec r\)</span> on both sides of the equation.</p>
+<div class="arithmatex">\[(vr)^2 - (vr\cos\alpha)(\vec r \cdot \vec v) = GMr + GM \vec r \cdot \vec C\]</div>
+<p>Similarly, we can resolve the dot products, and introduce <span class="arithmatex">\(\theta\)</span> as the angle between <span class="arithmatex">\(\vec r\)</span> and <span class="arithmatex">\(\vec C\)</span>.</p>
+<div class="arithmatex">\[(vr)^2 - (vr)^2\cos^2\alpha = GMr + GMrC \cos\theta\]</div>
+<p>From here, we use the trigonometric identity to get:</p>
+<div class="arithmatex">\[\frac{L^2}{m^2} = (vr)^2\sin^2\alpha = GMr(1+C \cos\theta)\]</div>
+<p>From here, we can continue to represent <span class="arithmatex">\(r\)</span> in terms of <span class="arithmatex">\(L\)</span>, <span class="arithmatex">\(m\)</span>, <span class="arithmatex">\(G\)</span>, <span class="arithmatex">\(M\)</span>, <span class="arithmatex">\(C\)</span> and <span class="arithmatex">\(\theta\)</span>:</p>
+<div class="arithmatex">\[r = \frac{L^2}{GMm^2(1+C\cos\theta)}\]</div>
+<p>This is a standard form to describe the trajectory of <span class="arithmatex">\(m\)</span>, and we can conclude that <span class="arithmatex">\(\vec C\)</span> depicts this thing known as the eccentricity <em>vector</em>, <span class="arithmatex">\(e\hat{e}\)</span>, which is a completely new concept I haven't introduced. We will get to it soon.</p>
+<h2 id="computing-eccentricity">Computing Eccentricity</h2>
+<p>However, one way to compute <span class="arithmatex">\(e\)</span> now is to do the following:</p>
+<p><span class="arithmatex">\(<span class="arithmatex">\(e = \sec\theta \left(\frac{L^2}{GMm^2r} - 1\right)\)</span>\)</span>
+Since this <span class="arithmatex">\(e\)</span> is simply the instantaneous eccentricity vector magnitude, we conclude that the actualy eccentricity, <span class="arithmatex">\(\epsilon\)</span> is when <span class="arithmatex">\(\theta = 0\)</span>. Hence, we have that:</p>
+<div class="arithmatex">\[\epsilon = \left(\frac{L^2}{GMm^2r} - 1\right)\]</div>
+<p>From here, we square both sides in the hopes that we will get something a lot more helpful:</p>
+<div class="arithmatex">\[\epsilon^2 = \left(\frac{L^4}{G^2M^2m^4r^2} + 1 - \frac{2L^2}{GMm^2r}\right)\]</div>
+<p>Welll... that didn't help. Except it did. We note that <span class="arithmatex">\(L^2 = m^2r^2v^2\)</span>, assuming <span class="arithmatex">\(\alpha = \frac{\pi}{2}\)</span>, hence we are able to substitute in some locations this very value:</p>
+<div class="arithmatex">\[\epsilon^2 = \left(\frac{L^2m^2r^2v^2}{G^2M^2m^4r^2} + 1 - \frac{2L^2}{GMm^2r}\right)\]</div>
+<p>Welp. So now we can try eliminating whatever values we can remove, and we get now that:</p>
+<div class="arithmatex">\[\epsilon^2 = \left(\frac{L^2v^2}{(GMm)^2} + 1 - \frac{2L^2}{GMm^2r}\right)\]</div>
+<p>To make this better, let's try extracting <span class="arithmatex">\(\frac{2L^2}{(GMm)^2}\)</span> from the above expression:</p>
+<div class="arithmatex">\[\epsilon^2 = \left(1 + \frac{2L^2}{(GMm)^2} \left(\frac{1}{2}v^2 - \frac{GM}{r}\right)\right)\]</div>
+<p>Now, we introduce <span class="arithmatex">\(m\)</span> into the inner expression:</p>
+<div class="arithmatex">\[\epsilon^2 = \left(1 + \frac{2L^2}{(GMm)^2 m} \left(\frac{1}{2}mv^2 - \frac{GMm}{r}\right)\right)\]</div>
+<p>And notice that we got the expression for Total Energy, <span class="arithmatex">\(E\)</span> back! Now we can substitute that in, and get a more decent result:</p>
+<div class="arithmatex">\[\epsilon = \sqrt{1 + \frac{2EL^2}{(GMm^2)m}}\]</div>
+<p>This is a much better way of depicting the eccentricity, <span class="arithmatex">\(\epsilon\)</span>. This is also a pretty important result whcih can help us map the trajectory of a particle.</p>
+<h2 id="orbit-patterns">Orbit Patterns</h2>
+<h3 id="the-circular-orbit">The Circular Orbit</h3>
+<p>This should ideally be a no-brainer. Circular Orbits are simply orbits with <span class="arithmatex">\(\epsilon = 0\)</span>, hence we get the following:</p>
+<div class="arithmatex">\[\frac{2EL^2}{(GMm)^2m} = -1\]</div>
+<p>Hence, we can express <span class="arithmatex">\(E\)</span> as follows:</p>
+<div class="arithmatex">\[E = \frac{-(GMm)^2m}{2L^2}\]</div>
+<p>We have previously noted the following result too:</p>
+<div class="arithmatex">\[r = \frac{L^2}{GMm^2}\]</div>
+<p>From here, we get that:</p>
+<div class="arithmatex">\[E = \frac{-GMm}{2r}\]</div>
+<p>This is in fact a general result, and from here we equate the two definitions of <span class="arithmatex">\(E\)</span> found:</p>
+<div class="arithmatex">\[E = -\frac{GMm}{2r} = K - \frac{GMm}{r}\]</div>
+<p>Moving this around, we get the following result:</p>
+<div class="arithmatex">\[K = \frac{GMm}{2r} = \frac{1}{2}mv^2\]</div>
+<p>This can help us get orbital speed, <span class="arithmatex">\(v\)</span>, at radius <span class="arithmatex">\(r\)</span>.</p>
+<div class="arithmatex">\[v = \sqrt{\frac{GM}{r}}\]</div>
+<p>This can also help us get the escape velocity, using a parabolic trajectory instead.</p>
+<h3 id="the-parabolic-orbit">The Parabolic Orbit</h3>
+<p>In a parabolic trajectory, <span class="arithmatex">\(\epsilon = 1\)</span>, which means that </p>
+<div class="arithmatex">\[\frac{2EL^2}{(GMm)^2m} = 0\]</div>
+<p>Here, we note that <span class="arithmatex">\(L \ne 0\)</span>, since it is physically impossible in any orbit. This means that the total energy, <span class="arithmatex">\(E = 0\)</span>, which also means the following:</p>
+<div class="arithmatex">\[K = \frac{1}{2}mv^2 = G\frac{Mm}{r}\]</div>
+<p>From here, we can represent the new orbital speed, <span class="arithmatex">\(v\)</span> as:</p>
+<div class="arithmatex">\[v = \sqrt{\frac{2GM}{r}}\]</div>
+<p>This is in fact the escape velocity of an orbit, since the object moves to an infinitely far away point after this. This is due to the fact that having <span class="arithmatex">\(E = 0\)</span> means that there cannot be a bounding effect on the mass anymore.</p>
+<h3 id="the-elliptical-orbit">The Elliptical Orbit</h3>
+<p>Alright, so this is the main part of this entire article.</p>
+<p>We note that <span class="arithmatex">\(\epsilon\)</span> does not have a specific value in the case of an elliptical orbit, since <span class="arithmatex">\(\epsilon\)</span> follows the following formula, based on the semi-major axis, <span class="arithmatex">\(a\)</span> and semi-minor axis, <span class="arithmatex">\(b\)</span>:</p>
+<div class="arithmatex">\[\epsilon = \sqrt{1-\left(\frac{b}{a}\right)^2}\]</div>
+<p>And this ratio, <span class="arithmatex">\(\frac{b}{a}\)</span> has infinite possibilities. This effectively means that <span class="arithmatex">\(0 \lt \epsilon \lt 1\)</span>, which opens up a whole range of values. But since we have another representation of <span class="arithmatex">\(\epsilon\)</span>, we are able to get a clearer value.</p>
+<p>Firstly, we note that</p>
+<div class="arithmatex">\[0 \lt \epsilon \lt 1 \implies 0 \lt \epsilon^2 \lt 1\]</div>
+<p>From here, we have that:</p>
+<div class="arithmatex">\[0 \lt 1 + \frac{2EL^2}{(GMm)^2m} \lt 1\]</div>
+<p>Since we know that:</p>
+<div class="arithmatex">\[r = \frac{L^2}{GMm^2}\]</div>
+<p>This means that:</p>
+<div class="arithmatex">\[-1 \lt \frac{2Er}{GMm} \lt 0\]</div>
+<p>Moving along this forumla, we get:</p>
+<div class="arithmatex">\[-\frac{GMm}{2r} \lt E \lt 0\]</div>
+<p>Based on what we have gotten for the the parabolic and circular trajectories, this means that:</p>
+<div class="arithmatex">\[\sqrt{\frac{GM}{r}} &lt; v &lt; \sqrt{\frac{2GM}{r}}\]</div>
+<p>One can aslo find the velocity as a function of radial distance for elliptical orbits. This is by acknowledging that <span class="arithmatex">\(E\)</span> still follows the same description, that is to say that:</p>
+<div class="arithmatex">\[E = K + U = \frac{1}{2} mv^2 - \frac{GMm}{r}\]</div>
+<p>We note that due to the concept of a central force, the total energy is conserved about the orbit, hence at any points <span class="arithmatex">\(q\)</span> and <span class="arithmatex">\(r\)</span>,  <span class="arithmatex">\(E_q = E_r\)</span>.</p>
+<p>Considering the locations where the <span class="arithmatex">\(\vec r\)</span> and <span class="arithmatex">\(\vec v\)</span> vectors are orthogonal to one another, we arrive at the apoapsis and the periapsis, two points located along the major axis of the ellipse. At these locations, we not that <span class="arithmatex">\(\theta = \frac{\pi}2\)</span>, which means that <span class="arithmatex">\(L = mrv\)</span>, which is conserved along these two positions. Hence, we have that <span class="arithmatex">\(r_pv_p = r_av_a\)</span>, where <span class="arithmatex">\(a\)</span> is the apoapsis and <span class="arithmatex">\(p\)</span> is the periapsis.</p>
+<p>From here we have the following:</p>
+<div class="arithmatex">\[\frac{1}{2} mv_a^2 - \frac{GMm}{r_a} = \frac{1}{2} mv_p^2 - \frac{GMm}{r_p}\]</div>
+<p>Remember that we can remove <span class="arithmatex">\(m\)</span>, which can help us simplify the expression to this:</p>
+<div class="arithmatex">\[\frac{1}{2}\left(v_a^2-v_p^2\right) = GM\left(\frac1{r_a}-\frac1{r_p}\right)\]</div>
+<p>Yeah, that is helpful.</p>
+<p>Anyways, we go on to introduce the representation we previously restablised, in a slightly different light:</p>
+<div class="arithmatex">\[v_a^2 = 2GM \frac{r_p-r_a}{r_ar_p}\frac{1}{\left(1-\frac{r_a^2}{r_p^2}\right)}=2GM \frac{r_p}{r_a(r_a+r_p)}\]</div>
+<p>Luckily for us, we know that <span class="arithmatex">\(r_a+r_p=2a\)</span>, so we can use that to our disposal:</p>
+<div class="arithmatex">\[v_a^2 = GM \frac{2a-r_a}{ar_a} = GM \left(\frac{2}{r_a} - \frac{1}{a} \right)\]</div>
+<p>From here, we can get a general expression for the "specific energy", as shown below:</p>
+<div class="arithmatex">\[\frac{2E}{m} = v^2 - \frac{2GM}{r} = GM \left(\frac{2}{r_a} - \frac{1}{2a} \right) - \frac{2GM}{r_a} = -\frac{GM}{a}\]</div>
+<p>Expressing <span class="arithmatex">\(v^2\)</span> in terms of the relevant quantities, we get the following famous equation:</p>
+<div class="arithmatex">\[v^2 = GM \left(\frac{2}{r} - \frac{1}{a}\right)\]</div>
+<p>This is the <em>vis-viva</em> equation, commonly used to describe the velocity of an object in elliptical motion. This formula can  be used for many tasks, like computing velocity in an elliptical orbit and more. The point is that it is quite ingenious but also just as torturous. Hence, use it with care.</p>
+
+              
+            </article>
+          </div>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    <nav class="md-footer__inner md-grid" aria-label="Footer">
+      
+        
+        <a href="../conservation_of_quantities/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Conservation of Quantities in Orbital Motion" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              Conservation of Quantities in Orbital Motion
+            </div>
+          </div>
+        </a>
+      
+      
+        
+        <a href="../binary_system_total_energy/" class="md-footer__link md-footer__link--next" aria-label="Next: Total Energy of Binary System" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              Total Energy of Binary System
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.tabs"], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "search": "../../assets/javascripts/workers/search.22074ed6.min.js"}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.960e086b.min.js"></script>
+      
+        <script src="../../javascripts/mathjax.js"></script>
+      
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+    
+  </body>
+</html>
