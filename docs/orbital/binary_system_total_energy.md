@@ -1,5 +1,5 @@
 # Total Energy of Binary System
-*by Kane Kiat (Year 4)*
+*by Kane (Year 4)*
 
 We already know the following formulas ($U$ being GPE)
 
