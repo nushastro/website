@@ -67,6 +67,7 @@ nav:
       - Getting Started: orbital/index.md
       - Basics:
           - 'orbital/universal_gravitation.md'
+      - Orbital Mechanics:
           - 'orbital/conservation_of_quantities.md'
           - 'orbital/trajectory_of_particle.md'
       - Binary Stars:
@@ -82,6 +83,7 @@ nav:
       - Magnitude:
           - stellar/magnitude/apparent_absolute_magnitude.md
       - Evolution:
+          - stellar/evolution/the_beginning.md
           - stellar/evolution/sun_like.md
   - Practical:
       - practical/index.md
