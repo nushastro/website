@@ -1,22 +1,8 @@
 # Evolution of a sun-like star
 
-This information is useful, for the most part because you are living next to a sun(-like) star
+This information is useful, for the most part because you are living next to a sun(-like) star.
 
-## Stellar formation
-
-gas/dust cloud
-
-gravity attract cloud together
-
-protostar begings emitting light and gravity attracts a circumstellar disk
-
-## Main sequence
-
-about 90% of lifetime
-
-hydrogen fusion
-
-will get hotter and more luminous over time. As the number of hydrogen atoms per unit mass decrease, so too does their energy output provided through nuclear fusion. This results in a decrease in pressure support (radiation), which causes the core to contract in size until the increased density and temperature bring the core pressure in to equilibrium with the layers above. The higher temperature causes the remaining hydrogen to undergo fusion at a more rapid rate, thereby generating the energy needed to maintain the equilibrium, and hence becoming more luminous over time. This explains why the main sequence is a broad band rather than a narrow line as stars move up and to the right on this band as they age.
+We start at the end of the main sequence, when the star runs out of fuel (hydrogen) in the core
 
 ## Subgiant
 
