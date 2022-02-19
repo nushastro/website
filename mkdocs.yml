@@ -66,10 +66,11 @@ nav:
   - Celestial Mechanics:
       - Getting Started: orbital/index.md
       - Basics:
-          - 'orbital/universal_gravitation.md'
+          - 'orbital/basics/universal_gravitation.md'
+          - 'orbital/basics/circular_motion.md'
       - Orbital Mechanics:
-          - 'orbital/conservation_of_quantities.md'
-          - 'orbital/trajectory_of_particle.md'
+          - 'orbital/mechanics/conservation_of_quantities.md'
+          - 'orbital/mechanics/trajectory_of_particle.md'
       - Binary Stars:
           - 'orbital/binary_system_total_energy.md'
   - Stellar Astronomy:
