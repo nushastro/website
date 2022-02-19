@@ -66,3 +66,8 @@ binding energy, which comes from the strong nuclear force holding the nuclei tog
 
 To understand how something can weigh less than the sum of its parts, the video below by PBS Space Time is recommended.
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Xo232kyTsO0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+![triple_alpha.svg](../assets/Nuclear_energy_generation.svg#only-light)
+![triple_alpha.svg](../assets/Nuclear_energy_generation_dark.svg#only-dark)
+
+> Logarithm of the relative energy output ($\varepsilon$) of proton–proton (PP), CNO and Triple-α fusion processes at different temperatures (T). The dashed line shows the combined energy generation of the PP and CNO processes within a star. At the Sun's core temperature of 15.5 million K the PP process is dominant. The PPI process and the CNO process are equal at around 20 million

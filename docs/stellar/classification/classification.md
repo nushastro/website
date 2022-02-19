@@ -16,6 +16,9 @@ But since Singapore’s education system is an extremely demanding, rigourous an
 for most Singaporean I'm sure that this is far more memorable: "**O**h **B**oy, **A**n **F** **G**rade 
 **K**ills **M**e".
 
+!!! note "No one asked"
+    The most memorable mnemonic is **O**bama **B**ough a **F**ricking **G**iant **K**illing **M**achine
+
 The system can be extended to include other stars. W is a spectral class that comes
 before O and describes Wolf-Rayet stars, which are extremely hot and bluish, sometimes
 characterised by luminosities so intense that outer layers are occasionally blown away by its
@@ -30,4 +33,19 @@ are ultra-cool, with surface temperatures going down to below 600 K. These will 
 stellar evolution.
 
 ## Classifying Stars
+Stars can be classified based on their spectral class, but within each spectral class there are
+subdivisions, with 0 being the hottest and 9 being the coolest. So a G0 star is hotter than a G9 star, and an A5 
+star is cooler than an A3 star. Our sun is considered a G2 star.
 
+In the Morgan-Keenan Classification, there is also a luminosity class as well.
+
+| Luminosity Class | Star Type          |
+|------------------|--------------------|
+| I                | Supergiants        |
+| II               | Bright Giants      |
+| III              | Giants             |
+| IV               | Sub Giants         |
+| V                | Main Sequence Star |
+
+Most stars fall under V, and the convention is to mention the luminosity class after the spectral class. 
+For our sun that would be G2V. For a star like Betelgeuse, it would be M2I, since it’s a red supergiant.

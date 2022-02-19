@@ -83,6 +83,7 @@ nav:
       - Magnitude:
           - stellar/magnitude/apparent_absolute_magnitude.md
       - Evolution:
+          - stellar/evolution/the_beginning.md
           - stellar/evolution/sun_like.md
   - Practical:
       - practical/index.md

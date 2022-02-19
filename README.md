@@ -1,2 +1,3 @@
-# NUSH-Astro.github.io
-The Combined Website, cuz y'know why not.
+# NUS High Astronomy Club website
+
+at https://nushastro.ml/
