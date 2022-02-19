@@ -2,7 +2,11 @@
 
 Universal Gravitation is likely the most basic principle you will learn in Gravitation, which, in hindsight, is rather depressing, to say the least. It is based on the following equation, which has cemented itself as one of the most iconic ever in recent years.
 
-$$\vec F_g = - G \frac{Mm}{r^2} \hat r$$
+!!! note "What"
+    I have no idea what the above paragraph means but anyways the formula below is very important
+    
+
+$$F_g = - G \frac{Mm}{r^2}$$
 
 Let's first get into the definitions of each of the variables in this equations.
 
@@ -16,19 +20,19 @@ $$G = 6.6743015 \times 10^{-14} \frac{m^3}{kg \cdot s^2}$$
 Yes, the units are indeed as cancerous as they seem. We usally use a rounded down value of $G = 6.67 \times 10^{-14}$ in normal mathematical calculations, since beyond this term, the values approach redundancy due to Significant Figure and Negligibility considerations.
 
 ### The Masses of the Objects, $M$ and $m$
+
+!!! note "Summary"
+    this entire section can summarized as $M$ is an object with bigger mass than $m$
+
 Gravitational Force is dependent of mass, or in this case, the two masses interacting.
 
-Picture two objects that are next to each other.
+Picture two objects that are next to each other
 
 ![](img/twomasses.png)
 
-Here, you have two masses $m_1$ and $m_2$, which are spherical in nature, which are currently located in arbitrary space.
+Those 2 masses experience the same $F_g$, towards each other.
 
-We note that $m_1 > m_2$, hence we usually do the following assignments:
-
-$$ \begin{align*} M &= max(m_1, m_2) = m_1 \\ m &= min(m_1, m_2) = m_2 \end{align*} $$
-
-This is simply nomenclature but representing the larger mass as $M$ and the smaller mass as $m$ makes it clearer as to what exactly your variables refer to.
+$M$ is usually for describing much bigger mass than $m$ such that only the force on $m$ actually matters.
 
 Often, we use $M_S$ or $M_\odot$ to represent the Mass of the Sun, or the _Solar Mass_.
 We also use $M_E$ or $M_\bigoplus$ to represent the Mass of the Earth.
@@ -41,4 +45,10 @@ The following is a list of the variables we use for masses, which are usually re
 | Mass of Earth, $M_E$ or $M_\bigoplus$ | $5.972 \times 10^{24} \approx 5.97 \times 10^{24}$ |
 | Mass of Moon, $M_{moon}$              | $7.348 \times 10^{22}$                             |
 
-Traditionally, you will use these values in questions designed by normal Astronomy and Physics teachers, although some may intend to be deliberately provocative and ask for the values of rather strange functions. Luckily in the case, you will get a constants sheet to make sure you are on the right page. We shall not show the 
+!!! Note "You don't actually need to memorize these"
+    There _should_ be a constant sheet given
+
+### The distance between the objects, $r$
+
+r is the distance between the objects. From the formula you can see that if the distance halves, the force increases by 4. This is the inverse square law, which is useful to know intuitively.
+
