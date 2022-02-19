@@ -217,4 +217,4 @@ Expressing $v^2$ in terms of the relevant quantities, we get the following famou
 
 $$v^2 = GM \left(\frac{2}{r} - \frac{1}{a}\right)$$
 
-This is the vis-viva equation, commonly used to describe the velocity of an object in elliptical motion. This formula can  be used for many tasks, like computing velocity in an elliptical orbit and more. The point is that it is quite ingenious but also just as torturous. Hence, use it with care.
+This is the _vis-viva_ equation, commonly used to describe the velocity of an object in elliptical motion. This formula can  be used for many tasks, like computing velocity in an elliptical orbit and more. The point is that it is quite ingenious but also just as torturous. Hence, use it with care.
