@@ -11,7 +11,7 @@ onto the main sequence is marked by the **Hayashi and Henyey tracks** (shown in 
   <figcaption>The evolutionary path of a pre-main sequence star.</figcaption>
 </figure>
 
-The Hayashi tracks are the blue lines towards the right that are almost vertical, while the Henyey tracks are the blue lines towards the left that are almost horizontal.
+The Hayashi tracks are the blue lines on the right side of the graph that are almost vertical, while the Henyey tracks are the blue lines on the left side of the graph that are almost horizontal (leftwards).
 
 The red dashed lines labelled in years are _isochrones_ at the given ages. In other words, stars $10^5$ years old lie along the curve labeled $10^5$, and similarly for the other 3 isochrones.
 
