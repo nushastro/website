@@ -39,6 +39,9 @@ As a side effect of the process, some carbon nuclei fuse with additional helium 
 
 ![](https://media.discordapp.net/attachments/699781597515481159/943523818591363082/wEDlfYfko2yBAAAAABJRU5ErkJggg.png)
 
+!!! Note
+    Helium Fusion is **extremely sensitive** to temperature. (proportional to something like $T^40$). If T at 100 million K increases by $10%$, fusion rate increases **45x**
+
 Once the temperature is hot enough helium fusion begins in a matter of minutes or hours. This sudden onset of helium core fusion (or "burning") is called the _helium flash_.
 
 !!! Note "Extension"
@@ -49,7 +52,7 @@ Once the temperature is hot enough helium fusion begins in a matter of minutes o
 
 ## Horizontal Branch (HB)
 
-The energy released from the helium flash allows the core to cool and expand. This decreases the radiation pressure and the star contracts. This result in a hotter outer layer of the star but a smaller overall size. The rise in effective temperature and decrease in surface area are such that the luminosity remains roughly constant.
+The energy released from the helium flash allows the core to cool and expand. This decreases the radiation pressure and the star contracts. This result in a hotter outer layer of the star but a smaller overall size. The rise in effective temperature and decrease in surface area are such that the luminosity remains roughly constant. This is basically the "helium main sequence".
 
 ![](../assets/horizontal_branch.png)
 
