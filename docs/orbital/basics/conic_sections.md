@@ -1,13 +1,22 @@
 # Conic Sections
 
+Conic sections are of particular importance to orbital mechanics since all orbits are conic sections with the 
+centre of mass (or just the heavier body if $M >> m$) at one of the foci. This is a more general statement of 
+Kelper's 1st Law which states that the orbit of a planet is an ellipse with the sun at one of the foci.
+
 There are 3 (or 4) types of conic sections: circles, ellipses, parabolas and hyperbolas. (A circle can be considered a special ellipse)
+Although this is covered in year 4 math, we will go into conic section with much more detail here.
 
 ![conic_sections.svg](../img/conic_sections.svg#only-light){ width="480"}
 ![conic_sections.svg](../img/conic_sections_dark.svg#only-dark){ width="480"}
 
-Circles were covered in primary school so we will skip that
+Circles were covered in primary school so we will skip that.
 
 ## Ellipse
+
+An ellipse is a plane curve surrounding two focal points, such that for all points on the curve, the sum of the two 
+distances to the focal points is a constant. As such, it generalizes a circle, which is the special type of ellipse in 
+which the two focal points are the same. Watch the 3Blue1Brown video below more information about ellipses.
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/pQa_tWZmlGs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
