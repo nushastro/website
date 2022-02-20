@@ -105,3 +105,5 @@ A planetary nebula only lasts for about 10,000-20,000 years before dispersing in
 > Stellar evolutionary track
 
 ## White dwarf
+
+The contracting C-O core becomes so dense that a new gas law takes over - a degenerate electron gas. The pressure becomes independent of the temperature, so the pressure grows rapidly and counterracts gravity. The collapse stops at $0.01R_\bigodot$ which is around the size of Earth. The degenerate core becomes a white dwarf. It has a mass of around $0.54M_\bigodot$. It now begins a long, slow cooling phase that will last for maybe a trillion years as it slowly fades away.
