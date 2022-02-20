@@ -84,12 +84,12 @@
        d="M 686.53056,469.09417 L 98.370608,468.941"
        id="path2251" />
     <path
-       style="fill:none;fill-rule:evenodd;stroke:#00b000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;marker-start:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:none;fill-rule:evenodd;stroke:#00ff00;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;marker-start:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="M 125.88686,399.53904 C 196.61916,338.64432 293.00046,284.34505 427.87776,239.94476"
        id="path2261"
        sodipodi:nodetypes="cc" />
     <path
-       style="fill:none;fill-rule:evenodd;stroke:#0000ff;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:none;fill-rule:evenodd;stroke:#45caff;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="M 341.20156,323.86934 C 384.83563,221.4622 438.35917,132.5407 502.17165,57.649564"
        id="path2263"
        sodipodi:nodetypes="cc" />
@@ -107,7 +107,7 @@
        d="M 686.53056,469.09417 L 98.370608,468.941"
        style="fill:none;fill-rule:evenodd;stroke:#ffffff;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
 	<path
-       style="font-size:20px;fill:#cb5c12;fill-opacity:1;fill-rule:evenodd;stroke:#f97c00;stroke-width:1.02467418;stroke-linecap:butt;stroke-linejoin:miter;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="font-size:20px;fill:#ED7A2D;fill-opacity:1;fill-rule:evenodd;stroke:#f97c00;stroke-width:1.02467418;stroke-linecap:butt;stroke-linejoin:miter;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        d="M 333.63459,468.71525 L 333.63459,276.77324"
        id="path12110" />
     <text
@@ -132,7 +132,7 @@
          x="-265.29495"
          y="74.669403">log ε</tspan></text>
 		 
-	<g style="font-size:24px;font-style:normal;font-weight:normal;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Times New Roman">
+	<g style="font-size:24px;font-style:normal;font-weight:normal;fill:#45caff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Times New Roman">
 		<switch allowReorder="yes">
 			<g systemLanguage="de">
 				<text x="447" y="168">Bethe-Weizsäcker-Zyklus</text>
@@ -207,7 +207,7 @@
 			</g>
 		</switch>
 	</g>	 
-	<g style="font-size:24px;font-style:normal;font-weight:normal;fill:#00b000;fill-opacity:1;stroke:#00b000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Times New Roman;stroke-miterlimit:4;stroke-dasharray:none">
+	<g style="font-size:24px;font-style:normal;font-weight:normal;fill:#00ff00;fill-opacity:1;stroke:#00ff00;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Times New Roman;stroke-miterlimit:4;stroke-dasharray:none">
 		<switch allowReorder="yes">
 			<g systemLanguage="de">
 				<text x="195" y="380">Proton-Proton-Reaktion</text>
@@ -244,7 +244,7 @@
 			</g>
 		</switch>
 	</g>	 
-	<g style="font-size:24px;font-style:normal;font-weight:normal;fill:#cb5c12;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Times New Roman">
+	<g style="font-size:24px;font-style:normal;font-weight:normal;fill:#ED7A2D;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Times New Roman">
 		<switch allowReorder="yes">
 			<g systemLanguage="de">
 				<text text-anchor="middle" x="333.5" y="494">Sonne</text>
