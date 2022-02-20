@@ -85,6 +85,7 @@ nav:
       - Evolution:
           - stellar/evolution/the_beginning.md
           - stellar/evolution/main_sequence.md
+          - stellar/evolution/low_mass_stars.md
           - stellar/evolution/sun_like.md
       - The Magnitude System:
           - stellar/math/apparent_absolute_magnitude.md
