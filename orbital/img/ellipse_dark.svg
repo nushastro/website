@@ -431,7 +431,7 @@
          clip-rule="evenodd"
          id="g3114">
         <path
-           style="fill:none;stroke:#0000ff;stroke-width:8.79675961;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1"
+           style="fill:none;stroke:#60efff;stroke-width:8.79675961;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1"
            d="m 2925.0781,5886.7187 1055.625,0"
            transform="matrix(0.1,0,0,-0.1,0,842)"
            id="path3116"
@@ -439,13 +439,13 @@
       </g>
     </g>
     <path
-       style="fill:none;stroke:#0000ff;stroke-width:8.79675961;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1"
+       style="fill:none;stroke:#60efff;stroke-width:8.79675961;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1"
        d="m 3025.9766,5921.9141 -87.9688,-35.1954 87.9688,-35.1953"
        transform="matrix(0.1,0,0,-0.1,0,842)"
        id="path3118"
        inkscape:connector-curvature="0" />
     <path
-       style="fill:none;stroke:#0000ff;stroke-width:8.79675961;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1"
+       style="fill:none;stroke:#60efff;stroke-width:8.79675961;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1"
        d="m 3879.8438,5851.5234 87.9687,35.1953 -87.9687,35.1954"
        transform="matrix(0.1,0,0,-0.1,0,842)"
        id="path3120"
