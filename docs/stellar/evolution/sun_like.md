@@ -14,19 +14,19 @@ Eventually the core runs out of hydrogen to fuse. It becomes _inert_ (unable to 
 
 ## Red Giant Branch (RGB)
 
-Due to the increased temperature, the hydrogen fusion rate (in the shell) is faster and radiation pressure is higher. This actually causes the outer layers of the star to expand to maintain the pressure gradient. Due to decreased pressure and increase surface area this causes the surface temperature to drop and for it to turn red.
-
-![](../assets/subgiant_branch.png)
-
-> Stellar evolutionary track so far, Yellow - main sequence. Orange - subgiant branch
+Due to the increased temperature, the hydrogen fusion rate (in the shell) is faster and radiation pressure is higher. This actually causes the outer layers of the star to expand to maintain the pressure gradient. Due to decreased pressure and increase surface area this causes the surface temperature to drop and for it to turn red. It will expand out the orbit of venus so they will be gone.
 
 The outer envelope is so extended that it is only weakly held by gravitational force to the rest of the star and easily ejected. However the contracted helium core is incredibly dense. It is only about one-third its original size.
+
+During this time the sun loses about a quarter of it's total mass in a strong stellar wind. The mass lost is from the outer envelope and not the core.
 
 The core contraction and envelope expansion is very rapid, taking only a few million years. In this time the temperature of the star will cool from its main sequence value of 6,000–30,000 K to around 5,000 K. Hence there are very few stars in that area in the HR diagram
 
 ![](https://media.discordapp.net/attachments/699781597515481159/943521162154082394/unknown.png)
 
 > hertzsprung gap
+
+## Helium Flash
 
 Hydrogen fusion in the shell produces more helium. This gets dumped onto the core, adding to its mass, causing it to heat up even more. When the core temperature reaches **100 million K**, the helium nuclei now have sufficient kinetic energy to overcome the strong coulombic repulsion and fuse together, forming carbon-12 in a two-stage process. (triple alpha process)
 
@@ -41,6 +41,12 @@ As a side effect of the process, some carbon nuclei fuse with additional helium 
 
 Once the temperature is hot enough helium fusion begins in a matter of minutes or hours. This sudden onset of helium core fusion (or "burning") is called the _helium flash_.
 
+!!! Note "Extension"
+    For stars greater $>2.5M_\bigodot$, there is **no helium flash**, instead it begins burning gradually.
+    Lower-mass stars do not produce enough gravitational pressure to initiate normal helium fusion. As the hydrogen in the core is exhausted, some of the helium left behind is instead compacted into degenerate matter (matter so dense that quantum effects are significant). The particles get packed down so densely its almost like they don't have a temperature. They almost get to the point where the particles are stacked like bricks, so the electrons are almost incapable of moving (The nuclei can still wiggle). The core is supported against gravitational collapse by quantum mechanical pressure rather than thermal pressure. This increases the density and temperature of the core until it reaches approximately 100 million kelvin, which is hot enough to cause helium fusion.
+    However, a fundamental quality of degenerate matter is that *increases in temperature do not produce an increase in volume* of the matter until the thermal pressure becomes high enough to exceed degeneracy pressure (quantum mechanical pressure, which is really high). In this case, the helium fusion increases the temperature, which increases the fusion rate, which further increases the temperature in a runaway reaction. This produces a flash of very intense helium fusion that lasts only a few minutes, but briefly emits energy at a rate comparable to the entire Milky Way galaxy.
+    In the case of normal low-mass stars, the enormous energy release causes the core to come out of degeneracy, allowing it to expand (because of the insane thermal energy), and any left-over energy is absorbed into the star's upper layers. Thus the helium flash is *mostly undetectable to observation*.
+
 ## Horizontal Branch (HB)
 
 The energy released from the helium flash allows the core to cool and expand. This decreases the radiation pressure and the star contracts. This result in a hotter outer layer of the star but a smaller overall size. The rise in effective temperature and decrease in surface area are such that the luminosity remains roughly constant.
@@ -48,10 +54,6 @@ The energy released from the helium flash allows the core to cool and expand. Th
 ![](../assets/horizontal_branch.png)
 
 > structure of a sun-like star on the horizontal branch
-
-![](../assets/horizontal_branch_hr.png)
-
-> Stellar evolutionary track so far, Red - RGB. Orange-Yellow: HB
 
 Our sun has sufficient helium fuel for this stage to last for about 100 million years
 
@@ -65,9 +67,8 @@ Eventually all the helium in the core has fused into carbon and oxygen and so th
 
 > structure of an AGB star
 
-![](../assets/AGB_HR.PNG)
-
-> Stellar evolutionary track so far
+![evolutionary_track_1m.svg](../assets/evolutionary_track_1m.svg#only-light)
+![evolutionary_track_1m.svg](../assets/evolutionary_track_1m_dark.svg#only-dark)
 
 If the helium fuel in the He-burning shell runs low, the outward radiation pressure drops off. As this was previously holding out the shell of hydrogen gas, this shell now contracts, heats up enough to ignite and start fusion, converting hydrogen to helium. This helium "ash" in turn falls onto the helium shell, heating it up until the helium shell is hot enough to re-ignite in a helium-shell flash, producing a _thermal pulse_. Increased radiation pressure now causes the hydrogen shell to expand and cool, shutting down H-shell fusion.
 
