@@ -81,12 +81,16 @@ nav:
       - Classification:
           - stellar/classification/hr_diagram.md
           - stellar/classification/classification.md
-      - Magnitude:
-          - stellar/magnitude/apparent_absolute_magnitude.md
       - Evolution:
           - stellar/evolution/the_beginning.md
           - stellar/evolution/main_sequence.md
           - stellar/evolution/sun_like.md
+      - The Magnitude System:
+          - stellar/math/apparent_absolute_magnitude.md
+      - Blackbody Radiation:
+          - stellar/math/blackbody_radiation.md
+          - stellar/math/wiens_displacement_law.md
+          - stellar/math/stefan_boltzmann_law.md
   - Practical:
       - practical/index.md
       - practical/telescopes.md
