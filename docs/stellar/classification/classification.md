@@ -11,13 +11,13 @@ there are the O, B, A, F, G, K and M classes for the Morgan-Keenan System of cla
 Most stars are classified under this system. O and B represent the bluest, hottest stars, A
 and F represent the white stars, G yellow, K orange and M red. 
 
-A commonly used mnemonic to remember this is: "**O**h, **B**e A **F**ine Girl, **K**iss **M**e". 
+A commonly used mnemonic to remember this is: "**O**h, **B**e **A** **F**ine Girl, **K**iss **M**e". 
 But since Singapore’s education system is an extremely demanding, rigourous and competitve one as compared to other countries’, 
 for most Singaporean I'm sure that this is far more memorable: "**O**h **B**oy, **A**n **F** **G**rade 
 **K**ills **M**e".
 
 !!! note "No one asked"
-    The most memorable mnemonic is **O**bama **B**ough a **F**ricking **G**iant **K**illing **M**achine
+    The most memorable mnemonic is **O**bama **B**ought **A** **F**ucking **G**iant **K**illing **M**achine
 
 The system can be extended to include other stars. W is a spectral class that comes
 before O and describes Wolf-Rayet stars, which are extremely hot and bluish, sometimes
