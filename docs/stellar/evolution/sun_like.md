@@ -70,27 +70,36 @@ Eventually all the helium in the core has fused into carbon and oxygen and so th
 
 > structure of an AGB star
 
-![evolutionary_track_1m.svg](../assets/evolutionary_track_1m.svg#only-light)
-![evolutionary_track_1m.svg](../assets/evolutionary_track_1m_dark.svg#only-dark)
-
 If the helium fuel in the He-burning shell runs low, the outward radiation pressure drops off. As this was previously holding out the shell of hydrogen gas, this shell now contracts, heats up enough to ignite and start fusion, converting hydrogen to helium. This helium "ash" in turn falls onto the helium shell, heating it up until the helium shell is hot enough to re-ignite in a helium-shell flash, producing a _thermal pulse_. Increased radiation pressure now causes the hydrogen shell to expand and cool, shutting down H-shell fusion.
 
 Over time the frequency of thermal pulses increases. During a thermal pulse nuclei within the helium-burning shell can be synthesised into heavier nuclei (up to Bismuth) through the capture of neutrons and radioactive beta decay (s-process)
 
 Large convection currents in AGB stars carry material produced in the thin helium-burning shell up to the surface which are ejected, which contains heavier elements.
 
+!!! Note
+    Helium Fusion is **extremely sensitive** to temperature. (proportional to something like $T^40$). If T at 100 million K increases by $10%$, fusion rate increases **45x**
+
+As a consequence of this, a **small change** in temperature can lead to **enormous change** in fusion energy output. AGB Stars experience huge thermal pulses that destabilize the outer envelope.
+
+Due to these thermal pulses, the outer envelope gets ejected as a fast wind (this only takes 100,000 years). The C-O core continues to contract, but the wind takes the weight of the envelope off, so the core doesn't heat up as much, and never reaches the 600 million K required to carbon fusion. The continued thermal pulses results in the envelope separating from the core. This reduces the Sun's mass to about 60% of the original mass
+
+## Post-AGB
+
+The last of the thermal pulses blows away what is left of the envelope (over about a few thousand years). As the last of the envelope comes off, the hot C-O core of the Sun is unveiled. The temperature goes from 4000K (envelope) to 120000K (bare core). The luminosity stays constant. This is represented on the HR diagram as it moving horizontally towards the left side.
+
 ## Planetary Nebulae
 
 Once the outer layers of the star are ejected the core is left exposed. It is hot enough to emit ultraviolet light to _ionize_ the ejected material, which causes the cloud to glow
 
-A planetary nebula only lasts for about 20,000 years before dispersing into interstellar medium.
+A planetary nebula only lasts for about 10,000-20,000 years before dispersing into interstellar medium.
 
-![](../assets/cat_eye.png)
-![](../assets/helix_nebula.png)
+![](../assets/cat_eye.png){align=left, width=240}
+![](../assets/helix_nebula.png){align=right, width=240}
 
-> cat eye nebula (top) and helix nebula (bottom) are both planetary nebulae
+> cat eye nebula (top/left) and helix nebula (bottom/right) are both planetary nebulae
 
-![](../assets/full_hr.png)
+![evolutionary_track_1m.svg](../assets/evolutionary_track_1m.svg#only-light)
+![evolutionary_track_1m.svg](../assets/evolutionary_track_1m_dark.svg#only-dark)
 
 > Stellar evolutionary track
 
