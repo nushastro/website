@@ -1,7 +1,7 @@
 # Conic Sections
 
-Conic sections are of particular importance to orbital mechanics since all orbits are conic sections with the 
-centre of mass (or just the heavier body if $M >> m$) at one of the foci. This is a more general statement of 
+Conic sections are of particular importance to orbital mechanics since all orbits of a point mass about a much heavier body 
+are conic sections with the heavier body at one of the foci. This is a more general statement of 
 Kelper's 1st Law which states that the orbit of a planet is an ellipse with the sun at one of the foci.
 
 There are 3 (or 4) types of conic sections: circles, ellipses, parabolas and hyperbolas. (A circle can be considered a special ellipse)
