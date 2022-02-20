@@ -34,6 +34,9 @@ a limit to which we can be sure of a particle's position and momentum. Thus, par
 barriers, allowing them to exist in places classically impermissible. Thus, a very minute
 number of protons will actually "tunnel" through the Coulomb barrier and react with each other.
 
+!!! Note
+    There are other PP chains, like PP chain II and III, which produces approximately 16-17% and 0.02% of helium-4, respectively
+
 ## Carbon-Nitrogen-Oxygen (CNO) Cycle
 ![cno.svg](../assets/cno.svg#only-light)
 ![cno.svg](../assets/cno_dark.svg#only-dark)
@@ -62,7 +65,7 @@ for reasons that you will see.
 In the PP chain, where four hydrogen nuclei (protons) are converted into one helium nucleus (2 proton, 
 2 neutrons), the sum of masses of the four protons is 0.7% larger than the mass of one helium nucleus. This **mass defect** 
 is actually converted to energy according to $E = m c^2$ in the PP chain. This energy is also known as the 
-binding energy, which comes from the strong nuclear force holding the nuclei together.
+**binding energy**, which comes from the strong nuclear force holding the nuclei together.
 
 To understand how something can weigh less than the sum of its parts, the video below by PBS Space Time is recommended.
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Xo232kyTsO0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -70,4 +73,9 @@ To understand how something can weigh less than the sum of its parts, the video 
 ![triple_alpha.svg](../assets/Nuclear_energy_generation.svg#only-light)
 ![triple_alpha.svg](../assets/Nuclear_energy_generation_dark.svg#only-dark)
 
-> Logarithm of the relative energy output ($\varepsilon$) of proton–proton (PP), CNO and Triple-α fusion processes at different temperatures (T). The dashed line shows the combined energy generation of the PP and CNO processes within a star. At the Sun's core temperature of 15.5 million K the PP process is dominant. The PPI process and the CNO process are equal at around 20 million
+> Logarithm of the relative energy output ($\varepsilon$) of proton–proton (PP), CNO and Triple-α fusion processes at different temperatures (T). The dashed line shows the combined energy generation of the PP and CNO processes within a star. At the Sun's core temperature of 15.5 million K the PP process is dominant. The PPI process and the CNO process are equal at around 20 million K
+
+![binding_energy](../assets/binding_energy.svg#only-light)
+![binding_energy](../assets/binding_energy_dark.svg#only-dark)
+
+> Binding energy curve for common isotopes. Energy is released as you move towards Fe-56, whether it be through fusion (from left) or through fission (from the right)
