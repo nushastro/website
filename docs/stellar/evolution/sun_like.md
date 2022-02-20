@@ -22,7 +22,8 @@ During this time the sun loses about a quarter of it's total mass in a strong st
 
 The core contraction and envelope expansion is very rapid, taking only a few million years. In this time the temperature of the star will cool from its main sequence value of 6,000–30,000 K to around 5,000 K. Hence there are very few stars in that area in the HR diagram
 
-![](https://media.discordapp.net/attachments/699781597515481159/943521162154082394/unknown.png)
+![hertz_gap.png](../assets/hertz_gap.png#only-light)
+![hertz_gap.png](../assets/hertz_gap_dark.png#only-dark)
 
 > hertzsprung gap
 
