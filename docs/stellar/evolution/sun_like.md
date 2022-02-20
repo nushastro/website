@@ -66,8 +66,7 @@ For stars with lower metal (anything heavier than helium) content, they have hig
 ![horizontal_branch.svg](../assets/horizontal_branch.svg#only-light)
 ![horizontal_branch.svg](../assets/horizontal_branch_dark.svg#only-dark)
 
-> H–R diagrams of the globular cluster M3, showing the horizontal branch (HB) which are populated by core-helium burning stars with a low metal content. These clusters have ages around $13\times10^9$ years, and their metal content is only $\approx\frac{1}{30}$
-of the solar value
+> H–R diagrams of the globular cluster M3, showing the horizontal branch (HB) which are populated by core-helium burning stars with a low metal content. These clusters have ages around $13\times10^9$ years, and their metal content is only $\approx\frac{1}{30}$ of the solar value
 
 Our sun has sufficient helium fuel for this stage to last for about 100 million years
 
