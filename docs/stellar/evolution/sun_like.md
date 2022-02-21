@@ -55,7 +55,7 @@ The energy released from the helium flash allows the core to cool and expand, an
 ![red_clump.svg](../assets/red_clump.svg#only-light)
 ![red_clump.svg](../assets/red_clump_dark.svg#only-dark)
 
-> H–R diagram of the H 4 star cluster showing a well-populated main sequence and a red-giant branch with distinct core-helium burning red-giant clump stars $m_v$ is absolute magnitude and $B-V$ is a color index
+> H–R diagram of the H 4 star cluster showing a populated main sequence and a red-giant branch with distinct core-helium burning red-giant clump stars. $m_v$ is absolute magnitude and $B-V$ is a color index
 
 For stars with lower metal (anything heavier than helium) content, they have higher temperatures so their location in the H–R diagram is called the **horizontal branch**. This is basically the "helium main sequence"
 
@@ -66,7 +66,7 @@ For stars with lower metal (anything heavier than helium) content, they have hig
 ![horizontal_branch.svg](../assets/horizontal_branch.svg#only-light)
 ![horizontal_branch.svg](../assets/horizontal_branch_dark.svg#only-dark)
 
-> H–R diagrams of the globular cluster M3, showing the horizontal branch (HB) which are populated by core-helium burning stars with a low metal content. These clusters have ages around $13\times10^9$ years, and their metal content is only $\approx\frac{1}{30}$ of the solar value
+> H–R diagrams of the globular cluster M3, showing the horizontal branch (HB) which are populated by core-helium burning stars with a low metal content. These clusters have ages around $13\times10^9$ years, and their metal content is only $\approx\frac{1}{30}$ of the solar value. $I-V$ is a color index.
 
 Our sun has sufficient helium fuel for this stage to last for about 100 million years
 
