@@ -40,9 +40,6 @@ As a side effect of the process, some carbon nuclei fuse with additional helium 
 
 ![](https://media.discordapp.net/attachments/699781597515481159/943523818591363082/wEDlfYfko2yBAAAAABJRU5ErkJggg.png)
 
-!!! Note
-    Helium Fusion is **extremely sensitive** to temperature. (proportional to something like $T^40$). If T at 100 million K increases by $10%$, fusion rate increases **45x**
-
 Once the temperature is hot enough helium fusion begins in a matter of minutes or hours. This sudden onset of helium core fusion (or "burning") is called the _helium flash_.
 
 !!! Note "Extension"
@@ -51,17 +48,29 @@ Once the temperature is hot enough helium fusion begins in a matter of minutes o
     However, a fundamental quality of degenerate matter is that *increases in temperature do not produce an increase in volume* of the matter until the thermal pressure becomes high enough to exceed degeneracy pressure (quantum mechanical pressure, which is really high). In this case, the helium fusion increases the temperature, which increases the fusion rate, which further increases the temperature in a runaway reaction. This produces a flash of very intense helium fusion that lasts only a few minutes, but briefly emits energy at a rate comparable to the entire Milky Way galaxy.
     In the case of normal low-mass stars, the enormous energy release causes the core to come out of degeneracy, allowing it to expand (because of the insane thermal energy), and any left-over energy is absorbed into the star's upper layers. Thus the helium flash is *mostly undetectable to observation*.
 
-## Horizontal Branch (HB)
+## Red clump / Horizontal Branch (HB)
 
-The energy released from the helium flash allows the core to cool and expand. This decreases the radiation pressure and the star contracts. This result in a hotter outer layer of the star but a smaller overall size. The rise in effective temperature and decrease in surface area are such that the luminosity remains roughly constant. This is basically the "helium main sequence".
+The energy released from the helium flash allows the core to cool and expand, and also expands the hydrogen-burning shell further out in the star. The expansion of the hydrogen-burning shell reduces its temperature, density, and hence its energy generation and radiation pressure. In some mass ranges, hydrogen fusion ceases. The outer hydrogen-rich envelope of the star reacts to this temperature decrease by contracting. Since $L=4\pi R^2\sigma T^4$, the contraction would lead to an increase in the effective surface temperature if the luminosity was constant. However, the luminosity of the star is also lower, so the increase in temperature is less pronounced. The star’s new stable location is slightly down and slightly towards the left of the giant branch. Because the new configuration of stable core-helium burning and shell-hydrogen burning is reasonably long lived, stars remain in this region of the H–R diagram for some time. The location is recognized observationally as a clump of stars in the H–R diagram, due to the slow evolution through this phase of life, and they are called **red-giant clump stars**
 
-![](../assets/horizontal_branch.png)
+![red_clump.svg](../assets/red_clump.svg#only-light)
+![red_clump.svg](../assets/red_clump_dark.svg#only-dark)
 
-> structure of a sun-like star on the horizontal branch
+> H–R diagram of the H 4 star cluster showing a populated main sequence and a red-giant branch with distinct core-helium burning red-giant clump stars. $m_v$ is absolute magnitude and $B-V$ is a color index
+
+For stars with lower metal (anything heavier than helium) content, they have higher temperatures so their location in the H–R diagram is called the **horizontal branch**. This is basically the "helium main sequence"
+
+![core-helium burning and shell-hydrogen burning](../assets/horizontal_branch.png)
+
+> structure of a star on the red clump/horizontal branch
+
+![horizontal_branch.svg](../assets/horizontal_branch.svg#only-light)
+![horizontal_branch.svg](../assets/horizontal_branch_dark.svg#only-dark)
+
+> H–R diagrams of the globular cluster M3, showing the horizontal branch (HB) which are populated by core-helium burning stars with a low metal content. These clusters have ages around $13\times10^9$ years, and their metal content is only $\approx\frac{1}{30}$ of the solar value. $I-V$ is a color index.
 
 Our sun has sufficient helium fuel for this stage to last for about 100 million years
 
-fun fact: more stars less massive than $2M_\odot$, the helium cores have the same mass when helium fusion starts, regardless of total solar mass. So the helium fusion luminosity on the horizontal branch is the same (Hydrogen shell fusion causes total luminosity to vary, but for most stars they are very similar)
+fun fact: more stars less massive than $2M_\odot~2.5M_\odot$, the helium cores have the same mass when helium fusion starts, regardless of total solar mass. So the helium fusion luminosity on the horizontal branch is the same (Hydrogen shell fusion causes total luminosity to vary, but for most stars they are very similar)
 
 ## Asymptotic Giant Branch (AGB)
 
@@ -78,7 +87,7 @@ Over time the frequency of thermal pulses increases. During a thermal pulse nucl
 Large convection currents in AGB stars carry material produced in the thin helium-burning shell up to the surface which are ejected, which contains heavier elements.
 
 !!! Note
-    Helium Fusion is **extremely sensitive** to temperature. (proportional to something like $T^40$). If T at 100 million K increases by $10%$, fusion rate increases **45x**
+    Helium Fusion is **extremely sensitive** to temperature. (proportional to something like $T^{40}$). If T at 100 million K increases by $10%$, fusion rate increases **45x**
 
 As a consequence of this, a **small change** in temperature can lead to **enormous change** in fusion energy output. AGB Stars experience huge thermal pulses that destabilize the outer envelope.
 

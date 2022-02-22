@@ -825,15 +825,28 @@
        x="327.55576"
        y="759.34894"
        id="text4843"
-       sodipodi:linespacing="125%"><tspan
+       sodipodi:linespacing="125%">
+       <tspan
          sodipodi:role="line"
          x="327.55576"
          y="759.34894"
-         id="tspan4847">Subgiant branch</tspan><tspan
+         id="tspan4847">Subgiant branch</tspan>
+         <tspan
+         sodipodi:role="line"
+         x="290"
+         y="860"
+         id="tspan4847">Core H exhaustion</tspan>
+         <tspan
+         sodipodi:role="line"
+         x="660"
+         y="615"
+         id="tspan4847">Core He exhaustion</tspan>
+         <tspan
          sodipodi:role="line"
          x="327.55576"
          y="789.34894"
-         id="tspan9282">(Hertzsprung gap)</tspan><tspan
+         id="tspan9282">(Hertzsprung gap)</tspan>
+         <tspan
          sodipodi:role="line"
          x="327.55576"
          y="819.34894"
