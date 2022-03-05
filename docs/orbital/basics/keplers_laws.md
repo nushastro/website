@@ -4,12 +4,12 @@
 
 ## Kepler's 1st Law
 
-!!! Ellipse thingy
+!!! Quote "K1L"
     The orbit of every planet is an ellipse with the Sun at one of the two foci.
 
 ## Kepler's 2nd Law
 
-!!! Equal area thing
+!!! Quote "K2L"
     A line joining a planet and the Sun sweeps out equal areas during equal intervals of time.
 
 ![](../img/Kepler-second-law.gif)
@@ -18,7 +18,7 @@
 
 ## Kepler's 3rd Law
 
-!!! Period
+!!! Quote "K3L"
     The ratio of the square of an object's orbital period with the cube of the semi-major axis of its orbit is the same for all objects orbiting the same primary.
 
 now effectively what this means is:
