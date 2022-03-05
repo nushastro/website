@@ -9,7 +9,7 @@
       
       
       <link rel="icon" href="../../../assets/favicon.png">
-      <meta name="generator" content="mkdocs-1.2.3, mkdocs-material-8.1.8">
+      <meta name="generator" content="mkdocs-1.2.3, mkdocs-material-8.2.1">
     
     
       
@@ -17,7 +17,7 @@
       
     
     
-      <link rel="stylesheet" href="../../../assets/stylesheets/main.6e60f8b8.min.css">
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.e8d9bf0c.min.css">
       
         
         <link rel="stylesheet" href="../../../assets/stylesheets/palette.e6a45f82.min.css">
@@ -463,6 +463,20 @@
     <li class="md-nav__item">
       <a href="../../../orbital/basics/conic_sections/" class="md-nav__link">
         Conic Sections
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../orbital/basics/keplers_laws/" class="md-nav__link">
+        Kepler's Laws
       </a>
     </li>
   
@@ -1019,6 +1033,19 @@
     Wien's Displacement Law
   </a>
   
+    <nav class="md-nav" aria-label="Wien's Displacement Law">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#derivation" class="md-nav__link">
+    Derivation
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
     </ul>
@@ -1206,6 +1233,19 @@
     Wien's Displacement Law
   </a>
   
+    <nav class="md-nav" aria-label="Wien's Displacement Law">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#derivation" class="md-nav__link">
+    Derivation
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
     </ul>
@@ -1221,11 +1261,11 @@
               
                 
 
+
 <h1 id="wiens-displacement-law">Wien's Displacement Law</h1>
 <p>Before learning about Wien's Displacement Law, we need to understand its history.</p>
 <h2 id="ultraviolet-catastrophe">Ultraviolet Catastrophe</h2>
-<p>It is the turn of the 20th century. At this point, physicists had proved without a shadow of a doubt that light was a 
-wave. This is done via the double slit experiment which was carried out by Thomas Young in 1801.</p>
+<p>It is the turn of the 20th century. At this point, physicists had proved without a shadow of a doubt that light was a wave. This is done via the double slit experiment which was carried out by Thomas Young in 1801.</p>
 <h3 id="the-problem">The Problem</h3>
 <figure>
 <p><img alt="blackbody.svg" src="../../assets/blackbody.svg#only-light" width="470" />
@@ -1233,34 +1273,39 @@ wave. This is done via the double slit experiment which was carried out by Thoma
   </p>
 <figcaption>The spectrum of light emitted by a perfect blackbody.</figcaption>
 </figure>
-<p>However, when physicists tried to predict the radiation coming from a blackbody under the assumption that light was a 
-wave, obtained an equation now known as the Rayleigh-Jeans Law. At high frequencies, it predicted that the power emitted 
+<p>However, when physicists tried to predict the radiation coming from a blackbody under the assumption that light was a wave, obtained an equation now known as the Rayleigh-Jeans Law. At high frequencies, it predicted that the power emitted 
 by a blackbody would tend to infinity as the frequency increased. This clearly did not match up with experimental results 
 which showed that there was a peak wavelength of radiation that a blackbody would emit.</p>
 <p>This was the ultraviolet catastrophe, called as such since the experimental results deviated significantly at ultraviolet wavelengths.</p>
 <h3 id="solution">Solution</h3>
-<p>In 1900, Max Planck derived the correct form for the intensity spectral distribution function by making some strange 
-(for the time) assumptions. In particular, Planck assumed that electromagnetic radiation can be emitted or absorbed only 
-in discrete packets, called quanta, of energy: <span class="arithmatex">\(E_{\text{quanta}}=h\nu =h{\frac {c}{\lambda }}\)</span>, 
-where h is Planck's constant, <span class="arithmatex">\(\nu\)</span> is the frequency of light, c is the speed of light and 
-λ is the wavelength of light. Planck's assumptions led to the correct form of the 
-spectral distribution functions:</p>
+<p>In 1900, Max Planck heuristically derived the correct form for the intensity spectral distribution function by making some strange (for the time) assumptions. In particular, Planck assumed that electromagnetic radiation can be emitted or absorbed only in discrete packets, called quanta, of energy: <span class="arithmatex">\(E_{\text{quanta}}=h\nu =h{\frac {c}{\lambda }}\)</span>, where <span class="arithmatex">\(h\)</span> is Planck's constant, <span class="arithmatex">\(\nu\)</span> is the frequency of light, <span class="arithmatex">\(c\)</span> is the speed of light and <span class="arithmatex">\(\lambda\)</span> is the wavelength of light. Planck's assumptions led to the correct form of the spectral emission intensity function:</p>
 <div class="arithmatex">\[
-B_{\lambda }(\lambda ,T)={\frac {2hc^{2}}{\lambda ^{5}}}{\frac {1}{e^{hc/(\lambda k_{\mathrm {B} }T)}-1}}
+E_\lambda=\frac {2hc^2}{\lambda^5} \cdot \left(e^{\frac{hc}{\lambda k_BT}}-1\right)^{-1}
 \]</div>
-<p>Albert Einstein (in 1905) and Satyendra Nath Bose (in 1924) solved the problem by postulating that 
-Planck's quanta were real physical particles – what we now call photons, not just a mathematical fiction. 
-They modified statistical mechanics in the style of Boltzmann to an ensemble of photons. Einstein's photon had an 
-energy proportional to its frequency. This published postulate was specifically cited by the Nobel Prize in 
-Physics committee in their decision to award the prize for 1921 to Einstein.</p>
+<p>This formula provide the emission intensity in form <span class="arithmatex">\(E_\lambda\)</span> which signifies a wavelength-dependant variable, but this variable is also affected by changes in <span class="arithmatex">\(T\)</span>, i.e. Temperature.</p>
+<p>Here, <span class="arithmatex">\(k_B\)</span> is simply Boltzmann's Constant, often standardised as:</p>
+<div class="arithmatex">\[\begin{align*}k_B &amp;= 1.3806504 \times 10^{-23} \cdot J/K \\&amp;\approx 1.38065 \times 10^{-23} \cdot J/K\end{align*}\]</div>
+<p>Another way to determine <span class="arithmatex">\(k_B\)</span> is by representing it as a fraction of the Ideal Gas Constant, <span class="arithmatex">\(R\)</span> as depicted below:</p>
+<div class="arithmatex">\[\begin{align*}R &amp;= 8.314462618 \cdot J/mol\cdot K \\&amp;\approx 8.314 \cdot J/mol\cdot K \\&amp;\approx 0.08206 \cdot \frac{L \cdot atm}{mol \cdot K}\end{align*}\]</div>
+<p>with Avogadro's constant, subject of his very famous formula, which we all learnt back in Y1, as shown below:</p>
+<div class="arithmatex">\[\begin{align*}N_A &amp;= 6.02214076 \times 10^{23} \cdot mol^{-1} \\&amp;\approx 6.02 \times 10^{23} \cdot mol^{-1}\end{align*}\]</div>
+<p>Hence we get the following:</p>
+<div class="arithmatex">\[\begin{align*}k_B &amp;= \frac{R}{N_A} \\&amp;= 1.380648999974554 \times 10^{-23} \cdot J/K \\&amp;\approx 1.38065 \times 10^{-23} \cdot J/K\end{align*}\]</div>
+<p>And we use this value to our benefit.</p>
+<p>Albert Einstein (in 1905) and Satyendra Nath Bose (in 1924) solved the problem by postulating that Planck's quanta were real physical particles – what we now call photons, not just a mathematical fiction. They modified statistical mechanics in the style of Boltzmann to an ensemble of photons. Einstein's photon had an energy proportional to its frequency. This published postulate was specifically cited by the Nobel Prize in Physics committee in their decision to award the prize for 1921 to Einstein.</p>
 <h2 id="wiens-displacement-law_1">Wien's Displacement Law</h2>
-<p>Wien’s displacement formula gives the peak wavelength that a blackbody radiates. It can be derived from the Planck's Law 
-above.</p>
+<p>Wien’s displacement formula gives the wavelength that a blackbody radiate which releases the highest spectral emission intensity. The following shows the formula:</p>
 <div class="arithmatex">\[
-\lambda_{max} = \frac{0.002898}{T}
+\lambda_{max} = \frac{b}{T} \approx\frac{0.002898 \cdot mK}{T}
 \]</div>
-<p>where T is the temperature of the surface of the star (from which radiation is emitted). The
-constant 0.002898 m∙K is known as Wien’s Displacement Constant.</p>
+<p>where <span class="arithmatex">\(T\)</span> is the temperature of the surface of the star (from which radiation is emitted). The constant <span class="arithmatex">\(b \approx 0.002898 \cdot mK\)</span> is known as <em>Wien’s Wavelength Displacement Constant</em>.</p>
+<h3 id="derivation">Derivation</h3>
+<p>This formula can be derived by maximising the emission intensity, <span class="arithmatex">\(E_\lambda\)</span> as per Planck's aformentioned law. Since we aim to determine the maximum wavelength, we essentially let <span class="arithmatex">\(T\)</span> be constant while differentiating by <span class="arithmatex">\(\lambda\)</span>. This is essentially a partial differentiation action, and we use <span class="arithmatex">\(\frac{\partial}{\partial \lambda}\)</span>, as we depicted below.</p>
+<div class="arithmatex">\[\frac{\partial E_\lambda}{\partial \lambda} = 2hc^2 \cdot \frac{\partial}{\partial \lambda} \left(\frac {1}{\lambda^5} \cdot \left(e^{\frac{hc}{\lambda k_BT}}-1\right)^{-1} \right) = 0\]</div>
+<p>We compute the differential as follows:</p>
+<div class="arithmatex">\[\left(e^{\frac{hc}{\lambda k_BT}-1}\right)^{-1} \frac{\partial}{\partial\lambda}\left(\frac{1}{\lambda^5}\right) + \frac{1}{\lambda^5}\frac{\partial}{\partial\lambda}\left(\left(e^{\frac{hc}{\lambda k_BT}}-1\right)^{-1}  \right) = 0\]</div>
+<p>As you can see, this is torture. We hence try to kinda simplify it (this isn't going to work, is it?):</p>
+<div class="arithmatex">\[-5\left(\lambda^6 e^{\frac{hc}{\lambda k_BT}-1}\right)^{-1} -\lambda^{-5}\left(e^{\frac{hc}{\lambda k_B T}}-1\right)^{-2} e^{\frac{hc}{\lambda k_B T}\]</div>
 <p>Now say you experimentally sample the intensity of a blackbody at many different wavelengths. If you do this for all
 wavelengths, you will get Planck’s distribution, the maximum of which can be found using Wien’s displacement formula.
 Different stars have different surface temperatures, which give different blackbody distributions with different peak
@@ -1332,10 +1377,10 @@ reaching us. The same applies for reddish, cooler stars.</p>
     <div class="md-dialog" data-md-component="dialog">
       <div class="md-dialog__inner md-typeset"></div>
     </div>
-    <script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.tabs"], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "search": "../../../assets/javascripts/workers/search.22074ed6.min.js"}</script>
+    <script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.tabs"], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "search": "../../../assets/javascripts/workers/search.bd0b6b67.min.js"}</script>
     
     
-      <script src="../../../assets/javascripts/bundle.960e086b.min.js"></script>
+      <script src="../../../assets/javascripts/bundle.8aa65030.min.js"></script>
       
         <script src="../../../javascripts/mathjax.js"></script>
       

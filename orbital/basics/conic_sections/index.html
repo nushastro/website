@@ -9,7 +9,7 @@
       
       
       <link rel="icon" href="../../../assets/favicon.png">
-      <meta name="generator" content="mkdocs-1.2.3, mkdocs-material-8.1.8">
+      <meta name="generator" content="mkdocs-1.2.3, mkdocs-material-8.2.1">
     
     
       
@@ -17,7 +17,7 @@
       
     
     
-      <link rel="stylesheet" href="../../../assets/stylesheets/main.6e60f8b8.min.css">
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.e8d9bf0c.min.css">
       
         
         <link rel="stylesheet" href="../../../assets/stylesheets/palette.e6a45f82.min.css">
@@ -521,6 +521,20 @@
 </li>
         
           <li class="md-nav__item">
+  <a href="#aphelion-and-perihelion" class="md-nav__link">
+    Aphelion and Perihelion
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#summary" class="md-nav__link">
+    Summary
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#extension-semi-latus-rectum" class="md-nav__link">
     Extension: semi-latus rectum
   </a>
@@ -543,6 +557,20 @@
   
 </nav>
       
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../keplers_laws/" class="md-nav__link">
+        Kepler's Laws
+      </a>
     </li>
   
 
@@ -1204,6 +1232,20 @@
 </li>
         
           <li class="md-nav__item">
+  <a href="#aphelion-and-perihelion" class="md-nav__link">
+    Aphelion and Perihelion
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#summary" class="md-nav__link">
+    Summary
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#extension-semi-latus-rectum" class="md-nav__link">
     Extension: semi-latus rectum
   </a>
@@ -1235,9 +1277,10 @@
               
                 
 
+
 <h1 id="conic-sections">Conic Sections</h1>
-<p>Conic sections are of particular importance to orbital mechanics since all orbits of a point mass about a much heavier body 
-are conic sections with the heavier body at one of the foci. This is a more general statement of 
+<p>Conic sections are of particular importance to orbital mechanics since all orbits of a point mass about a much heavier body
+are conic sections with the heavier body at one of the foci. This is a more general statement of
 Kelper's 1st Law which states that the orbit of a planet is an ellipse with the sun at one of the foci.</p>
 <p>There are 3 (or 4) types of conic sections: circles, ellipses, parabolas and hyperbolas. (A circle can be considered a special ellipse)
 Although this is covered in year 4 math, we will go into conic section with much more detail here.</p>
@@ -1245,8 +1288,8 @@ Although this is covered in year 4 math, we will go into conic section with much
 <img alt="conic_sections.svg" src="../../img/conic_sections_dark.svg#only-dark" width="480" /></p>
 <p>Circles were covered in primary school so we will skip that.</p>
 <h2 id="ellipse">Ellipse</h2>
-<p>An ellipse is a plane curve surrounding two focal points, such that for all points on the curve, the sum of the two 
-distances to the focal points is a constant. As such, it generalizes a circle, which is the special type of ellipse in 
+<p>An ellipse is a plane curve surrounding two focal points, such that for all points on the curve, the sum of the two
+distances to the focal points is a constant. As such, it generalizes a circle, which is the special type of ellipse in
 which the two focal points are the same. Watch the 3Blue1Brown video below more information about ellipses.</p>
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/pQa_tWZmlGs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -1270,6 +1313,78 @@ which the two focal points are the same. Watch the 3Blue1Brown video below more 
 <p class="admonition-title">Warning</p>
 <p>There is no nice formula for the perimeter of the ellipse. The reason why will give you <a href="https://www.youtube.com/watch?v=wc9H-apkH2M">a world of nightmares never seen before</a>.</p>
 </div>
+<h3 id="aphelion-and-perihelion">Aphelion and Perihelion</h3>
+<p><img alt="perihelion-aphelion.svg" src="../img/perihelion-aphelion.svg#only-light" />
+<img alt="perihelion-aphelion.svg" src="../../img/perihelion-aphelion-dark.svg#only-dark" /></p>
+<p><strong>Aphelion</strong>: point in the orbit that is <strong>furthest</strong> away from the sun/bigger mass <span class="arithmatex">\(r_{ap} = a(1+\varepsilon)\)</span>
+<strong>Perihelion</strong>: point in the orbit that is <strong>closest</strong> to the sun/bigger mass <span class="arithmatex">\(r_{pe} = a(1-\varepsilon)\)</span></p>
+<h3 id="summary">Summary</h3>
+<table>
+<thead>
+<tr>
+<th>to find</th>
+<th>if you know</th>
+<th>use</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span class="arithmatex">\(r_{ap}\)</span></td>
+<td><span class="arithmatex">\(a\)</span>, <span class="arithmatex">\(\varepsilon\)</span></td>
+<td><span class="arithmatex">\(r_{ap} = a(1+\varepsilon)\)</span></td>
+</tr>
+<tr>
+<td><span class="arithmatex">\(r_{pe}\)</span></td>
+<td><span class="arithmatex">\(a\)</span>, <span class="arithmatex">\(\varepsilon\)</span></td>
+<td><span class="arithmatex">\(r_{pe} = a(1-\varepsilon)\)</span></td>
+</tr>
+<tr>
+<td><span class="arithmatex">\(a\)</span></td>
+<td><span class="arithmatex">\(r_{ap}\)</span>, <span class="arithmatex">\(r_{pe}\)</span></td>
+<td><span class="arithmatex">\(2a = r_{ap}+r_{pe}\)</span></td>
+</tr>
+<tr>
+<td><span class="arithmatex">\(a\)</span></td>
+<td><span class="arithmatex">\(\varepsilon\)</span>, <span class="arithmatex">\(b\)</span></td>
+<td><span class="arithmatex">\(a = \frac{b}{\sqrt{1-\varepsilon^2}}\)</span></td>
+</tr>
+<tr>
+<td><span class="arithmatex">\(b\)</span></td>
+<td><span class="arithmatex">\(\varepsilon\)</span>, <span class="arithmatex">\(a\)</span></td>
+<td><span class="arithmatex">\(b = a\sqrt{1-\varepsilon^2}\)</span></td>
+</tr>
+<tr>
+<td><span class="arithmatex">\(c\)</span></td>
+<td><span class="arithmatex">\(a\)</span>, <span class="arithmatex">\(\varepsilon\)</span></td>
+<td><span class="arithmatex">\(f = a\varepsilon\)</span></td>
+</tr>
+<tr>
+<td><span class="arithmatex">\(c\)</span></td>
+<td><span class="arithmatex">\(a\)</span>, <span class="arithmatex">\(b\)</span></td>
+<td><span class="arithmatex">\(c = \sqrt{a^2-b^2}\)</span></td>
+</tr>
+<tr>
+<td><span class="arithmatex">\(c\)</span></td>
+<td><span class="arithmatex">\(r_{ap}\)</span>, <span class="arithmatex">\(r_{pe}\)</span></td>
+<td><span class="arithmatex">\(2c = r_{ap}-r_{pe}\)</span></td>
+</tr>
+<tr>
+<td><span class="arithmatex">\(\varepsilon\)</span></td>
+<td><span class="arithmatex">\(a\)</span>, <span class="arithmatex">\(b\)</span></td>
+<td><span class="arithmatex">\(\varepsilon = \sqrt{1-\frac{b^2}{a^2}}\)</span></td>
+</tr>
+<tr>
+<td><span class="arithmatex">\(\varepsilon\)</span></td>
+<td><span class="arithmatex">\(a\)</span>, <span class="arithmatex">\(c\)</span></td>
+<td><span class="arithmatex">\(\varepsilon = \frac{c}{a}\)</span></td>
+</tr>
+<tr>
+<td><span class="arithmatex">\(\varepsilon\)</span></td>
+<td><span class="arithmatex">\(r_{ap}\)</span>, <span class="arithmatex">\(r_{pe}\)</span></td>
+<td><span class="arithmatex">\(\varepsilon = \frac{r_{ap}-r_{pe}}{r_{ap}+r_{pe}}\)</span></td>
+</tr>
+</tbody>
+</table>
 <h3 id="extension-semi-latus-rectum">Extension: semi-latus rectum</h3>
 <p>Although this is denoted as <span class="arithmatex">\(p\)</span> in the diagram, it is usually denoted as <span class="arithmatex">\(\ell\)</span>. To get it's formula, first image a right triangle, with sides <span class="arithmatex">\(p\)</span>, to length from <span class="arithmatex">\(F_1\)</span> to <span class="arithmatex">\(F_2\)</span> and from <span class="arithmatex">\(F_1\)</span> to the tip of <span class="arithmatex">\(p\)</span> where it intersects the ellipse.</p>
 <div class="arithmatex">\[\begin{align*}(2a-\ell)^2 &amp;= (2c)^2+\ell^2 \\ (2a-\ell)^2 &amp;= (2a\varepsilon)^2+\ell^2 \\ 4a^2-4a\ell +\ell^2 &amp;= 4a^2\varepsilon^2+\ell^2 \\ 4a^2-4a\ell &amp;= 4a^2\varepsilon^2 \\ 4a^2 + 4a^2\varepsilon^2  &amp;= 4a\ell \\ \ell &amp;= a(1-\varepsilon^2)\end{align*}\]</div>
@@ -1280,7 +1395,7 @@ which the two focal points are the same. Watch the 3Blue1Brown video below more 
 <p class="admonition-title">Note</p>
 <p>Every single "orbit" a mass can take <em>is a conic section</em> (approximately).
 The reason why this happens will (hopefully) be covered in a later section.
-This is approximate as this assume the second mass does not move, and that the orbiting mass is a point mass. </p>
+This is approximate as this assume the second mass does not move, and that the orbiting mass is a point mass.</p>
 </div>
 
               
@@ -1311,13 +1426,13 @@ This is approximate as this assume the second mass does not move, and that the o
       
       
         
-        <a href="../../mechanics/conservation_of_quantities/" class="md-footer__link md-footer__link--next" aria-label="Next: Conservation of Quantities in Orbital Motion" rel="next">
+        <a href="../keplers_laws/" class="md-footer__link md-footer__link--next" aria-label="Next: Kepler&#39;s Laws" rel="next">
           <div class="md-footer__title">
             <div class="md-ellipsis">
               <span class="md-footer__direction">
                 Next
               </span>
-              Conservation of Quantities in Orbital Motion
+              Kepler's Laws
             </div>
           </div>
           <div class="md-footer__button md-icon">
@@ -1347,10 +1462,10 @@ This is approximate as this assume the second mass does not move, and that the o
     <div class="md-dialog" data-md-component="dialog">
       <div class="md-dialog__inner md-typeset"></div>
     </div>
-    <script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.tabs"], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "search": "../../../assets/javascripts/workers/search.22074ed6.min.js"}</script>
+    <script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.tabs"], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "search": "../../../assets/javascripts/workers/search.bd0b6b67.min.js"}</script>
     
     
-      <script src="../../../assets/javascripts/bundle.960e086b.min.js"></script>
+      <script src="../../../assets/javascripts/bundle.8aa65030.min.js"></script>
       
         <script src="../../../javascripts/mathjax.js"></script>
       
