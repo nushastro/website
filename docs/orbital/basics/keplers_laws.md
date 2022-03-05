@@ -33,3 +33,18 @@ $$ \frac{T_1^2}{T_2^2} \propto \frac{a_1^3}{a_2^3} $$
 
 you can use $T_2 = 1yr$, $a_2 = 1AU$ and get $T^2 = a^3$ with $T$ in years and $a$ in AU (AU is the distance from earth to sun)
 
+??? Question
+
+    === "(I07 -T06 - A)"
+
+        A Sun-orbiting periodic comet is the farthest at 31.5 AU and the closest at 0.5 AU. What is the orbital period of this comet?
+
+    === "Solution"
+
+        $$\begin{align*} a &= \frac{r_{pe}+r_{ap}}{2} \\ &= \frac{31.5+0.5}{2} \\ &= 16AU\end{align*}$$
+
+        We can use Kepler's 3rd law to solve this.
+
+        Since the units are in AU and years, $T^2 = a^3$. Therefore:
+
+        $$\begin{align*}T &= \sqrt{a^3} \\ &= \sqrt{16^3} \\ &= 64.0 years\end{align*}$$
