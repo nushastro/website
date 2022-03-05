@@ -10,13 +10,15 @@ This effectively means the amount of central force exerted by an object to bring
 
 This may seem like a daunting formula, but we do remember that we can disassociate many variables in the description.
 
-For instance, $d \vec r$ is simply equivalent to $d(r \vec r)$ which can by expressed as $r \cdot d\vec r + \vec r \cdot r$, or more clearly:
+For instance, $d \vec r = \hat{r} \cdot dr$:
+??? Abstract "Explanation of $d \vec r = \hat{r} \cdot dr$"
+    This is because $d \vec r = d(r \vec r)$ which can by expressed as $r \cdot d\vec r + \vec r \cdot r$, or more clearly:
 
-$$\begin{align*}d\vec{r} &= d(r\hat{r}) \\ &= r \cdot d\hat{r} + dr \cdot \hat{r}\end{align*}$$
+    $$\begin{align*}d\vec{r} &= d(r\hat{r}) \\ &= r \cdot d\hat{r} + dr \cdot \hat{r}\end{align*}$$
 
-Noting that $d \hat{r}$ is an absolutely unnecessary term to consider, since it isn't affected when considering the movement of an object infinitely away moving radially to a specific location. Hence, we can simplify the above expression to:
+    Noting that $d \hat{r}$ is an absolutely unnecessary term to consider, since it isn't affected when considering the movement of an object infinitely away moving radially to a specific location. Hence, we can simplify the above expression to:
 
-$$d\vec{r} = \hat{r} \cdot dr$$
+    $$d\vec{r} = \hat{r} \cdot dr$$
 
 From here, we also note that we represent $\vec F$ as shown below:
 
