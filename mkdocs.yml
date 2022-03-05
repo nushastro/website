@@ -69,6 +69,7 @@ nav:
           - 'orbital/basics/universal_gravitation.md'
           - 'orbital/basics/circular_motion.md'
           - 'orbital/basics/conic_sections.md'
+          - 'orbital/basics/keplers_laws.md'
       - Orbital Mechanics:
           - 'orbital/mechanics/conservation_of_quantities.md'
           - 'orbital/mechanics/trajectory_of_particle.md'
