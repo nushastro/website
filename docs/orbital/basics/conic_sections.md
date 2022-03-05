@@ -1,7 +1,7 @@
 # Conic Sections
 
-Conic sections are of particular importance to orbital mechanics since all orbits of a point mass about a much heavier body 
-are conic sections with the heavier body at one of the foci. This is a more general statement of 
+Conic sections are of particular importance to orbital mechanics since all orbits of a point mass about a much heavier body
+are conic sections with the heavier body at one of the foci. This is a more general statement of
 Kelper's 1st Law which states that the orbit of a planet is an ellipse with the sun at one of the foci.
 
 There are 3 (or 4) types of conic sections: circles, ellipses, parabolas and hyperbolas. (A circle can be considered a special ellipse)
@@ -14,8 +14,8 @@ Circles were covered in primary school so we will skip that.
 
 ## Ellipse
 
-An ellipse is a plane curve surrounding two focal points, such that for all points on the curve, the sum of the two 
-distances to the focal points is a constant. As such, it generalizes a circle, which is the special type of ellipse in 
+An ellipse is a plane curve surrounding two focal points, such that for all points on the curve, the sum of the two
+distances to the focal points is a constant. As such, it generalizes a circle, which is the special type of ellipse in
 which the two focal points are the same. Watch the 3Blue1Brown video below more information about ellipses.
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/pQa_tWZmlGs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -53,12 +53,35 @@ $$ A = \pi a b$$
 !!! warning
     There is no nice formula for the perimeter of the ellipse. The reason why will give you [a world of nightmares never seen before](https://www.youtube.com/watch?v=wc9H-apkH2M).
 
+### Aphelion and Perihelion
+
+![perihelion-aphelion.svg](../img/perihelion-aphelion.svg#only-light)
+![perihelion-aphelion.svg](../img/perihelion-aphelion-dark.svg#only-dark)
+
+**Aphelion**: point in the orbit that is **furthest** away from the sun/bigger mass $r_{ap} = a(1+\varepsilon)$
+**Perihelion**: point in the orbit that is **closest** to the sun/bigger mass $r_{pe} = a(1-\varepsilon)$
+
+### Summary
+
+| to find       | if you know        | use                                                 |
+| ------------- | ------------------ | --------------------------------------------------- |
+| $r_{ap}$      | $a$, $\varepsilon$ | $r_{ap} = a(1+\varepsilon)$                         |
+| $r_{pe}$      | $a$, $\varepsilon$ | $r_{pe} = a(1-\varepsilon)$                         |
+| $a$           | $r_{ap}$, $r_{pe}$ | $2a = r_{ap}+r_{pe}$                                |
+| $a$           | $\varepsilon$, $b$ | $a = \frac{b}{\sqrt{1-\varepsilon^2}}$              |
+| $b$           | $\varepsilon$, $a$ | $b = a\sqrt{1-\varepsilon^2}$                       |
+| $c$           | $a$, $\varepsilon$ | $f = a\varepsilon$                                  |
+| $c$           | $a$, $b$           | $c = \sqrt{a^2-b^2}$                                |
+| $c$           | $r_{ap}$, $r_{pe}$ | $2c = r_{ap}-r_{pe}$                                |
+| $\varepsilon$ | $a$, $b$           | $\varepsilon = \sqrt{1-\frac{b^2}{a^2}}$            |
+| $\varepsilon$ | $a$, $c$           | $\varepsilon = \frac{c}{a}$                         |
+| $\varepsilon$ | $r_{ap}$, $r_{pe}$ | $\varepsilon = \frac{r_{ap}-r_{pe}}{r_{ap}+r_{pe}}$ |
+
 ### Extension: semi-latus rectum
 
 Although this is denoted as $p$ in the diagram, it is usually denoted as $\ell$. To get it's formula, first image a right triangle, with sides $p$, to length from $F_1$ to $F_2$ and from $F_1$ to the tip of $p$ where it intersects the ellipse.
 
 $$\begin{align*}(2a-\ell)^2 &= (2c)^2+\ell^2 \\ (2a-\ell)^2 &= (2a\varepsilon)^2+\ell^2 \\ 4a^2-4a\ell +\ell^2 &= 4a^2\varepsilon^2+\ell^2 \\ 4a^2-4a\ell &= 4a^2\varepsilon^2 \\ 4a^2 + 4a^2\varepsilon^2  &= 4a\ell \\ \ell &= a(1-\varepsilon^2)\end{align*}$$
-
 
 ## Parabola, Hyperbola
 
@@ -69,4 +92,4 @@ These also describe paths of objects in space that will never come back, for exa
 !!! note
     Every single "orbit" a mass can take _is a conic section_ (approximately).
     The reason why this happens will (hopefully) be covered in a later section.
-    This is approximate as this assume the second mass does not move, and that the orbiting mass is a point mass. 
+    This is approximate as this assume the second mass does not move, and that the orbiting mass is a point mass.
