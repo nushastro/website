@@ -74,7 +74,7 @@ nav:
           - 'orbital/mechanics/conservation_of_quantities.md'
           - 'orbital/mechanics/trajectory_of_particle.md'
       - Binary Stars:
-          - 'orbital/binary_system_total_energy.md'
+          - 'orbital/binary/binary_system_total_energy.md'
   - Stellar Astronomy:
       - Getting Started: stellar/index.md
       - Basics:

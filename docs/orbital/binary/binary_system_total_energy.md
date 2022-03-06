@@ -1,5 +1,4 @@
 # Total Energy of Binary System
-*by Kane (Year 4)*
 
 We already know the following formulas ($U$ being GPE)
 
@@ -19,7 +18,7 @@ $$v = \sqrt{\frac{Fr}{m}}$$
 
 Now consider the following system:
 
-![](img/twomasses.png)
+![](../img/twomasses.png)
 
 let $m_1 = 3m$ and $m_2 = m$
 
@@ -46,3 +45,9 @@ $$U = -\frac{G3m^2}d$$
 Therefore:
 
 $$E_{tot} = KE_{3m}+KE_m+U=-\frac3{2}\frac{Gm^2}d$$
+
+!!! Question 
+    === "The following is left as an exercise for the reader"
+        Now you can try to work this out youself for the general case where $m_1=nm$ and $m_2 = m$.
+    === "Answer"
+        $$E_{tot} = -\frac{n}{2} \frac{Gm^2}{d}$$
