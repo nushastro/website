@@ -71,7 +71,7 @@ $$\left(e^{\frac{hc}{\lambda k_BT}-1}\right)^{-1} \frac{\partial}{\partial\lambd
 
 As you can see, this is torture. We hence try to kinda simplify it (this isn't going to work, is it?):
 
-$$-5\left(\lambda^6 e^{\frac{hc}{\lambda k_BT}-1}\right)^{-1} -\lambda^{-5}\left(e^{\frac{hc}{\lambda k_B T}}-1\right)^{-2} e^{\frac{hc}{\lambda k_B T}$$
+$$-5\left(\lambda^6 e^{\frac{hc}{\lambda k_BT}-1}\right)^{-1} - \lambda^{-5} \left( e^{\frac{hc}{\lambda k_B T}}-1\right)^{-2} e^{\frac{hc}{\lambda k_B T}}$$
 
 
 
