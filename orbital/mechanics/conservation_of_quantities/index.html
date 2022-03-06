@@ -635,7 +635,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../binary_system_total_energy/" class="md-nav__link">
+      <a href="../../binary/binary_system_total_energy/" class="md-nav__link">
         Total Energy of Binary System
       </a>
     </li>
@@ -1202,10 +1202,14 @@
 <div class="arithmatex">\[U = -\int_{\infty}^{r} \vec F \cdot d \vec r\]</div>
 <p>This effectively means the amount of central force exerted by an object to bring a faraway object to the current position.</p>
 <p>This may seem like a daunting formula, but we do remember that we can disassociate many variables in the description.</p>
-<p>For instance, <span class="arithmatex">\(d \vec r\)</span> is simply equivalent to <span class="arithmatex">\(d(r \vec r)\)</span> which can by expressed as <span class="arithmatex">\(r \cdot d\vec r + \vec r \cdot r\)</span>, or more clearly:</p>
+<p>For instance, <span class="arithmatex">\(d \vec r = \hat{r} \cdot dr\)</span>:</p>
+<details class="abstract">
+<summary>Explanation of <span class="arithmatex">\(d \vec r = \hat{r} \cdot dr\)</span></summary>
+<p>This is because <span class="arithmatex">\(d \vec r = d(r \vec r)\)</span> which can by expressed as <span class="arithmatex">\(r \cdot d\vec r + \vec r \cdot r\)</span>, or more clearly:</p>
 <div class="arithmatex">\[\begin{align*}d\vec{r} &amp;= d(r\hat{r}) \\ &amp;= r \cdot d\hat{r} + dr \cdot \hat{r}\end{align*}\]</div>
 <p>Noting that <span class="arithmatex">\(d \hat{r}\)</span> is an absolutely unnecessary term to consider, since it isn't affected when considering the movement of an object infinitely away moving radially to a specific location. Hence, we can simplify the above expression to:</p>
 <div class="arithmatex">\[d\vec{r} = \hat{r} \cdot dr\]</div>
+</details>
 <p>From here, we also note that we represent <span class="arithmatex">\(\vec F\)</span> as shown below:</p>
 <div class="arithmatex">\[\vec F_g = - G \frac{Mm}{r^2} \hat r\]</div>
 <p>This helps us piece the final step, as shown below:</p>
