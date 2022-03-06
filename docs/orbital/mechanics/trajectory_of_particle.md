@@ -75,7 +75,8 @@ This is a standard form to describe the trajectory of $m$, and we can conclude t
 
 However, one way to compute $e$ now is to do the following:
 
-$$e = \sec\theta \left(\frac{L^2}{GMm^2r} - 1\right)$$
+$$e = \sec\theta \left( \frac {L^2}{GMm^2r} - 1 \right)$$
+
 Since this $e$ is simply the instantaneous eccentricity vector magnitude, we conclude that the actualy eccentricity, $\epsilon$ is when $\theta = 0$. Hence, we have that:
 
 $$\epsilon = \left(\frac{L^2}{GMm^2r} - 1\right)$$
