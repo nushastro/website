@@ -79,7 +79,7 @@ $$ A = \pi a b$$
 
 ### Extension: semi-latus rectum
 
-Although this is denoted as $p$ in the diagram, it is usually denoted as $\ell$. To get it's formula, first image a right triangle, with sides $p$, to length from $F_1$ to $F_2$ and from $F_1$ to the tip of $p$ where it intersects the ellipse.
+Although this is denoted as $p$ in the diagram, it is usually denoted as $\ell$. To get it's formula, first image a right triangle, with sides $p$, the line from $F_1$ to $F_2$ and the line from $F_1$ to the tip of $p$ where it intersects the ellipse.
 
 $$\begin{align*}(2a-\ell)^2 &= (2c)^2+\ell^2 \\ (2a-\ell)^2 &= (2a\varepsilon)^2+\ell^2 \\ 4a^2-4a\ell +\ell^2 &= 4a^2\varepsilon^2+\ell^2 \\ 4a^2-4a\ell &= 4a^2\varepsilon^2 \\ 4a^2 + 4a^2\varepsilon^2  &= 4a\ell \\ \ell &= a(1-\varepsilon^2)\end{align*}$$
 
