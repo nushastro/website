@@ -61,8 +61,6 @@ extra_javascript:
 
 nav:
   - Home: index.md
-  - Starhopping Guide:
-      - Getting Started: starhopping/index.md
   - Celestial Mechanics:
       - Getting Started: orbital/index.md
       - Basics:
@@ -95,6 +93,10 @@ nav:
           - stellar/math/blackbody_radiation.md
           - stellar/math/wiens_displacement_law.md
           - stellar/math/stefan_boltzmann_law.md
+  - Positional Astronomy:
+      - Spherical Trigonometry: positional/spherical_trig.md
+  - Starhopping Guide:
+      - Getting Started: starhopping/index.md
   - Practical:
       - practical/index.md
       - practical/telescopes.md
