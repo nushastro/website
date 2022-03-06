@@ -18,7 +18,9 @@ $$\vec a \times \vec L = - G \frac{M}{r^2} \hat r \times \vec L$$
 
 From here, we have one important observation to note, that being as follows:
 
-$$\frac{d}{dt} \left(\vec v \times \vec L\right) = \dot{\vec{v}} \times \vec L + \vec v \times \dot{\vec{L}} = \vec a \times \vec L$$
+$$\begin{align*}\frac{d}{dt} \left(\vec v \times \vec L\right) &= \dot{\vec{v}} \times \vec L + \vec v \times \dot{\vec{L}} \\ &= \vec a \times \vec L\end{align*}$$
+
+since $\vec{L}$ is conserved (remains constant), $\dot{\vec{L}} = 0$
 
 and since we have the following:
 
@@ -29,7 +31,7 @@ $$\vec a \times \left(\vec b \times \vec c \right) = (\vec a \cdot \vec c)\vec b
 
 We get the following as well:
 
-$$\begin{align*}- G \frac{M}{r^2} \hat r \times \vec L &= - G \frac{Mm}{r^3} \vec r \times (\vec r \times \vec v) \\ &= \frac{-GMm}{r^3} \left[ (\vec r \cdot \vec v) \vec r -(r^2)\vec v\right] \\ &= \frac{GMm}{r^3} \left[(r^2)\vec v - (rv) \vec r\right]\end{align*}$$
+$$\begin{align*}\frac{d}{dt} \left(\vec v \times \vec L\right) &= \vec a \times \vec L \\ &=- G \frac{M}{r^2} \hat r \times \vec L \\ &= - G \frac{Mm}{r^3} \vec r \times (\vec r \times \vec v) \\ &= \frac{-GMm}{r^3} \left[ (\vec r \cdot \vec v) \vec r -(r^2)\vec v\right] \\ &= \frac{GMm}{r^3} \left[(r^2)\vec v - (rv) \vec r\right]\end{align*}$$
 
 We now observe something else as well:
 
@@ -45,7 +47,11 @@ $$\vec v \times \vec L = \frac{GMm}{r} \vec r + GMm \vec C$$
 
 Wherein $GMm\vec{C}$ is a constant vector of integration that lies in the plane of motion of $m$.
 
-Now, using the same triple product result from above, we get the following:
+Now, using the same triple product result from above:
+
+$$\begin{align*}\vec{v}\times\vec{L}&=\vec{v}\times(\vec{r}\times\vec{v}) \\ &= (\vec{v}\cdot\vec{v})\vec{r}-(\vec{v}\cdot\vec{r})\vec{v}\\&=v^2\vec{r} - (\vec v \cdot \vec r)\vec v\end{align*}$$
+
+we get the following:
 
 $$v^2\vec{r} - (\vec v \cdot \vec r)\vec v = \frac{GM}{r} \vec r + GM \vec C$$
 
