@@ -42,10 +42,13 @@ As a side effect of the process, some carbon nuclei fuse with additional helium 
 
 Once the temperature is hot enough helium fusion begins in a matter of minutes or hours. This sudden onset of helium core fusion (or "burning") is called the _helium flash_.
 
-!!! Note "Extension"
+??? Note "Not all stars go through helium flash"
     For stars greater $>2.5M_\bigodot$, there is **no helium flash**, instead it begins burning gradually.
+
     Lower-mass stars do not produce enough gravitational pressure to initiate normal helium fusion. As the hydrogen in the core is exhausted, some of the helium left behind is instead compacted into degenerate matter (matter so dense that quantum effects are significant). The particles get packed down so densely its almost like they don't have a temperature. They almost get to the point where the particles are stacked like bricks, so the electrons are almost incapable of moving (The nuclei can still wiggle). The core is supported against gravitational collapse by quantum mechanical pressure rather than thermal pressure. This increases the density and temperature of the core until it reaches approximately 100 million kelvin, which is hot enough to cause helium fusion.
+    
     However, a fundamental quality of degenerate matter is that *increases in temperature do not produce an increase in volume* of the matter until the thermal pressure becomes high enough to exceed degeneracy pressure (quantum mechanical pressure, which is really high). In this case, the helium fusion increases the temperature, which increases the fusion rate, which further increases the temperature in a runaway reaction. This produces a flash of very intense helium fusion that lasts only a few minutes, but briefly emits energy at a rate comparable to the entire Milky Way galaxy.
+    
     In the case of normal low-mass stars, the enormous energy release causes the core to come out of degeneracy, allowing it to expand (because of the insane thermal energy), and any left-over energy is absorbed into the star's upper layers. Thus the helium flash is *mostly undetectable to observation*.
 
 ## Red clump / Horizontal Branch (HB)
