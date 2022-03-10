@@ -71,6 +71,8 @@ nav:
       - Orbital Mechanics:
           - 'celestial/mechanics/conservation_of_quantities.md'
           - 'celestial/mechanics/trajectory_of_particle.md'
+      - Gravitation:
+          - 'celestial/gravitation/shell_theorem.md'
       - Binary Stars:
           - 'celestial/binary/binary_system_total_energy.md'
   - Stellar Astronomy:
