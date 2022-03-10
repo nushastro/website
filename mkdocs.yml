@@ -94,7 +94,8 @@ nav:
           - stellar/math/wiens_displacement_law.md
           - stellar/math/stefan_boltzmann_law.md
   - Positional Astronomy:
-      - Spherical Trigonometry: positional/spherical_trig.md
+      - Getting Started: positional/index.md
+      - Spherical Trigonometry: positional/assets/Project Circinus v1.2.32.pdf
   - Starhopping Guide:
       - Getting Started: starhopping/index.md
   - Practical:
