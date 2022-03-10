@@ -62,17 +62,17 @@ extra_javascript:
 nav:
   - Home: index.md
   - Celestial Mechanics:
-      - Getting Started: orbital/index.md
+      - Getting Started: celestial/index.md
       - Basics:
-          - 'orbital/basics/universal_gravitation.md'
-          - 'orbital/basics/circular_motion.md'
-          - 'orbital/basics/conic_sections.md'
-          - 'orbital/basics/keplers_laws.md'
+          - 'celestial/basics/universal_gravitation.md'
+          - 'celestial/basics/circular_motion.md'
+          - 'celestial/basics/conic_sections.md'
+          - 'celestial/basics/keplers_laws.md'
       - Orbital Mechanics:
-          - 'orbital/mechanics/conservation_of_quantities.md'
-          - 'orbital/mechanics/trajectory_of_particle.md'
+          - 'celestial/mechanics/conservation_of_quantities.md'
+          - 'celestial/mechanics/trajectory_of_particle.md'
       - Binary Stars:
-          - 'orbital/binary/binary_system_total_energy.md'
+          - 'celestial/binary/binary_system_total_energy.md'
   - Stellar Astronomy:
       - Getting Started: stellar/index.md
       - Basics:
