@@ -30,14 +30,14 @@ where $A$ is the area of the surface being hit by light.
     === "Solution"
         We first find the pressure:
 
-        $$\begin{align*}P &= \frac{I}{c} \\ &= \frac{L}{4\pi c D^2} \\ &= \frac{3.828\times 10^{26}}{4\pi \times 2.998\times10^8 \times (1.496\times10^{11})^2} \\ &= 4.540 \times 10^{-6}Pa\end{align*}$$
+        $$\begin{align*}P &= \frac{2I}{c} \\ &= \frac{2L}{4\pi c D^2} \\ &= \frac{2\times3.828\times 10^{26}}{4\pi \times 2.998\times10^8 \times (1.496\times10^{11})^2} \\ &= 9.080 \times 10^{-6}Pa\end{align*}$$
 
         We can then find the force $F$ using $F=PA$
 
         For a circle, $A = \pi r^2 = 3.1416$
 
-        $$\begin{align*}F &= PA \\ &= 4.540 \times 10^{-6} \times 3.1416 \\ &= 1.426 \times 10^{-5} N \end{align*}$$
+        $$\begin{align*}F &= PA \\ &= 9.080 \times 10^{-6} \times 3.1416 \\ &= 2.853 \times 10^{-5} N \end{align*}$$
 
-        For a square $A = a^2 = 1$, hence $F = 4.540 \times 10^{-6} N$
+        For a square $A = a^2 = 1$, hence $F = 9.080 \times 10^{-6} N$
 
         Note that this is an approximation because we are assuming the rays are parallel, when the source isn't actually at infinity. However sine 1AU is much bigger than 1m, we can effectively treat it like the rays are parallel.
