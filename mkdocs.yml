@@ -71,10 +71,9 @@ nav:
       - Orbital Mechanics:
           - 'celestial/mechanics/conservation_of_quantities.md'
           - 'celestial/mechanics/trajectory_of_particle.md'
+          - 'celestial/mechanics/binary_system_total_energy.md'
       - Gravitation:
           - 'celestial/gravitation/shell_theorem.md'
-      - Binary Stars:
-          - 'celestial/binary/binary_system_total_energy.md'
   - Stellar Astronomy:
       - Getting Started: stellar/index.md
       - Basics:
@@ -90,14 +89,15 @@ nav:
           - stellar/evolution/sun_like.md
           - stellar/evolution/idk.md
       - The Magnitude System:
-          - stellar/math/apparent_absolute_magnitude.md
+          - stellar/magnitude/apparent_absolute_magnitude.md
       - Blackbody Radiation:
-          - stellar/math/blackbody_radiation.md
-          - stellar/math/wiens_displacement_law.md
-          - stellar/math/stefan_boltzmann_law.md
+          - stellar/blackbody/blackbody_radiation.md
+          - stellar/blackbody/wiens_displacement_law.md
+          - stellar/blackbody/stefan_boltzmann_law.md
+          - stellar/blackbody/radiation_pressure.md
   - Positional Astronomy:
       - Getting Started: positional/index.md
-      - Spherical Trigonometry: positional/assets/Project Circinus v1.2.32.pdf
+      - Project Circinus: positional/assets/Project Circinus v1.2.32.pdf
   - Starhopping Guide:
       - Getting Started: starhopping/index.md
   - Practical:
