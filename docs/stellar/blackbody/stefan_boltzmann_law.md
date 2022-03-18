@@ -3,7 +3,7 @@
 Luminosity ($L$) is the absolute measure of _radiated electromagnetic **power**_ (a.k.a. **light**) emitted by something like a star, galaxy, or anything astronomical object far away.
 
 !!! Note
-Luminosity **remains the same** no matter how far away you are - it is a property of the astronomical object.
+    Luminosity **remains the same** no matter how far away you are - it is a property of the astronomical object.
 
 For blackbodies there is a relation called the Stefan-Boltzmann law which allows us to calculate the luminosity.
 
@@ -40,9 +40,10 @@ where $D$ is the distance from the star.
 
 This follows the **inverse square law** of light intensity as it goes further away from its source.
 
-![inverse_square_law.png](../assets/inverse_square_law.png)
-
-> 1 square of light at 1AU gets spread across 4 squares at 2AU and further spreads to 9 squares at 3AU
+<figure>
+  ![inverse_square_law.png](../assets/inverse_square_law.png)
+  <figcaption>1 square of light at 1AU gets spread across 4 squares at 2AU and further spreads to 9 squares at 3AU</figcaption>
+</figure>
 
 !!! Question "The sun is a deadly lazer"
 
