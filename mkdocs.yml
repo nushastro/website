@@ -61,19 +61,19 @@ extra_javascript:
 
 nav:
   - Home: index.md
-  - Starhopping Guide:
-      - Getting Started: starhopping/index.md
   - Celestial Mechanics:
-      - Getting Started: orbital/index.md
+      - Getting Started: celestial/index.md
       - Basics:
-          - 'orbital/basics/universal_gravitation.md'
-          - 'orbital/basics/circular_motion.md'
-          - 'orbital/basics/conic_sections.md'
+          - 'celestial/basics/universal_gravitation.md'
+          - 'celestial/basics/circular_motion.md'
+          - 'celestial/basics/conic_sections.md'
+          - 'celestial/basics/keplers_laws.md'
       - Orbital Mechanics:
-          - 'orbital/mechanics/conservation_of_quantities.md'
-          - 'orbital/mechanics/trajectory_of_particle.md'
-      - Binary Stars:
-          - 'orbital/binary_system_total_energy.md'
+          - 'celestial/mechanics/conservation_of_quantities.md'
+          - 'celestial/mechanics/trajectory_of_particle.md'
+          - 'celestial/mechanics/binary_system_total_energy.md'
+      - Gravitation:
+          - 'celestial/gravitation/shell_theorem.md'
   - Stellar Astronomy:
       - Getting Started: stellar/index.md
       - Basics:
@@ -88,11 +88,17 @@ nav:
           - stellar/evolution/low_mass_stars.md
           - stellar/evolution/sun_like.md
       - The Magnitude System:
-          - stellar/math/apparent_absolute_magnitude.md
+          - stellar/magnitude/apparent_absolute_magnitude.md
       - Blackbody Radiation:
-          - stellar/math/blackbody_radiation.md
-          - stellar/math/wiens_displacement_law.md
-          - stellar/math/stefan_boltzmann_law.md
+          - stellar/blackbody/blackbody_radiation.md
+          - stellar/blackbody/wiens_displacement_law.md
+          - stellar/blackbody/stefan_boltzmann_law.md
+          - stellar/blackbody/radiation_pressure.md
+  - Positional Astronomy:
+      - Getting Started: positional/index.md
+      - Project Circinus: positional/assets/Project Circinus v1.2.32.pdf
+  - Starhopping Guide:
+      - Getting Started: starhopping/index.md
   - Practical:
       - practical/index.md
       - practical/telescopes.md

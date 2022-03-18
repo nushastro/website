@@ -8,7 +8,7 @@ in various sizes, colours, brightness and temperatures.
 
 Stars are powered by a process known as nuclear fusion which requires a
 minimum temperature to occur, and only stars with a mass of at least 0.08 solar masses are
-able to sustain nuclear fusion. Stars below this threshold are known as brown dwarfs. 
+able to sustain nuclear fusion. Stars below this threshold are known as brown dwarfs.
 They cannot fuse hydrogen (though some are capable of fusing deuterium).
 
 ## Hydrostatic Equilibrium
@@ -21,6 +21,6 @@ as it is in hydrostatic equilibrium. Unfortunately, the star cannot remain in th
 
 ## Memes
 
-Before, we begin, let us watch a video made by your seniors - ***Are all stars like our sun???***
+Before, we begin, let us watch a video made by your seniors - [**_Are all stars like our sun???_**](https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Fastrochallenge%2Fvideos%2F1306651829438061%2F&show_text=false&width=560&t=0)
 
 <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Fastrochallenge%2Fvideos%2F1306651829438061%2F&show_text=false&width=560&t=0" width="560" height="314" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>

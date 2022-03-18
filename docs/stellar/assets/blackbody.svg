@@ -69,7 +69,7 @@
 </linearGradient>
 </defs>
 
-<path fill="url(#grad_spectrum)" fill-opacity="0.25" d="M144 18h62v395h-62z" />
+<path fill="url(#grad_spectrum)" fill-opacity="0.5" d="M144 18h62v395h-62z" />
 <g font-family="Arial" font-size="12pt" font-weight="bold" text-anchor="middle" stroke="none" fill="#999999">
  <switch><text x="120" y="16" systemLanguage="da"><tspan>UV</tspan></text><text x="120" y="16"><tspan>UV</tspan></text></switch>
  <switch><text x="175" y="16" systemLanguage="da"><tspan>SYNLIGT</tspan></text><text x="175" y="16"><tspan>VISIBLE</tspan></text></switch>
