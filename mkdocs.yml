@@ -87,7 +87,6 @@ nav:
           - stellar/evolution/main_sequence.md
           - stellar/evolution/low_mass_stars.md
           - stellar/evolution/sun_like.md
-          - stellar/evolution/idk.md
       - The Magnitude System:
           - stellar/math/apparent_absolute_magnitude.md
       - Blackbody Radiation:
