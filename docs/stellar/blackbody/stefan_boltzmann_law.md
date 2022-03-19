@@ -32,11 +32,13 @@ $$
 
 where $D$ is the distance from the star.
 
-!!! Note
+!!! Note "Intensity is confusion"
 
-    Intensity (Brightness) is expressed as **Energy per unit area** (aka **Flux**)
+    Intensity (Brightness) in this case is expressed as **Power per unit area** aka **Flux density/Irradiance** (power **received** by a surface per unit area) or **Radiosity** (power **leaving** a surface per unit area) or **Radiant exitance** (power **emitted** by a surface per unit area), all with units $W/m^2$ or $kg/s^3$. Confusingly these are all called intensity. In this case we are dealing with **Flux density/Irradiance** since we are concerned about the amount of power received by an area.
 
-    In this case, since astronomical object emits light in all directions (spherically symmetrical), we consider the "area" to be the surface area of a sphere with radius = distance between observer and light source ($4\pi r^2$)
+    Yet more confusingly, **Radiance**, which is power **emitted, reflected, transmitted or received** by a surface, per unit **solid angle** per unit projected area is also called Intensity. This is a directional quantity instead, which means its a vector. It is expressed as **Power per unit area per unit solid angle**.
+
+In this example, since astronomical object emits light in all directions (spherically symmetrical), we consider the "area" to be the surface area of a sphere with radius = distance between observer and light source (giving total surface area as $4\pi D^2$)
 
 This follows the **inverse square law** of light intensity as it goes further away from its source.
 
