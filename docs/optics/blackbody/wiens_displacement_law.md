@@ -9,13 +9,13 @@ It is the turn of the 20th century. At this point, physicists had proved without
 ### The Problem
 
 <figure markdown>
-  ![blackbody.svg](../assets/blackbody.svg#only-light){ width="470" }
-  ![blackbody.svg](../assets/blackbody_dark.svg#only-dark){ width="470" }
+  ![blackbody.svg](../img/blackbody.svg#only-light){ width="470" }
+  ![blackbody.svg](../img/blackbody_dark.svg#only-dark){ width="470" }
   <figcaption>The spectrum of light emitted by a perfect blackbody.</figcaption>
 </figure>
 
-However, when physicists tried to predict the radiation coming from a blackbody under the assumption that light was a wave, obtained an equation now known as the Rayleigh-Jeans Law. At high frequencies, it predicted that the power emitted 
-by a blackbody would tend to infinity as the frequency increased. This clearly did not match up with experimental results 
+However, when physicists tried to predict the radiation coming from a blackbody under the assumption that light was a wave, obtained an equation now known as the Rayleigh-Jeans Law. At high frequencies, it predicted that the power emitted
+by a blackbody would tend to infinity as the frequency increased. This clearly did not match up with experimental results
 which showed that there was a peak wavelength of radiation that a blackbody would emit.
 
 This was the ultraviolet catastrophe, called as such since the experimental results deviated significantly at ultraviolet wavelengths.
@@ -61,6 +61,7 @@ $$
 where $T$ is the temperature of the surface of the star (from which radiation is emitted). The constant $b \approx 0.002898 \cdot mK$ is known as _Wien’s Wavelength Displacement Constant_.
 
 ### Derivation
+
 This formula can be derived by maximising the emission intensity, $E_\lambda$ as per Planck's aformentioned law. Since we aim to determine the maximum wavelength, we essentially let $T$ be constant while differentiating by $\lambda$. This is essentially a partial differentiation action, and we use $\frac{\partial}{\partial \lambda}$, as we depicted below.
 
 $$\frac{\partial E_\lambda}{\partial \lambda} = 2hc^2 \cdot \frac{\partial}{\partial \lambda} \left(\frac {1}{\lambda^5} \cdot \left(e^{\frac{hc}{\lambda k_BT}}-1\right)^{-1} \right) = 0$$
@@ -73,13 +74,9 @@ As you can see, this is torture. We hence try to kinda simplify it (this isn't g
 
 $$-5\left(\lambda^6 e^{\frac{hc}{\lambda k_BT}-1}\right)^{-1} - \lambda^{-5} \left( e^{\frac{hc}{\lambda k_B T}}-1\right)^{-2} e^{\frac{hc}{\lambda k_B T}}$$
 
-
-
-
-
 Now say you experimentally sample the intensity of a blackbody at many different wavelengths. If you do this for all
 wavelengths, you will get Planck’s distribution, the maximum of which can be found using Wien’s displacement formula.
 Different stars have different surface temperatures, which give different blackbody distributions with different peak
 wavelengths. This explains why hotter stars appear blue – their peak wavelengths are the shortest. Of course, it’s not just blue
-light that is reaching us: the star only appears blue because that is the dominant form of visible light that is 
+light that is reaching us: the star only appears blue because that is the dominant form of visible light that is
 reaching us. The same applies for reddish, cooler stars.
