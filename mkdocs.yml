@@ -87,13 +87,14 @@ nav:
           - stellar/evolution/main_sequence.md
           - stellar/evolution/low_mass_stars.md
           - stellar/evolution/sun_like.md
-      - The Magnitude System:
-          - stellar/magnitude/apparent_absolute_magnitude.md
+  - Light and Optics:
       - Blackbody Radiation:
-          - stellar/blackbody/blackbody_radiation.md
-          - stellar/blackbody/wiens_displacement_law.md
-          - stellar/blackbody/stefan_boltzmann_law.md
-          - stellar/blackbody/radiation_pressure.md
+          - optics/blackbody/blackbody_radiation.md
+          - optics/blackbody/wiens_displacement_law.md
+          - optics/blackbody/stefan_boltzmann_law.md
+          - optics/blackbody/radiation_pressure.md
+      - The Magnitude System:
+          - optics/magnitude/apparent_absolute_magnitude.md
   - Positional Astronomy:
       - Getting Started: positional/index.md
       - Project Circinus: positional/assets/Project Circinus v1.2.32.pdf

@@ -42,7 +42,7 @@ In this example, since astronomical object emits light in all directions (spheri
 
 This follows the **inverse square law** of light intensity as it goes further away from its source.
 
-![inverse_square_law.png](../assets/inverse_square_law.png)
+![inverse_square_law.png](../img/inverse_square_law.png)
 
 > 1 square of light at 1AU gets spread across 4 squares at 2AU and further spreads to 9 squares at 3AU
 
