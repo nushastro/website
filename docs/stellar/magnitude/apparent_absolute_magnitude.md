@@ -31,6 +31,8 @@ This came to a head when, in recent years, Vega was also found to be variable. H
 
 ### Apparent Magnitudes of Common Objects
 
+!!! Warning "$m$ is not mass"
+
 Using this method, we have been able to standardize the following variables for easy reference:
 
 | Object                                            | Magnitude         |
@@ -39,7 +41,7 @@ Using this method, we have been able to standardize the following variables for 
 | $m_{moon}$ (when brightest)                       | -12.9 (Quite Low) |
 | $m_{venus}$ (when brightest)                      | -4.9              |
 | $m_{sirius}$ (brightest star)                     | -1.5              |
-| $m_{vega}$ (reference point)                      | +0.0              |
+| $m_{vega}$ ((ex-)reference point)                 | +0.0              |
 | $m_{min}$ (faintest star visible to the naked eye | +6.0              |
 
 ### Pogson's Law
@@ -48,14 +50,28 @@ Pogson's Law is used to compare between two different objects in the night sky. 
 
 $$\frac{F_1}{F_2} = 10^{\frac{2}{5} \left(m_2 - m_1 \right)}$$
 
-For instance, this law is applicable in calculations such as comparing the brightness of the sun and the moon.
+$F$ refers to the _Flux_ of light (brightness). This law is applicable in calculations such as:
 
-Since we know that the Sun's Apparent Magnitude is -26.7, and the Full Moon's Apparent Magnitude is -12.9, we can apply it to the formula below:
+!!! Question "Comparing the brightness of the sun and the moon"
 
-$$\begin{align*} \frac{F_\bigodot}{F_{moon}} &= 10^{\frac{2}{5} \left(-12.9 - (-26.7) \right)} \\ &= 10^{\frac{2}{5}\left(13.8\right)} \\ &\approx 10^6 = 1 000 000 \end{align*}$$
+    === "Question"
+        Calculate how many times brighter the sun is as comapred to the moon (use the table above)
+
+    === "Solution"
+        Since we know that the Sun's Apparent Magnitude is -26.7, and the Full Moon's Apparent Magnitude is -12.9, we can apply it to the formula below:
+
+        $$\begin{align*} \frac{F_\bigodot}{F_{moon}} &= 10^{\frac{2}{5} \left(-12.9 - (-26.7) \right)} \\ &= 10^{\frac{2}{5}\left(13.8\right)} \\ &\approx 10^6 = 1 000 000 \end{align*}$$
 
 By this, we note that the sun is a million times brighter than the moon in the Earth sky.
+
+If we are comparing the relative magnitude of a star at different distances, we can derive another formula for comparing magnitudes:
+
+Since $F \propto \frac{L}{4\pi d^2}$:
+
+$$\begin{align*}\frac{F_1}{F_2} &= 10^{\frac{2}{5} \left(m_2 - m_1 \right)} \\ \frac{\frac{L}{4\pi d_1^2}}{\frac{L}{4\pi d_2^2}} &= 10^{\frac{2}{5} \left(m_2 - m_1 \right)} \\ \frac{d_2^2}{d_1^2} &= 10^{\frac{2}{5} \left(m_2 - m_1 \right)} \\ log\left(\frac{d_2^2}{d_1^2}\right) &= \frac{2}{5} (m_2-m_1) \\\\ 2log\left(\frac{d_2}{d_1}\right) &= \frac{2}{5} (m_2-m_1) \\ \therefore m_2 - m_1 &= 5log\left(\frac{d_2}{d_1}\right) \end{align*}$$
 
 ## Absolute Magnitude
 
 One thing to note is that we don't know if a sky in the night sky is dim simply because it's dim or because it's too far away to be visible. Hence, many decided to build on Pogson's "apparent" magnitude system with a new conception known to man as the **Absolute Magnitude**. (see the origins of the system [here](https://articles.adsabs.harvard.edu/cgi-bin/nph-iarticle_query?2006JAHH....9..173H&defaultprint=YES&filetype=.pdf))
+
+Absolute magnitude is actually just the relative magnitude of a star **10 parsecs** away.
