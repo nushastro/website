@@ -7,12 +7,45 @@ Shell theorem is, however, a great excuse for people to use point masses as repr
 Specifically, it states that:
 
 !!! Quote "Shell theorem"
-    1. A spherically symmetric body affects external objects gravitationally as though all of its mass were concentrated at a point at its center.
+
+    1. A **spherically symmetric body** affects external objects gravitationally as though all of its mass were concentrated at a point at its center.
     2. If the body is a spherically symmetric shell (i.e., a hollow ball), no net gravitational force is exerted by the shell on any object inside, regardless of the object's location within the shell.
 
-Another interesting fact is that if we assume the earth has uniform density (it doesn't), the gravitational force within the object varies linearly with distance from the center. This is because we can effectively discard the shell above the point due to point 2.
+## Point mass isn't (as much of) a scam
+
+Of course, the earth, sun, moon and most spherical-ish astronomical objects are not perfect spheres, however this serves as a good enough approximation for our calculations.
+The point mass approximation fails _not because the objects aren't a point_ but rather because _it deviates from spherical symmetry_.
+What's more, the further you are from a mass, _the less it matters_ how much it deviates from spherical symmetry.
+
+## Gravity inside a hollow shell
+
+Point 2 is interesting because when you are inside a spherical shell, even if you are off-center, the net gravitational force is $0$.
+
+![shell.png](../img/shell.png)
+
+You can think of it intuitively as the masses on the left is closer to you, resulting in greater attraction to the left, but there are more mass to the right of you, such that they cancel out perfectly.
+
+## Gravity inside the earth
+
+Another interesting fact is that if we _**assume** the earth has uniform density_, the gravitational force **inside** earth varies linearly with distance from the center.
+This is because we can effectively discard the shell above the point due to point 2.
+
+![inside_earth.png](../img/inside_earth.png#only-light)
+![inside_earth.png](../img/inside_earth_dark.png#only-dark)
+
+Let the density of the earth be $\rho$:
+
+$$\begin{align*}F_g &= G\frac{Mm}{r^2} \\ &= Gm\frac{\frac{4}{3}\pi r^3\rho}{r^2} \\ &= \frac{4}{3}Gm\pi\rho r \\ \therefore F_g &\propto r\end{align*}$$
+
+Of course, in reality this doesn't happen as the earth is not of uniform density. This is mainly because the earth's crust is less dense than the core, and the earth's mass is not uniformly spread out.
 
 ## Proof of shell theorem
+
+Hold on, why can we just assume that a point mass works just because is spherically symmetric? And how do the forces inside a hollow shell so perfectly cancel out?
+
+!!! Warning "You don't _need_ to know this"
+
+    If you haven't learn integration or aren't familiar with applying it, it is fine if you skip the proof.
 
 This proof has three steps:
 
@@ -45,7 +78,7 @@ We can now integrate it to get the gravitational force caused by a shell:
 
 $$\begin{align*}F_{shell} &= \int dF\\&=\int\frac{Gmcos\alpha}{x^2}dm \end{align*}$$
 
-Now the hard part is finding $dm$, because not all rings have the same mass (because they will not be have the same size)
+Now the hard part is finding $dm$, because not all rings have the same mass (because they will not all have the same size)
 
 ![ring_shell.png](../img/ring_shell.png#only-light){ width="480"}
 ![ring_shell.png](../img/ring_shell_dark.png#only-dark){ width="480"}
