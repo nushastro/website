@@ -81,7 +81,7 @@ $$\begin{align*}F_{shell} &= \int dF\\&=\int\frac{Gmcos\alpha}{x^2}dm \end{align
 Now the hard part is finding $dm$, because not all rings have the same mass (because they will not all have the same size)
 
 ![ring_shell.png](../img/ring_shell.png#only-light){ width="480"}
-![ring_shell.png](../img/ring_shell_dark.png#only-dark){ width="480"}
+![ring_shell.png](../img/ring_shell_dark.gif#only-dark){ width="480"}
 
 #### Finding the mass of a ring
 
