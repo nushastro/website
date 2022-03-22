@@ -48,7 +48,7 @@ Using this method, we have been able to standardize the following variables for 
 
 Pogson's Law is used to compare between two different objects in the night sky. We use a logarithmic scale of base 10, or 2.512. The equation is as follows:
 
-$$\frac{F_1}{F_2} = 10^{\frac{2}{5} \left(m_2 - m_1 \right)}$$
+$$\begin{align*}\frac{F_1}{F_2} &= 10^{\frac{2}{5} \left(m_2 - m_1 \right)}\\m_2-m_1 &= 2.5\log\left(\frac{F_1}{F_2}\right) \\ m_1-m_2 &= -2.5\log\left(\frac{F_1}{F_2}\right)\end{align*}$$
 
 $F$ refers to the _Flux_ of light (brightness). This law is applicable in calculations such as:
 
@@ -68,10 +68,35 @@ If we are comparing the relative magnitude of a star at different distances, we 
 
 Since $F \propto \frac{L}{4\pi d^2}$:
 
-$$\begin{align*}\frac{F_1}{F_2} &= 10^{\frac{2}{5} \left(m_2 - m_1 \right)} \\ \frac{\frac{L}{4\pi d_1^2}}{\frac{L}{4\pi d_2^2}} &= 10^{\frac{2}{5} \left(m_2 - m_1 \right)} \\ \frac{d_2^2}{d_1^2} &= 10^{\frac{2}{5} \left(m_2 - m_1 \right)} \\ log\left(\frac{d_2^2}{d_1^2}\right) &= \frac{2}{5} (m_2-m_1) \\\\ 2log\left(\frac{d_2}{d_1}\right) &= \frac{2}{5} (m_2-m_1) \\ \therefore m_2 - m_1 &= 5log\left(\frac{d_2}{d_1}\right) \end{align*}$$
+$$\begin{align*}\frac{F_1}{F_2} &= 10^{\frac{2}{5} \left(m_2 - m_1 \right)} \\ \frac{\frac{L}{4\pi d_1^2}}{\frac{L}{4\pi d_2^2}} &= 10^{\frac{2}{5} \left(m_2 - m_1 \right)} \\ \frac{d_2^2}{d_1^2} &= 10^{\frac{2}{5} \left(m_2 - m_1 \right)} \\ \log\left(\frac{d_2^2}{d_1^2}\right) &= \frac{2}{5} (m_2-m_1) \\\\ 2\log\left(\frac{d_2}{d_1}\right) &= \frac{2}{5} (m_2-m_1) \\ \therefore m_2 - m_1 &= 5\log\left(\frac{d_2}{d_1}\right) \end{align*}$$
+
+!!! Question
+
+    === "(I10 - T01 - A)"
+
+        In a binary system, the apperant magnitude of the primary star is 1.0 and that of the secondary star is 2.0 Find the maximum combined magnitude of this system
+
+    === "Solution"
+
+        Let $F_1$, $F_2$, $F_c$ be the flux of the primary star, secondary star and combined flux, respectively
+
+        $$\begin{align*} \frac{F_1}{F_2} &= 10^{\frac{2}{5}\left(m_2-m_1\right)} \\ &= 10^{0.4}\end{align*}$$
+
+        We then have:
+
+        $$m_c - m_2 = -2.5\log\left(\frac{F_c}{F_2}\right)$$
+
+        Since $F_c = F_1 + F_2$,
+
+        $$\begin{align*} m_c &= m_2 - 2.5\log\left(\frac{F_1 + F_2}{F_2}\right) \\ &= 2 - 2.5\log\left(1 + \frac{F_1}{F_2}\right) \\ &= 2 - 2.5\log\left(1+10^{0.4}\right) \\ &= 2 - 1.36 \\ &= +0.64 \end{align*}$$
 
 ## Absolute Magnitude
 
 One thing to note is that we don't know if a sky in the night sky is dim simply because it's dim or because it's too far away to be visible. Hence, many decided to build on Pogson's "apparent" magnitude system with a new conception known to man as the **Absolute Magnitude**. (see the origins of the system [here](https://articles.adsabs.harvard.edu/cgi-bin/nph-iarticle_query?2006JAHH....9..173H&defaultprint=YES&filetype=.pdf))
 
 Absolute magnitude is actually just the relative magnitude of a star **10 parsecs** away.
+Hence we can derive the following equation:
+
+$$ m - M = 5log\left(\frac{d}{10 pc}\right) $$
+
+$pc$ in this case is a _parsec_ which is $3.086 \times 10^{16}m$ or $3.262$ light years.
