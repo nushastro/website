@@ -51,6 +51,7 @@ The area $A$ of an ellipse can be given by:
 $$ A = \pi a b$$
 
 !!! warning
+
     There is no nice formula for the perimeter of the ellipse. The reason why will give you [a world of nightmares never seen before](https://www.youtube.com/watch?v=wc9H-apkH2M).
 
 ### Aphelion and Perihelion
@@ -90,6 +91,7 @@ These also describe paths of objects in space that will never come back, for exa
 ![](../img/oumuamua_orbit.png)
 
 !!! note
+
     Every single "orbit" a mass can take _is a conic section_ (approximately).
     The reason why this happens will (hopefully) be covered in a later section.
     This is approximate as this assume the second mass does not move, and that the orbiting mass is a point mass.
