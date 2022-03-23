@@ -39,7 +39,7 @@ $$\begin{align*}F_g &= G\frac{Mm}{r^2} \\ &= Gm\frac{\frac{4}{3}\pi r^3\rho}{r^2
 
 Of course, in reality this doesn't happen as the earth is not of uniform density. This is mainly because the earth's crust is less dense than the core, and the earth's mass is not uniformly spread out.
 
-## Proof of shell theorem
+## Extension: Proof of shell theorem
 
 Hold on, why can we just assume that a point mass works just because is spherically symmetric? And how do the forces inside a hollow shell so perfectly cancel out?
 

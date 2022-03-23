@@ -6,6 +6,26 @@
 
 Gravitational force is different from _tension, friction and contact force (which all require some form of contact)_. Since gravitational force can be **exerted at a distance**, we associate it with a _"**gravitational field**"_. The gravitational field of a mass can be thought of as the region surrounding that mass where another mass will experience a gravitational force.
 
+## Representing Gravitational Field
+
+A common way to represent a gravitational field in a region of space is to use field lines. Gravitational field lines are related to the gravitational field according to:
+
+1. **Direction**
+   The gravitational field vector $\vec g$ is tangent to the gravitational field line at each point in space.
+2. **Magnitude**/Field Strength
+   The magnitude of the gravitational field is proportional to the number of field lines per unit area through a surface perpendicular to the lines.
+   Therefore $\vec g$ is larger when the lines are close together and smaller when they are further apart.
+
+![](../img/Gravitational_field_Earth_lines.svg#only-light)
+![](../img/Gravitational_field_Earth_lines_dark.svg#only-dark)
+
+The gravitational field in the vicinity of a point mass is always directed towards the mass.
+
+The magnitude of the gravitational field is inversely proportional to the square of the distance from the point mass.
+Therefore, at regions further from the point mass, there are fewer fields lines per unit area.
+
+So how do we assign a number to $g$?
+
 ## Gravitational Field Strength $\vec g$
 
 -   The Earth's gravitational field is stronger at points nearer Earth than at points further from Earth
@@ -96,7 +116,7 @@ $$g \propto \frac{1}{r^2}$$
 
 From the definition of weight as the gravitational force that acts on a body, **True weightlessness = NO gravitational force acting on a body**
 
-!!! Example "When will a body experiene true weightlessness?"
+!!! Example "When will a body experience true weightlessness?"
 
     1. Applying $F_g = \frac{Gm_1m_2}{r^2}$, $F_g = 0$ when $r$ is infinitely large.
     2. Since $F_g$ is actually a vector ($\vec F_g$), it can be $0$ at a point between 2 bodies ($\vec F_{g1} + \vec F_{g2} = \vec 0$)
