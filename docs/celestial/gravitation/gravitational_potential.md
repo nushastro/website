@@ -55,7 +55,7 @@ A vectorized version of this will be covered sometime later.
 
     $U$ is a **scalar**, not a vector, it doesn't have a direction. It just simply means that $U_{near} < U_{far}$ because you need to input energy to move an object to near to far, and that energy gets converted Gravitational Potential Energy, i.e. $U_{near} + \Delta E = U_{far}$
 
-TL;DR: It is define by workdone by an external agent to bring a mass from infinity to that point
+TL;DR: It is defined as work done by an external agent to bring a mass from infinity to that point
 
 ## Gravitational Potential $\phi$
 
@@ -64,9 +64,9 @@ To eliminate dependece on the test mass, we use _gravitational potential_ $\phi$
 
 Gravitational Potential $\phi$ is essentially just $U$ per unit mass, hence you can deduce the formula is:
 
-$$\phi = \fracP{U_g}{m} = -\frac{GM}{r}$$
+$$\phi = \frac{U_g}{m} = -\frac{GM}{r}$$
 
-$\phi$ is also a **scalar** like $U$, but unlike $U$, it **does not matter what the test mass is**. It is also negative.
+$\phi$ is also a **scalar** like $U$, but unlike $U$, it **does not matter what the test mass is**. It is also negative like $U$.
 
 ![](../img/Gravitational_field_Earth_lines_equipotentials.svg#only-light)
 ![](../img/Gravitational_field_Earth_lines_equipotentials_dark.svg#only-dark)
@@ -77,9 +77,9 @@ There are a few things to note:
 
 2. The closer the equipotential lines, the greater the gravitational field strength $g$. Since the equipotentials are geting more spaced out the further you go from earth, $g$ decreases with increasing $r$.
 
-3. The **change in potential** ($\delta\phi$) or **the change in GPE** ($\delta U$) is **independent of the path taken by the object**. It only depends on the **start and end points**. i.e. $\delta\phi = \phi_{endpoint} - \phi_{startpoint}$ is true for all paths. (you can also replace $\phi$ with $U$)
+3. The **change in potential** ($\Delta\phi$) or **the change in GPE** ($\Delta U$) is **independent of the path taken by the object**. It only depends on the **start and end points**. i.e. $\Delta\phi = \phi_{endpoint} - \phi_{startpoint}$ is true for all paths. (you can also replace $\phi$ with $U$)
 
-4. The minimum work per unit mass to remove an object out of a potential well due to the earth is $\frac{GM}{R_\oplus}$
+4. The minimum work per unit mass to remove an object out of a potential well due to the earth is $\frac{GM}{R_\oplus}$ (this is just $-U$ at surface of earth, because $U=0$ means escaping the potential well, which means $r\rightarrow\infty$)
 
 ## Relationships between $F_g$, $\frac{dU}{dr}$ and $g$, $\frac{d\phi}{dr}$
 
@@ -93,7 +93,7 @@ We also know that $\text{Work Done} = \Delta U$. Plugging in the integral formul
 
 $$\begin{align*}\Delta U &= \int F_{ext}dr \\ F_{ext} &= \frac{dU}{dr} \\ F_g &= -\frac{dU}{dr}\end{align*}$$
 
-If we divide both sides my $m$ we get:
+If we divide both sides by $m$ we get:
 
 $$g = -\frac{d\phi}{dr}$$
 
@@ -104,4 +104,4 @@ This is known as the **potential gradient** which is numerically equal to gravit
 ![](../img/gravitational_relationships_summary.png#only-light)
 ![](../img/gravitational_relationships_summary_dark.png#only-dark)
 
-> low quality image stolen from physics notes
+> low quality image stolen from physics notes. $xm$ should really be $\times m$
