@@ -66,17 +66,17 @@ $$F_g = \frac{GmM_{point}}{x^2}$$
 
 Since the ring is circular, the $y$ and $z$-components of $F_g$ cancel out, and we only care about the force in the $x$-direction. We get:
 
-$$F_{ring} = \frac{GmM_{ring}}{x^2}cos\alpha$$
+$$F_{ring} = \frac{GmM_{ring}}{x^2}\cos\alpha$$
 
 ### Finding gravitational force caused by a shell
 
 However, as it turns out this ring is actually infinitely thin with infinitesimal mass so we have to use differentials instead:
 
-$$dF = \frac{Gm\cdot dm}{x^2}cos\alpha$$
+$$dF = \frac{Gm\cdot dm}{x^2\cos\alpha$$
 
 We can now integrate it to get the gravitational force caused by a shell:
 
-$$\begin{align*}F_{shell} &= \int dF\\&=\int\frac{Gmcos\alpha}{x^2}dm \end{align*}$$
+$$\begin{align*}F_{shell} &= \int dF\\&=\int\frac{Gm\cos\alpha}{x^2}dm \end{align*}$$
 
 Now the hard part is finding $dm$, because not all rings have the same mass (because they will not all have the same size)
 
@@ -91,50 +91,50 @@ $$m_{ring} = \rho V_{ring}$$
 
 now we need to find the volume of an infinitesimal ring:
 
-$$\begin{align*}V_{ring} &= circumference \cdot thickness \cdot arc length \\ &= 2\pi R' \cdot t \cdot R d\theta \\ &= 2\pi R sin\theta tR \cdot d\theta\end{align*}$$
+$$\begin{align*}V_{ring} &= circumference \cdot thickness \cdot arc length \\ &= 2\pi R' \cdot t \cdot R d\theta \\ &= 2\pi R \sin\theta tR \cdot d\theta\end{align*}$$
 
-(since $R'= Rsin\theta$)
+(since $R'= R\sin\theta$)
 
 ![ring_volume.png](../img/ring_volume.png#only-light){ width="480"}
 ![ring_volume.png](../img/ring_volume_dark.png#only-dark){ width="480"}
 
 Therefore we can get the mass of a ring:
 
-$$\begin{align*}m_{ring} &= \rho V_{ring} \\ &= \rho 2\pi R sin\theta tR d\theta \\ &= 2\pi t \rho R^2 sin\theta d \theta\end{align*}$$
+$$\begin{align*}m_{ring} &= \rho V_{ring} \\ &= \rho 2\pi R \sin\theta tR d\theta \\ &= 2\pi t \rho R^2 \sin\theta d \theta\end{align*}$$
 
 #### Finding the total mass of a shell
 
 We can do this by simply integrating $m_{ring}$:
 
-$$\begin{align*}m_{shell} &= \int_{0}^{\pi} 2\pi t \rho R^2 sin\theta d \theta \\ &= 2\pi t\rho R^2 \int_{0}^{\pi} sin\theta d\theta\\&= 2\pi t\rho R^2 \left[-cos\theta\right]_{0}^{\pi} \\ &= 2\pi t\rho R^2 (-cos\pi + cos 0)\\ &= 4\pi t\rho R^2\end{align*}$$
+$$\begin{align*}m_{shell} &= \int_{0}^{\pi} 2\pi t \rho R^2 \sin\theta d \theta \\ &= 2\pi t\rho R^2 \int_{0}^{\pi} \sin\theta d\theta\\&= 2\pi t\rho R^2 \left[-\cos\theta\right]_{0}^{\pi} \\ &= 2\pi t\rho R^2 (-\cos\pi + \cos 0)\\ &= 4\pi t\rho R^2\end{align*}$$
 
 the bounds are $0$ and $\pi$ because $0\leq\theta\leq\pi$.
 
 #### Back to the force from the shell
 
-$$\begin{align*}F_{shell} &= \int dF\\ &= \int \frac{Gm}{x^2} cos\alpha  dm \\ &= \int\frac{Gm}{x^2} cos\alpha 2\pi t \rho R^2 sin\theta d \theta \\ &= 2 \pi t\rho R^2Gm\int \frac{cos\alpha sin\theta}{x^2} d\theta\end{align*}$$
+$$\begin{align*}F_{shell} &= \int dF\\ &= \int \frac{Gm}{x^2} \cos\alpha  dm \\ &= \int\frac{Gm}{x^2} \cos\alpha 2\pi t \rho R^2 \sin\theta d \theta \\ &= 2 \pi t\rho R^2Gm\int \frac{\cos\alpha \sin\theta}{x^2} d\theta\end{align*}$$
 
-This is still a mess. We need to get rid of the $\alpha$ and $\theta$ somehow. We can get $cos\alpha$ by using:
+This is still a mess. We need to get rid of the $\alpha$ and $\theta$ somehow. We can get $\cos\alpha$ by using:
 
-$$\begin{align*}cos\alpha &= \frac{Adj}{Hyp} \\ &= \frac{d-Rcos\theta}{x}\end{align*}$$
+$$\begin{align*}\cos\alpha &= \frac{Adj}{Hyp} \\ &= \frac{d-R\cos\theta}{x}\end{align*}$$
 
-We can also use the cosine rule $c^2 = a^2+b^2-2ab cos C$:
+We can also use the cosine rule $c^2 = a^2+b^2-2ab \cos C$:
 
-$$\begin{align*}x^2 &= d^2 +R^2 - 2dRcos\theta \\ -Rcos\theta&=\frac{x^2-d^2-R^2}{2d}\end{align*}$$
+$$\begin{align*}x^2 &= d^2 +R^2 - 2dR\cos\theta \\ -\Rcos\theta&=\frac{x^2-d^2-R^2}{2d}\end{align*}$$
 
 we can plug this back:
 
-$$\begin{align*}cos\alpha &= \frac{d-Rcos\theta}{x} \\ &= \frac{d+\frac{x^2-d^2-R^2}{2d}}{x} \\ &= \frac{\frac{2d^2}{2d}+\frac{x^2-d^2-R^2}{2d}}{x} \\ &= \frac{\frac{2d^2+x^2-d^2-R^2}{2d}}{x} \\ &= \frac{d^2+x^2-R^2}{2d\cdot x} \end{align*}$$
+$$\begin{align*}\cos\alpha &= \frac{d-R\cos\theta}{x} \\ &= \frac{d+\frac{x^2-d^2-R^2}{2d}}{x} \\ &= \frac{\frac{2d^2}{2d}+\frac{x^2-d^2-R^2}{2d}}{x} \\ &= \frac{\frac{2d^2+x^2-d^2-R^2}{2d}}{x} \\ &= \frac{d^2+x^2-R^2}{2d\cdot x} \end{align*}$$
 
-now $cos\alpha$ is only in terms of x!
+now $\cos\alpha$ is only in terms of x!
 
-Now to deal with $sin\theta d\theta$ we do implicit differentiation:
+Now to deal with $\sin\theta d\theta$ we do implicit differentiation:
 
-$$\begin{align*}-Rcos\theta&=\frac{x^2-d^2-R^2}{2d} \\ \frac{d}{dx} \left(-Rcos\theta\right) &= \frac{d}{dx} \frac{x^2-d^2-R^2}{2d} \\ \frac{d}{d\theta} \left(-Rcos\theta\right) \frac{d\theta}{dx} &= \frac{d}{dx} \left(\frac{1}{2d}x^2-\frac{d^2-R^2}{2d}\right) \\ Rsin\theta \frac{d\theta}{dx} &= \frac{d}{dx} \left(\frac{1}{2d}x^2\right)-\frac{d}{dx}\left(\frac{d^2-R^2}{2d}\right) \\ Rsin\theta \frac{d\theta}{dx} &= \frac{2x}{2d} + 0 \\ Rsin\theta d\theta &= \frac{x}{d} dx \\ sin\theta d\theta &= \frac{x}{Rd} dx\end{align*}$$
+$$\begin{align*}-R\cos\theta&=\frac{x^2-d^2-R^2}{2d} \\ \frac{d}{dx} \left(-R\cos\theta\right) &= \frac{d}{dx} \frac{x^2-d^2-R^2}{2d} \\ \frac{d}{d\theta} \left(-R\cos\theta\right) \frac{d\theta}{dx} &= \frac{d}{dx} \left(\frac{1}{2d}x^2-\frac{d^2-R^2}{2d}\right) \\ R\sin\theta \frac{d\theta}{dx} &= \frac{d}{dx} \left(\frac{1}{2d}x^2\right)-\frac{d}{dx}\left(\frac{d^2-R^2}{2d}\right) \\ R\sin\theta \frac{d\theta}{dx} &= \frac{2x}{2d} + 0 \\ R\sin\theta d\theta &= \frac{x}{d} dx \\ \sin\theta d\theta &= \frac{x}{Rd} dx\end{align*}$$
 
 And finally back to $F_{shell}$:
 
-$$\begin{align*}F_{shell} &= 2 \pi t\rho R^2Gm\int \frac{cos\alpha sin\theta}{x^2} d\theta \\ &= 2 \pi t\rho R^2Gm\int x^-2\frac{d^2+x^2-R^2}{2d\cdot x} \frac{x}{Rd} dx \\ &= 2\pi t\rho R^2Gm\int \frac{d^2+x^2-R^2}{2d^2 R x^2} dx \\ &= \frac{2\pi t\rho R^2Gm}{2d^2 R}\int\frac{d^2+x^2-R^2}{x^2} dx \\ &= \frac{\pi t\rho RGm}{d^2}\int\left(\frac{d^2-R^2}{x^2}+1\right) dx \end{align*}$$
+$$\begin{align*}F_{shell} &= 2 \pi t\rho R^2Gm\int \frac{\cos\alpha \sin\theta}{x^2} d\theta \\ &= 2 \pi t\rho R^2Gm\int x^-2\frac{d^2+x^2-R^2}{2d\cdot x} \frac{x}{Rd} dx \\ &= 2\pi t\rho R^2Gm\int \frac{d^2+x^2-R^2}{2d^2 R x^2} dx \\ &= \frac{2\pi t\rho R^2Gm}{2d^2 R}\int\frac{d^2+x^2-R^2}{x^2} dx \\ &= \frac{\pi t\rho RGm}{d^2}\int\left(\frac{d^2-R^2}{x^2}+1\right) dx \end{align*}$$
 
 Ok hold up, what are the bounds for this? Well, x must be in the range between the distance to the closest point of the sphere $d-R$ or the furthest point of the sphere $d+R$, so can use those as the bounds:
 
