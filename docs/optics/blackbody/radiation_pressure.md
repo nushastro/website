@@ -40,4 +40,4 @@ where $A$ is the area of the surface being hit by light.
 
         For a square $A = a^2 = 1$, hence $F = 9.080 \times 10^{-6} N$
 
-        Note that this is an approximation because we are assuming the rays are parallel, when the source isn't actually at infinity. However sine 1AU is much bigger than 1m, we can effectively treat it like the rays are parallel.
+        Note that this is an approximation because we are assuming the rays are parallel, when the source isn't actually at infinity. However since 1AU is much bigger than 1m, we can effectively treat it like the rays are parallel.
