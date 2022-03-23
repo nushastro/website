@@ -45,7 +45,7 @@ Hold on, why can we just assume that a point mass works just because is spherica
 
 !!! Warning "You don't _need_ to know this"
 
-    If you haven't learn integration or aren't familiar with applying it, it is fine if you skip the proof.
+    If you haven't learn integration or aren't familiar with applying it, it is fine if you skip the proof. The proof is rather advanced compared to what is currently covered, so as long as you get the gist of the previous section you are fine.
 
 This proof has three steps:
 
@@ -58,7 +58,7 @@ This proof has three steps:
 ![ring_diagram.png](../img/ring_diagram.png#only-light)
 ![ring_diagram.png](../img/ring_diagram_dark.png#only-dark)
 
-> Finding the gravitational force caused by a ring, which is part of a shell of radius R. d is the distance of the object to the center of mass of the sphere that we care about. $\theta$ is the angle to the ring. ($0\leq\theta\leq\pi$)
+> Finding the gravitational force caused by a ring, which is part of a shell of radius R. d is the distance of the object to the center of mass of the sphere that we care about. $\theta$ is the angle to the ring. ($0\leq\theta\leq\pi$, if you are inside the sphere)
 
 We can start by getting the gravitational force from a single point:
 
