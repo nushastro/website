@@ -99,7 +99,7 @@ From the definition of weight as the gravitational force that acts on a body, **
 !!! Example "When will a body experiene true weightlessness?"
 
     1. Applying $F_g = \frac{Gm_1m_2}{r^2}$, $F_g = 0$ when $r$ is infinitely large.
-    2. Since $F_g$ is actually a vector $\vec F_g$, it can $0$ at a point between 2 bodies ($\vec F_{g1} + \vec F_{g2} = \vec 0)
+    2. Since $F_g$ is actually a vector ($\vec F_g$), it can be $0$ at a point between 2 bodies ($\vec F_{g1} + \vec F_{g2} = \vec 0$)
 
 ### Apparent Weightlessness
 
