@@ -56,7 +56,7 @@ $$ A = \pi a b$$
 
 ### Aphelion and Perihelion
 
-![perihelion-aphelion.svg](../img/perihelion-aphelion.svg#only-light)
+![perihelion-aphelion.svg](../img/perihelion_aphelion.svg#only-light)
 ![perihelion-aphelion.svg](../img/perihelion-aphelion-dark.svg#only-dark)
 
 **Aphelion**: point in the orbit that is **furthest** away from the sun/bigger mass $r_{ap} = a(1+\varepsilon)$
