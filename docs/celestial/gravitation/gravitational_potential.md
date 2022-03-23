@@ -87,7 +87,7 @@ There are a few things to note:
 
 > bad color theory in action
 
-Consider a mass $M$ fixed in space. Suppose we move a mass m from Point P to P' in the gravitational field of $M$ by applying an external force $F_{ext}$ (you may know this as the $F_{mysterious}$ from earlier) such that there is no change in KE of $m$. Then: $F\_{ext} = -F_g$
+Consider a mass $M$ fixed in space. Suppose we move a mass m from Point P to P' in the gravitational field of $M$ by applying an external force $F_{ext}$ (you may know this as the $F_{mysterious}$ from earlier) such that there is no change in KE of $m$. Then: $F_{ext} = -F_g$
 
 We also know that $\text{Work Done} = \Delta U$. Plugging in the integral formula for Work Done, we have:
 
@@ -104,4 +104,4 @@ This is known as the **potential gradient** which is numerically equal to gravit
 ![](../img/gravitational_relationships_summary.png#only-light)
 ![](../img/gravitational_relationships_summary_dark.png#only-dark)
 
-> low quality image stolen from physics notes. $xm$ should really be $\times m$
+> low quality image stolen from physics notes. "$xm$" should really be "$\times m$", and "$1 \div m$" really means "$\times (1\div m)$" or just "$\div m$"
