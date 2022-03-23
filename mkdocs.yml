@@ -68,12 +68,14 @@ nav:
           - 'celestial/basics/circular_motion.md'
           - 'celestial/basics/conic_sections.md'
           - 'celestial/basics/keplers_laws.md'
+      - Gravitation:
+          - 'celestial/gravitation/gravitational_field.md'
+          - 'celestial/gravitation/shell_theorem.md'
       - Orbital Mechanics:
           - 'celestial/mechanics/conservation_of_quantities.md'
           - 'celestial/mechanics/trajectory_of_particle.md'
           - 'celestial/mechanics/binary_system_total_energy.md'
-      - Gravitation:
-          - 'celestial/gravitation/shell_theorem.md'
+      
   - Stellar Astronomy:
       - Getting Started: stellar/index.md
       - Basics:
