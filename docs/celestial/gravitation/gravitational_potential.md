@@ -55,7 +55,39 @@ A vectorized version of this will be covered sometime later.
 
     $U$ is a **scalar**, not a vector, it doesn't have a direction. It just simply means that $U_{near} < U_{far}$ because you need to input energy to move an object to near to far, and that energy gets converted Gravitational Potential Energy, i.e. $U_{near} + \Delta E = U_{far}$
 
+![](../img/gravitational_potential_energy.png#only-light)
+![](../img/gravitational_potential_energy_dark.png#only-dark)
+
+!!! Question
+
+    ![](../img/gpe_question.png#only-light)
+    ![](../img/gpe_question_dark.png#only-dark)
+
+    === "Question"
+
+        The diagram shows 2 points X and Y at distance $L$ and $3L$ respectively, from the center of the earth (of mass $M$). Find an expression for the change in the gravitational potential energy of a mass $m$ as it is brought from X to Y.
+
+    === "Solution"
+
+        $$\begin{align*}\Delta U &= U_y - U_x \\ &= -\frac{GMm}{3L} - \left(-\frac{GMm}{L}\right) \\ &= \frac{2GMm}{3L}\end{align*}$$
+
+        This makes sense as $\frac{2GMm}{3L}$ is positive and you need to put in energy for an object to "move up the gravitational well"
+
 TL;DR: It is defined as work done by an external agent to bring a mass from infinity to that point
+
+??? Question "$mgh$?"
+
+    === "$mgh$ is revived?"
+
+        Show that the expression $mgh$ is valid for small distances from the surface of the earth.
+
+    === "Solution"
+
+        $$\begin{align*}\Delta U &= U_{suface} - U_{higher} \\ &= -\frac{GMm}{R_\oplus} - \left(-\frac{GMm}{R_\oplus + h}\right) \\ &= GMm\left(\frac{1}{R_\oplus + h} - \frac{1}{R_\oplus}\right) \\ &= GMm\left(\frac{R_\oplus}{R_\oplus(R_\oplus+h)} - \frac{R_\oplus + h}{R_\oplus(R_\oplus+h)}\right) \\ &= GMm\left(\frac{-h}{R_\oplus(R_\oplus+h)}\right)\end{align*}$$
+
+        We can approximate $R_\oplus(R_\oplus+h) \approx R_\oplus^2$ since $R_\oplus \gg h$
+
+        $$\begin{align*}\Delta U &= -\frac{GMmh}{R_\oplus^2} \\ &= m\left(-\frac{GM}{R_\oplus^2}\right)h \\ &= mgh\end{align*}$$
 
 ## Gravitational Potential $\phi$
 
@@ -78,6 +110,9 @@ There are a few things to note:
 2. The closer the equipotential lines, the greater the gravitational field strength $g$. Since the equipotentials are geting more spaced out the further you go from earth, $g$ decreases with increasing $r$.
 
 3. The **change in potential** ($\Delta\phi$) or **the change in GPE** ($\Delta U$) is **independent of the path taken by the object**. It only depends on the **start and end points**. i.e. $\Delta\phi = \phi_{endpoint} - \phi_{startpoint}$ is true for all paths. (you can also replace $\phi$ with $U$)
+
+    ![](../img/conservative_force.png#only-light)
+    ![](../img/conservative_force_dark.png#only-dark)
 
 4. The minimum work per unit mass to remove an object out of a potential well due to the earth is $\frac{GM}{R_\oplus}$ (this is just $-U$ at surface of earth, because $U=0$ means escaping the potential well, which means $r\rightarrow\infty$)
 
