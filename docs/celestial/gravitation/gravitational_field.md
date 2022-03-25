@@ -95,6 +95,9 @@ Hence the **magnitude** of the gravitational field strength due to point mass $M
 
 $$g \propto \frac{1}{r^2}$$
 
+![g_outside.png](../img/g_outside.png#only-light)
+![g_outside.png](../img/g_outside_dark.png#only-dark)
+
 !!! Question
 
     === "Ripped from physics notes"

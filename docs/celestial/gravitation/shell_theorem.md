@@ -37,7 +37,19 @@ Let the density of the earth be $\rho$:
 
 $$\begin{align*}F_g &= G\frac{Mm}{r^2} \\ &= Gm\frac{\frac{4}{3}\pi r^3\rho}{r^2} \\ &= \frac{4}{3}Gm\pi\rho r \\ \therefore F_g &\propto r\end{align*}$$
 
+And hence:
+
+![g_inside.png](../img/g_inside.png#only-light)
+![g_inside.png](../img/g_inside_dark.png#only-dark)
+
+We can combined this with the inverse square law to give the following graph:
+
+![gravitational_field_strength.png](../img/gravitational_field_strength.png#only-light)
+![gravitational_field_strength.png](../img/gravitational_field_strength_dark.png#only-dark)
+
 Of course, in reality this doesn't happen as the earth is not of uniform density. This is mainly because the earth's crust is less dense than the core, and the earth's mass is not uniformly spread out.
+
+Another thing to note is that earth is not actually a sphere, but is somewhat ellipsoidal, so at the poles you are closer to the center of the earth and experience greater $g$
 
 ## Extension: Proof of shell theorem
 
