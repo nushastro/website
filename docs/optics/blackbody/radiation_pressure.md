@@ -32,7 +32,7 @@ where $A$ is the area of the surface being hit by light.
 
         $$\begin{align*}P &= \frac{2I}{c} \\ &= \frac{2L}{4\pi c D^2} \\ &= \frac{2\times3.828\times 10^{26}}{4\pi \times 2.998\times10^8 \times (1.496\times10^{11})^2} \\ &= 9.080 \times 10^{-6}Pa\end{align*}$$
 
-        We can then find the force $F$ using $F=PA$
+        We can then find the force $F$ using $P=\frac{F}{A}$
 
         For a circle, $A = \pi r^2 = 3.1416$
 

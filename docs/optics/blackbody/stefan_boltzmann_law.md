@@ -5,7 +5,7 @@ Luminosity ($L$) is the absolute measure of _radiated electromagnetic **power**_
 !!! Note
 Luminosity **remains the same** no matter how far away you are - it is a property of the astronomical object.
 
-For blackbodies there is a relation called the Stefan-Boltzmann law which allows us to calculate the luminosity.
+For blackbodies there is a relation called the Stefan-Boltzmann law which allows us to calculate the luminosity $L$.
 
 $$
 L = 4 \pi R^2 \sigma T^4
@@ -24,33 +24,46 @@ where $R$ is the radius of the star, $\sigma$ is the Stefan-Boltzmann Constant a
 
         $$\begin{align*}T &= \sqrt[4]{\frac{L}{4\pi R^2\sigma}} \\ &= \sqrt[4]{\frac{3.828\times 10^{26}\times 10^{-12}}{4\pi \times 13.0967^2 \times 5.67\times 10^{-8}}} \\ &= 42069K \end{align*}$$
 
-To find the brightness / intensity of the star some distance away from it, we can use
+To find the brightness (flux density of light, aka Intensity) of the star some distance away from it, we can use
 
 $$
-I = \frac{Power}{Area} = \frac{L}{4 \pi D^2}
+\text{Flux Density} = I = \frac{\text{Power}}{\text{Area}} = \frac{L}{4 \pi D^2}
 $$
 
 where $D$ is the distance from the star.
 
 !!! Note "Intensity is confusion"
 
-    Intensity (Brightness) in this case is expressed as **Power per unit area** aka **Flux density/Irradiance** (power **received** by a surface per unit area) or **Radiosity** (power **leaving** a surface per unit area) or **Radiant exitance** (power **emitted** by a surface per unit area), all with units $W/m^2$ or $kg/s^3$. Confusingly these are all called intensity. In this case we are dealing with **Flux density/Irradiance** since we are concerned about the amount of power received by an area.
+    You may sometimes see this being called "Intensity", which in this case is expressed as **Power per unit area**. Power per unit area ($W/m^2$ or $kg/s^3$) can refer to any of the following:
+
+    - **Flux density/Irradiance** (power **received** by a surface per unit area)
+    - **Radiosity** (power **leaving** a surface per unit area)
+    - **Radiant exitance** (power **emitted** by a surface per unit area)
+
+    Confusingly these are all called intensity. In this case we are dealing with **Flux density/Irradiance** since we are concerned about the amount of power received by an area.
 
     Yet more confusingly, **Radiance**, which is power **emitted, reflected, transmitted or received** by a surface, per unit **solid angle** per unit projected area is also called Intensity. This is a directional quantity instead, which means its a vector. It is expressed as **Power per unit area per unit solid angle**.
+
+    If you would like to know every single unit regarding light there is a [handy wikipedia template](https://en.wikipedia.org/wiki/Template:SI_radiometry_units)
 
 In this example, since astronomical object emits light in all directions (spherically symmetrical), we consider the "area" to be the surface area of a sphere with radius = distance between observer and light source (giving total surface area as $4\pi D^2$)
 
 This follows the **inverse square law** of light intensity as it goes further away from its source.
 
-![inverse_square_law.png](../img/inverse_square_law.png)
+$$
+I \propto \frac{1}{D^2}
+$$
 
-> 1 square of light at 1AU gets spread across 4 squares at 2AU and further spreads to 9 squares at 3AU
+<figure markdown>
+  ![inverse_square_law.png](../img/inverse_square_law.png){ align=right }
+  <figcaption>square's worth of light at 1AU gets spread across 4 squares at 2AU and further spreads to 9 squares at 3AU</figcaption>
+</figure>
 
 !!! Question "The sun is a deadly lazer"
 
     === "Question"
 
-        Find the Intensity of the sun from earth, given the $L_\odot = 3.828 \times 10^{26} W$ and $1AU = 1.496 \times 10^{11} m$
+        Find the Intensity of the sun from earth, given that $L_\odot = 3.828 \times 10^{26} W$ and $1AU = 1.496 \times 10^{11} m$
 
     === "Solution"
 
@@ -73,3 +86,17 @@ This follows the **inverse square law** of light intensity as it goes further aw
         $$\begin{align*}\frac{I_a}{I_b} &= \frac{\frac{L_a}{4\pi (2D)^2}}{\frac{L_b}{4\pi D^2}} \\ &= \frac{L_a}{L_b}\frac{4\pi D^2}{4\pi 4D^2} \\ &= \frac{4\pi R^2\sigma (2T)^4}{4\pi R^2\sigma T^4} \frac{1}{4} \\ &= \frac{16}{4} \\ &= 4 \end{align*}$$
 
         Star A is brighter than B, and has 4 times the intensity of B
+
+!!! Question "A big star goes boom boom boom"
+
+    === "(I07 - T11 - A)"
+
+        A supernova shines with a luminosity $10^{10}$ times that of the Sun. If such a supernova appears in our sky as bright as the Sun, how far away (in parsec) from us must it be located?
+
+    === "Solution"
+
+        As it appears to be as bright, they have the same Intensity (Flux Density) ($d_\oplus is the distance from the earth to the sun):
+
+        $$
+        \begin{align*} I = \frac{10^{10}L_\odot}{4\pi D^2} &= \frac{L_\odot}{4\pi d_\oplus^2} \\ \frac{10^{10}}{D^2} &= \frac{1}{d_\oplus^2} \\ D &= \sqrt{10^{10}d_\oplus^2} \\ &= 10^5 d_\oplus \\ &= 1.496\times 10^{16}m \\ D &\approx 0.5 \text{parsec}\end{align*}
+        $$
