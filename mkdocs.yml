@@ -90,6 +90,7 @@ nav:
           - stellar/evolution/main_sequence.md
           - stellar/evolution/low_mass_stars.md
           - stellar/evolution/sun_like.md
+          - stellar/evolution/high_mass.md
   - Light and Optics:
       - Blackbody Radiation:
           - optics/blackbody/blackbody_radiation.md
