@@ -2,7 +2,8 @@
 
 !!! danger
 
-    There is likely to be inaccurate information since evolution of high-mass stars is not well known to Kane.
+    There is likely to be inaccurate information here
+    ig its a WIP?
 
 High-mass stars evolve much faster than their low-mass counterparts.
 The more massive a star, the faster it consumes fuel and the shorter its main-sequence lifespan becomes.
