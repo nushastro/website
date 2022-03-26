@@ -45,10 +45,11 @@ energy to overcome their strong repulsion and fuse together, forming carbon-12 i
 Once the temperature is hot enough helium fusion begins in a matter of minutes or hours. This sudden onset of helium core fusion (or "burning") is called the _helium flash_.
 
 !!! Note "Extension"
-For stars greater $>2.5M_\bigodot$, there is **no helium flash**, instead it begins burning gradually. We will touch on this later.
-Lower-mass stars do not produce enough gravitational pressure to initiate normal helium fusion. As the hydrogen in the core is exhausted, some of the helium left behind is instead compacted into degenerate matter (matter so dense that quantum effects are significant). The particles get packed down so densely its almost like they don't have a temperature. They almost get to the point where the particles are stacked like bricks, so the electrons are almost incapable of moving (The nuclei can still wiggle). The core is supported against gravitational collapse by quantum mechanical pressure rather than thermal pressure. This increases the density and temperature of the core until it reaches approximately 100 million kelvin, which is hot enough to cause helium fusion.
-However, a fundamental quality of degenerate matter is that _increases in temperature do not produce an increase in volume_ of the matter until the thermal pressure becomes high enough to exceed degeneracy pressure (quantum mechanical pressure, which is really high). In this case, the helium fusion increases the temperature, which increases the fusion rate, which further increases the temperature in a runaway reaction. This produces a flash of very intense helium fusion that lasts only a few minutes, but briefly emits energy at a rate comparable to the entire Milky Way galaxy.
-In the case of normal low-mass stars, the enormous energy release causes the core to come out of degeneracy, allowing it to expand (because of the insane thermal energy), and any left-over energy is absorbed into the star's upper layers. Thus the helium flash is _mostly undetectable to observation_.
+
+    For stars greater $>2.5M_\bigodot$, there is **no helium flash**, instead it begins burning gradually. We will touch on this later.
+    Lower-mass stars do not produce enough gravitational pressure to initiate normal helium fusion. As the hydrogen in the core is exhausted, some of the helium left behind is instead compacted into degenerate matter (matter so dense that quantum effects are significant). The particles get packed down so densely its almost like they don't have a temperature. They almost get to the point where the particles are stacked like bricks, so the electrons are almost incapable of moving (The nuclei can still wiggle). The core is supported against gravitational collapse by quantum mechanical pressure rather than thermal pressure. This increases the density and temperature of the core until it reaches approximately 100 million kelvin, which is hot enough to cause helium fusion.
+    However, a fundamental quality of degenerate matter is that _increases in temperature do not produce an increase in volume_ of the matter until the thermal pressure becomes high enough to exceed degeneracy pressure (quantum mechanical pressure, which is really high). In this case, the helium fusion increases the temperature, which increases the fusion rate, which further increases the temperature in a runaway reaction. This produces a flash of very intense helium fusion that lasts only a few minutes, but briefly emits energy at a rate comparable to the entire Milky Way galaxy.
+    In the case of normal low-mass stars, the enormous energy release causes the core to come out of degeneracy, allowing it to expand (because of the insane thermal energy), and any left-over energy is absorbed into the star's upper layers. Thus the helium flash is _mostly undetectable to observation_.
 
 ## Red clump / Horizontal Branch (HB)
 
@@ -80,7 +81,7 @@ the H–R diagram is called the **horizontal branch**. This is basically the "he
 <figure markdown>
   ![horizontal_branch.svg](../assets/horizontal_branch.svg#only-light)
   ![horizontal_branch.svg](../assets/horizontal_branch_dark.svg#only-dark)
-  <figcaption>H–R diagrams of the globular cluster M3, showing the horizontal branch (HB) which are populated by core-helium burning stars with a low metal content. These clusters have ages around $13\times10^9$ years, and their metal content is only $\approx\frac{1}{30}$ of the solar value. $I-V$ is a color index.</figcaption>
+  <figcaption>H–R diagrams of the globular cluster M3, showing the horizontal branch (HB) which are populated by core-helium burning stars with a low metal content. These clusters have ages around $13\times10^9$ years, and their metal content is only $\approx\frac{1}{30}$ of the solar value. $V-I$ is a color index.</figcaption>
 </figure>
 
 Our sun has sufficient helium fuel for this stage to last for about 100 million years
@@ -103,7 +104,8 @@ Over time the frequency of thermal pulses increases. During a thermal pulse nucl
 Large convection currents in AGB stars carry material produced in the thin helium-burning shell up to the surface which are ejected, which contains heavier elements.
 
 !!! Note
-Helium Fusion is **extremely sensitive** to temperature. (proportional to something like $T^{40}$). If T at 100 million K increases by $10%$, fusion rate increases **45x**
+
+    Helium Fusion is **extremely sensitive** to temperature. (proportional to something like $T^{40}$). If T at 100 million K increases by 10%, fusion rate increases **45x**
 
 As a consequence of this, a **small change** in temperature can lead to **enormous change** in fusion energy output. AGB Stars experience huge thermal pulses that destabilize the outer envelope.
 
