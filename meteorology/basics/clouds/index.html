@@ -1,0 +1,1836 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      <link rel="icon" href="../../../assets/favicon.png">
+      <meta name="generator" content="mkdocs-1.2.3, mkdocs-material-8.2.1">
+    
+    
+      
+        <title>Clouds - NUSH Astro</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.e8d9bf0c.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.e6a45f82.min.css">
+        
+      
+    
+    
+    
+      
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../../..",location),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent="">
+  
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#clouds" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../.." title="NUSH Astro" class="md-header__button md-logo" aria-label="NUSH Astro" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m21.9 8.9-1.7 1-4-6.9 1.7-1 4 6.9m-12.1-1 3 5.2 6.1-3.5-3-5.2-6.1 3.5m1.6 4.8-2-3.5-4.3 2.5 2 3.5 4.3-2.5m-9.3 1.9 1 1.7 2.6-1.5-1-1.7-2.6 1.5m10-.6-.3-.4-4.3 2.5.3.4c.2.3.5.6.8.8L7 22h2l1.4-4.3h.1L12 22h2l-1.9-5.6c.5-.7.5-1.6 0-2.4z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            NUSH Astro
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Clouds
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      <form class="md-header__option" data-md-component="palette">
+        
+          
+          
+          <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent=""  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+          
+            <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_2" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3z"/></svg>
+            </label>
+          
+        
+          
+          
+          <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="black" data-md-color-accent=""  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_2">
+          
+            <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6zm0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4zM7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/></svg>
+            </label>
+          
+        
+      </form>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../../.." class="md-tabs__link">
+      Home
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../celestial/" class="md-tabs__link">
+        Celestial Mechanics
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../stellar/" class="md-tabs__link">
+        Stellar Astronomy
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../optics/blackbody/blackbody_radiation/" class="md-tabs__link">
+        Light and Optics
+      </a>
+    </li>
+  
+
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../positional/" class="md-tabs__link">
+        Positional Astronomy
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../starhopping/" class="md-tabs__link">
+        Starhopping Guide
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../practical/" class="md-tabs__link">
+        Practical
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../../../slides/" class="md-tabs__link">
+      Slides
+    </a>
+  </li>
+
+      
+        
+  
+  
+    
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../" class="md-tabs__link md-tabs__link--active">
+        Meteorology
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="NUSH Astro" class="md-nav__button md-logo" aria-label="NUSH Astro" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m21.9 8.9-1.7 1-4-6.9 1.7-1 4 6.9m-12.1-1 3 5.2 6.1-3.5-3-5.2-6.1 3.5m1.6 4.8-2-3.5-4.3 2.5 2 3.5 4.3-2.5m-9.3 1.9 1 1.7 2.6-1.5-1-1.7-2.6 1.5m10-.6-.3-.4-4.3 2.5.3.4c.2.3.5.6.8.8L7 22h2l1.4-4.3h.1L12 22h2l-1.9-5.6c.5-.7.5-1.6 0-2.4z"/></svg>
+
+    </a>
+    NUSH Astro
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        Home
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2">
+          Celestial Mechanics
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Celestial Mechanics" data-md-level="1">
+        <label class="md-nav__title" for="__nav_2">
+          <span class="md-nav__icon md-icon"></span>
+          Celestial Mechanics
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../celestial/" class="md-nav__link">
+        Getting Started
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_2" type="checkbox" id="__nav_2_2" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2_2">
+          Basics
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Basics" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_2">
+          <span class="md-nav__icon md-icon"></span>
+          Basics
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../celestial/basics/universal_gravitation/" class="md-nav__link">
+        Universal Gravitation
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../celestial/basics/circular_motion/" class="md-nav__link">
+        Circular Motion
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../celestial/basics/conic_sections/" class="md-nav__link">
+        Conic Sections
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../celestial/basics/keplers_laws/" class="md-nav__link">
+        Kepler's Laws
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_3" type="checkbox" id="__nav_2_3" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2_3">
+          Gravitation
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Gravitation" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_3">
+          <span class="md-nav__icon md-icon"></span>
+          Gravitation
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../celestial/gravitation/gravitational_field/" class="md-nav__link">
+        Gravitational Field
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../celestial/gravitation/shell_theorem/" class="md-nav__link">
+        Shell theorem
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../celestial/gravitation/gravitational_potential/" class="md-nav__link">
+        Gravitational Potential and Potential Energy
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_4" type="checkbox" id="__nav_2_4" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2_4">
+          Orbital Mechanics
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Orbital Mechanics" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_4">
+          <span class="md-nav__icon md-icon"></span>
+          Orbital Mechanics
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../celestial/mechanics/conservation_of_quantities/" class="md-nav__link">
+        Conservation of Quantities in Orbital Motion
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../celestial/mechanics/trajectory_of_particle/" class="md-nav__link">
+        The Trajectory of a Particle in Orbit
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../celestial/mechanics/binary_system_total_energy/" class="md-nav__link">
+        Total Energy of Binary System
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3">
+          Stellar Astronomy
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Stellar Astronomy" data-md-level="1">
+        <label class="md-nav__title" for="__nav_3">
+          <span class="md-nav__icon md-icon"></span>
+          Stellar Astronomy
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../stellar/" class="md-nav__link">
+        Getting Started
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_2" type="checkbox" id="__nav_3_2" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_2">
+          Basics
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Basics" data-md-level="2">
+        <label class="md-nav__title" for="__nav_3_2">
+          <span class="md-nav__icon md-icon"></span>
+          Basics
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../stellar/basics/star_structure/" class="md-nav__link">
+        Structure of a Star
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../stellar/basics/energy_generation/" class="md-nav__link">
+        Energy Generation
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_3" type="checkbox" id="__nav_3_3" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_3">
+          Classification
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Classification" data-md-level="2">
+        <label class="md-nav__title" for="__nav_3_3">
+          <span class="md-nav__icon md-icon"></span>
+          Classification
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../stellar/classification/hr_diagram/" class="md-nav__link">
+        Hertsprung-Russell Diagram
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../stellar/classification/classification/" class="md-nav__link">
+        Classification of Stars
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_4" type="checkbox" id="__nav_3_4" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_4">
+          Evolution
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Evolution" data-md-level="2">
+        <label class="md-nav__title" for="__nav_3_4">
+          <span class="md-nav__icon md-icon"></span>
+          Evolution
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../stellar/evolution/the_beginning/" class="md-nav__link">
+        The Beginning
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../stellar/evolution/main_sequence/" class="md-nav__link">
+        Main Sequence
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../stellar/evolution/low_mass_stars/" class="md-nav__link">
+        Evolution of low mass stars
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../stellar/evolution/sun_like/" class="md-nav__link">
+        Death of a Sun-like Star
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../stellar/evolution/high_mass/" class="md-nav__link">
+        Death of a High-mass star
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_4">
+          Light and Optics
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Light and Optics" data-md-level="1">
+        <label class="md-nav__title" for="__nav_4">
+          <span class="md-nav__icon md-icon"></span>
+          Light and Optics
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4_1" type="checkbox" id="__nav_4_1" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_4_1">
+          Blackbody Radiation
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Blackbody Radiation" data-md-level="2">
+        <label class="md-nav__title" for="__nav_4_1">
+          <span class="md-nav__icon md-icon"></span>
+          Blackbody Radiation
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../optics/blackbody/blackbody_radiation/" class="md-nav__link">
+        Introduction
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../optics/blackbody/wiens_displacement_law/" class="md-nav__link">
+        Wien's Displacement Law
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../optics/blackbody/stefan_boltzmann_law/" class="md-nav__link">
+        Stefan-Boltzmann Law
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../optics/blackbody/radiation_pressure/" class="md-nav__link">
+        Radiation pressure
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4_2" type="checkbox" id="__nav_4_2" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_4_2">
+          The Magnitude System
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="The Magnitude System" data-md-level="2">
+        <label class="md-nav__title" for="__nav_4_2">
+          <span class="md-nav__icon md-icon"></span>
+          The Magnitude System
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../optics/magnitude/apparent_absolute_magnitude/" class="md-nav__link">
+        Apparent and Absolute Magnitude
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5" type="checkbox" id="__nav_5" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_5">
+          Positional Astronomy
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Positional Astronomy" data-md-level="1">
+        <label class="md-nav__title" for="__nav_5">
+          <span class="md-nav__icon md-icon"></span>
+          Positional Astronomy
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../positional/" class="md-nav__link">
+        Getting Started
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../positional/assets/Project%20Circinus%20v1.2.32.pdf" class="md-nav__link">
+        Project Circinus
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_6" type="checkbox" id="__nav_6" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_6">
+          Starhopping Guide
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Starhopping Guide" data-md-level="1">
+        <label class="md-nav__title" for="__nav_6">
+          <span class="md-nav__icon md-icon"></span>
+          Starhopping Guide
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../starhopping/" class="md-nav__link">
+        Getting Started
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_7" type="checkbox" id="__nav_7" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_7">
+          Practical
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Practical" data-md-level="1">
+        <label class="md-nav__title" for="__nav_7">
+          <span class="md-nav__icon md-icon"></span>
+          Practical
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../practical/" class="md-nav__link">
+        Astronomy Practicals
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../practical/telescopes/" class="md-nav__link">
+        Telescopes
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../practical/accessories/" class="md-nav__link">
+        Accessories
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../slides/" class="md-nav__link">
+        Slides
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_9" type="checkbox" id="__nav_9" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_9">
+          Meteorology
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Meteorology" data-md-level="1">
+        <label class="md-nav__title" for="__nav_9">
+          <span class="md-nav__icon md-icon"></span>
+          Meteorology
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../" class="md-nav__link">
+        Getting Started
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Clouds
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Clouds
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#low-clouds" class="md-nav__link">
+    Low Clouds
+  </a>
+  
+    <nav class="md-nav" aria-label="Low Clouds">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#stratus" class="md-nav__link">
+    Stratus
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cumulus" class="md-nav__link">
+    Cumulus
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#stratocumulus" class="md-nav__link">
+    Stratocumulus
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cumulonimbus" class="md-nav__link">
+    Cumulonimbus
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#medium-clouds" class="md-nav__link">
+    Medium Clouds
+  </a>
+  
+    <nav class="md-nav" aria-label="Medium Clouds">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#altostratus" class="md-nav__link">
+    Altostratus
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#altocumulus" class="md-nav__link">
+    Altocumulus
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nimbostratus" class="md-nav__link">
+    Nimbostratus
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#high-clouds" class="md-nav__link">
+    High Clouds
+  </a>
+  
+    <nav class="md-nav" aria-label="High Clouds">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#cirrus" class="md-nav__link">
+    Cirrus
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cirrostratus" class="md-nav__link">
+    Cirrostratus
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cirrocumulus" class="md-nav__link">
+    Cirrocumulus
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../weather_systems/" class="md-nav__link">
+        Weather Systems
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../optical_effects/" class="md-nav__link">
+        Optical Effects
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#low-clouds" class="md-nav__link">
+    Low Clouds
+  </a>
+  
+    <nav class="md-nav" aria-label="Low Clouds">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#stratus" class="md-nav__link">
+    Stratus
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cumulus" class="md-nav__link">
+    Cumulus
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#stratocumulus" class="md-nav__link">
+    Stratocumulus
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cumulonimbus" class="md-nav__link">
+    Cumulonimbus
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#medium-clouds" class="md-nav__link">
+    Medium Clouds
+  </a>
+  
+    <nav class="md-nav" aria-label="Medium Clouds">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#altostratus" class="md-nav__link">
+    Altostratus
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#altocumulus" class="md-nav__link">
+    Altocumulus
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nimbostratus" class="md-nav__link">
+    Nimbostratus
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#high-clouds" class="md-nav__link">
+    High Clouds
+  </a>
+  
+    <nav class="md-nav" aria-label="High Clouds">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#cirrus" class="md-nav__link">
+    Cirrus
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cirrostratus" class="md-nav__link">
+    Cirrostratus
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cirrocumulus" class="md-nav__link">
+    Cirrocumulus
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content" data-md-component="content">
+            <article class="md-content__inner md-typeset">
+              
+                
+
+
+<h1 id="clouds">Clouds</h1>
+<p>Clouds are ubiquitous is Singapore, but there are in fact <strong>10 basic</strong> types of clouds. They are often classified by how high above the ground their <strong>base</strong> is.</p>
+<p><img alt="Cloud_types.svg" src="../../img/Cloud_types.svg" /></p>
+<h2 id="low-clouds">Low Clouds</h2>
+<p>Low clouds are usually composed of water droplets, though cumulonimbus clouds include ice crystals, and have a base below 2 km.</p>
+<h3 id="stratus">Stratus</h3>
+<p>Stratus clouds are low, grey clouds that typically form in sheets or layers, often obscuring the tops of tall buildings.</p>
+<p><img alt="stratus.png" src="../../img/stratus.png" /></p>
+<p>In Singapore, shallow fog or mist often forms in forested areas during the night.
+At daybreak, the mist lifts to form patches of stratus gradually rising above the ground.
+Ragged patches of stratus, called stratus fractus, can also form beneath rain clouds.
+This is often seen here during periods of prolonged rain experienced in the Northeast Monsoon.</p>
+<h3 id="cumulus">Cumulus</h3>
+<p>Cumulus clouds are easily recognisable fluffy white clouds usually on a sunny day.
+They are formed via thermal convection when heat from the ground warms the air up and causes them to rise.</p>
+<p><img alt="cumulus.png" src="../../img/cumulus.png" /></p>
+<p>Cumulus clouds can combine together and form clouds with deeper convection.
+Such clouds can evolve into <em>Cumulus congestus</em>, a towering cumulus cloud.
+Those may continue to grow into <em>Cumulonimbus</em> clouds.</p>
+<h3 id="stratocumulus">Stratocumulus</h3>
+<p>These clouds can be thought of as a combination of Stratus and Cumulus clouds.
+These often look like a greyish or white sheet with rolls or clumps, which is a sign of weak convection.</p>
+<p><img alt="stratocumulus.png" src="../../img/stratocumulus.png" /></p>
+<p>These are often found over large areas of the ocean.</p>
+<h3 id="cumulonimbus">Cumulonimbus</h3>
+<p>These clouds are responsible for the thunderstorms you experience in Singapore.
+Althought these are "Low Clouds" (due to having a low base), these clouds extend up high into the Troposphere, which in the tropics is about 15 kilometers high.</p>
+<p><img alt="cumulonimbus.png" src="../../img/cumulonimbus.png" /></p>
+<blockquote>
+<p>Cumulonimbus with its anvil-shaped top sheared by higher level winds</p>
+</blockquote>
+<p>You can think of cumulonimbus as a better vesion of cumulus.
+However, the defining feature that separates cumulonimbus from cumulus congestus is the presence of ice crystals at the top of the cloud.
+You can tell when a cumulus congestus becomes a cumulonimbus when its top appears to be more "frayed out" and fibrous rather than looking like a cauliflower.</p>
+<p>These clouds only last about one hour most of the time, but under certain conditions some cumulonimbus clouds manage to regen.</p>
+<h2 id="medium-clouds">Medium Clouds</h2>
+<p>Medium clouds are usually composed of water droplets or a mixture of water droplets and ice crystals, and have a base of between 2 km and 7 km.</p>
+<h3 id="altostratus">Altostratus</h3>
+<p>Altostratus clouds are pretty boring clouds that cover a decent chunk of the sky, and may even be thick enought to block out the sun.
+Optical phenomeno like iridescence can also be observed through thin altostratus.</p>
+<p><img alt="altostratus.png" src="../../img/altostratus.png" /></p>
+<p>In the tropics altostratus clouds usually form from the remnants of convective weather systems (e.g. thunderstorms) that have since dissipated.</p>
+<h3 id="altocumulus">Altocumulus</h3>
+<p>Altocumulus consists of rounded, individual masses with clear sky showing between them.
+In the tropics they also usually come from dead convective weather systems (e.g. thunderstorms).</p>
+<p><img alt="altocumulus.png" src="../../img/altocumulus.png" /></p>
+<p>The difference between altocumulus and altostratus is that in altocumulus, some instability is present such that weak convection takes place, giving rise to individual convective cells.</p>
+<h3 id="nimbostratus">Nimbostratus</h3>
+<p>This is a multi-level cloud that is formed usually in the mid-latitudes, and is very rare in Singapore, so you can ignore it.
+It is formed when a mass of warm air is moving into a mass of cold air (warm front), which does not happen in Singapore because there is no cold air [citation needed].</p>
+<p>It is placed in Medium Clouds because it generally starts forming in this height range and spreads upwards and downwards.</p>
+<p>Although this cloud is non-convective it is capable of producing rain, ice pellets or snow.</p>
+<p><img alt="nimbostratus.jpg" src="../../img/nimbostratus.jpg" /></p>
+<p>It is basically very thick altostratus that rains.</p>
+<h2 id="high-clouds">High Clouds</h2>
+<p>High clouds are made of ice crystals, as it is colder the higher you go up, and often have a base somewhere between 5.5 - 14 kilometers above the ground.</p>
+<h3 id="cirrus">Cirrus</h3>
+<p>Cirrus clouds are clouds that are mainly made out of ice crystals. They often look like a feather or a wisp.</p>
+<p><img alt="cirrus.png" src="../../img/cirrus.png" /></p>
+<p>In the tropics, cirrus are often formed from dead thunderstorms - the anvil of a cumulonimbus cloud is effectively large shield of cirrus.
+Since upper level winds are usually strong, these cirrus cloud tops are often carried far downwind from the thunderstorm.
+Large, thick patches of cirrus often last far longer than the parent cumulonimbus cloud.</p>
+<p>Precipitation from cirrus clouds never reaches the ground as the ice crystals falling down often melt and evaporate away long before they can reach the ground</p>
+<h3 id="cirrostratus">Cirrostratus</h3>
+<p>This cloud is very thin and often hard to notice, despite it being rather common.
+It is also made of ice crystals, and can often make the sky look "milky"</p>
+<p><img alt="cirrostratus.png" src="../../img/cirrostratus.png" /></p>
+<h3 id="cirrocumulus">Cirrocumulus</h3>
+<p>Cirrocumulus consists of many small cloud elements, which are shaped like tufts and ripples.</p>
+<p><img alt="cirrocumulus.png" src="../../img/cirrocumulus.png" /></p>
+<p>Like all other high-altitude clouds, it is mainly made out of ice crystals.
+However, cirrocumulus also contains some supercooled water.
+When that freezes of it becomes cirrostratus.</p>
+<p>Like all other cumuliform (cumulus-like) clouds, this is a sign of convection.</p>
+
+              
+            </article>
+          </div>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    <nav class="md-footer__inner md-grid" aria-label="Footer">
+      
+        
+        <a href="../../" class="md-footer__link md-footer__link--prev" aria-label="Previous: Getting Started" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              Getting Started
+            </div>
+          </div>
+        </a>
+      
+      
+        
+        <a href="../weather_systems/" class="md-footer__link md-footer__link--next" aria-label="Next: Weather Systems" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              Weather Systems
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    <script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.tabs"], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "search": "../../../assets/javascripts/workers/search.bd0b6b67.min.js"}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.8aa65030.min.js"></script>
+      
+        <script src="../../../javascripts/mathjax.js"></script>
+      
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+    
+  </body>
+</html>

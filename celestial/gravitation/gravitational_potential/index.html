@@ -303,6 +303,22 @@
   </li>
 
       
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../meteorology/" class="md-tabs__link">
+        Meteorology
+      </a>
+    </li>
+  
+
+      
     </ul>
   </div>
 </nav>
@@ -949,6 +965,20 @@
 
             
           
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../stellar/evolution/high_mass/" class="md-nav__link">
+        Death of a High-mass star
+      </a>
+    </li>
+  
+
+            
+          
         </ul>
       </nav>
     </li>
@@ -1333,6 +1363,96 @@
   
 
     
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_9" type="checkbox" id="__nav_9" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_9">
+          Meteorology
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Meteorology" data-md-level="1">
+        <label class="md-nav__title" for="__nav_9">
+          <span class="md-nav__icon md-icon"></span>
+          Meteorology
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../meteorology/" class="md-nav__link">
+        Getting Started
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../meteorology/basics/clouds/" class="md-nav__link">
+        Clouds
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../meteorology/basics/weather_systems/" class="md-nav__link">
+        Weather Systems
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../meteorology/basics/optical_effects/" class="md-nav__link">
+        Optical Effects
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
   </ul>
 </nav>
                   </div>
@@ -1439,7 +1559,40 @@ As this object moves towards the other object, it will experience a force and ac
 </ol>
 <p><span class="arithmatex">\(U\)</span> is a <strong>scalar</strong>, not a vector, it doesn't have a direction. It just simply means that <span class="arithmatex">\(U_{near} &lt; U_{far}\)</span> because you need to input energy to move an object to near to far, and that energy gets converted Gravitational Potential Energy, i.e. <span class="arithmatex">\(U_{near} + \Delta E = U_{far}\)</span></p>
 </div>
+<p><img alt="" src="../../img/gravitational_potential_energy.png#only-light" />
+<img alt="" src="../../img/gravitational_potential_energy_dark.png#only-dark" /></p>
+<div class="admonition question">
+<p class="admonition-title">Question</p>
+<p><img alt="" src="../../img/gpe_question.png#only-light" />
+<img alt="" src="../../img/gpe_question_dark.png#only-dark" /></p>
+<div class="tabbed-set tabbed-alternate" data-tabs="1:2"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">Question</label><label for="__tabbed_1_2">Solution</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<p>The diagram shows 2 points X and Y at distance <span class="arithmatex">\(L\)</span> and <span class="arithmatex">\(3L\)</span> respectively, from the center of the earth (of mass <span class="arithmatex">\(M\)</span>). Find an expression for the change in the gravitational potential energy of a mass <span class="arithmatex">\(m\)</span> as it is brought from X to Y.</p>
+</div>
+<div class="tabbed-block">
+<div class="arithmatex">\[\begin{align*}\Delta U &amp;= U_y - U_x \\ &amp;= -\frac{GMm}{3L} - \left(-\frac{GMm}{L}\right) \\ &amp;= \frac{2GMm}{3L}\end{align*}\]</div>
+<p>This makes sense as <span class="arithmatex">\(\frac{2GMm}{3L}\)</span> is positive and you need to put in energy for an object to "move up the gravitational well"</p>
+</div>
+</div>
+</div>
+</div>
 <p>TL;DR: It is defined as work done by an external agent to bring a mass from infinity to that point</p>
+<details class="question">
+<summary><span class="arithmatex">\(mgh\)</span>?</summary>
+<div class="tabbed-set tabbed-alternate" data-tabs="2:2"><input checked="checked" id="__tabbed_2_1" name="__tabbed_2" type="radio" /><input id="__tabbed_2_2" name="__tabbed_2" type="radio" /><div class="tabbed-labels"><label for="__tabbed_2_1"><span class="arithmatex">\(mgh\)</span> is revived?</label><label for="__tabbed_2_2">Solution</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<p>Show that the expression <span class="arithmatex">\(mgh\)</span> is valid for small distances from the surface of the earth.</p>
+</div>
+<div class="tabbed-block">
+<div class="arithmatex">\[\begin{align*}\Delta U &amp;= U_{suface} - U_{higher} \\ &amp;= -\frac{GMm}{R_\oplus} - \left(-\frac{GMm}{R_\oplus + h}\right) \\ &amp;= GMm\left(\frac{1}{R_\oplus + h} - \frac{1}{R_\oplus}\right) \\ &amp;= GMm\left(\frac{R_\oplus}{R_\oplus(R_\oplus+h)} - \frac{R_\oplus + h}{R_\oplus(R_\oplus+h)}\right) \\ &amp;= GMm\left(\frac{-h}{R_\oplus(R_\oplus+h)}\right)\end{align*}\]</div>
+<p>We can approximate <span class="arithmatex">\(R_\oplus(R_\oplus+h) \approx R_\oplus^2\)</span> since <span class="arithmatex">\(R_\oplus \gg h\)</span></p>
+<div class="arithmatex">\[\begin{align*}\Delta U &amp;= -\frac{GMmh}{R_\oplus^2} \\ &amp;= m\left(-\frac{GM}{R_\oplus^2}\right)h \\ &amp;= mgh\end{align*}\]</div>
+</div>
+</div>
+</div>
+</details>
 <h2 id="gravitational-potential-phi">Gravitational Potential <span class="arithmatex">\(\phi\)</span></h2>
 <p><span class="arithmatex">\(U\)</span> depends on the source mass and the test mass.
 To eliminate dependece on the test mass, we use <em>gravitational potential</em> <span class="arithmatex">\(\phi\)</span>.</p>
@@ -1458,6 +1611,8 @@ To eliminate dependece on the test mass, we use <em>gravitational potential</em>
 </li>
 <li>
 <p>The <strong>change in potential</strong> (<span class="arithmatex">\(\Delta\phi\)</span>) or <strong>the change in GPE</strong> (<span class="arithmatex">\(\Delta U\)</span>) is <strong>independent of the path taken by the object</strong>. It only depends on the <strong>start and end points</strong>. i.e. <span class="arithmatex">\(\Delta\phi = \phi_{endpoint} - \phi_{startpoint}\)</span> is true for all paths. (you can also replace <span class="arithmatex">\(\phi\)</span> with <span class="arithmatex">\(U\)</span>)</p>
+<p><img alt="" src="../../img/conservative_force.png#only-light" />
+<img alt="" src="../../img/conservative_force_dark.png#only-dark" /></p>
 </li>
 <li>
 <p>The minimum work per unit mass to remove an object out of a potential well due to the earth is <span class="arithmatex">\(\frac{GM}{R_\oplus}\)</span> (this is just <span class="arithmatex">\(-U\)</span> at surface of earth, because <span class="arithmatex">\(U=0\)</span> means escaping the potential well, which means <span class="arithmatex">\(r\rightarrow\infty\)</span>)</p>

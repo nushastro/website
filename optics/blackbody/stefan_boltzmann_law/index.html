@@ -303,6 +303,22 @@
   </li>
 
       
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../meteorology/" class="md-tabs__link">
+        Meteorology
+      </a>
+    </li>
+  
+
+      
     </ul>
   </div>
 </nav>
@@ -883,6 +899,20 @@
 
             
           
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../stellar/evolution/high_mass/" class="md-nav__link">
+        Death of a High-mass star
+      </a>
+    </li>
+  
+
+            
+          
         </ul>
       </nav>
     </li>
@@ -1281,6 +1311,96 @@
   
 
     
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_9" type="checkbox" id="__nav_9" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_9">
+          Meteorology
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Meteorology" data-md-level="1">
+        <label class="md-nav__title" for="__nav_9">
+          <span class="md-nav__icon md-icon"></span>
+          Meteorology
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../meteorology/" class="md-nav__link">
+        Getting Started
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../meteorology/basics/clouds/" class="md-nav__link">
+        Clouds
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../meteorology/basics/weather_systems/" class="md-nav__link">
+        Weather Systems
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../meteorology/basics/optical_effects/" class="md-nav__link">
+        Optical Effects
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
   </ul>
 </nav>
                   </div>
@@ -1319,7 +1439,7 @@
 <p class="admonition-title">Note</p>
 </div>
 <p>Luminosity <strong>remains the same</strong> no matter how far away you are - it is a property of the astronomical object.</p>
-<p>For blackbodies there is a relation called the Stefan-Boltzmann law which allows us to calculate the luminosity.</p>
+<p>For blackbodies there is a relation called the Stefan-Boltzmann law which allows us to calculate the luminosity <span class="arithmatex">\(L\)</span>.</p>
 <div class="arithmatex">\[
 L = 4 \pi R^2 \sigma T^4
 \]</div>
@@ -1338,28 +1458,39 @@ L = 4 \pi R^2 \sigma T^4
 </div>
 </div>
 </div>
-<p>To find the brightness / intensity of the star some distance away from it, we can use</p>
+<p>To find the brightness (flux density of light, aka Intensity) of the star some distance away from it, we can use</p>
 <div class="arithmatex">\[
-I = \frac{Power}{Area} = \frac{L}{4 \pi D^2}
+\text{Flux Density} = I = \frac{\text{Power}}{\text{Area}} = \frac{L}{4 \pi D^2}
 \]</div>
 <p>where <span class="arithmatex">\(D\)</span> is the distance from the star.</p>
 <div class="admonition note">
 <p class="admonition-title">Intensity is confusion</p>
-<p>Intensity (Brightness) in this case is expressed as <strong>Power per unit area</strong> aka <strong>Flux density/Irradiance</strong> (power <strong>received</strong> by a surface per unit area) or <strong>Radiosity</strong> (power <strong>leaving</strong> a surface per unit area) or <strong>Radiant exitance</strong> (power <strong>emitted</strong> by a surface per unit area), all with units <span class="arithmatex">\(W/m^2\)</span> or <span class="arithmatex">\(kg/s^3\)</span>. Confusingly these are all called intensity. In this case we are dealing with <strong>Flux density/Irradiance</strong> since we are concerned about the amount of power received by an area.</p>
+<p>You may sometimes see this being called "Intensity", which in this case is expressed as <strong>Power per unit area</strong>. Power per unit area (<span class="arithmatex">\(W/m^2\)</span> or <span class="arithmatex">\(kg/s^3\)</span>) can refer to any of the following:</p>
+<ul>
+<li><strong>Flux density/Irradiance</strong> (power <strong>received</strong> by a surface per unit area)</li>
+<li><strong>Radiosity</strong> (power <strong>leaving</strong> a surface per unit area)</li>
+<li><strong>Radiant exitance</strong> (power <strong>emitted</strong> by a surface per unit area)</li>
+</ul>
+<p>Confusingly these are all called intensity. In this case we are dealing with <strong>Flux density/Irradiance</strong> since we are concerned about the amount of power received by an area.</p>
 <p>Yet more confusingly, <strong>Radiance</strong>, which is power <strong>emitted, reflected, transmitted or received</strong> by a surface, per unit <strong>solid angle</strong> per unit projected area is also called Intensity. This is a directional quantity instead, which means its a vector. It is expressed as <strong>Power per unit area per unit solid angle</strong>.</p>
+<p>If you would like to know every single unit regarding light there is a <a href="https://en.wikipedia.org/wiki/Template:SI_radiometry_units">handy wikipedia template</a></p>
 </div>
 <p>In this example, since astronomical object emits light in all directions (spherically symmetrical), we consider the "area" to be the surface area of a sphere with radius = distance between observer and light source (giving total surface area as <span class="arithmatex">\(4\pi D^2\)</span>)</p>
 <p>This follows the <strong>inverse square law</strong> of light intensity as it goes further away from its source.</p>
-<p><img alt="inverse_square_law.png" src="../../img/inverse_square_law.png" /></p>
-<blockquote>
-<p>1 square of light at 1AU gets spread across 4 squares at 2AU and further spreads to 9 squares at 3AU</p>
-</blockquote>
+<div class="arithmatex">\[
+I \propto \frac{1}{D^2}
+\]</div>
+<figure>
+<p><img align="right" alt="inverse_square_law.png" src="../../img/inverse_square_law.png" />
+  </p>
+<figcaption>square's worth of light at 1AU gets spread across 4 squares at 2AU and further spreads to 9 squares at 3AU</figcaption>
+</figure>
 <div class="admonition question">
 <p class="admonition-title">The sun is a deadly lazer</p>
 <div class="tabbed-set tabbed-alternate" data-tabs="2:2"><input checked="checked" id="__tabbed_2_1" name="__tabbed_2" type="radio" /><input id="__tabbed_2_2" name="__tabbed_2" type="radio" /><div class="tabbed-labels"><label for="__tabbed_2_1">Question</label><label for="__tabbed_2_2">Solution</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
-<p>Find the Intensity of the sun from earth, given the <span class="arithmatex">\(L_\odot = 3.828 \times 10^{26} W\)</span> and <span class="arithmatex">\(1AU = 1.496 \times 10^{11} m\)</span></p>
+<p>Find the Intensity of the sun from earth, given that <span class="arithmatex">\(L_\odot = 3.828 \times 10^{26} W\)</span> and <span class="arithmatex">\(1AU = 1.496 \times 10^{11} m\)</span></p>
 </div>
 <div class="tabbed-block">
 <p>Just plug it into the formula:</p>
@@ -1380,6 +1511,22 @@ I = \frac{Power}{Area} = \frac{L}{4 \pi D^2}
 <p>or you could:</p>
 <div class="arithmatex">\[\begin{align*}\frac{I_a}{I_b} &amp;= \frac{\frac{L_a}{4\pi (2D)^2}}{\frac{L_b}{4\pi D^2}} \\ &amp;= \frac{L_a}{L_b}\frac{4\pi D^2}{4\pi 4D^2} \\ &amp;= \frac{4\pi R^2\sigma (2T)^4}{4\pi R^2\sigma T^4} \frac{1}{4} \\ &amp;= \frac{16}{4} \\ &amp;= 4 \end{align*}\]</div>
 <p>Star A is brighter than B, and has 4 times the intensity of B</p>
+</div>
+</div>
+</div>
+</div>
+<div class="admonition question">
+<p class="admonition-title">A big star goes boom boom boom</p>
+<div class="tabbed-set tabbed-alternate" data-tabs="4:2"><input checked="checked" id="__tabbed_4_1" name="__tabbed_4" type="radio" /><input id="__tabbed_4_2" name="__tabbed_4" type="radio" /><div class="tabbed-labels"><label for="__tabbed_4_1">(I07 - T11 - A)</label><label for="__tabbed_4_2">Solution</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<p>A supernova shines with a luminosity <span class="arithmatex">\(10^{10}\)</span> times that of the Sun. If such a supernova appears in our sky as bright as the Sun, how far away (in parsec) from us must it be located?</p>
+</div>
+<div class="tabbed-block">
+<p>As it appears to be as bright, they have the same Intensity (Flux Density) ($d_\oplus is the distance from the earth to the sun):</p>
+<div class="arithmatex">\[
+\begin{align*} I = \frac{10^{10}L_\odot}{4\pi D^2} &amp;= \frac{L_\odot}{4\pi d_\oplus^2} \\ \frac{10^{10}}{D^2} &amp;= \frac{1}{d_\oplus^2} \\ D &amp;= \sqrt{10^{10}d_\oplus^2} \\ &amp;= 10^5 d_\oplus \\ &amp;= 1.496\times 10^{16}m \\ D &amp;\approx 0.5 \text{parsec}\end{align*}
+\]</div>
 </div>
 </div>
 </div>
