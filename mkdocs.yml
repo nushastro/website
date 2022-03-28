@@ -109,3 +109,8 @@ nav:
       - practical/telescopes.md
       - practical/accessories.md
   - Slides: slides/index.md
+  - Meteorology:
+      - meteorology/index.md
+      - meteorology/basics/clouds.md
+      - meteorology/basics/weather_systems.md
+      - meteorology/basics/optical_effects.md
