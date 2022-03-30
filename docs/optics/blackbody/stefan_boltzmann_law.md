@@ -24,10 +24,12 @@ where $R$ is the radius of the star, $\sigma$ is the Stefan-Boltzmann Constant a
 
         $$\begin{align*}T &= \sqrt[4]{\frac{L}{4\pi R^2\sigma}} \\ &= \sqrt[4]{\frac{3.828\times 10^{26}\times 10^{-12}}{4\pi \times 13.0967^2 \times 5.67\times 10^{-8}}} \\ &= 42069K \end{align*}$$
 
+## Flux Density
+
 To find the brightness (flux density of light, aka Intensity) of the star some distance away from it, we can use
 
 $$
-\text{Flux Density} = I = \frac{\text{Power}}{\text{Area}} = \frac{L}{4 \pi D^2}
+\text{Flux Density} = F = \frac{\text{Power}}{\text{Area}} = \frac{L}{4 \pi D^2}
 $$
 
 where $D$ is the distance from the star.
@@ -43,6 +45,8 @@ where $D$ is the distance from the star.
     Confusingly these are all called intensity. In this case we are dealing with **Flux density/Irradiance** since we are concerned about the amount of power received by an area.
 
     Yet more confusingly, **Radiance**, which is power **emitted, reflected, transmitted or received** by a surface, per unit **solid angle** per unit projected area is also called Intensity. This is a directional quantity instead, which means its a vector. It is expressed as **Power per unit area per unit solid angle**.
+
+    Due to the amount of confusion, one should always carefully check the meaning of these terms
 
     If you would like to know every single unit regarding light there is a [handy wikipedia template](https://en.wikipedia.org/wiki/Template:SI_radiometry_units)
 
@@ -63,7 +67,7 @@ $$
 
     === "Question"
 
-        Find the Intensity of the sun from earth, given that $L_\odot = 3.828 \times 10^{26} W$ and $1AU = 1.496 \times 10^{11} m$
+        Find the Intensity (Flux density) of the sun from earth, given that $L_\odot = 3.828 \times 10^{26} W$ and $1AU = 1.496 \times 10^{11} m$
 
     === "Solution"
 

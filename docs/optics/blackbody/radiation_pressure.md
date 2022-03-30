@@ -2,23 +2,25 @@
 
 Did you know that light has momentum? Even though it doesn't have mass? This allows light to exert a pressure on a surface, known as **radiation pressure**:
 
-$$P = \frac{I}{c}$$
+$$P = \frac{\text{Flux density}}{c}$$
 
-Where $I$ is the intensity (brightness) of light hitting the surface and $c$ is the _speed of light_.
+Where $c$ is the _speed of light_.
+Flux density will be written in full to prevent confusion with Force which is also denoted $F$.
+Flux density is also sometimes called "intensity" and represented with $I$, but this is much too confusing since intensity can mean many different things (see this note).
 
 !!! Warning "Not all light is absorbed"
 
     If the surface perfectly reflects all the light, the radiation pressure actually **doubles** since light being reflected back also gives additional pressure on the surface:
 
-    $$P = \frac{2I}{c}$$
+    $$P = \frac{2\cdot\text{Flux density}}{c}$$
 
 We know that $I$ depends on the Luminosity and Area of the object, so we can rewrite it as such:
 
-$$P = \frac{I}{c} = \frac{L}{4\pi D^2}\frac{1}{c} = \frac{L}{4\pi c D^2}$$
+$$P = \frac{\text{Flux density}}{c} = \frac{L}{4\pi D^2}\frac{1}{c} = \frac{L}{4\pi c D^2}$$
 
 We also know that $P=\frac{F}{A}$, so we can equate the force as such:
 
-$$\begin{align*} P&=\frac{I}{c} \\ \frac{F}{A} &= \frac{I}{c} \\ F &= \frac{IA}{c} \\ &=  \frac{LA}{4\pi c D^2}\end{align*}$$
+$$\begin{align*} P&=\frac{\text{Flux density}}{c} \\ \frac{F}{A} &= \frac{\text{Flux density}}{c} \\ F &= \frac{\text{Flux density}\cdot A}{c} \\ &=  \frac{LA}{4\pi c D^2}\end{align*}$$
 
 where $A$ is the area of the surface being hit by light.
 
@@ -30,7 +32,7 @@ where $A$ is the area of the surface being hit by light.
     === "Solution"
         We first find the pressure:
 
-        $$\begin{align*}P &= \frac{2I}{c} \\ &= \frac{2L}{4\pi c D^2} \\ &= \frac{2\times3.828\times 10^{26}}{4\pi \times 2.998\times10^8 \times (1.496\times10^{11})^2} \\ &= 9.080 \times 10^{-6}Pa\end{align*}$$
+        $$\begin{align*}P &= \frac{2\cdot\text{Flux density}}{c} \\ &= \frac{2L}{4\pi c D^2} \\ &= \frac{2\times3.828\times 10^{26}}{4\pi \times 2.998\times10^8 \times (1.496\times10^{11})^2} \\ &= 9.080 \times 10^{-6}Pa\end{align*}$$
 
         We can then find the force $F$ using $P=\frac{F}{A}$
 
