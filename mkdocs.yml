@@ -99,6 +99,8 @@ nav:
           - optics/blackbody/radiation_pressure.md
       - The Magnitude System:
           - optics/magnitude/apparent_absolute_magnitude.md
+          - optics/magnitude/magnitude_systems.md
+          - optics/magnitude/extinction.md
   - Positional Astronomy:
       - Getting Started: positional/index.md
       - Project Circinus: positional/assets/Project Circinus v1.2.32.pdf
