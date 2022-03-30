@@ -140,14 +140,63 @@ where $r$ is the distance to the star, and $a=2.5\alpha\log e$ being the extinct
     &= 2.5\tau\log(e) + 5\log\left(\frac{r}{10\text{pc}}\right)
     \end{align*}$$
 
-!!! Question
+??? Question
 
-    === "Fundamental Astronomy Exercise 4.6"
+    === "Fundamental Astronomy Example 4.6"
 
         The absolute magnitude of a star is M = −2 and the apparent magnitude m = 8.
         What is the distance to the star, given an interstellar extinction rate of 2 mag/kpc?
 
-    === "
+    === "Solutions"
+
+        Where $d$ is in parsecs:
+
+        $$\begin{align*}
+        m-M &= 5\log\left(\frac{d}{10}\right)+A_Vd\\
+        8-(-2) &= 5\log\left(\frac{d}{10}\right)+0.002d\\
+        2-0.0004d &= \log\left(\frac{d}{10}\right)\\
+        10^{2-0.0004d} &= \frac{d}{10}\\
+        d &= 10\times10^{2-0.0004d}
+        \end{align*}$$
+
+        We unfortunately cannot solve this analytically. However, we can solve this numerically via iteration.
+        This sounds intimidating and hard to do manually, but it is actually rather easy on a calculator with an "Ans" button.
+
+        We just get a random d_{old} by just randomly estimating or guessing, and get a slightly more accurate $d_{new}$
+
+        $$d_{new} &= 10\times10^{2-0.0004d_{old}}$$
+
+        Now just plug the new $d_{old}$ value and repeat until it approaches some value.
+
+        on a calculator you would want to input something like this, and repeatedly spam the equals button:
+
+        $$
+        10\times10^{2-0.0004\text{Ans}}
+        $$
+
+        you will get an answer of 584pc (580pc because 2sf)
+
+??? Question
+
+    === "Fundamental Astronomy Example 4.7"
+
+        What is the optical thickness of a layer of fog, if the Sun seen through the fog seems as bright as a full moon in a cloudless sky? (take m_\odot = -26.7 and m_{moon} (full moon) = -12.9)
+
+    === "Solution"
+
+        Extinction is really just the difference in magnitude, so A = $m_{blocked} - m_{actual} = -12.9+26.7 = 13.8$
+
+        Since
+
+        $$A = 2.5 \tau \log e$$
+
+        we get
+
+        $$\tau = \frac{A}{2.5 \log e} = \frac{13.8}{1.086} = 12.7$$
+
+        In reality, some of the observed light has been scattered multiple times such that they get scattered into the line of sight.
+
+        Therefore optical thickness must be slightly higher than calculated.
 
 ## Intrinsic Color and Color Excess
 
