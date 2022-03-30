@@ -6,7 +6,7 @@ Magnitude Scales are quite important for measuring not just brightness, but dist
 
 Magnitudes are generally used to classify and compare different objects in space that either emit light or reflect it. Planets and especially Stars are often compared using the Magnitude scales.
 
-According to ancient astronomers, especially the Chinese astronomers back in the day, brightness was in fact proportional to size, which meant that a brighter star would be way larger in a geocentric model than a smaller star. This, however, is not the case, since Magnitudes are also affected by Distance, and Luminosity is unfortunaely not proportional.
+According to ancient astronomers, especially the Chinese astronomers back in the day, brightness was in fact proportional to size, which meant that a brighter star would be way larger in a geocentric model than a smaller star. This, however, is not the case, since Magnitudes are also affected by Distance, and Luminosity is unfortunately not proportional.
 
 In ancient Greece, around the time a simple handyman named Jesus started preaching about a different god than those the pagans believed, an ancient astronomer by the name of Hipparchus decided to try classifying every star in the sky into 6 relevant categories. He decided to go with the following demarkation:
 
