@@ -162,9 +162,9 @@ where $r$ is the distance to the star, and $a=2.5\alpha\log e$ being the extinct
         We unfortunately cannot solve this analytically. However, we can solve this numerically via iteration.
         This sounds intimidating and hard to do manually, but it is actually rather easy on a calculator with an "Ans" button.
 
-        We just get a random d_{old} by just randomly estimating or guessing, and get a slightly more accurate $d_{new}$
+        We just get a random $ by just randomly estimating or guessing, and get a slightly more accurate $d_{new}$
 
-        $$d_{new} &= 10\times10^{2-0.0004d_{old}}$$
+        $$d_{new} = 10\times10^{2-0.0004d_{old}}$$
 
         Now just plug the new $d_{old}$ value and repeat until it approaches some value.
 
