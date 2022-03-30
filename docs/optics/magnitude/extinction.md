@@ -8,11 +8,11 @@ All of these radiation loses are called _extinction_.
 ![](../img/cone_of_light.png#only-light)
 ![](../img/cone_of_light_dark.png#only-dark)
 
-Here we have a star radiating flux (i.e. light) $L_0$ into a region (more formally, a solid angle $\omega$) in some wavelength range (Extinction rates are different for different wavelengths).
+Here we have a star radiating energy flux (i.e. light) $L_0$ into a region (more formally, a solid angle $\omega$) in some wavelength range (Extinction rates are different for different wavelengths).
 
-Since the medium absorbs and scatters radiation, the total light (flux) into the region $L$ will now decrease with increasing distance $r$.
+Since the medium absorbs and scatters radiation, the total light (energy flux) into the region $L$ will now decrease with increasing distance $r$.
 
-From $r$ to $r+dr$, the amount of light drops from $L$ to $L+dL$ ($dL\leq0$).
+From $r$ to $r+dr$, the amount of light/energy flux drops from $L$ to $L+dL$ ($dL\leq0$).
 This drop in light ($dL$) is proportional to the amount of light through the interstellar medium. (If you shine a greater amount of light through it, the absolute value of the drop ($dL$) will increase)
 
 $dL$ is also proportional to the distance travelled in the interstellar medium. (The longer light has to travel, the greater amount of light lost)
@@ -42,7 +42,7 @@ $$
     \end{align*}
     $$
 
-    As $r$ goes from $0$ to $r$, light (flux) goes to $L_0$ to $L$:
+    As $r$ goes from $0$ to $r$, light (energy flux) goes to $L_0$ to $L$:
 
     $$\begin{align*}
     \int^L_{L_0} \frac{dL}{L} &= -\alpha \int^r_0 dr \\
@@ -101,7 +101,7 @@ where $r$ is the distance to the star, and $a=2.5\alpha\log e$ being the extinct
 
     where $F_r$ is the flux density at a distance $r$ away and $F_{10 \text{pc}$ is the flux density 10 parsecs away without extinction
 
-    Now we need to express $F_r$ and $F_{10 \text{pc}}$. We can show that the amount of light at $r$ is
+    Now we need to express $F_r$ and $F_{10 \text{pc}}$. We can show that the amount of light/energy flux at $r$ is
 
     $$L=\text{area}\times\text{flux density} = \omega r^2 F_r$$
 
