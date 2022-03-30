@@ -48,6 +48,10 @@ Plugging in $c=a\varepsilon$, we can simplify to get an expression for $\varepsi
 
 $$\begin{align*}a^2 &= c^2+b^2 \\ a^2 &= a^2\varepsilon^2+b^2\\a^2-a^2\varepsilon^2 &= b^2 \\ a^2(1-\varepsilon^2) &= b^2 \\ 1-\varepsilon^2 &= \frac{b^2}{a^2} \\ 1-\frac{b^2}{a^2}&=\varepsilon^2 \\ \varepsilon&=\sqrt{1-\frac{b^2}{a^2}}\end{align*}$$
 
+!!! Note "Circles"
+
+    Circles are just a special case when $\varepsilon = 0$
+
 ### Area
 
 The area $A$ of an ellipse can be given by:
