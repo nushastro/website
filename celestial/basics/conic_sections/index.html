@@ -548,6 +548,13 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#extension-for-now-polar-form-of-an-ellipse" class="md-nav__link">
+    Extension (For now): Polar form of an ellipse
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -1176,6 +1183,34 @@
 
             
           
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../optics/magnitude/magnitude_systems/" class="md-nav__link">
+        Magnitude Systems
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../optics/magnitude/extinction/" class="md-nav__link">
+        Extinction
+      </a>
+    </li>
+  
+
+            
+          
         </ul>
       </nav>
     </li>
@@ -1549,6 +1584,13 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#extension-for-now-polar-form-of-an-ellipse" class="md-nav__link">
+    Extension (For now): Polar form of an ellipse
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -1585,7 +1627,7 @@ Although this is covered in year 4 math, we will go into conic section with much
 <img alt="conic_sections.svg" src="../../img/conic_sections_dark.svg#only-dark" width="480" /></p>
 <p>Circles were covered in primary school so we will skip that.</p>
 <h2 id="ellipse">Ellipse</h2>
-<p>An ellipse is a plane curve surrounding two focal points, such that for all points on the curve, the sum of the two
+<p>An ellipse is a plane curve surrounding two focal points (aka focus, plural: foci), such that for all points on the curve, the sum of the two
 distances to the focal points is a constant. As such, it generalizes a circle, which is the special type of ellipse in
 which the two focal points are the same. Watch the 3Blue1Brown video below more information about ellipses.</p>
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/pQa_tWZmlGs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -1597,12 +1639,20 @@ which the two focal points are the same. Watch the 3Blue1Brown video below more 
 <p><img alt="ellipse_param.svg" src="../../img/ellipse_param.svg#only-light" width="480" />
 <img alt="ellipse_param.svg" src="../../img/ellipse_param_dark.svg#only-dark" width="480" /></p>
 <p>As you hopefully know, for every point on the ellipse, the sum of distances to foci is constant. We can show that this is in fact just simply <span class="arithmatex">\(2a\)</span>.</p>
-<p>Consider the point along the <span class="arithmatex">\(x\)</span>-axis labelled "vertex". Let's call that point <span class="arithmatex">\(P_1\)</span> The length of <span class="arithmatex">\(F_1\)</span> to <span class="arithmatex">\(P_1\)</span> is <span class="arithmatex">\(a-c\)</span>, and the length of <span class="arithmatex">\(F_2\)</span> to <span class="arithmatex">\(P_1\)</span> is <span class="arithmatex">\(a+c\)</span>. Combining these 2 gives <span class="arithmatex">\(a+c+a-c=2a\)</span>, and this applies to <strong>every point</strong> on the ellipse.</p>
+<p>Consider the point along the <span class="arithmatex">\(x\)</span>-axis labelled "vertex" (Top diagram). Let's call that point <span class="arithmatex">\(P_1\)</span> The length of <span class="arithmatex">\(F_1\)</span> to <span class="arithmatex">\(P_1\)</span> is <span class="arithmatex">\(a-c\)</span>, and the length of <span class="arithmatex">\(F_2\)</span> to <span class="arithmatex">\(P_1\)</span> is <span class="arithmatex">\(a+c\)</span>. Combining these 2 gives <span class="arithmatex">\(a+c+a-c=2a\)</span>, and this applies to <strong>every point</strong> on the ellipse.</p>
 <p>Ellipses have an <strong>eccentricity</strong> <span class="arithmatex">\(0\leq\varepsilon&lt;1\)</span>, that is defined as <span class="arithmatex">\(\varepsilon = \frac{c}{a}\)</span>, or <span class="arithmatex">\(c=a\varepsilon\)</span>. You can think of it as the <em>position of the focus as a fraction of the semimajor axis</em>.</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>eccentricity is sometimes denotes as <span class="arithmatex">\(\epsilon\)</span> or <span class="arithmatex">\(e\)</span></p>
+</div>
 <p>Now consider the sum of distances to the foci at the point labelled "co-vertex". The distance from <span class="arithmatex">\(F_1\)</span> (or <span class="arithmatex">\(F_2\)</span>) to the co-vertex is <span class="arithmatex">\(\sqrt{c^2+b^2}\)</span>. Therefore the sum of distances to the foci is <span class="arithmatex">\(2\sqrt{c^2+b^2}\)</span>. Earlier we have proven that this value has to be <span class="arithmatex">\(2a\)</span>, so we get the following:</p>
 <div class="arithmatex">\[\begin{align*}2a &amp;= 2\sqrt{c^2+b^2} \\ a &amp;= \sqrt{c^2+b^2} \\ a^2 &amp;= c^2+b^2\end{align*}\]</div>
 <p>Plugging in <span class="arithmatex">\(c=a\varepsilon\)</span>, we can simplify to get an expression for <span class="arithmatex">\(\varepsilon\)</span> in terms of <span class="arithmatex">\(a\)</span> and <span class="arithmatex">\(b\)</span></p>
 <div class="arithmatex">\[\begin{align*}a^2 &amp;= c^2+b^2 \\ a^2 &amp;= a^2\varepsilon^2+b^2\\a^2-a^2\varepsilon^2 &amp;= b^2 \\ a^2(1-\varepsilon^2) &amp;= b^2 \\ 1-\varepsilon^2 &amp;= \frac{b^2}{a^2} \\ 1-\frac{b^2}{a^2}&amp;=\varepsilon^2 \\ \varepsilon&amp;=\sqrt{1-\frac{b^2}{a^2}}\end{align*}\]</div>
+<div class="admonition note">
+<p class="admonition-title">Circles</p>
+<p>Circles are just a special case when <span class="arithmatex">\(\varepsilon = 0\)</span></p>
+</div>
 <h3 id="area">Area</h3>
 <p>The area <span class="arithmatex">\(A\)</span> of an ellipse can be given by:</p>
 <div class="arithmatex">\[ A = \pi a b\]</div>
@@ -1613,8 +1663,14 @@ which the two focal points are the same. Watch the 3Blue1Brown video below more 
 <h3 id="aphelion-and-perihelion">Aphelion and Perihelion</h3>
 <p><img alt="perihelion-aphelion.svg" src="../../img/perihelion_aphelion.svg#only-light" />
 <img alt="perihelion-aphelion.svg" src="../../img/perihelion-aphelion-dark.svg#only-dark" /></p>
-<p><strong>Aphelion</strong>: point in the orbit that is <strong>furthest</strong> away from the sun/bigger mass <span class="arithmatex">\(r_{ap} = a(1+\varepsilon)\)</span>
-<strong>Perihelion</strong>: point in the orbit that is <strong>closest</strong> to the sun/bigger mass <span class="arithmatex">\(r_{pe} = a(1-\varepsilon)\)</span></p>
+<p><strong>Aphelion</strong>: point in the orbit that is <strong>furthest</strong> away from the <strong>sun</strong> <span class="arithmatex">\(r_{ap} = a(1+\varepsilon)\)</span>
+<strong>Perihelion</strong>: point in the orbit that is <strong>closest</strong> to the <strong>sun</strong> <span class="arithmatex">\(r_{pe} = a(1-\varepsilon)\)</span></p>
+<div class="admonition warning">
+<p class="admonition-title">Apoapsis and Periapsis</p>
+<p>Ap<strong>helion</strong> and Peri<strong>helion</strong> only applies for a mass orbiting <strong>the sun</strong>, and the sun <em>only</em>.</p>
+<p>If an object is orbiting around <strong>earth</strong> use Apo<em>gee</em> and Peri<em>gee</em>, if it is around <strong>jupiter</strong> use Apo<em>jove</em> and Peri<em>jove</em>, ...</p>
+<p>The more general term is <strong>apoapsis</strong> and <strong>periapsis</strong>, or <strong>apocenter</strong> and <strong>pericenter</strong>.</p>
+</div>
 <h3 id="summary">Summary</h3>
 <table>
 <thead>
@@ -1685,6 +1741,14 @@ which the two focal points are the same. Watch the 3Blue1Brown video below more 
 <h3 id="extension-semi-latus-rectum">Extension: semi-latus rectum</h3>
 <p>Although this is denoted as <span class="arithmatex">\(p\)</span> in the diagram, it is usually denoted as <span class="arithmatex">\(\ell\)</span>. To get it's formula, first image a right triangle, with sides <span class="arithmatex">\(p\)</span>, the line from <span class="arithmatex">\(F_1\)</span> to <span class="arithmatex">\(F_2\)</span> and the line from <span class="arithmatex">\(F_1\)</span> to the tip of <span class="arithmatex">\(p\)</span> where it intersects the ellipse.</p>
 <div class="arithmatex">\[\begin{align*}(2a-\ell)^2 &amp;= (2c)^2+\ell^2 \\ (2a-\ell)^2 &amp;= (2a\varepsilon)^2+\ell^2 \\ 4a^2-4a\ell +\ell^2 &amp;= 4a^2\varepsilon^2+\ell^2 \\ 4a^2-4a\ell &amp;= 4a^2\varepsilon^2 \\ 4a^2 + 4a^2\varepsilon^2  &amp;= 4a\ell \\ \ell &amp;= a(1-\varepsilon^2)\end{align*}\]</div>
+<h3 id="extension-for-now-polar-form-of-an-ellipse">Extension (For now): Polar form of an ellipse</h3>
+<p>The <strong>Polar Form</strong> of an ellipse <strong>relative to a focus</strong> is:</p>
+<div class="arithmatex">\[
+r = \frac{\ell}{1 + \cos\theta} = \frac{a(1-\varepsilon^2)}{1 + \cos\theta}
+\]</div>
+<p>Where <span class="arithmatex">\(r\)</span> (or more formally <span class="arithmatex">\(r(\theta)\)</span>) is <strong>the distance between the orbit and the focus</strong> at an angle <span class="arithmatex">\(\theta\)</span>.</p>
+<p><img alt="Ellipse_Polar.svg" src="../../img/Ellipse_Polar.svg#only-light" />
+<img alt="Ellipse_Polar.svg" src="../../img/Ellipse_Polar_dark.svg#only-dark" /></p>
 <h2 id="parabola-hyperbola">Parabola, Hyperbola</h2>
 <p>These also describe paths of objects in space that will never come back, for example Oumuamua follows a hyperbolic orbit:</p>
 <p><img alt="" src="../../img/oumuamua_orbit.png" /></p>

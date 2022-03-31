@@ -1097,6 +1097,34 @@
 
             
           
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../magnitude/magnitude_systems/" class="md-nav__link">
+        Magnitude Systems
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../magnitude/extinction/" class="md-nav__link">
+        Extinction
+      </a>
+    </li>
+  
+
+            
+          
         </ul>
       </nav>
     </li>
@@ -1435,17 +1463,19 @@
 
 <h1 id="radiation-pressure">Radiation pressure</h1>
 <p>Did you know that light has momentum? Even though it doesn't have mass? This allows light to exert a pressure on a surface, known as <strong>radiation pressure</strong>:</p>
-<div class="arithmatex">\[P = \frac{I}{c}\]</div>
-<p>Where <span class="arithmatex">\(I\)</span> is the intensity (brightness) of light hitting the surface and <span class="arithmatex">\(c\)</span> is the <em>speed of light</em>.</p>
+<div class="arithmatex">\[P = \frac{\text{Flux density}}{c}\]</div>
+<p>Where <span class="arithmatex">\(c\)</span> is the <em>speed of light</em>.
+Flux density will be written in full to prevent confusion with Force which is also denoted <span class="arithmatex">\(F\)</span>.
+Flux density is also sometimes called "intensity" and represented with <span class="arithmatex">\(I\)</span>, but this is much too confusing since intensity can mean many different things (see this note).</p>
 <div class="admonition warning">
 <p class="admonition-title">Not all light is absorbed</p>
 <p>If the surface perfectly reflects all the light, the radiation pressure actually <strong>doubles</strong> since light being reflected back also gives additional pressure on the surface:</p>
-<div class="arithmatex">\[P = \frac{2I}{c}\]</div>
+<div class="arithmatex">\[P = \frac{2\cdot\text{Flux density}}{c}\]</div>
 </div>
 <p>We know that <span class="arithmatex">\(I\)</span> depends on the Luminosity and Area of the object, so we can rewrite it as such:</p>
-<div class="arithmatex">\[P = \frac{I}{c} = \frac{L}{4\pi D^2}\frac{1}{c} = \frac{L}{4\pi c D^2}\]</div>
+<div class="arithmatex">\[P = \frac{\text{Flux density}}{c} = \frac{L}{4\pi D^2}\frac{1}{c} = \frac{L}{4\pi c D^2}\]</div>
 <p>We also know that <span class="arithmatex">\(P=\frac{F}{A}\)</span>, so we can equate the force as such:</p>
-<div class="arithmatex">\[\begin{align*} P&amp;=\frac{I}{c} \\ \frac{F}{A} &amp;= \frac{I}{c} \\ F &amp;= \frac{IA}{c} \\ &amp;=  \frac{LA}{4\pi c D^2}\end{align*}\]</div>
+<div class="arithmatex">\[\begin{align*} P&amp;=\frac{\text{Flux density}}{c} \\ \frac{F}{A} &amp;= \frac{\text{Flux density}}{c} \\ F &amp;= \frac{\text{Flux density}\cdot A}{c} \\ &amp;=  \frac{LA}{4\pi c D^2}\end{align*}\]</div>
 <p>where <span class="arithmatex">\(A\)</span> is the area of the surface being hit by light.</p>
 <div class="admonition question">
 <p class="admonition-title">Why is there a mirror in space</p>
@@ -1456,7 +1486,7 @@
 </div>
 <div class="tabbed-block">
 <p>We first find the pressure:</p>
-<div class="arithmatex">\[\begin{align*}P &amp;= \frac{2I}{c} \\ &amp;= \frac{2L}{4\pi c D^2} \\ &amp;= \frac{2\times3.828\times 10^{26}}{4\pi \times 2.998\times10^8 \times (1.496\times10^{11})^2} \\ &amp;= 9.080 \times 10^{-6}Pa\end{align*}\]</div>
+<div class="arithmatex">\[\begin{align*}P &amp;= \frac{2\cdot\text{Flux density}}{c} \\ &amp;= \frac{2L}{4\pi c D^2} \\ &amp;= \frac{2\times3.828\times 10^{26}}{4\pi \times 2.998\times10^8 \times (1.496\times10^{11})^2} \\ &amp;= 9.080 \times 10^{-6}Pa\end{align*}\]</div>
 <p>We can then find the force <span class="arithmatex">\(F\)</span> using <span class="arithmatex">\(P=\frac{F}{A}\)</span></p>
 <p>For a circle, <span class="arithmatex">\(A = \pi r^2 = 3.1416\)</span></p>
 <div class="arithmatex">\[\begin{align*}F &amp;= PA \\ &amp;= 9.080 \times 10^{-6} \times 3.1416 \\ &amp;= 2.853 \times 10^{-5} N \end{align*}\]</div>

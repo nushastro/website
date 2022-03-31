@@ -1027,9 +1027,40 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Stefan-Boltzmann Law
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         Stefan-Boltzmann Law
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#flux-density" class="md-nav__link">
+    Flux Density
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -1091,6 +1122,34 @@
     <li class="md-nav__item">
       <a href="../../magnitude/apparent_absolute_magnitude/" class="md-nav__link">
         Apparent and Absolute Magnitude
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../magnitude/magnitude_systems/" class="md-nav__link">
+        Magnitude Systems
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../magnitude/extinction/" class="md-nav__link">
+        Extinction
       </a>
     </li>
   
@@ -1421,6 +1480,21 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#flux-density" class="md-nav__link">
+    Flux Density
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -1458,9 +1532,10 @@ L = 4 \pi R^2 \sigma T^4
 </div>
 </div>
 </div>
+<h2 id="flux-density">Flux Density</h2>
 <p>To find the brightness (flux density of light, aka Intensity) of the star some distance away from it, we can use</p>
 <div class="arithmatex">\[
-\text{Flux Density} = I = \frac{\text{Power}}{\text{Area}} = \frac{L}{4 \pi D^2}
+\text{Flux Density} = F = \frac{\text{Power}}{\text{Area}} = \frac{L}{4 \pi D^2}
 \]</div>
 <p>where <span class="arithmatex">\(D\)</span> is the distance from the star.</p>
 <div class="admonition note">
@@ -1473,6 +1548,7 @@ L = 4 \pi R^2 \sigma T^4
 </ul>
 <p>Confusingly these are all called intensity. In this case we are dealing with <strong>Flux density/Irradiance</strong> since we are concerned about the amount of power received by an area.</p>
 <p>Yet more confusingly, <strong>Radiance</strong>, which is power <strong>emitted, reflected, transmitted or received</strong> by a surface, per unit <strong>solid angle</strong> per unit projected area is also called Intensity. This is a directional quantity instead, which means its a vector. It is expressed as <strong>Power per unit area per unit solid angle</strong>.</p>
+<p>Due to the amount of confusion, one should always carefully check the meaning of these terms.</p>
 <p>If you would like to know every single unit regarding light there is a <a href="https://en.wikipedia.org/wiki/Template:SI_radiometry_units">handy wikipedia template</a></p>
 </div>
 <p>In this example, since astronomical object emits light in all directions (spherically symmetrical), we consider the "area" to be the surface area of a sphere with radius = distance between observer and light source (giving total surface area as <span class="arithmatex">\(4\pi D^2\)</span>)</p>
@@ -1490,7 +1566,7 @@ I \propto \frac{1}{D^2}
 <div class="tabbed-set tabbed-alternate" data-tabs="2:2"><input checked="checked" id="__tabbed_2_1" name="__tabbed_2" type="radio" /><input id="__tabbed_2_2" name="__tabbed_2" type="radio" /><div class="tabbed-labels"><label for="__tabbed_2_1">Question</label><label for="__tabbed_2_2">Solution</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
-<p>Find the Intensity of the sun from earth, given that <span class="arithmatex">\(L_\odot = 3.828 \times 10^{26} W\)</span> and <span class="arithmatex">\(1AU = 1.496 \times 10^{11} m\)</span></p>
+<p>Find the Intensity (Flux density) of the sun from earth, given that <span class="arithmatex">\(L_\odot = 3.828 \times 10^{26} W\)</span> and <span class="arithmatex">\(1AU = 1.496 \times 10^{11} m\)</span></p>
 </div>
 <div class="tabbed-block">
 <p>Just plug it into the formula:</p>

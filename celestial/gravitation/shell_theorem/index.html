@@ -1210,6 +1210,34 @@
 
             
           
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../optics/magnitude/magnitude_systems/" class="md-nav__link">
+        Magnitude Systems
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../optics/magnitude/extinction/" class="md-nav__link">
+        Extinction
+      </a>
+    </li>
+  
+
+            
+          
         </ul>
       </nav>
     </li>
@@ -1701,7 +1729,7 @@ This is because we can effectively discard the shell above the point due to poin
 <div class="arithmatex">\[F_{ring} = \frac{GmM_{ring}}{x^2}\cos\alpha\]</div>
 <h3 id="finding-gravitational-force-caused-by-a-shell">Finding gravitational force caused by a shell</h3>
 <p>However, as it turns out this ring is actually infinitely thin with infinitesimal mass so we have to use differentials instead:</p>
-<div class="arithmatex">\[dF = \frac{Gm\cdot dm}{x^2\cos\alpha\]</div>
+<div class="arithmatex">\[dF = \frac{Gm\cdot dm}{x^2\cos\alpha}\]</div>
 <p>We can now integrate it to get the gravitational force caused by a shell:</p>
 <div class="arithmatex">\[\begin{align*}F_{shell} &amp;= \int dF\\&amp;=\int\frac{Gm\cos\alpha}{x^2}dm \end{align*}\]</div>
 <p>Now the hard part is finding <span class="arithmatex">\(dm\)</span>, because not all rings have the same mass (because they will not all have the same size)</p>
@@ -1711,7 +1739,7 @@ This is because we can effectively discard the shell above the point due to poin
 <p>The mass of a ring can be given as such:</p>
 <div class="arithmatex">\[m_{ring} = \rho V_{ring}\]</div>
 <p>now we need to find the volume of an infinitesimal ring:</p>
-<div class="arithmatex">\[\begin{align*}V_{ring} &amp;= circumference \cdot thickness \cdot arc length \\ &amp;= 2\pi R' \cdot t \cdot R d\theta \\ &amp;= 2\pi R \sin\theta tR \cdot d\theta\end{align*}\]</div>
+<div class="arithmatex">\[\begin{align*}V_{ring} &amp;= \text{circumference} \cdot \text{thickness} \cdot \text{arc length} \\ &amp;= 2\pi R' \cdot t \cdot R d\theta \\ &amp;= 2\pi R \sin\theta tR \cdot d\theta\end{align*}\]</div>
 <p>(since <span class="arithmatex">\(R'= R\sin\theta\)</span>)</p>
 <p><img alt="ring_volume.png" src="../../img/ring_volume.png#only-light" width="480" />
 <img alt="ring_volume.png" src="../../img/ring_volume_dark.png#only-dark" width="480" /></p>
@@ -1726,7 +1754,7 @@ This is because we can effectively discard the shell above the point due to poin
 <p>This is still a mess. We need to get rid of the <span class="arithmatex">\(\alpha\)</span> and <span class="arithmatex">\(\theta\)</span> somehow. We can get <span class="arithmatex">\(\cos\alpha\)</span> by using:</p>
 <div class="arithmatex">\[\begin{align*}\cos\alpha &amp;= \frac{Adj}{Hyp} \\ &amp;= \frac{d-R\cos\theta}{x}\end{align*}\]</div>
 <p>We can also use the cosine rule <span class="arithmatex">\(c^2 = a^2+b^2-2ab \cos C\)</span>:</p>
-<div class="arithmatex">\[\begin{align*}x^2 &amp;= d^2 +R^2 - 2dR\cos\theta \\ -\Rcos\theta&amp;=\frac{x^2-d^2-R^2}{2d}\end{align*}\]</div>
+<div class="arithmatex">\[\begin{align*}x^2 &amp;= d^2 +R^2 - 2dR\cos\theta \\ -R\cos\theta&amp;=\frac{x^2-d^2-R^2}{2d}\end{align*}\]</div>
 <p>we can plug this back:</p>
 <div class="arithmatex">\[\begin{align*}\cos\alpha &amp;= \frac{d-R\cos\theta}{x} \\ &amp;= \frac{d+\frac{x^2-d^2-R^2}{2d}}{x} \\ &amp;= \frac{\frac{2d^2}{2d}+\frac{x^2-d^2-R^2}{2d}}{x} \\ &amp;= \frac{\frac{2d^2+x^2-d^2-R^2}{2d}}{x} \\ &amp;= \frac{d^2+x^2-R^2}{2d\cdot x} \end{align*}\]</div>
 <p>now <span class="arithmatex">\(\cos\alpha\)</span> is only in terms of x!</p>
