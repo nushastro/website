@@ -84,7 +84,7 @@ $$F_{ring} = \frac{GmM_{ring}}{x^2}\cos\alpha$$
 
 However, as it turns out this ring is actually infinitely thin with infinitesimal mass so we have to use differentials instead:
 
-$$dF = \frac{Gm\cdot dm}{x^2\cos\alpha$$
+$$dF = \frac{Gm\cdot dm}{x^2\cos\alpha}$$
 
 We can now integrate it to get the gravitational force caused by a shell:
 
@@ -103,7 +103,7 @@ $$m_{ring} = \rho V_{ring}$$
 
 now we need to find the volume of an infinitesimal ring:
 
-$$\begin{align*}V_{ring} &= circumference \cdot thickness \cdot arc length \\ &= 2\pi R' \cdot t \cdot R d\theta \\ &= 2\pi R \sin\theta tR \cdot d\theta\end{align*}$$
+$$\begin{align*}V_{ring} &= \text{circumference} \cdot \text{thickness} \cdot \text{arc length} \\ &= 2\pi R' \cdot t \cdot R d\theta \\ &= 2\pi R \sin\theta tR \cdot d\theta\end{align*}$$
 
 (since $R'= R\sin\theta$)
 
@@ -132,7 +132,7 @@ $$\begin{align*}\cos\alpha &= \frac{Adj}{Hyp} \\ &= \frac{d-R\cos\theta}{x}\end{
 
 We can also use the cosine rule $c^2 = a^2+b^2-2ab \cos C$:
 
-$$\begin{align*}x^2 &= d^2 +R^2 - 2dR\cos\theta \\ -\Rcos\theta&=\frac{x^2-d^2-R^2}{2d}\end{align*}$$
+$$\begin{align*}x^2 &= d^2 +R^2 - 2dR\cos\theta \\ -R\cos\theta&=\frac{x^2-d^2-R^2}{2d}\end{align*}$$
 
 we can plug this back:
 
