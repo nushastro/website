@@ -46,7 +46,7 @@ where $D$ is the distance from the star.
 
     Yet more confusingly, **Radiance**, which is power **emitted, reflected, transmitted or received** by a surface, per unit **solid angle** per unit projected area is also called Intensity. This is a directional quantity instead, which means its a vector. It is expressed as **Power per unit area per unit solid angle**.
 
-    Due to the amount of confusion, one should always carefully check the meaning of these terms
+    Due to the amount of confusion, one should always carefully check the meaning of these terms.
 
     If you would like to know every single unit regarding light there is a [handy wikipedia template](https://en.wikipedia.org/wiki/Template:SI_radiometry_units)
 
