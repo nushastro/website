@@ -14,7 +14,7 @@ Circles were covered in primary school so we will skip that.
 
 ## Ellipse
 
-An ellipse is a plane curve surrounding two focal points, such that for all points on the curve, the sum of the two
+An ellipse is a plane curve surrounding two focal points (aka focus, plural: foci), such that for all points on the curve, the sum of the two
 distances to the focal points is a constant. As such, it generalizes a circle, which is the special type of ellipse in
 which the two focal points are the same. Watch the 3Blue1Brown video below more information about ellipses.
 
@@ -32,9 +32,13 @@ We usually represent the semi-major axis as $a$, semi-minor as $b$ and linear ec
 
 As you hopefully know, for every point on the ellipse, the sum of distances to foci is constant. We can show that this is in fact just simply $2a$.
 
-Consider the point along the $x$-axis labelled "vertex". Let's call that point $P_1$ The length of $F_1$ to $P_1$ is $a-c$, and the length of $F_2$ to $P_1$ is $a+c$. Combining these 2 gives $a+c+a-c=2a$, and this applies to **every point** on the ellipse.
+Consider the point along the $x$-axis labelled "vertex" (Top diagram). Let's call that point $P_1$ The length of $F_1$ to $P_1$ is $a-c$, and the length of $F_2$ to $P_1$ is $a+c$. Combining these 2 gives $a+c+a-c=2a$, and this applies to **every point** on the ellipse.
 
 Ellipses have an **eccentricity** $0\leq\varepsilon<1$, that is defined as $\varepsilon = \frac{c}{a}$, or $c=a\varepsilon$. You can think of it as the _position of the focus as a fraction of the semimajor axis_.
+
+!!! Warning
+
+    eccentricity is sometimes denotes as $\epsilon$ or $e$
 
 Now consider the sum of distances to the foci at the point labelled "co-vertex". The distance from $F_1$ (or $F_2$) to the co-vertex is $\sqrt{c^2+b^2}$. Therefore the sum of distances to the foci is $2\sqrt{c^2+b^2}$. Earlier we have proven that this value has to be $2a$, so we get the following:
 
@@ -44,6 +48,10 @@ Plugging in $c=a\varepsilon$, we can simplify to get an expression for $\varepsi
 
 $$\begin{align*}a^2 &= c^2+b^2 \\ a^2 &= a^2\varepsilon^2+b^2\\a^2-a^2\varepsilon^2 &= b^2 \\ a^2(1-\varepsilon^2) &= b^2 \\ 1-\varepsilon^2 &= \frac{b^2}{a^2} \\ 1-\frac{b^2}{a^2}&=\varepsilon^2 \\ \varepsilon&=\sqrt{1-\frac{b^2}{a^2}}\end{align*}$$
 
+!!! Note "Circles"
+
+    Circles are just a special case when $\varepsilon = 0$
+
 ### Area
 
 The area $A$ of an ellipse can be given by:
@@ -51,15 +59,24 @@ The area $A$ of an ellipse can be given by:
 $$ A = \pi a b$$
 
 !!! warning
+
     There is no nice formula for the perimeter of the ellipse. The reason why will give you [a world of nightmares never seen before](https://www.youtube.com/watch?v=wc9H-apkH2M).
 
 ### Aphelion and Perihelion
 
-![perihelion-aphelion.svg](../img/perihelion-aphelion.svg#only-light)
+![perihelion-aphelion.svg](../img/perihelion_aphelion.svg#only-light)
 ![perihelion-aphelion.svg](../img/perihelion-aphelion-dark.svg#only-dark)
 
-**Aphelion**: point in the orbit that is **furthest** away from the sun/bigger mass $r_{ap} = a(1+\varepsilon)$
-**Perihelion**: point in the orbit that is **closest** to the sun/bigger mass $r_{pe} = a(1-\varepsilon)$
+**Aphelion**: point in the orbit that is **furthest** away from the **sun** $r_{ap} = a(1+\varepsilon)$
+**Perihelion**: point in the orbit that is **closest** to the **sun** $r_{pe} = a(1-\varepsilon)$
+
+!!! Warning "Apoapsis and Periapsis"
+
+    Ap**helion** and Peri**helion** only applies for a mass orbiting **the sun**, and the sun *only*.
+
+    If an object is orbiting around **earth** use Apo*gee* and Peri*gee*, if it is around **jupiter** use Apo*jove* and Peri*jove*, ...
+
+    The more general term is **apoapsis** and **periapsis**, or **apocenter** and **pericenter**.
 
 ### Summary
 
@@ -83,6 +100,19 @@ Although this is denoted as $p$ in the diagram, it is usually denoted as $\ell$.
 
 $$\begin{align*}(2a-\ell)^2 &= (2c)^2+\ell^2 \\ (2a-\ell)^2 &= (2a\varepsilon)^2+\ell^2 \\ 4a^2-4a\ell +\ell^2 &= 4a^2\varepsilon^2+\ell^2 \\ 4a^2-4a\ell &= 4a^2\varepsilon^2 \\ 4a^2 + 4a^2\varepsilon^2  &= 4a\ell \\ \ell &= a(1-\varepsilon^2)\end{align*}$$
 
+### Extension (For now): Polar form of an ellipse
+
+The **Polar Form** of an ellipse **relative to a focus** is:
+
+$$
+r = \frac{\ell}{1 + \cos\theta} = \frac{a(1-\varepsilon^2)}{1 + \cos\theta}
+$$
+
+Where $r$ (or more formally $r(\theta)$) is **the distance between the orbit and the focus** at an angle $\theta$.
+
+![Ellipse_Polar.svg](../img/Ellipse_Polar.svg#only-light)
+![Ellipse_Polar.svg](../img/Ellipse_Polar_dark.svg#only-dark)
+
 ## Parabola, Hyperbola
 
 These also describe paths of objects in space that will never come back, for example Oumuamua follows a hyperbolic orbit:
@@ -90,6 +120,7 @@ These also describe paths of objects in space that will never come back, for exa
 ![](../img/oumuamua_orbit.png)
 
 !!! note
+
     Every single "orbit" a mass can take _is a conic section_ (approximately).
     The reason why this happens will (hopefully) be covered in a later section.
     This is approximate as this assume the second mass does not move, and that the orbiting mass is a point mass.

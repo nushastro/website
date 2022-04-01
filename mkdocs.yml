@@ -1,106 +1,118 @@
 site_name: NUSH Astro
 
 theme:
-  name: 'material'
-  features:
-    - navigation.tabs
+    name: 'material'
+    features:
+        - navigation.tabs
 
-  # 404 page
-  static_templates:
-    - 404.html
+    # 404 page
+    static_templates:
+        - 404.html
 
-  # Necessary for search to work properly
-  include_search_page: false
-  search_index_only: true
+    # Necessary for search to work properly
+    include_search_page: false
+    search_index_only: true
 
-  # Default values, taken from mkdocs_theme.yml
-  language: en
-  font:
-    text: Roboto
-    code: Roboto Mono
-  favicon: assets/favicon.png
-  icon:
-    logo: material/telescope
+    # Default values, taken from mkdocs_theme.yml
+    language: en
+    font:
+        text: Roboto
+        code: Roboto Mono
+    favicon: assets/favicon.png
+    icon:
+        logo: material/telescope
 
-  palette:
-    - scheme: slate
-      primary: black
-      toggle:
-        icon: material/toggle-switch
-        name: Switch to light mode
-    - scheme: default
-      primary: black
-      toggle:
-        icon: material/toggle-switch-off-outline
-        name: Switch to dark mode
+    palette:
+        - scheme: slate
+          primary: black
+          toggle:
+              icon: material/toggle-switch
+              name: Switch to light mode
+        - scheme: default
+          primary: black
+          toggle:
+              icon: material/toggle-switch-off-outline
+              name: Switch to dark mode
 
 markdown_extensions:
-  - pymdownx.highlight:
-      anchor_linenums: true
-  - pymdownx.inlinehilite
-  - pymdownx.snippets
-  - pymdownx.superfences
-  - tables
-  - admonition
-  - pymdownx.details
-  - pymdownx.superfences
-  - pymdownx.emoji:
-      emoji_index: !!python/name:materialx.emoji.twemoji
-      emoji_generator: !!python/name:materialx.emoji.to_svg
-  - pymdownx.arithmatex:
-      generic: true
-  - attr_list
-  - md_in_html
-  - pymdownx.tabbed:
-      alternate_style: true
+    - pymdownx.highlight:
+          anchor_linenums: true
+    - pymdownx.inlinehilite
+    - pymdownx.snippets
+    - pymdownx.superfences
+    - tables
+    - admonition
+    - pymdownx.details
+    - pymdownx.superfences
+    - pymdownx.emoji:
+          emoji_index: !!python/name:materialx.emoji.twemoji
+          emoji_generator: !!python/name:materialx.emoji.to_svg
+    - pymdownx.arithmatex:
+          generic: true
+    - attr_list
+    - md_in_html
+    - pymdownx.tabbed:
+          alternate_style: true
 
 extra_javascript:
-  - javascripts/mathjax.js
-  - https://polyfill.io/v3/polyfill.min.js?features=es6
-  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+    - javascripts/mathjax.js
+    - https://polyfill.io/v3/polyfill.min.js?features=es6
+    - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
 
 nav:
-  - Home: index.md
-  - Celestial Mechanics:
-      - Getting Started: celestial/index.md
-      - Basics:
-          - 'celestial/basics/universal_gravitation.md'
-          - 'celestial/basics/circular_motion.md'
-          - 'celestial/basics/conic_sections.md'
-          - 'celestial/basics/keplers_laws.md'
-      - Orbital Mechanics:
-          - 'celestial/mechanics/conservation_of_quantities.md'
-          - 'celestial/mechanics/trajectory_of_particle.md'
-          - 'celestial/mechanics/binary_system_total_energy.md'
-      - Gravitation:
-          - 'celestial/gravitation/shell_theorem.md'
-  - Stellar Astronomy:
-      - Getting Started: stellar/index.md
-      - Basics:
-          - stellar/basics/star_structure.md
-          - stellar/basics/energy_generation.md
-      - Classification:
-          - stellar/classification/hr_diagram.md
-          - stellar/classification/classification.md
-      - Evolution:
-          - stellar/evolution/the_beginning.md
-          - stellar/evolution/main_sequence.md
-          - stellar/evolution/low_mass_stars.md
-          - stellar/evolution/sun_like.md
-      - The Magnitude System:
-          - stellar/magnitude/apparent_absolute_magnitude.md
-      - Blackbody Radiation:
-          - stellar/blackbody/blackbody_radiation.md
-          - stellar/blackbody/wiens_displacement_law.md
-          - stellar/blackbody/stefan_boltzmann_law.md
-          - stellar/blackbody/radiation_pressure.md
-  - Positional Astronomy:
-      - Getting Started: positional/index.md
-      - Project Circinus: positional/assets/Project Circinus v1.2.32.pdf
-  - Starhopping Guide:
-      - Getting Started: starhopping/index.md
-  - Practical:
-      - practical/index.md
-      - practical/telescopes.md
-      - practical/accessories.md
-  - Slides: slides/index.md
+    - Home: index.md
+    - Celestial Mechanics:
+          - Getting Started: celestial/index.md
+          - Basics:
+                - 'celestial/basics/universal_gravitation.md'
+                - 'celestial/basics/circular_motion.md'
+                - 'celestial/basics/conic_sections.md'
+                - 'celestial/basics/keplers_laws.md'
+          - Gravitation:
+                - 'celestial/gravitation/gravitational_field.md'
+                - 'celestial/gravitation/shell_theorem.md'
+                - 'celestial/gravitation/gravitational_potential.md'
+          - Orbital Mechanics:
+                - 'celestial/mechanics/conservation_of_quantities.md'
+                - 'celestial/mechanics/trajectory_of_particle.md'
+                - 'celestial/mechanics/binary_system_total_energy.md'
+
+    - Stellar Astronomy:
+          - Getting Started: stellar/index.md
+          - Basics:
+                - stellar/basics/star_structure.md
+                - stellar/basics/energy_generation.md
+          - Classification:
+                - stellar/classification/hr_diagram.md
+                - stellar/classification/classification.md
+          - Evolution:
+                - stellar/evolution/the_beginning.md
+                - stellar/evolution/main_sequence.md
+                - stellar/evolution/low_mass_stars.md
+                - stellar/evolution/sun_like.md
+                - stellar/evolution/high_mass.md
+    - Light and Optics:
+          - Blackbody Radiation:
+                - optics/blackbody/blackbody_radiation.md
+                - optics/blackbody/wiens_displacement_law.md
+                - optics/blackbody/stefan_boltzmann_law.md
+                - optics/blackbody/radiation_pressure.md
+          - The Magnitude System:
+                - optics/magnitude/apparent_absolute_magnitude.md
+                - optics/magnitude/magnitude_systems.md
+                - optics/magnitude/extinction.md
+    - Positional Astronomy:
+          - Getting Started: positional/index.md
+          - Project Circinus: positional/assets/Project Circinus v1.2.32.pdf
+    - Starhopping Guide:
+          - Getting Started: starhopping/index.md
+    - Practical:
+          - practical/index.md
+          - practical/telescopes.md
+          - practical/accessories.md
+    - Slides: slides/index.md
+    - Meteorology:
+          - meteorology/index.md
+          - meteorology/basics/clouds.md
+          - meteorology/basics/weather_systems.md
+          - meteorology/basics/optical_effects.md
