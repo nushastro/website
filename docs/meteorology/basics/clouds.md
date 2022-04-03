@@ -44,9 +44,10 @@ These are often found over large areas of the ocean.
 These clouds are responsible for the thunderstorms you experience in Singapore.
 Althought these are "Low Clouds" (due to having a low base), these clouds extend up high into the Troposphere, which in the tropics is about 15 kilometers high.
 
-![cumulonimbus.png](../img/cumulonimbus.png)
-
-> Cumulonimbus with its anvil-shaped top sheared by higher level winds
+<figure markdown>
+  ![cumulonimbus.png](../img/cumulonimbus.png)
+  <figcaption>Cumulonimbus with its anvil-shaped top sheared by higher level winds</figcaption>
+</figure>
 
 You can think of cumulonimbus as a better vesion of cumulus.
 However, the defining feature that separates cumulonimbus from cumulus congestus is the presence of ice crystals at the top of the cloud.
