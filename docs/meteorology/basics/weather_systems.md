@@ -47,18 +47,20 @@ The highest incidence of lightning activity typically occurs in November followe
 These are the Inter-Monsoon months when the predominantly light and variable winds favour the development of localised and intense thunderstorms.  
 On average, the Inter-Monsoon months account for more than 50% of the lightning strokes in a year.
 
-![cloud_to_cloud.gif](../img/cloud_to_cloud.gif){ width="480px"}
-
-> cloud-to-cloud lightning (Changi Meteorological Station)
+<figure markdown>
+  ![cloud_to_cloud.gif](../img/cloud_to_cloud.gif){ width="480px"}
+  <figcaption>cloud-to-cloud lightning (Changi Meteorological Station)</figcaption>
+</figure>
 
 Most lightning strokes occur within 5-6 km of a thunderstorm cloud.
 In the absence of a thunderstorm in a location, lightning strokes from a distant thunderstorm cloud more than 10 km away could still affect that location.
 Such a lightning strike is known as a “bolt from the blue”.
 Such lightning strikes are likely from the anvil to the cloud to the ground.
 
-![cloud_to_ground.gif](../img/cloud_to_ground.gif){ width="480px"}
-
-> cloud-to-ground lightning (Pasir Ris)
+<figure markdown>
+  ![cloud_to_ground.gif](../img/cloud_to_ground.gif){ width="480px"}
+  <figcaption>cloud-to-ground lightning (Pasir Ris)</figcaption>
+</figure>
 
 Thunder is the sharp or rumbling sound which accompanies lightning.
 It is caused by the intense heating and expansion of the air along the path of the lightning.
@@ -72,9 +74,10 @@ This downdraft in turn spreads out upon reaching the ground, resulting in gusty 
 A microburst is an intense downdraft that occurs over a small localized area, typically with a horizontal extent of less than 4 km.
 They have a brief lifespan reaching maximum intensity within 10 minutes, and can generate wind speeds of more than 270km/h.
 
-![microburst.jpg](../img/microburst.jpg)
-
-> Schematic of a microburst with its characteristic “curling of air” upon strong impact with the ground. Ignore the airplane.
+<figure markdown>
+  ![microburst.jpg](../img/microburst.jpg)
+  <figcaption>Schematic of a microburst with its characteristic “curling of air” upon strong impact with the ground. Ignore the airplane.</figcaption>
+</figure>
 
 As a microburst is a small scale feature that forms and dissipates very quickly, it remains a challenge to forecast when a microburst will occur, and to issue timely warnings of its expected occurrence.
 
@@ -86,9 +89,10 @@ Hail stones form in an intense thunderstorm (cumulonimbus) cloud when raindrops 
 They compose of transparent irregular ice pieces or alternating layers of ice, ranging in size from a few millimetres to a few centimetres in diameter.
 Once a hailstone becomes too heavy to be supported by the thunderstorm’s updraft, it falls out of the cloud.
 
-![hail.png](../img/hail.png)
-
-> hail from [an intense thunderstorm event in 2013](https://www.youtube.com/watch?v=EzUjghLO3qc&t=16s)
+<figure markdown>
+  ![hail.png](../img/hail.png)
+  <figcaption>hail from <a href="https://www.youtube.com/watch?v=EzUjghLO3qc&t=16s">an intense thunderstorm event in 2013</a></figcaption>
+</figure>
 
 In the tropics, the atmosphere is often warmer with the freezing level usually at altitudes greater than 5 km.
 Therefore, hail formed in the upper atmosphere usually melts before reaching the ground.
@@ -121,9 +125,10 @@ It commonly occurs during the Southwest Monsoon and Inter-monsoon periods, and u
 A Sumatra squall is often characterised by a sudden onset of strong gusty surface winds of 40 to 80km/h and heavy rain lasting from 1 to 2 hours as it moves across the island.
 Maximum gusts (sudden increses of wind speed) of up to 93 km/h have been recorded during the passage of a Sumatra squall.
 
-![sumatra_squall.gif](../img/sumatra_squall.gif)
-
-> Radar animation of a Sumatra squall affecting Singapore in the predawn hours
+<figure markdown>
+  ![sumatra_squall.gif](../img/sumatra_squall.gif)
+  <figcaption>Radar animation of a Sumatra squall affecting Singapore in the predawn hours</figcaption>
+</figure>
 
 ## Monsoon Surge
 
@@ -139,6 +144,7 @@ Surges that occur during the dry phase of the Northeast Monsoon typically bring 
 
 On average, Singapore experiences 2 to 4 monsoon surges each year. Each event can last between 1 and 5 days where widespread continuous moderate to heavy rain affects the island. Sometimes the surges come in spells with breaks of cloudy or overcast conditions.
 
-![monsoon_surge.gif](../img/monsoon_surge.gif)
-
-> Radar animation showing multiple spells of showers affecting Singapore during a Monsoon Surge
+<figure markdown>
+  ![monsoon_surge.gif](../img/monsoon_surge.gif)
+  <figcaption>Radar animation showing multiple spells of showers affecting Singapore during a Monsoon Surge</figcaption>
+</figure>
