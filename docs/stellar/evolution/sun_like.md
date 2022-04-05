@@ -14,10 +14,10 @@ creating a _shell_ of hydrogen fusion. (this shell lasts 1 billion years for the
 
 ## Red Giant Branch (RGB)
 
-Due to the increased temperature, the hydrogen fusion rate (in the shell) is faster and radiation pressure is higher.
-This actually causes the outer layers of the star to expand to maintain the pressure gradient. Due to decreased pressure
-and increase surface area this causes the surface temperature to drop and for it to turn red. It will expand out to the
-orbit of Venus so there planets will be gone.
+Due to the increased temperature, the hydrogen fusion rate (in the shell) is faster and radiation pressure is higher - it produces **more energy**.
+It produces enough energy to "beat gravity" - it actually causes the outer layers of the star to expand to maintain the pressure gradient.
+Due to decreased pressure and increase surface area this causes the surface temperature to drop and for it to turn red.
+It will expand out to the orbit of Venus so those planets will be gone.
 
 The outer envelope is so extended that it is only weakly held by gravitational force to the rest of the star and
 easily ejected. However the contracted helium core is incredibly dense. It is only about one-third its original size.
