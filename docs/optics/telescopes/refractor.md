@@ -10,7 +10,6 @@ A refractor telescope is a type of optical telescope that uses a lens as its obj
 
 ## Galilean refractors
 
-![](../img/Galilean-refractor.svg#only-light)
 ![](../img/Galilean-refractor_dark.svg#only-dark)
 
 These use a convergent (plano-convex) objective lens and a divergent (plano-concave) eyepiece lens. It results in a non-inverted and upright image. It works because the objective lens is able to gather more light and focus it, more than what the human eye alone could do.
