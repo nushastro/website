@@ -624,6 +624,26 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#normal-method" class="md-nav__link">
+    "Normal" method
+  </a>
+  
+    <nav class="md-nav" aria-label=""Normal" method">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#seesaw-approach" class="md-nav__link">
+    "Seesaw" approach
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#reduced-mass" class="md-nav__link">
     Reduced mass
   </a>
@@ -1591,6 +1611,26 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#normal-method" class="md-nav__link">
+    "Normal" method
+  </a>
+  
+    <nav class="md-nav" aria-label=""Normal" method">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#seesaw-approach" class="md-nav__link">
+    "Seesaw" approach
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#reduced-mass" class="md-nav__link">
     Reduced mass
   </a>
@@ -1613,27 +1653,47 @@
 
 <h1 id="binary-stars">Binary Stars</h1>
 <p>We have handled 2 body systems in which the mass of one body is much smaller as compared to the other. In these cases, we have assumed that the bigger mass does not move while the smaller moves in circular motion centered at the bigger mass. What if the 2 masses are comparable even to the extent the 2 masses are identical? There is no reason why one mass will revolve around the other. Instead, it can be reasoned with symmetry that they should revolve around their common centre of mass (barycenter).</p>
-<p>We could of course solve for circular motion around the barycenter for each star, but that is incredibly painful as you would learn by trying the below example out with this approach.</p>
-<p>But there exists a better method, known as the reduced mass approach.</p>
+<h2 id="normal-method">"Normal" method</h2>
+<p>There isn't really a name for the conventional method of solving binary systems.</p>
+<p>The most important quantity from which most other quantities can be derived in orbital mechanics is the radius of the orbit, specifically radius to the barycenter. So our first order of business is to locate the barycenter.</p>
+<h3 id="seesaw-approach">"Seesaw" approach</h3>
+<p><img alt="seesaw.png" src="../../img/seesaw.png" /></p>
+<p>Once again, there isn't really a name for this way, but its an analogy for finding the barycenter. It should make intuitive sense that the barycenter will be closer to the larger mass, we can write that statement down mathematically as such:</p>
+<div class="arithmatex">\[m_1 r_1 = m_2 r_2\]</div>
+<p>Great! Now we just need to find <span class="arithmatex">\(r_1\)</span> and <span class="arithmatex">\(r_2\)</span>.</p>
+<p>Let us denote <span class="arithmatex">\(D\)</span> as the distance between the 2 masses.</p>
+<p>We can then solve for <span class="arithmatex">\(r_1\)</span>:</p>
+<div class="arithmatex">\[m_1 r_1 = m_2 (D-r_1)\]</div>
+<div class="arithmatex">\[m_1 r_1 + m_2 r_1 = m_2 D\]</div>
+<div class="arithmatex">\[r_1 (m_1+m_2) = m_2 D\]</div>
+<div class="arithmatex">\[r_1=\frac{m_2 D}{m_1 + m_2}\]</div>
+<p>Similarly for <span class="arithmatex">\(r_2\)</span>:</p>
+<div class="arithmatex">\[r_2=\frac{m_1 D}{m_1 + m_2}\]</div>
+<p>Now that we have obtained the radii, we can solve for circular motion, but we can't just plug in our formulas for angular speed we found earlier! That assumes the radius of orbit and radius to other mass is the same, but that is not the case in the binary system!</p>
+<p>So we have to equate the centripetal and gravitational forces:</p>
+<div class="arithmatex">\[m_1 r_1 \omega^2 = \frac{G m_1 m_2}{D^2}\]</div>
+<p>And now we can simply rearrange and solve for <span class="arithmatex">\(\omega\)</span> and other quantities, minding the differences in the radii. As for this case, this method isn't too bad. But for more complicated binary systems, it only gets worse. While you are still completely free to use this, there exists a better method, known as the reduced mass approach.</p>
 <h2 id="reduced-mass">Reduced mass</h2>
 <p>Essentially, we can treat the binary system as a one-body system we are comfortable with. We do this, by saying a <strong>reduced mass</strong> <span class="arithmatex">\(\mu\)</span> orbits a larger mass that is the sum of both masses from the binary system. We calculate the reduced mass <span class="arithmatex">\(\mu\)</span> from:</p>
 <div class="arithmatex">\[\mu=\frac{m_1 m_2}{m_1+m_2}\]</div>
 <p>Note that the distance between the reduced mass and <span class="arithmatex">\(M=m_1+m_2\)</span> is the same as the distance between the original 2 masses. This method is a lot less painful since we can take <span class="arithmatex">\(M\)</span> to not be moving.</p>
-<div class="admonition question">
-<p class="admonition-title">Question</p>
-<div class="tabbed-set tabbed-alternate" data-tabs="1:2"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">Question</label><label for="__tabbed_1_2">Solution</label></div>
-<div class="tabbed-content">
-<div class="tabbed-block">
-<p>What is the angular speed of the two stars if the distance between them <span class="arithmatex">\(D=7.8 \times 10^{13} m\)</span>, and <span class="arithmatex">\(m_1=5\times 10^{32} kg\)</span> and <span class="arithmatex">\(m_2=10\times 10^{32} kg\)</span></p>
-</div>
-<div class="tabbed-block">
-<p><span class="arithmatex">\(2.11 rad \space s^-1\)</span>.</p>
-<div class="arithmatex">\[\omega=\sqrt{\frac{G M}{r^3}}\]</div>
-<div class="arithmatex">\[\omega=\sqrt{\frac{G (m_1+m_2)}{D^3}}=2.11 rad \space s^-1\]</div>
-</div>
-</div>
-</div>
-</div>
+<details>
+<summary>A bit of a tangent</summary>
+<p>Physicists aren't exactly known for giving things good names, but in this case, its a good name, because the reduced mass is lesser than or equal to the mass of both masses. Essentially, <span class="arithmatex">\(\mu \leq m_1\)</span> and <span class="arithmatex">\(\mu \leq m_2\)</span>. This is due to the fact that the reduced mass follows the reciprocal property: <span class="arithmatex">\(\frac{1}{\mu}=\frac{1}{m_1}+\frac{1}{m_2}\)</span>. If this looks familiar, its analogous to why the effective resistance of parallel resistors is lesser than the individual resistors, (although that analogy won't make sense if you haven't studied DC circuits yet).</p>
+</details>
+<p>Now some of you may have already been repeatedly asking, why is this legal? Well, the derivation may be confusing without some background knowledge on Galilean relativity. But those who are interested, here's the derivation:</p>
+<details>
+<summary>Derivation</summary>
+<p><span class="arithmatex">\(\vec{F}_{12} = m_1 \vec{a}\)</span>_1 (Newton's 2nd Law)</p>
+<p><span class="arithmatex">\(\vec{F}_{21} = m_2 \vec{a}_2\)</span></p>
+<p><span class="arithmatex">\(\vec{F}_{12}=-\vec{F}_{21}\)</span> (Newton's 3rd Law)</p>
+<p><span class="arithmatex">\(m_1 \vec{a}_1 = - m_2 \vec{a}_2\)</span></p>
+<p><span class="arithmatex">\(\vec{a}_2=-\frac{m_1}{m_2} \vec{a}_1\)</span></p>
+<p><span class="arithmatex">\(\vec{a}_{rel}=\vec{a}_1-\vec{a}_2\)</span></p>
+<p><span class="arithmatex">\(\vec{a}_{rel}=(1+\frac{m_1}{m_2}) \vec{a}_1\)</span></p>
+<p><span class="arithmatex">\(\vec{a}_{rel}=\frac{m_1+m_2}{m_1 m_2} m_1 \vec{a}_1\)</span></p>
+<p><span class="arithmatex">\(\vec{a}_{rel}=\frac{\vec{F}_{12}}{\mu}\)</span></p>
+</details>
 
               
             </article>
