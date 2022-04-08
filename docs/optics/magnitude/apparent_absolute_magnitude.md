@@ -65,7 +65,7 @@ $F$ refers to the _Flux_ of light (brightness). This law is applicable in calcul
         By this, we note that the sun is a million times brighter than the moon in the Earth sky.
 
 However, this only allows us to **compare** apparent magnitudes, and not actualy get a value for them.
-To get a value for them, we have to find a value $F_0$, which is a value of flux that we choose _such that_ $m = 0$.
+To get a value for them, we have to find a value $F_0$, which is a _value of flux that we choose such that_ $m = 0$.
 
 $$
 m - m_0 = -2.5\log\left(\frac{F}{F_0}\right)
