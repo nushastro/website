@@ -3,7 +3,8 @@
 Universal Gravitation is likely the most basic principle you will learn in Gravitation, which, in hindsight, is rather depressing, to say the least. It is based on the following equation, which has cemented itself as one of the most iconic ever in recent years.
 
 !!! note "What"
-I have no idea what the above paragraph means but anyways the formula below is very important
+
+    I have no idea what the above paragraph means but anyways the formula below is very important
 
 $$F_g = G \frac{Mm}{r^2}$$
 
