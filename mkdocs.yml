@@ -72,6 +72,9 @@ nav:
                 - 'celestial/gravitation/gravitational_field.md'
                 - 'celestial/gravitation/shell_theorem.md'
                 - 'celestial/gravitation/gravitational_potential.md'
+                - 'celestial/gravitation/satellite_motion.md'
+                - 'celestial/gravitation/binary_stars.md'
+                - 'celestial/gravitation/escape_velocity.md'
           - Orbital Mechanics:
                 - 'celestial/mechanics/conservation_of_quantities.md'
                 - 'celestial/mechanics/trajectory_of_particle.md'
