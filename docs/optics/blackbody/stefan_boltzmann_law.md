@@ -3,7 +3,8 @@
 Luminosity ($L$) is the absolute measure of _radiated electromagnetic **power**_ (a.k.a. **light**) emitted by something like a star, galaxy, or anything astronomical object far away.
 
 !!! Note
-Luminosity **remains the same** no matter how far away you are - it is a property of the astronomical object.
+
+    Luminosity **remains the same** no matter how far away you are - it is a property of the astronomical object.
 
 For blackbodies there is a relation called the Stefan-Boltzmann law which allows us to calculate the luminosity $L$.
 
@@ -22,7 +23,63 @@ where $R$ is the radius of the star, $\sigma$ is the Stefan-Boltzmann Constant a
     === "Solution"
         Rearranging gives:
 
-        $$\begin{align*}T &= \sqrt[4]{\frac{L}{4\pi R^2\sigma}} \\ &= \sqrt[4]{\frac{3.828\times 10^{26}\times 10^{-12}}{4\pi \times 13.0967^2 \times 5.67\times 10^{-8}}} \\ &= 42069K \end{align*}$$
+        $$\begin{align*}T &= \sqrt[4]{\frac{L}{4\pi R^2\sigma}} \\ &= \sqrt[4]{\frac{3.828\times 10^{26}\times 10^{-12}}{4\pi \times 13.0967^2 \times 5.67\times 10^{-8}}} \\ &= 42000K \end{align*}$$
+
+        (Note that this "star" probably won't undergo fusion)
+
+!!! Question "Pistol Star"
+
+    === "Question"
+
+        *Pistol Star* is an extremely luminous blue hypergiant star. Given that it's surface temperature is 12000K and has a luminosity 3.3 million times that of the sun, find its radius in terms of $R_\odot$. (Take the surface temperature of the sun to be 5772K)
+
+    === "Solution"
+
+        We can rewrite the stefan-boltzmann law as:
+
+        $$
+        R = \sqrt{\frac{L}{4\pi\sigma T^4}}
+        $$
+
+        We can then find the ratio of $R_\star$ and $R_\odot$.
+
+        $$
+        \begin{align*}
+        \frac{R_\star}{R_\odot} &= \sqrt{ \frac{L_\star}{L_\odot} \cdot \left( \frac{T_\odot}{T_\star} \right)^4 }\\
+        &= \sqrt{ 3.3\times 10^6 \cdot \left( \frac{5772}{12000} \right)^4}\\
+        &= 420.29K
+        \end{align*}
+        $$
+
+!!! Question "Luminous Blue Variable (LBV)"
+
+    === "I12 - T07 - A"
+
+        Luminous Blue Variable (LBV) stars greatly vary in visual brightness;
+        however, their bolometric magnitude remains constant.
+        Imagine a LBV star with a black body temperature of 5000 K at its maximum visual brightness, and 30,000 K at its minimum visual brightness.
+        Calculate the ratio of the star radius between both situations above.
+
+    === "Solution"
+
+        Since the bolometric magnitude remains constant, the total energy radiated from the star (Luminosity) remains constant.
+        We already know:
+
+        $$
+        L_\star = 4\pi R_\star^2\sigma T^4
+        $$
+
+        Since $L_\star$ remains constant,
+
+        $$\begin{align*}
+        4\pi R_1^2\sigma T_1^4 &= 4\pi R_2^2\sigma T_1^4\\
+        R_1^2 T_1^4 &= R_2^2 T_1^4\\
+        \frac{R_1}{R_2} &= \left(\frac{T_2}{T_1}\right)^2\\
+        &= \left(\frac{30000}{5000}\right)^2\\
+        &= 36
+        \end{align*}$$
+
+The TL;DR of this is that $L \propto T^4 R^2$
 
 ## Flux Density
 
@@ -52,7 +109,7 @@ where $D$ is the distance from the star.
 
 In this example, since astronomical object emits light in all directions (spherically symmetrical), we consider the "area" to be the surface area of a sphere with radius = distance between observer and light source (giving total surface area as $4\pi D^2$)
 
-This follows the **inverse square law** of light intensity as it goes further away from its source.
+This follows the **inverse square law** of light intensity (in this case meaning flux density) as it goes further away from its source.
 
 $$
 I \propto \frac{1}{D^2}
