@@ -7,3 +7,5 @@ We are finally ready to move on to the _real_ celestial mechanics. Yes, everythi
 !!! Danger
 
     This entire section is a WIP as of now
+
+    Also we are calling celestial mechanicians "Celestials" from now on.

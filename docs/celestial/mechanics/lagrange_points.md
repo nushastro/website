@@ -6,13 +6,14 @@ Lagrange points are places in space where we can place a light object alongside 
 
     Points of equilibrium for small-mass objects under the influence of two massive orbiting bodies.
 
-This is especially useful for satellites, since the amount of adjustments needed to maintain orbit is minimised. For each 2 large bodies, there are **5** such points, $L_1$, $L_2$, and $L_3$ are on the line through the centres of the two large bodies, whereas $L_4$ and $L_5$ are a whole another thing of their own and deserve their own section, which we will talk about later. 
+This is especially useful for satellites, since the amount of adjustments needed to maintain orbit is minimised. For each 2 large bodies, there are **5** such points, $L_1$, $L_2$, and $L_3$ are on the line through the centres of the two large bodies, whereas $L_4$ and $L_5$ are a whole another thing of their own and deserve their own section, which we will talk about later.
 
 !!! Note "A bit of history"
 
     As Wikipedia mentiones itself: "In an effort to avoid naming everything after Euler, some discoveries and theorems are attributed to the first person to have proved them after Euler". Alas, Lagrange didn't even discover Lagrange points, it was Euler. Well technically, Euler discovered the first 3 points and Lagrange discovered the other 2, but it can't even be called Euler points instead since that is already a thing.
 
 ![lagrange_points.png](../img/lagrange_points.png)
+
 <figcaption>The 5 Lagrange points for our Sun-Earth System</figcaption>
 
 ## $L_1$
@@ -25,11 +26,11 @@ $$F_1-F_2=F_c$$
 
 ### $F_c$
 
-To find $F_c$ we have to leverage what we know **specifically** about $L_1$. We know that it has to be collinear with the 2 masses, hence, if $M_2$ is orbiting around $M_1$, we know that $L_1$, will have to be in the same position relative to $M_2$, and so will have **the same angular velocity** as $M_2$. 
+To find $F_c$ we have to leverage what we know **specifically** about $L_1$. We know that it has to be collinear with the 2 masses, hence, if $M_2$ is orbiting around $M_1$, we know that $L_1$, will have to be in the same position relative to $M_2$, and so will have **the same angular velocity** as $M_2$.
 
 So in other words, we can get the angular velocity of the satellite at $L_1$, which we will denote with $m_s$, by calculating the angular velocity of $M_2$, which we can then use to calculate $F_c$.
 
-First, we equate the gravitational force on $M_2$, to its centripetal force. 
+First, we equate the gravitational force on $M_2$, to its centripetal force.
 
 $$\frac{G M_1 M_2}{R^2}=M_2 \space \omega^2 R$$
 
@@ -57,11 +58,13 @@ $$\frac{M_2}{r^2}-\frac{M_1}{R^2} (1-\frac{r}{R})^{-2} + \frac{M_1}{R^2} (1-\fra
 
 Which through a binomial expansion can be rewritten as:
 
-$$\frac{M_2}{r^2}-\frac{M_1}{R^2}(3\frac{r}{R}) \approx 0 $$
+$$
+\begin{align*}
+\frac{M_2}{r^2}-\frac{M_1}{R^2}(3\frac{r}{R}) &\approx 0\\
+r&=R\sqrt[3]{\frac{M_2}{3M_1}}
+$$
 
-$$r=R\sqrt[3]{\frac{M_2}{3M_1}}$$
-
-Now we have found $L_1$! 
+Now we have found $L_1$!
 
 ## $L_2$
 
@@ -93,11 +96,11 @@ $$r\approx R \frac{7M_2}{12M_1}$$
 
 ## $L_4$ and $L_5$
 
-This is where it gets mildly weird. The positions of these places are best explained qualitatively, and it is not done in the same way as for $L_1$, $L_2$ and $L_3$, which is why they were discovered seperately by different people. 
+This is where it gets mildly weird. The positions of these places are best explained qualitatively, and it is not done in the same way as for $L_1$, $L_2$ and $L_3$, which is why they were discovered seperately by different people.
 
 ![L4 and L5 Diagram.png](../img/L45_diagram.png)
 
-$L_4$ and $L_5$ form an equilateral triangle with both masses. Because of this, the gravitational forces are still in the same ratio as the masses of the bodies, and so the resultant force points towards the centre of mass (barycenter) of the system. This is an incredibly important result because the barycenter is the centre of rotation, and this is precisely what allows $L_4$ and $L_5$ to be in orbital equilibrium, orbiting with the same angular velocity as the other Lagrange points. 
+$L_4$ and $L_5$ form an equilateral triangle with both masses. Because of this, the gravitational forces are still in the same ratio as the masses of the bodies, and so the resultant force points towards the centre of mass (barycenter) of the system. This is an incredibly important result because the barycenter is the centre of rotation, and this is precisely what allows $L_4$ and $L_5$ to be in orbital equilibrium, orbiting with the same angular velocity as the other Lagrange points.
 
 !!! Note "For those interested"
 
@@ -116,15 +119,17 @@ where $sgn(x)=\frac{x}{|x|}$.
 We can hence plot $a$ against $r$ and obtain the below graph:
 
 ![Graph.png](../img/L_graph.png)
+
 <figcaption>Net radial acceleration of a point orbiting along the Sun-Earth line</figcaption>
 
 The intersections at zero represent the first three Lagrange points. The qualitative trend of the graphs is very helpful to remember as well.
 
 ## Applications
 
-If you are wondering, if these Lagrange points are so good at maintaining orbital equilibrium, why doesn't NASA just put its satellites there? The thing is, they do. The recently launched James Webb Space Telescope (JWST) orbits the Sun-Earth system at $L_2$! 
+If you are wondering, if these Lagrange points are so good at maintaining orbital equilibrium, why doesn't NASA just put its satellites there? The thing is, they do. The recently launched James Webb Space Telescope (JWST) orbits the Sun-Earth system at $L_2$!
 
 ![JWST.png](../img/L2_JWST.png)
+
 <figcaption>Gaia (yellow) and James Webb Space Telescope (blue) orbits around Sun-Earth system at L2</figcaption>
 
 I still think they should be called Euler points.
