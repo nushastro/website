@@ -594,6 +594,20 @@
 
             
           
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../celestial/gravitation/escape_velocity/" class="md-nav__link">
+        Escape speed
+      </a>
+    </li>
+  
+
+            
+          
         </ul>
       </nav>
     </li>
@@ -633,8 +647,8 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../celestial/mechanics/conservation_of_quantities/" class="md-nav__link">
-        Conservation of Quantities in Orbital Motion
+      <a href="../../../celestial/mechanics/getting_started/" class="md-nav__link">
+        Getting Started
       </a>
     </li>
   
@@ -647,8 +661,8 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../celestial/mechanics/trajectory_of_particle/" class="md-nav__link">
-        The Trajectory of a Particle in Orbit
+      <a href="../../../celestial/mechanics/equation_of_motion/" class="md-nav__link">
+        Equation of Motion
       </a>
     </li>
   
@@ -661,8 +675,22 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../celestial/mechanics/binary_system_total_energy/" class="md-nav__link">
-        Total Energy of Binary System
+      <a href="../../../celestial/mechanics/solving_the_equation/" class="md-nav__link">
+        Solving the Equation
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../celestial/mechanics/eqn_of_orbit/" class="md-nav__link">
+        Equation of Orbit
       </a>
     </li>
   
@@ -1267,6 +1295,20 @@
 
             
           
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../solid_angle/" class="md-nav__link">
+        Solid Angle
+      </a>
+    </li>
+  
+
+            
+          
         </ul>
       </nav>
     </li>
@@ -1615,8 +1657,8 @@
 <p>Luminosity (<span class="arithmatex">\(L\)</span>) is the absolute measure of <em>radiated electromagnetic <strong>power</strong></em> (a.k.a. <strong>light</strong>) emitted by something like a star, galaxy, or anything astronomical object far away.</p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-</div>
 <p>Luminosity <strong>remains the same</strong> no matter how far away you are - it is a property of the astronomical object.</p>
+</div>
 <p>For blackbodies there is a relation called the Stefan-Boltzmann law which allows us to calculate the luminosity <span class="arithmatex">\(L\)</span>.</p>
 <div class="arithmatex">\[
 L = 4 \pi R^2 \sigma T^4
@@ -1631,11 +1673,65 @@ L = 4 \pi R^2 \sigma T^4
 </div>
 <div class="tabbed-block">
 <p>Rearranging gives:</p>
-<div class="arithmatex">\[\begin{align*}T &amp;= \sqrt[4]{\frac{L}{4\pi R^2\sigma}} \\ &amp;= \sqrt[4]{\frac{3.828\times 10^{26}\times 10^{-12}}{4\pi \times 13.0967^2 \times 5.67\times 10^{-8}}} \\ &amp;= 42069K \end{align*}\]</div>
+<div class="arithmatex">\[\begin{align*}T &amp;= \sqrt[4]{\frac{L}{4\pi R^2\sigma}} \\ &amp;= \sqrt[4]{\frac{3.828\times 10^{26}\times 10^{-12}}{4\pi \times 13.0967^2 \times 5.67\times 10^{-8}}} \\ &amp;= 42000K \end{align*}\]</div>
+<p>(Note that this "star" probably won't undergo fusion)</p>
 </div>
 </div>
 </div>
 </div>
+<div class="admonition question">
+<p class="admonition-title">Pistol Star</p>
+<div class="tabbed-set tabbed-alternate" data-tabs="2:2"><input checked="checked" id="__tabbed_2_1" name="__tabbed_2" type="radio" /><input id="__tabbed_2_2" name="__tabbed_2" type="radio" /><div class="tabbed-labels"><label for="__tabbed_2_1">Question</label><label for="__tabbed_2_2">Solution</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<p><em>Pistol Star</em> is an extremely luminous blue hypergiant star. Given that it's surface temperature is 12000K and has a luminosity 3.3 million times that of the sun, find its radius in terms of <span class="arithmatex">\(R_\odot\)</span>. (Take the surface temperature of the sun to be 5772K)</p>
+</div>
+<div class="tabbed-block">
+<p>We can rewrite the stefan-boltzmann law as:</p>
+<div class="arithmatex">\[
+R = \sqrt{\frac{L}{4\pi\sigma T^4}}
+\]</div>
+<p>We can then find the ratio of <span class="arithmatex">\(R_\star\)</span> and <span class="arithmatex">\(R_\odot\)</span>.</p>
+<div class="arithmatex">\[
+\begin{align*}
+\frac{R_\star}{R_\odot} &amp;= \sqrt{ \frac{L_\star}{L_\odot} \cdot \left( \frac{T_\odot}{T_\star} \right)^4 }\\
+&amp;= \sqrt{ 3.3\times 10^6 \cdot \left( \frac{5772}{12000} \right)^4}\\
+&amp;= 420.29K
+\end{align*}
+\]</div>
+</div>
+</div>
+</div>
+</div>
+<div class="admonition question">
+<p class="admonition-title">Luminous Blue Variable (LBV)</p>
+<div class="tabbed-set tabbed-alternate" data-tabs="3:2"><input checked="checked" id="__tabbed_3_1" name="__tabbed_3" type="radio" /><input id="__tabbed_3_2" name="__tabbed_3" type="radio" /><div class="tabbed-labels"><label for="__tabbed_3_1">I12 - T07 - A</label><label for="__tabbed_3_2">Solution</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<p>Luminous Blue Variable (LBV) stars greatly vary in visual brightness;
+however, their bolometric magnitude remains constant.
+Imagine a LBV star with a black body temperature of 5000 K at its maximum visual brightness, and 30,000 K at its minimum visual brightness.
+Calculate the ratio of the star radius between both situations above.</p>
+</div>
+<div class="tabbed-block">
+<p>Since the bolometric magnitude remains constant, the total energy radiated from the star (Luminosity) remains constant.
+We already know:</p>
+<div class="arithmatex">\[
+L_\star = 4\pi R_\star^2\sigma T^4
+\]</div>
+<p>Since <span class="arithmatex">\(L_\star\)</span> remains constant,</p>
+<div class="arithmatex">\[\begin{align*}
+4\pi R_1^2\sigma T_1^4 &amp;= 4\pi R_2^2\sigma T_1^4\\
+R_1^2 T_1^4 &amp;= R_2^2 T_1^4\\
+\frac{R_1}{R_2} &amp;= \left(\frac{T_2}{T_1}\right)^2\\
+&amp;= \left(\frac{30000}{5000}\right)^2\\
+&amp;= 36
+\end{align*}\]</div>
+</div>
+</div>
+</div>
+</div>
+<p>The TL;DR of this is that <span class="arithmatex">\(L \propto T^4 R^2\)</span></p>
 <h2 id="flux-density">Flux Density</h2>
 <p>To find the brightness (flux density of light, aka Intensity) of the star some distance away from it, we can use</p>
 <div class="arithmatex">\[
@@ -1656,7 +1752,7 @@ L = 4 \pi R^2 \sigma T^4
 <p>If you would like to know every single unit regarding light there is a <a href="https://en.wikipedia.org/wiki/Template:SI_radiometry_units">handy wikipedia template</a></p>
 </div>
 <p>In this example, since astronomical object emits light in all directions (spherically symmetrical), we consider the "area" to be the surface area of a sphere with radius = distance between observer and light source (giving total surface area as <span class="arithmatex">\(4\pi D^2\)</span>)</p>
-<p>This follows the <strong>inverse square law</strong> of light intensity as it goes further away from its source.</p>
+<p>This follows the <strong>inverse square law</strong> of light intensity (in this case meaning flux density) as it goes further away from its source.</p>
 <div class="arithmatex">\[
 I \propto \frac{1}{D^2}
 \]</div>
@@ -1667,7 +1763,7 @@ I \propto \frac{1}{D^2}
 </figure>
 <div class="admonition question">
 <p class="admonition-title">The sun is a deadly lazer</p>
-<div class="tabbed-set tabbed-alternate" data-tabs="2:2"><input checked="checked" id="__tabbed_2_1" name="__tabbed_2" type="radio" /><input id="__tabbed_2_2" name="__tabbed_2" type="radio" /><div class="tabbed-labels"><label for="__tabbed_2_1">Question</label><label for="__tabbed_2_2">Solution</label></div>
+<div class="tabbed-set tabbed-alternate" data-tabs="4:2"><input checked="checked" id="__tabbed_4_1" name="__tabbed_4" type="radio" /><input id="__tabbed_4_2" name="__tabbed_4" type="radio" /><div class="tabbed-labels"><label for="__tabbed_4_1">Question</label><label for="__tabbed_4_2">Solution</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
 <p>Find the Intensity (Flux density) of the sun from earth, given that <span class="arithmatex">\(L_\odot = 3.828 \times 10^{26} W\)</span> and <span class="arithmatex">\(1AU = 1.496 \times 10^{11} m\)</span></p>
@@ -1681,7 +1777,7 @@ I \propto \frac{1}{D^2}
 </div>
 <div class="admonition question">
 <p class="admonition-title"><span class="arithmatex">\(L\)</span> + Ratio</p>
-<div class="tabbed-set tabbed-alternate" data-tabs="3:2"><input checked="checked" id="__tabbed_3_1" name="__tabbed_3" type="radio" /><input id="__tabbed_3_2" name="__tabbed_3" type="radio" /><div class="tabbed-labels"><label for="__tabbed_3_1">Question</label><label for="__tabbed_3_2">Solution</label></div>
+<div class="tabbed-set tabbed-alternate" data-tabs="5:2"><input checked="checked" id="__tabbed_5_1" name="__tabbed_5" type="radio" /><input id="__tabbed_5_2" name="__tabbed_5" type="radio" /><div class="tabbed-labels"><label for="__tabbed_5_1">Question</label><label for="__tabbed_5_2">Solution</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
 <p>Star A and star B have identical radius and composition. If Star A is twice as hot as star B, but star A is twice as far away as star B, which star would have a larger intensity? If so how many times brighter is the brighter star.</p>
@@ -1697,7 +1793,7 @@ I \propto \frac{1}{D^2}
 </div>
 <div class="admonition question">
 <p class="admonition-title">A big star goes boom boom boom</p>
-<div class="tabbed-set tabbed-alternate" data-tabs="4:2"><input checked="checked" id="__tabbed_4_1" name="__tabbed_4" type="radio" /><input id="__tabbed_4_2" name="__tabbed_4" type="radio" /><div class="tabbed-labels"><label for="__tabbed_4_1">(I07 - T11 - A)</label><label for="__tabbed_4_2">Solution</label></div>
+<div class="tabbed-set tabbed-alternate" data-tabs="6:2"><input checked="checked" id="__tabbed_6_1" name="__tabbed_6" type="radio" /><input id="__tabbed_6_2" name="__tabbed_6" type="radio" /><div class="tabbed-labels"><label for="__tabbed_6_1">(I07 - T11 - A)</label><label for="__tabbed_6_2">Solution</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
 <p>A supernova shines with a luminosity <span class="arithmatex">\(10^{10}\)</span> times that of the Sun. If such a supernova appears in our sky as bright as the Sun, how far away (in parsec) from us must it be located?</p>

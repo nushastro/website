@@ -585,9 +585,47 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Satellite Motion
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         Satellite Motion
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#dynamics" class="md-nav__link">
+    Dynamics
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#energy" class="md-nav__link">
+    Energy
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -602,6 +640,20 @@
     <li class="md-nav__item">
       <a href="../binary_stars/" class="md-nav__link">
         Binary Stars
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../escape_velocity/" class="md-nav__link">
+        Escape speed
       </a>
     </li>
   
@@ -647,8 +699,8 @@
   
   
     <li class="md-nav__item">
-      <a href="../../mechanics/conservation_of_quantities/" class="md-nav__link">
-        Conservation of Quantities in Orbital Motion
+      <a href="../../mechanics/getting_started/" class="md-nav__link">
+        Getting Started
       </a>
     </li>
   
@@ -661,8 +713,8 @@
   
   
     <li class="md-nav__item">
-      <a href="../../mechanics/trajectory_of_particle/" class="md-nav__link">
-        The Trajectory of a Particle in Orbit
+      <a href="../../mechanics/equation_of_motion/" class="md-nav__link">
+        Equation of Motion
       </a>
     </li>
   
@@ -675,8 +727,22 @@
   
   
     <li class="md-nav__item">
-      <a href="../../mechanics/binary_system_total_energy/" class="md-nav__link">
-        Total Energy of Binary System
+      <a href="../../mechanics/solving_the_equation/" class="md-nav__link">
+        Solving the Equation
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../mechanics/eqn_of_orbit/" class="md-nav__link">
+        Equation of Orbit
       </a>
     </li>
   
@@ -1236,6 +1302,20 @@
 
             
           
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../optics/solid_angle/" class="md-nav__link">
+        Solid Angle
+      </a>
+    </li>
+  
+
+            
+          
         </ul>
       </nav>
     </li>
@@ -1553,6 +1633,28 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#dynamics" class="md-nav__link">
+    Dynamics
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#energy" class="md-nav__link">
+    Energy
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -1569,7 +1671,7 @@
 <p>Until now, we have discussed gravitation as well as circular motion seperately. But often, the 2 are combined, in circular orbits.</p>
 <p>And yes, even though Kepler's 1st Law clearly states closed orbits are elliptical, circular orbits are simpler to understand at first, since we can apply what we know from uniform circular motion. After circular orbits we can move on to, elliptical orbits as we will see in the orbital mechanics section, but that's for later.</p>
 <p>However, circular orbits is not neccessarily a bad approximation since Earth and Mars orbits are very close to being circular.</p>
-<h1 id="dynamics">Dynamics</h1>
+<h2 id="dynamics">Dynamics</h2>
 <p><img alt="shell.png" src="../../img/Orbital_motion.gif" width="480" /></p>
 <p>Planets are able to orbit the Sun because the gravitational force exerted by the Sun on the planets cause the planets to fall towards the Sun in a circular path. The same applies to satellites and the Earth. </p>
 <p>For a circular orbit, whose gravitational force provides the centripetal force:</p>
@@ -1607,6 +1709,29 @@ d) Not possible to determine without knowing mass of the satellite.</p>
 </div>
 </div>
 </div>
+<h2 id="energy">Energy</h2>
+<p>In principle, given the gravitational force and circular motion equations, we can solve for any motion, similar to how in mechanics all we need to solve for motion are Newton's laws. But in mechanics and celestial mechanics, it is often useful to think of concepts that might simplify our life later on, and one of them is energy.</p>
+<p>A satellite of mass <span class="arithmatex">\(m\)</span> in orbit with radius <span class="arithmatex">\(r\)</span> around the Earth (mass <span class="arithmatex">\(M\)</span>) has both kinetic energy <span class="arithmatex">\(K\)</span> and gravitational potential energy <span class="arithmatex">\(U\)</span>.</p>
+<p>Recall for circular motion:</p>
+<div class="arithmatex">\[F_G=F_C\]</div>
+<div class="arithmatex">\[\frac{GMm}{r^2}=\frac{m v^2}{r}\]</div>
+<p>Cancelling out the <span class="arithmatex">\(r\)</span> and further simplifying:</p>
+<div class="arithmatex">\[m v^2 = \frac{GMm}{r}\]</div>
+<div class="arithmatex">\[\frac{1}{2} m v^2 = \frac{GMm}{2r}\]</div>
+<p>Hey that looks familiar. Hence:</p>
+<div class="arithmatex">\[K = -\frac{U}{2}\]</div>
+<p>This is a crucial result.</p>
+<p>Hence, we can obtain the total mechanical energy:</p>
+<div class="arithmatex">\[E_T=K+U\]</div>
+<div class="arithmatex">\[E_T=-\frac{U}{2}+U\]</div>
+<div class="arithmatex">\[E_T=\frac{U}{2}\]</div>
+<p>This is also an important result, and from there, we can see that:</p>
+<div class="arithmatex">\[E_T=-K\]</div>
+<p>It is these 3 equations that may/may not make your life a lot more easier when solving for motion of a satellite in orbit, especially when it is easier to keep track of the energies rather than forces. </p>
+<details>
+<summary>Once again a bit of a tangent</summary>
+<p>In Newtonian mechanics (the one we are dealing with right now and the one you will deal with for a long time), forces lead to motion and the motion is represented by causality as one event causes the other. But physicists got mildly frustrated when there are too many forces to keep track, so they resorted to using an energetical approach since that is often easier to track, called Lagrangian mechanics. It is also to be noted that just because you take an energy approach to a problem, does not mean you are doing Lagrangian mechanics, that is a seperate beast of its own.</p>
+</details>
 
               
             </article>

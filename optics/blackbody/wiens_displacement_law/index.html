@@ -594,6 +594,20 @@
 
             
           
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../celestial/gravitation/escape_velocity/" class="md-nav__link">
+        Escape speed
+      </a>
+    </li>
+  
+
+            
+          
         </ul>
       </nav>
     </li>
@@ -633,8 +647,8 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../celestial/mechanics/conservation_of_quantities/" class="md-nav__link">
-        Conservation of Quantities in Orbital Motion
+      <a href="../../../celestial/mechanics/getting_started/" class="md-nav__link">
+        Getting Started
       </a>
     </li>
   
@@ -647,8 +661,8 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../celestial/mechanics/trajectory_of_particle/" class="md-nav__link">
-        The Trajectory of a Particle in Orbit
+      <a href="../../../celestial/mechanics/equation_of_motion/" class="md-nav__link">
+        Equation of Motion
       </a>
     </li>
   
@@ -661,8 +675,22 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../celestial/mechanics/binary_system_total_energy/" class="md-nav__link">
-        Total Energy of Binary System
+      <a href="../../../celestial/mechanics/solving_the_equation/" class="md-nav__link">
+        Solving the Equation
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../celestial/mechanics/eqn_of_orbit/" class="md-nav__link">
+        Equation of Orbit
       </a>
     </li>
   
@@ -1307,6 +1335,20 @@
 
             
           
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../solid_angle/" class="md-nav__link">
+        Solid Angle
+      </a>
+    </li>
+  
+
+            
+          
         </ul>
       </nav>
     </li>
@@ -1698,8 +1740,7 @@
 <h3 id="the-problem">The Problem</h3>
 <figure>
 <p><img alt="blackbody.svg" src="../../img/blackbody.svg#only-light" width="470" />
-  <img alt="blackbody.svg" src="../../img/blackbody_dark.svg#only-dark" width="470" />
-  </p>
+<img alt="blackbody.svg" src="../../img/blackbody_dark.svg#only-dark" width="470" /></p>
 <figcaption>The spectrum of light emitted by a perfect blackbody.</figcaption>
 </figure>
 <p>However, when physicists tried to predict the radiation coming from a blackbody under the assumption that light was a wave, obtained an equation now known as the Rayleigh-Jeans Law. At high frequencies, it predicted that the power emitted
@@ -1707,13 +1748,18 @@ by a blackbody would tend to infinity as the frequency increased. This clearly d
 which showed that there was a peak wavelength of radiation that a blackbody would emit.</p>
 <p>This was the ultraviolet catastrophe, called as such since the experimental results deviated significantly at ultraviolet wavelengths.</p>
 <h3 id="solution">Solution</h3>
-<p>In 1900, Max Planck heuristically derived the correct form for the intensity spectral distribution function by making some strange (for the time) assumptions. In particular, Planck assumed that electromagnetic radiation can be emitted or absorbed only in discrete packets, called quanta, of energy: <span class="arithmatex">\(E_{\text{quanta}}=h\nu =h{\frac {c}{\lambda }}\)</span>, where <span class="arithmatex">\(h\)</span> is Planck's constant, <span class="arithmatex">\(\nu\)</span> is the frequency of light, <span class="arithmatex">\(c\)</span> is the speed of light and <span class="arithmatex">\(\lambda\)</span> is the wavelength of light. Planck's assumptions led to the correct form of the spectral emission intensity function:</p>
+<p>In 1900, Max Planck heuristically derived the correct form for the intensity spectral distribution function by making some strange (for the time) assumptions. In particular, Planck assumed that electromagnetic radiation can be emitted or absorbed only in discrete packets, called quanta, of energy:</p>
+<div class="arithmatex">\[E_{\text{quanta}}=h\nu =h{\frac {c}{\lambda }}\]</div>
+<p>where <span class="arithmatex">\(h\)</span> is Planck's constant, <span class="arithmatex">\(\nu\)</span> is the frequency of light, <span class="arithmatex">\(c\)</span> is the speed of light and <span class="arithmatex">\(\lambda\)</span> is the wavelength of light.
+Planck's assumptions led to the correct form of the spectral emission intensity function:</p>
 <div class="arithmatex">\[
 E_\lambda=\frac {2hc^2}{\lambda^5} \cdot \left(e^{\frac{hc}{\lambda k_BT}}-1\right)^{-1}
 \]</div>
-<p>This formula provide the emission intensity in form <span class="arithmatex">\(E_\lambda\)</span> which signifies a wavelength-dependant variable, but this variable is also affected by changes in <span class="arithmatex">\(T\)</span>, i.e. Temperature.</p>
-<p>Here, <span class="arithmatex">\(k_B\)</span> is simply Boltzmann's Constant, often standardised as:</p>
+<p>This formula provide the emission intensity in form <span class="arithmatex">\(E_\lambda\)</span>. The reason why it has a <span class="arithmatex">\(\lambda\)</span> attatched to the bottom of it is because <span class="arithmatex">\(E\)</span> depends on the wavelength <span class="arithmatex">\(\lambda\)</span>. (This variable is also affected by changes in Temperature <span class="arithmatex">\(T\)</span> but shhhhhhhhhhhhh).</p>
+<p>Here, <span class="arithmatex">\(k_B\)</span> is simply <strong>Boltzmann's Constant</strong>, often standardised as:</p>
 <div class="arithmatex">\[\begin{align*}k_B &amp;= 1.3806504 \times 10^{-23} \cdot J/K \\&amp;\approx 1.38065 \times 10^{-23} \cdot J/K\end{align*}\]</div>
+<div class="admonition note">
+<p class="admonition-title">Another way to find <span class="arithmatex">\(k_B\)</span></p>
 <p>Another way to determine <span class="arithmatex">\(k_B\)</span> is by representing it as a fraction of the Ideal Gas Constant, <span class="arithmatex">\(R\)</span> as depicted below:</p>
 <div class="arithmatex">\[\begin{align*}R &amp;= 8.314462618 \cdot J/mol\cdot K \\&amp;\approx 8.314 \cdot J/mol\cdot K \\&amp;\approx 0.08206 \cdot \frac{L \cdot atm}{mol \cdot K}\end{align*}\]</div>
 <p>with Avogadro's constant, subject of his very famous formula, which we all learnt back in Y1, as shown below:</p>
@@ -1721,14 +1767,35 @@ E_\lambda=\frac {2hc^2}{\lambda^5} \cdot \left(e^{\frac{hc}{\lambda k_BT}}-1\rig
 <p>Hence we get the following:</p>
 <div class="arithmatex">\[\begin{align*}k_B &amp;= \frac{R}{N_A} \\&amp;= 1.380648999974554 \times 10^{-23} \cdot J/K \\&amp;\approx 1.38065 \times 10^{-23} \cdot J/K\end{align*}\]</div>
 <p>And we use this value to our benefit.</p>
-<p>Albert Einstein (in 1905) and Satyendra Nath Bose (in 1924) solved the problem by postulating that Planck's quanta were real physical particles – what we now call photons, not just a mathematical fiction. They modified statistical mechanics in the style of Boltzmann to an ensemble of photons. Einstein's photon had an energy proportional to its frequency. This published postulate was specifically cited by the Nobel Prize in Physics committee in their decision to award the prize for 1921 to Einstein.</p>
+</div>
+<p>Albert Einstein (in 1905) and Satyendra Nath Bose (in 1924) solved the problem by suggesting that Planck's quanta were <em>real physical particles</em> (photons), not just a mathematical fiction.
+They modified statistical mechanics in the style of Boltzmann to an ensemble of photons.
+Einstein's photon had an energy proportional to its frequency.
+This published postulate (a.k.a. suggestion) was specifically cited by the Nobel Prize in Physics committee in their decision to award the prize for 1921 to Einstein.</p>
 <h2 id="wiens-displacement-law_1">Wien's Displacement Law</h2>
 <p>Wien’s displacement formula gives the wavelength that a blackbody radiate which releases the highest spectral emission intensity. The following shows the formula:</p>
 <div class="arithmatex">\[
 \lambda_{max} = \frac{b}{T} \approx\frac{0.002898 \cdot mK}{T}
 \]</div>
 <p>where <span class="arithmatex">\(T\)</span> is the temperature of the surface of the star (from which radiation is emitted). The constant <span class="arithmatex">\(b \approx 0.002898 \cdot mK\)</span> is known as <em>Wien’s Wavelength Displacement Constant</em>.</p>
+<div class="admonition question">
+<p class="admonition-title">Question<div class="tabbed-set tabbed-alternate" data-tabs="1:2"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">Wait how do they know how hot the sun is</label><label for="__tabbed_1_2">Solution</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<p>Given that <span class="arithmatex">\(\lambda_{max}\)</span> of the sun is approximately 500nm, find the temperature of the surface of the sun (photosphere).</p>
+</div>
+<div class="tabbed-block">
+<div class="arithmatex">\[T = \frac{0.002898}{500\times 10^{-9}}= 5800K\]</div>
+</div>
+</div>
+</div>
+</p>
+</div>
 <h3 id="derivation">Derivation</h3>
+<div class="admonition note">
+<p class="admonition-title">Note<p>What is going on here? I do not know. It appears that prannaya gave up halfway</p>
+</p>
+</div>
 <p>This formula can be derived by maximising the emission intensity, <span class="arithmatex">\(E_\lambda\)</span> as per Planck's aformentioned law. Since we aim to determine the maximum wavelength, we essentially let <span class="arithmatex">\(T\)</span> be constant while differentiating by <span class="arithmatex">\(\lambda\)</span>. This is essentially a partial differentiation action, and we use <span class="arithmatex">\(\frac{\partial}{\partial \lambda}\)</span>, as we depicted below.</p>
 <div class="arithmatex">\[\frac{\partial E_\lambda}{\partial \lambda} = 2hc^2 \cdot \frac{\partial}{\partial \lambda} \left(\frac {1}{\lambda^5} \cdot \left(e^{\frac{hc}{\lambda k_BT}}-1\right)^{-1} \right) = 0\]</div>
 <p>We compute the differential as follows:</p>
