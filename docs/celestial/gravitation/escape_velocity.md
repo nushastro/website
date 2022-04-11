@@ -1,4 +1,4 @@
-# Escape speed
+# Escape velocity
 
 The escape speed of an object within a planet's gravitation field is the **minimum** speed it requires to reach a location where it is free from the planet's gravitational pull. To achieve this, the object must have enough kinetic energy to move infinitely far away from the planet.
 
@@ -37,7 +37,6 @@ $$v=\sqrt{\frac{2GM}{R}}$$
         B.
 
         $$v=\sqrt{\frac{2GM}{R}}\approx11 km s^-1$$
-
 
 !!! Question
 
