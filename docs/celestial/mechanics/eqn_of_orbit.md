@@ -12,7 +12,7 @@ From our defenition of $\textbf{e}$, we get the following:
 
 $$
 \begin{align*}
-\textbf{r} \cdot \textbf{e} &= \frac{1}{\mu} (\textbf{r} \cdot $\textbf{h}\times \dot{\textbf{r}}+\mu \frac{\textbf{r}\cdot \textbf{r}}{r})\\
+\textbf{r} \cdot \textbf{e} &= \frac{1}{\mu} (\textbf{r} \cdot \textbf{h}\times \dot{\textbf{r}}+\mu \frac{\textbf{r}\cdot \textbf{r}}{r})\\
 &= \frac{1}{\mu} (\textbf{h}\cdot \dot{\textbf{r}}\times \textbf{r}+\mu r)\\
 &= \frac{1}{\mu} (-h^2 + \mu r)\\
 &= \frac{h^2}{\mu}-r
@@ -25,7 +25,20 @@ $$\textbf{r} \cdot \textbf{e} = r e \cos{f}$$
 
 Equating the 2 expressions:
 
-$$r=\frac{k^2/\mu}{1+e \cos{f}}$$
+$$r=\frac{h^2/\mu}{1+e \cos{f}}$$
+
+??? Abstract "Derivation"
+
+    Equating $\textbf{r} \cdot \textbf{e}$
+
+    $$
+    \begin{align*}
+    \frac{h^2}{\mu} - r &= re\cos f\\
+    \frac{h^2}{\mu} &= re\cos f + r\\
+    \frac{h^2}{\mu} &= r(1+e\cos f)\\
+    r &= \frac{h^2/\mu}{1+e \cos{f}}
+    \end{align*}
+    $$
 
 Hey, I've seen that one before.
 
