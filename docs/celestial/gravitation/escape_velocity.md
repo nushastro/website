@@ -34,3 +34,34 @@ $$v=\sqrt{\frac{2GM}{R}}$$
         B.
 
         $$v=\sqrt{\frac{2GM}{R}}\approx11 km s^-1$$
+        
+!!! Question 
+
+    === "Question"
+
+        What is the escape speed of the Earth, but now its a black hole? The radius of a black hole is the Schwarzschild radius, given by $\frac{2GM}{c^2}$.
+
+        a) $2c \space ms^-1$
+        b) $\sqrt{c} \space ms^-1$
+        c) $c  \space ms^-1$
+        d) $\sqrt{2}c  \space ms^-1$
+    
+    === "Solution"
+
+        C.
+
+        $v=\sqrt{\frac{2GM}{R}}$
+
+        The Schwarzschild radius is given by:
+
+        $$r=\frac{2GM}{c^2}$$
+
+        Hey that looks oddly similar. Rearranging:
+
+        $$v=\sqrt{c^2}=c$$
+
+        And so the escape speed of a black hole is famously the speed of light. 
+
+        Another tangent:
+
+        The Schwarzschild radius was obtained by well, Schwarzschild as a solution to the Einstein field equations. However, Laplace found this quantity just by playing around with the escape speed formula and saw what the radius of an object would have to be such that light would be the minimum speed required to escape.
