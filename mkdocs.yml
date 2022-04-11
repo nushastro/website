@@ -76,9 +76,9 @@ nav:
                 - 'celestial/gravitation/binary_stars.md'
                 - 'celestial/gravitation/escape_velocity.md'
           - Orbital Mechanics:
-                - 'celestial/mechanics/conservation_of_quantities.md'
-                - 'celestial/mechanics/trajectory_of_particle.md'
-                - 'celestial/mechanics/binary_system_total_energy.md'
+                - 'celestial/mechanics/getting_started.md'
+                - 'celestial/mechanics/equation_of_motion.md'
+                - 'celestial/mechanics/solving_the_equation.md'
                 - 'celestial/mechanics/lagrange_points.md'
 
     - Stellar Astronomy:
