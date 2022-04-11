@@ -10,7 +10,7 @@ However, circular orbits is not neccessarily a bad approximation since Earth and
 
 ![shell.png](../img/Orbital_motion.gif){ width="480"}
 
-Planets are able to orbit the Sun because the gravitational force exerted by the Sun on the planets cause the planets to fall towards the Sun in a circular path. The same applies to satellites and the Earth. 
+Planets are able to orbit the Sun because the gravitational force exerted by the Sun on the planets cause the planets to fall towards the Sun in a circular path. The same applies to satellites and the Earth.
 
 For a circular orbit, whose gravitational force provides the centripetal force:
 
@@ -36,21 +36,24 @@ $\omega$ is the angular speed
 
 $v$ is the tangential speed
 
-!!! Note 
+!!! Note
 
     Note that the equations are independent of the mass of the satellite
 
-!!! Question 
+!!! Question
 
     === "Question"
 
         A communications satellite orbits the Earth in a circle of radius 9000 km. At that distance $g=4.9 m s^-2$. The speed of the satellite is:
 
         a) $6.6 km s^-1$
+
         b) $8.9 km s^-1$
+
         c) $8.4 km s^-1$
+
         d) Not possible to determine without knowing mass of the satellite.
-    
+
     === "Solution"
 
         A.
@@ -95,7 +98,7 @@ This is also an important result, and from there, we can see that:
 
 $$E_T=-K$$
 
-It is these 3 equations that may/may not make your life a lot more easier when solving for motion of a satellite in orbit, especially when it is easier to keep track of the energies rather than forces. 
+It is these 3 equations that may/may not make your life a lot more easier when solving for motion of a satellite in orbit, especially when it is easier to keep track of the energies rather than forces.
 
 ??? "Once again a bit of a tangent"
 
