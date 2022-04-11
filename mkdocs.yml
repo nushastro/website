@@ -79,6 +79,7 @@ nav:
                 - 'celestial/mechanics/getting_started.md'
                 - 'celestial/mechanics/equation_of_motion.md'
                 - 'celestial/mechanics/solving_the_equation.md'
+                - 'celestial/mechanics/eqn_of_orbit.md'
                 - 'celestial/mechanics/lagrange_points.md'
 
     - Stellar Astronomy:
