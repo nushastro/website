@@ -45,3 +45,43 @@ Only a small fraction of the radiation produced by astronomical objects actually
 **Opacity** is the extent to which radiation is blocked by the material that it is travelling through.
 As you can see, the atmosphere is opaque to most wavelengths, with a window in the visible, near-infrared and radio wavelengths.
 The atmosphere is also partially transparent to some microwave wavelengths.
+
+??? Question "Questions"
+
+    === "Questions"
+
+        1. Compared to UV, infrared has a greater:
+
+            a. wavelength
+
+            b. amplitude
+
+            c. frequency
+
+            d. energy
+
+        2. Compared with red light, blue wavelengths of visible light travel:
+
+            a. faster
+
+            b. slower
+
+            c. at the same speed.
+
+        3. An X-ray telescope located in Antarctica would not work well because of
+
+            a. the extreme cold
+
+            b. the ozone hole
+
+            c. continuous daylight
+
+            d. Earth’s atmosphere
+
+    === "Answers"
+
+        1. a
+
+        2. c
+
+        3. d
