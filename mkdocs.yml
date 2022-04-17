@@ -97,6 +97,7 @@ nav:
                 - stellar/evolution/sun_like.md
                 - stellar/evolution/high_mass.md
     - Light and Optics:
+          - Getting Started: optics/index.md
           - Blackbody Radiation:
                 - optics/blackbody/blackbody_radiation.md
                 - optics/blackbody/wiens_displacement_law.md
