@@ -8,19 +8,19 @@ All of these radiation loses are called _extinction_.
 ![](../img/cone_of_light.png#only-light)
 ![](../img/cone_of_light_dark.png#only-dark)
 
-Here we have a star radiating energy flux (i.e. light) $L_0$ into a region (more formally, a solid angle $\omega$) in some wavelength range (Extinction rates are different for different wavelengths).
+Here we have a star radiating energy flux (i.e. light) $L_0$ into a region (more formally, a [solid angle](../solid_angle.md) $\omega$) in some wavelength range (Extinction rates are different for different wavelengths).
 
 Since the medium absorbs and scatters radiation, the total light (energy flux) into the region $L$ will now decrease with increasing distance $r$.
 
-From $r$ to $r+dr$, the amount of light/energy flux drops from $L$ to $L+dL$ ($dL\leq0$).
-This drop in light ($dL$) is proportional to the amount of light through the interstellar medium. (If you shine a greater amount of light through it, the absolute value of the drop ($dL$) will increase)
+From $r$ to $r+dr$, the amount of light/energy flux drops from $L$ to $L+dL$ (where $dL\leq0$ is negative).
+This drop in light ($dL$) is proportional to the amount of light through the interstellar medium. (If you shine a greater amount of light through it, the _additive_ value of the drop ($dL$) will increase)
 
-$dL$ is also proportional to the distance travelled in the interstellar medium. (The longer light has to travel, the greater amount of light lost)
+$dL$ is also proportional to the distance travelled in the interstellar medium ($dr$). (The longer light has to travel, the greater amount of light lost)
 
 $$
 \begin{align*}
 dL &\propto L \\
-dL &\propto r \\
+dL &\propto dr \\
 dL &= -\alpha\cdot L \cdot dr
 \end{align*}
 $$
@@ -48,8 +48,8 @@ $$
     \int^L_{L_0} \frac{dL}{L} &= -\alpha \int^r_0 dr \\
     \ln L - \ln L_0 &= -\alpha r \\
     \ln\left(\frac{L}{L_0}\right) &= -\alpha r \\
-    \frac{L}{L_0} = e^{-\alpha r} \\
-    L = L_0e^{-\alpha r}
+    \frac{L}{L_0} &= e^{-\alpha r} \\
+    L &= L_0e^{-\alpha r}
     \end{align*}$$
 
 ## Optical Thickness
@@ -77,7 +77,7 @@ m - M &= 5\log\left(\frac{r}{10 \text{pc}}\right) + 2.5\tau\log e\\
 \end{align*}
 $$
 
-where $A$ is the extinction.
+where $A$ is the _extinction_ (Difference in "expected" magnitude and actual magnitude).
 
 If opacity $\alpha$ is constant throughout the line of sight, we get
 
@@ -162,25 +162,25 @@ where $r$ is the distance to the star, and $a=2.5\alpha\log e$ being the extinct
         We unfortunately cannot solve this analytically. However, we can solve this numerically via iteration.
         This sounds intimidating and hard to do manually, but it is actually rather easy on a calculator with an "Ans" button.
 
-        We just get a random $ by just randomly estimating or guessing, and get a slightly more accurate $d_{new}$
+        We just get a random $d$ by just randomly estimating or guessing, and get a slightly more accurate $d_{new}$ using:
 
-        $$d_{new} = 10\times10^{2-0.0004d_{old}}$$
+        $$d_{new} = 10\times10^{2-0.0004\timesd_{old}}$$
 
         Now just plug the new $d_{old}$ value and repeat until it approaches some value.
 
         on a calculator you would want to input something like this, and repeatedly spam the equals button:
 
         $$
-        10\times10^{2-0.0004\text{Ans}}
+        10\times10^{2-0.0004\times\text{Ans}}
         $$
 
-        you will get an answer of 584pc (580pc because 2sf)
+        you will get an answer of 584pc (actually 580pc because 2sf)
 
 ??? Question
 
     === "Fundamental Astronomy Example 4.7"
 
-        What is the optical thickness of a layer of fog, if the Sun seen through the fog seems as bright as a full moon in a cloudless sky? (take m_\odot = -26.7 and m_{moon} (full moon) = -12.9)
+        What is the optical thickness of a layer of fog, if the Sun seen through the fog seems as bright as a full moon in a cloudless sky? (take $m_\odot = -26.7$ and $m_\text{moon} = -12.9$ for a full moon)
 
     === "Solution"
 

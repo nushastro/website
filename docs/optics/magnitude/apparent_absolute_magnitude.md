@@ -35,20 +35,26 @@ This came to a head when, in recent years, Vega was also found to be variable. H
 
 Using this method, we have been able to standardize the following variables for easy reference:
 
-| Object                                            | Magnitude         |
-| ------------------------------------------------- | ----------------- |
-| $m_{sun} = m_\bigodot$                            | -26.7 (VERY LOW)  |
-| $m_{moon}$ (when brightest)                       | -12.9 (Quite Low) |
-| $m_{venus}$ (when brightest)                      | -4.9              |
-| $m_{sirius}$ (brightest star)                     | -1.5              |
-| $m_{vega}$ ((ex-)reference point)                 | +0.0              |
-| $m_{min}$ (faintest star visible to the naked eye | +6.0              |
+| Object                                                 | Magnitude         |
+| ------------------------------------------------------ | ----------------- |
+| $m_\text{Sun} = m_\bigodot$                            | -26.7 (VERY LOW)  |
+| $m_\text{Moon}$ (when brightest)                       | -12.9 (Quite Low) |
+| $m_\text{Venus}$ (when brightest)                      | -4.9              |
+| $m_\text{Sirius}$ (brightest star)                     | -1.5              |
+| $m_\text{Vega}$ ((ex-)reference point)                 | +0.0              |
+| $m_\text{min}$ (faintest star visible to the naked eye | +6.0              |
 
 ### Pogson's Law
 
 Pogson's Law is used to compare between two different objects in the night sky. We use a logarithmic scale of base 10, or 2.512. The equation is as follows:
 
-$$\begin{align*}\frac{F_1}{F_2} &= 10^{\frac{2}{5} \left(m_2 - m_1 \right)}\\m_2-m_1 &= 2.5\log\left(\frac{F_1}{F_2}\right) \\ m_1-m_2 &= -2.5\log\left(\frac{F_1}{F_2}\right)\end{align*}$$
+$$
+\begin{align*}
+\frac{F_1}{F_2} &= 10^{\frac{2}{5} \left(m_2 - m_1 \right)}\\
+m_2-m_1 &= 2.5\log\left(\frac{F_1}{F_2}\right)\\
+m_1-m_2 &= -2.5\log\left(\frac{F_1}{F_2}\right)
+\end{align*}
+$$
 
 $F$ refers to the _Flux_ of light (brightness). This law is applicable in calculations such as:
 
@@ -60,7 +66,11 @@ $F$ refers to the _Flux_ of light (brightness). This law is applicable in calcul
     === "Solution"
         Since we know that the Sun's Apparent Magnitude is -26.7, and the Full Moon's Apparent Magnitude is -12.9, we can apply it to the formula below:
 
-        $$\begin{align*} \frac{F_\bigodot}{F_{moon}} &= 10^{\frac{2}{5} \left(-12.9 - (-26.7) \right)} \\ &= 10^{\frac{2}{5}\left(13.8\right)} \\ &\approx 10^6 = 1 000 000 \end{align*}$$
+        $$\begin{align*}
+        \frac{F_\bigodot}{F_\text{moon}} &= 10^{\frac{2}{5} \left(-12.9 - (-26.7) \right)}\\
+        &= 10^{\frac{2}{5}\left(13.8\right)}\\
+        &\approx 10^6 = 1 000 000
+        \end{align*}$$
 
         By this, we note that the sun is a million times brighter than the moon in the Earth sky.
 
@@ -81,7 +91,13 @@ If we are comparing the apparent magnitude of a star at different distances, we 
 
 Since $F \propto \frac{L}{4\pi d^2}$:
 
-$$\begin{align*}\frac{F_1}{F_2} &= 10^{\frac{2}{5} \left(m_2 - m_1 \right)} \\ \frac{\frac{L}{4\pi d_1^2}}{\frac{L}{4\pi d_2^2}} &= 10^{\frac{2}{5} \left(m_2 - m_1 \right)} \\ \frac{d_2^2}{d_1^2} &= 10^{\frac{2}{5} \left(m_2 - m_1 \right)} \\ \log\left(\frac{d_2^2}{d_1^2}\right) &= \frac{2}{5} (m_2-m_1) \\\\ 2\log\left(\frac{d_2}{d_1}\right) &= \frac{2}{5} (m_2-m_1) \\ \therefore m_2 - m_1 &= 5\log\left(\frac{d_2}{d_1}\right) \end{align*}$$
+??? Abstract "Derivation"
+
+    $$\begin{align*}\frac{F_1}{F_2} &= 10^{\frac{2}{5} \left(m_2 - m_1 \right)} \\ \frac{\frac{L}{4\pi d_1^2}}{\frac{L}{4\pi d_2^2}} &= 10^{\frac{2}{5} \left(m_2 - m_1 \right)} \\ \frac{d_2^2}{d_1^2} &= 10^{\frac{2}{5} \left(m_2 - m_1 \right)} \\ \log\left(\frac{d_2^2}{d_1^2}\right) &= \frac{2}{5} (m_2-m_1) \\\\ 2\log\left(\frac{d_2}{d_1}\right) &= \frac{2}{5} (m_2-m_1) \\ \therefore m_2 - m_1 &= 5\log\left(\frac{d_2}{d_1}\right) \end{align*}$$
+
+$$
+m_2 - m_1 = 5\log\left(\frac{d_2}{d_1}\right)
+$$
 
 !!! Question "Binary Star System"
 
@@ -216,7 +232,7 @@ $m - M$ is also known as the _distance modulus_, since it only depends on the di
     === "Solution"
 
         $$\begin{align*}
-        M_{new} - M{old} &= -2.5\log\left(\frac{F_{new}}{F_{old}}\right)\\
+        M_{new} - M_{old} &= -2.5\log\left(\frac{F_{new}}{F_{old}}\right)\\
         M_{new} &= M_{old} -2.5\log(10^9)\\
         M_{new} &= -17.5
         \end{align*}$$
