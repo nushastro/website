@@ -116,7 +116,7 @@ nav:
           - Project Circinus: positional/assets/Project Circinus v1.2.32.pdf
     - Starhopping Guide:
           - Getting Started: starhopping/index.md
-          - starhopping/dsos.md
+          - starhopping/dso.md
     - Practical:
           - practical/index.md
           - practical/telescopes.md
