@@ -192,12 +192,11 @@ $$
 
 One thing to note is that we don't know if a sky in the night sky is dim simply because it's dim or because it's too far away to be visible. Hence, many decided to build on Pogson's "apparent" magnitude system with a new conception known to man as the **Absolute Magnitude**. (see the origins of the system [here](https://articles.adsabs.harvard.edu/cgi-bin/nph-iarticle_query?2006JAHH....9..173H&defaultprint=YES&filetype=.pdf))
 
-Absolute magnitude is actually just the apparent magnitude of a star **10 parsecs** away.
-Hence we can derive the following equation:
+Absolute magnitude is actually just the apparent magnitude of a star **10 parsecs** away. Hence we can derive the following equation:
 
 $$ m - M = 5log\left(\frac{d}{10 pc}\right) $$
 
-$pc$ in this case is a _parsec_ which is $3.086 \times 10^{16}m$ or $3.262$ light years.
+$pc$ in this case is a _parsec_ which is $3.086 \times 10^{16} \text{ m}$ or $3.262$ light years.
 
 $m - M$ is also known as the _distance modulus_, since it only depends on the distance to the star
 
@@ -245,3 +244,26 @@ $m - M$ is also known as the _distance modulus_, since it only depends on the di
           &= -17.5 + 5\log\left(\frac{690 000}{10}\right)\\
         m &\approx 6.7
         \end{align*}$$
+
+
+## Limiting Magnitude
+
+We note that in practical astronomy, we utilise lenses of specific surface areas. Another concept is that of limiting magnitude, that is to say the minimum magnitude perceived by a specific input sensitive to light (eg lenses, your sensory system etc).
+
+We note that for a given bigger lens, more light permeates through the lens, and hence the minimum flux, $F_{min}$ is much lower. Essentially, we can say that $F_{min}$ is inversely proportional to the area of the lens, $A$. From here, we modify Pogson's Law by introducing $\frac{1}{A}$ in place of $F$:
+
+$$\frac{A_2}{A_1} = 100^{(m_2-m_1)/5}$$
+
+From this, we can actually identify the given limiting magnitude of an lens via simply comparing the values to others in different contexts. The known values are those of the eye, which are shown in the table below:
+
+|Quantity|Value for Humans|
+|---|---|
+|Average Pupil Diameter, $d$|8 mm = 0.008 mm|
+|Average Pupil Area, $A$|$\pi(0.004)^2$|
+|Limiting Magnitude, $m_{max}$|+6.00|
+
+Here, we then go on to assume lenses are circular, and hence utilse the diameter, $d$ instead, to get:
+
+$$\frac{d_2}{d_1} = 10^{(m_2-m_1)/5}$$
+
+And there we have it, the comparison seems a bit more sane.
