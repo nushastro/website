@@ -106,15 +106,17 @@ nav:
                 - stellar/evolution/high_mass.md
     - Light and Optics:
           - Getting Started: optics/index.md
+          - Perceiving Space:
+                - optics/thesky/Rayleigh Scattering.md
+          - The Magnitude System:
+                - optics/magnitude/apparent_absolute_magnitude.md
+                - optics/magnitude/magnitude_systems.md
+                - optics/magnitude/extinction.md
           - Blackbody Radiation:
                 - optics/blackbody/blackbody_radiation.md
                 - optics/blackbody/wiens_displacement_law.md
                 - optics/blackbody/stefan_boltzmann_law.md
                 - optics/blackbody/radiation_pressure.md
-          - The Magnitude System:
-                - optics/magnitude/apparent_absolute_magnitude.md
-                - optics/magnitude/magnitude_systems.md
-                - optics/magnitude/extinction.md
           - Telescopes:
                 - optics/telescopes/overview.md
                 - optics/telescopes/refractor.md

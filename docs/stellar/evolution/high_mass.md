@@ -144,11 +144,13 @@ The iron core reaches a mass of around $1$ to $2M_\odot$, and contracts and heat
 
 ## Iron core collapse
 
-Here is where things go badly for the star. There are photons that are so high energy that they disintegrate the nuclei (photodisintegration).
-However, the only things that were supporting up the star was photons via radiation pressure, so the star gets robbed of its energy.
+Here is where things go badly for the star. There are photons that are so high energy that they disintegrate the nuclei (photodisintegration). However, the only things that were supporting up the star was photons via radiation pressure, so the star gets robbed of its energy.
 
 Free protons and electrons fuse into a neutron and a neutrino, however the neutrino does not contribute to radiation pressure, so this takes energy away from the core.
 
 Eventually radiation pressure caves to gravity and the core **collapses**. **Catastrophically**.
 
-The earth-sized iron core (6000km) shrinks to about the width of Singapore (50km) in **one second**, at about $\frac{1}{4}$ the speed of light
+The earth-sized iron core (6000km) shrinks to about the width of Singapore (50km) in **one second**, at about $\frac{1}{4}$ the speed of light.
+
+![](../assets/ironmeme.png)
+
