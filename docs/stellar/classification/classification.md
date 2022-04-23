@@ -27,13 +27,15 @@ Astronomers further subdivide each lettered spectral classification into 10 subd
 
     | spectral class | surface temperature (K) | example                              |
     | -------------- | ----------------------- | ------------------------------------ |
-    | O              | 30,000                  | Mintaka Aa1 (O9)             |
+    | O              | 30,000                  | Mintaka (O9)*                        |
     | B              | 20,000                  | Rigel (B8)                           |
     | A              | 10,000                  | Vega (A0), Sirius(A1)                |
     | F              | 7000                    | Canopus (F0)                         |
     | G              | 6000                    | Sun (G2), Alpha Centauri (G2)        |
     | K              | 4000                    | Arcturus (K2), Aldebaran (K5)        |
     | M              | 3000                    | Betelgeuse (M2), Barnard's star (M5) |
+
+    *Mintaka (Delta Orionis, or the dimmest star in Orion's Belt) is actually a multiple star system. Mintaka Aa1 is the O9 star. [More examples](https://en.wikipedia.org/wiki/O-type_star#Examples)
 
 The system can be extended to include other stars. W is a spectral class that comes
 before O and describes Wolf-Rayet stars, which are extremely hot and bluish, sometimes
