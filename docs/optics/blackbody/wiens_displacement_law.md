@@ -84,7 +84,9 @@ where $T$ is the temperature of the surface of the star (from which radiation is
 
 !!! Note
 
-    	What is going on here? Please don't try this at home. It's not safe for anyone to mentally do this, unless you're me, of course. As you may know, your club director is insane.
+    What is going on here? Please don't try this at home. It's not safe for anyone to mentally do this, unless you're me* (Prannaya), of course. As you may know, your club director is insane.
+
+    *There are multiple people who wrote this site so "me" is ambiguous
 
 This formula can be derived by maximising the emission intensity, $E_\lambda$ as per Planck's aformentioned law. Since we aim to determine the maximum wavelength, we essentially let $T$ be constant while differentiating by $\lambda$. This is essentially a partial differentiation action, and we use $\frac{\partial}{\partial \lambda}$, as we depicted below.
 
