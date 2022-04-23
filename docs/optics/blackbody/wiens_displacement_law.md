@@ -84,7 +84,7 @@ where $T$ is the temperature of the surface of the star (from which radiation is
 
 !!! Note
 
-    	What is going on here? I do not know. It appears that prannaya gave up halfway
+    	What is going on here? Please don't try this at home. It's not safe for anyone to mentally do this, unless you're me, of course. As you may know, your club director is insane.
 
 This formula can be derived by maximising the emission intensity, $E_\lambda$ as per Planck's aformentioned law. Since we aim to determine the maximum wavelength, we essentially let $T$ be constant while differentiating by $\lambda$. This is essentially a partial differentiation action, and we use $\frac{\partial}{\partial \lambda}$, as we depicted below.
 
@@ -96,11 +96,30 @@ $$\left(e^{\frac{hc}{\lambda k_BT}-1}\right)^{-1} \frac{\partial}{\partial\lambd
 
 As you can see, this is torture. We hence try to kinda simplify it (this isn't going to work, is it?):
 
-$$-5\left(\lambda^6 e^{\frac{hc}{\lambda k_BT}-1}\right)^{-1} - \lambda^{-5} \left( e^{\frac{hc}{\lambda k_B T}}-1\right)^{-2} e^{\frac{hc}{\lambda k_B T}}$$
+$$-5\left(\lambda^6 e^{\frac{hc}{\lambda k_BT}-1}\right)^{-1} - \lambda^{-5} \left( e^{\frac{hc}{\lambda k_B T}}-1\right)^{-2} e^{\frac{hc}{\lambda k_B T}} \times \frac{-hc}{\lambda^2 k_B T} = 0$$
 
-Now say you experimentally sample the intensity of a blackbody at many different wavelengths. If you do this for all
-wavelengths, you will get Planck’s distribution, the maximum of which can be found using Wien’s displacement formula.
-Different stars have different surface temperatures, which give different blackbody distributions with different peak
-wavelengths. This explains why hotter stars appear blue – their peak wavelengths are the shortest. Of course, it’s not just blue
-light that is reaching us: the star only appears blue because that is the dominant form of visible light that is
-reaching us. The same applies for reddish, cooler stars.
+From here, the equation can be simplified to:
+
+$$
+\frac{hc}{k_BT\lambda}e^{\frac{hc}{\lambda k_BT}} = 5e^{\frac{hc}{\lambda k_BT}} - 5
+$$
+
+Letting $x = \frac{hc}{\lambda k_BT}$, we get the following expression:
+
+$$xe^x = 5(e^x - 1)$$
+
+If we decide to define a variable $y$, we get $y = (x-5)e^x + 5$, and from here we can plot $y$ out and identify the roots of $y$.
+
+![](../img/lambertw.png)
+
+This is, in fact, analytically solved via the Lambert W~~acky~~ Function to get $x \approx 4.965114231744276303$. We then let $\lambda_{max} = \frac{hc}{xk_BT}$.
+
+To derive these values, let's use Phyton (totally not free publicity).
+
+![](../img/phytonWien.png)
+
+From here, we can get the precise value for $b$ to be $2.897771955185172661 \text{ mmK}$.
+
+### Understanding the Planck Distribution
+
+Now say you experimentally sample the intensity of a blackbody at many different wavelengths. If you do this for all wavelengths, you will get Planck’s distribution, the maximum of which can be found using Wien’s displacement formula. Different stars have different surface temperatures, which give different blackbody distributions with different peak wavelengths. This explains why hotter stars appear blue – their peak wavelengths are the shortest. Of course, it’s not just blue light that is reaching us: the star only appears blue because that is the dominant form of visible light that is reaching us. The same applies for reddish, cooler stars.
