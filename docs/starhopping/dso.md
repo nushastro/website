@@ -14,8 +14,8 @@ Legend:
 ### M1 (Crab Nebula)
 
 <figure markdown>
-  ![M1.jpg](./messiers/M1.jpg){ width="480px", align=right}
-  <figcaption>Messier 1, the Crab Nebula, a <a href="https://en.wikipedia.org/wiki/Supernova_remnant">Supernova remnant, that does not look like a crab at all</a></figcaption>
+    ![M1.jpg](./messiers/M1.jpg){ width="480px", align=right}
+    <figcaption>Messier 1, the Crab Nebula, a <a href="https://en.wikipedia.org/wiki/Supernova_remnant">Supernova remnant, that does not look like a crab at all</a></figcaption>
 </figure>
 
 !!! Success "How to find"
@@ -41,8 +41,8 @@ Legend:
 ### M2
 
 <figure markdown>
-  ![M2.jpg](./messiers/M2.jpg){ width="480px", align=right}
-  <figcaption>Messier 2, a <a href="https://en.wikipedia.org/wiki/Globular_cluster">Globular cluster</a></figcaption>
+    ![M2.jpg](./messiers/M2.jpg){ width="480px", align=right}
+    <figcaption>Messier 2, a <a href="https://en.wikipedia.org/wiki/Globular_cluster">Globular cluster</a></figcaption>
 </figure>
 
 !!! Success "How to find"
@@ -68,8 +68,8 @@ Legend:
 ### M3
 
 <figure markdown>
-  ![M3.jpg](./messiers/M3.jpg){ width="480px", align=right}
-  <figcaption>Messier 3, a <a href="https://en.wikipedia.org/wiki/Globular_cluster">Globular cluster</a></figcaption>
+    ![M3.jpg](./messiers/M3.jpg){ width="480px", align=right}
+    <figcaption>Messier 3, a <a href="https://en.wikipedia.org/wiki/Globular_cluster">Globular cluster</a></figcaption>
 </figure>
 
 !!! Success "How to find"
@@ -97,8 +97,8 @@ Legend:
 ### M4 (Crab Globular Cluster, Spider Globular Cluster)
 
 <figure markdown>
-  ![M4.jpg](./messiers/M4.jpg){ width="480px", align=right}
-  <figcaption>Messier 4 (aka Crab <a href="https://en.wikipedia.org/wiki/Globular_cluster">Globular cluster</a> or Spider <a href="https://en.wikipedia.org/wiki/Globular_cluster">Globular cluster</a>)</figcaption>
+    ![M4.jpg](./messiers/M4.jpg){ width="480px", align=right}
+    <figcaption>Messier 4 (aka Crab <a href="https://en.wikipedia.org/wiki/Globular_cluster">Globular cluster</a> or Spider <a href="https://en.wikipedia.org/wiki/Globular_cluster">Globular cluster</a>)</figcaption>
 </figure>
 
 !!! Success "How to find"
@@ -120,8 +120,8 @@ Legend:
 ### M5 (Rose Cluster)
 
 <figure markdown>
-  ![M5.jpg](./messiers/M5.jpg){ width="480px", align=right}
-  <figcaption>Messier 5 a <a href="https://en.wikipedia.org/wiki/Globular_cluster">Globular cluster</a> </figcaption>
+    ![M5.jpg](./messiers/M5.jpg){ width="480px", align=right}
+    <figcaption>Messier 5, a <a href="https://en.wikipedia.org/wiki/Globular_cluster">Globular cluster</a> </figcaption>
 </figure>
 
 !!! Success "How to find"
@@ -139,6 +139,144 @@ Legend:
     |      **Distance**      |               24.5 kly (7.5 kpc)                |
     |  **Visual magnitude**  |                      5.95                       |
     | **Apparent Dimension** |                      23.0′                      |
+
+### M6 (Butterfly Cluster)
+
+<figure markdown>
+    ![M6.jpg](./messiers/M6.jpg){ width="480px", align=right}
+    <figcaption>Messier 6 (aka Butterfly Cluster), an <a href="https://en.wikipedia.org/wiki/Open_cluster">Open cluster</a> </figcaption>
+</figure>
+
+!!! Success "How to find"
+
+    Find M7 first
+
+    From previous line drawn to find M7, go perpendicularly up by approximately the same distance
+
+??? Info
+
+    |        Property        |              Value              |
+    | :--------------------: | :-----------------------------: |
+    |  **Right Ascension**   | 17<sup>h</sup> 40.1<sup>m</sup> |
+    |    **Declination**     |            −32° 13′             |
+    |      **Distance**      |      1.59 kly (0.487 kpc)       |
+    |  **Visual magnitude**  |               4.2               |
+    | **Apparent Dimension** |               25′               |
+
+    > sources: [1](http://www.messier.seds.org/m/m006.html) [2](https://arxiv.org/abs/0909.3737)
+
+### M7 (Ptolemy Cluster)
+
+<figure markdown>
+    ![M7.jpg](./messiers/M6.jpg){ width="480px", align=right}
+    <figcaption>Messier 7 (aka Ptolemy Cluster), an <a href="https://en.wikipedia.org/wiki/Open_cluster">Open cluster</a> </figcaption>
+</figure>
+
+!!! Success "How to find"
+
+    Draw a line from _Lesath_ to _Shaula_ at the tail of **Scorpius**
+
+    Extend line by 4°42’
+
+    ![M7.png](./messiers/M7.png)
+
+??? Info
+
+    |        Property        |                     Value                      |
+    | :--------------------: | :--------------------------------------------: |
+    |  **Right Ascension**   | 17<sup>h</sup> 53<sup>m</sup> 51.2<sup>s</sup> |
+    |    **Declination**     |                  −34° 47′ 34″                  |
+    |      **Distance**      |           980 ± 33 ly (300 ± 10 pc)            |
+    |  **Visual magnitude**  |                      3.3                       |
+    | **Apparent Dimension** |                     80.0′                      |
+
+    > sources: [1](https://ned.ipac.caltech.edu/cgi-bin/nph-objsearch?objname=Messier+7) [2](https://arxiv.org/abs/0906.4330)
+
+### M8 (Lagoon Nebula)
+
+<figure markdown>
+    ![M8.jpg](./messiers/M8.jpg){ width="480px", align=right}
+    <figcaption>Messier 8 (aka Lagoon Nebula), a <a href="https://en.wikipedia.org/wiki/Nebula">Nebula</a> with cluster</figcaption>
+</figure>
+
+!!! Success "How to find"
+
+    Form an equilateral triangle with _Kaus Borealis_ and _Polis_, M8 is on the other end
+
+    ![M9.png](./messiers/M9.png)
+
+??? Info
+
+    |        Property        |                    Value                     |
+    | :--------------------: | :------------------------------------------: |
+    |  **Right Ascension**   | 18<sup>h</sup> 03<sup>m</sup> 27<sup>s</sup> |
+    |    **Declination**     |                 −24° 23′ 12″                 |
+    |      **Distance**      |              4100 ly (1250 pc)               |
+    |  **Visual magnitude**  |                     6.0                      |
+    | **Apparent Dimension** |                   90′x40′                    |
+
+### M9
+
+<figure markdown>
+    ![M9.jpg](./messiers/M9.jpg){ width="480px", align=right}
+    <figcaption>Messier 9, a <a href="https://en.wikipedia.org/wiki/Globular_cluster">Globular Cluster</a></figcaption>
+</figure>
+
+!!! Success "How to find"
+
+    Find the tombstone (main 6-sided shape) of **Ophiuchus**
+
+    Taking _Rasalhague_ to be the top, M9 is 3°37’ from the bottom left
+
+    ![M9.png](./messiers/M9.png)
+
+??? Info
+
+    |        Property        |                      Value                      |
+    | :--------------------: | :---------------------------------------------: |
+    |  **Right Ascension**   | 17<sup>h</sup> 19<sup>m</sup> 11.78<sup>s</sup> |
+    |    **Declination**     |                 −18° 30′ 58.5″                  |
+    |      **Distance**      |               25.8 kly (7.9 kpc)                |
+    |  **Visual magnitude**  |                       7.7                       |
+    | **Apparent Dimension** |                      9.3′                       |
+
+### M10
+
+<figure markdown>
+    ![M10.jpg](./messiers/M10.jpg){ width="480px", align=right}
+    <figcaption>Messier 10, a <a href="https://en.wikipedia.org/wiki/Globular_cluster">Globular Cluster</a></figcaption>
+</figure>
+
+!!! Success "How to find"
+
+    Middle of **Ophiucus**
+
+    ![M10.png](./messiers/M10.png)
+
+??? Info
+
+    |        Property        |                      Value                      |
+    | :--------------------: | :---------------------------------------------: |
+    |  **Right Ascension**   | 17<sup>h</sup> 19<sup>m</sup> 11.78<sup>s</sup> |
+    |    **Declination**     |                 −18° 30′ 58.5″                  |
+    |      **Distance**      |               25.8 kly (7.9 kpc)                |
+    |  **Visual magnitude**  |                       7.7                       |
+    | **Apparent Dimension** |                      9.3′                       |
+
+### M11 (Wild Duck Cluster)
+
+<figure markdown>
+    ![M11.jpg](./messiers/M11.jpg){ width="480px", align=right}
+    <figcaption>Messier 10, a <a href="https://en.wikipedia.org/wiki/Globular_cluster">Globular Cluster</a></figcaption>
+</figure>
+
+!!! Success "How to find"
+
+    Find the longest side of **Scutum**
+
+    Starting from the star closest to **Aquila**, move 1°33’ along this side, M11 is slightly outside the shape of **Scutum**
+
+    ![M11.png](./messiers/M11.png)
 
 |                                                             **Messier number**                                                              |                                       **Common name**                                        |                                                                                                                                                                **Picture**                                                                                                                                                                 |                                               **Object type**                                               |                                                                                                         **How to find**                                                                                                         |      [**Constellation**](https://en.wikipedia.org/wiki/Constellation)      | [$m$](https://en.wikipedia.org/wiki/Apparent_magnitude) |
 | :-----------------------------------------------------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------: | :-----------------------------------------------------: |
