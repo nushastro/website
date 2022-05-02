@@ -267,7 +267,7 @@ Legend:
 
 <figure markdown>
     ![M11.jpg](./messiers/M11.jpg){ width="480px", align=right}
-    <figcaption>Messier 10, a <a href="https://en.wikipedia.org/wiki/Globular_cluster">Globular Cluster</a></figcaption>
+    <figcaption>Messier 11 (aka Wild Duck Cluster), an <a href="https://en.wikipedia.org/wiki/Open_cluster">Open Cluster</a></figcaption>
 </figure>
 
 !!! Success "How to find"
@@ -277,6 +277,58 @@ Legend:
     Starting from the star closest to **Aquila**, move 1°33’ along this side, M11 is slightly outside the shape of **Scutum**
 
     ![M11.png](./messiers/M11.png)
+
+??? Info
+
+    |        Property        |                     Value                      |
+    | :--------------------: | :--------------------------------------------: |
+    |  **Right Ascension**   | 18<sup>h</sup> 51<sup>m</sup> 05.0<sup>s</sup> |
+    |    **Declination**     |                  −06° 16′ 12″                  |
+    |      **Distance**      |               6120 ly (1877 pc)                |
+    |  **Visual magnitude**  |                      5.8                       |
+    | **Apparent Dimension** |                     22.8′                      |
+
+### M12
+
+<figure markdown>
+    ![M12.jpg](./messiers/M12.jpg){ width="480px", align=right}
+    <figcaption>Messier 12, a <a href="https://en.wikipedia.org/wiki/Globular_cluster">Globular Cluster</a></figcaption>
+</figure>
+
+!!! Success "How to find"
+
+    Middle of **Ophiuchus**, towards the right of M10, side opposite of M9 and M14
+
+??? Info
+
+    |        Property        |                      Value                      |
+    | :--------------------: | :---------------------------------------------: |
+    |  **Right Ascension**   | 16<sup>h</sup> 47<sup>m</sup> 14.18<sup>s</sup> |
+    |    **Declination**     |                 −01° 56′ 54.7″                  |
+    |      **Distance**      |       16.44 ± 0.16 kly (5.04 ± 0.05 kpc)        |
+    |  **Visual magnitude**  |                       6.7                       |
+    | **Apparent Dimension** |                      16.0′                      |
+
+### M13
+
+<figure markdown>
+    ![M13.jpg](./messiers/M13.jpg){ width="480px", align=right}
+    <figcaption>Messier 13, a <a href="https://en.wikipedia.org/wiki/Globular_cluster">Globular Cluster</a></figcaption>
+</figure>
+
+!!! Success "How to find"
+
+    Middle of **Ophiuchus**, towards the right of M10, side opposite of M9 and M14
+
+??? Info
+
+    |        Property        |                      Value                      |
+    | :--------------------: | :---------------------------------------------: |
+    |  **Right Ascension**   | 16<sup>h</sup> 41<sup>m</sup> 14.24<sup>s</sup> |
+    |    **Declination**     |                 +36° 27′ 35.5″                  |
+    |      **Distance**      |               22.2 kly (6.8 kpc)                |
+    |  **Visual magnitude**  |                       5.8                       |
+    | **Apparent Dimension** |                       20′                       |
 
 |                                                             **Messier number**                                                              |                                       **Common name**                                        |                                                                                                                                                                **Picture**                                                                                                                                                                 |                                               **Object type**                                               |                                                                                                         **How to find**                                                                                                         |      [**Constellation**](https://en.wikipedia.org/wiki/Constellation)      | [$m$](https://en.wikipedia.org/wiki/Apparent_magnitude) |
 | :-----------------------------------------------------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------: | :-----------------------------------------------------: |
