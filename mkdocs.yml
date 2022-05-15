@@ -87,6 +87,7 @@ nav:
                 - 'celestial/mechanics/getting_started.md'
                 - 'celestial/mechanics/virial.md'
                 - 'celestial/mechanics/jeans.md'
+                - 'celestial/mechanics/binary_system_total_energy.md'
 
     - Stellar Astronomy:
           - Getting Started: stellar/index.md
