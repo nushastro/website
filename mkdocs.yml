@@ -85,10 +85,8 @@ nav:
                 - 'celestial/gravitation/escape_velocity.md'
           - Orbital Mechanics:
                 - 'celestial/mechanics/getting_started.md'
-                - 'celestial/mechanics/equation_of_motion.md'
-                - 'celestial/mechanics/solving_the_equation.md'
-                - 'celestial/mechanics/eqn_of_orbit.md'
-                - 'celestial/mechanics/lagrange_points.md'
+                - 'celestial/mechanics/virial.md'
+                - 'celestial/mechanics/jeans.md'
 
     - Stellar Astronomy:
           - Getting Started: stellar/index.md
