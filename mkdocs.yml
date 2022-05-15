@@ -26,21 +26,21 @@ theme:
         logo: material/telescope
 
     palette:
-    - media: "(prefers-color-scheme: dark)"
-      scheme: slate
-      primary: black
-      toggle:
-        icon: material/toggle-switch
-        name: Switch to light mode
-    - media: "(prefers-color-scheme: light)"
-      scheme: default
-      primary: black
-      toggle:
-        icon: material/toggle-switch-off-outline
-        name: Switch to dark mode
+        - media: '(prefers-color-scheme: dark)'
+          scheme: slate
+          primary: black
+          toggle:
+              icon: material/toggle-switch
+              name: Switch to light mode
+        - media: '(prefers-color-scheme: light)'
+          scheme: default
+          primary: black
+          toggle:
+              icon: material/toggle-switch-off-outline
+              name: Switch to dark mode
 
 extra_css:
-  - stylesheets/style.css
+    - stylesheets/style.css
 
 markdown_extensions:
     - pymdownx.highlight:
@@ -104,6 +104,9 @@ nav:
                 - stellar/evolution/low_mass_stars.md
                 - stellar/evolution/sun_like.md
                 - stellar/evolution/high_mass.md
+          - Variables:
+                - stellar/variable/kappa.md
+                - stellar/variable/instability_strip.md
     - Light and Optics:
           - Getting Started: optics/index.md
           - Perceiving Space:
