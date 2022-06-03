@@ -203,8 +203,6 @@ Legend:
 
     Form an equilateral triangle with _Kaus Borealis_ and _Polis_, M8 is on the other end
 
-    ![M9.png](./messiers/M9.png)
-
 ??? Info
 
     |        Property        |                    Value                     |
@@ -228,8 +226,6 @@ Legend:
 
     Taking _Rasalhague_ to be the top, M9 is 3°37’ from the bottom left
 
-    ![M9.png](./messiers/M9.png)
-
 ??? Info
 
     |        Property        |                      Value                      |
@@ -250,8 +246,6 @@ Legend:
 !!! Success "How to find"
 
     Middle of **Ophiucus**
-
-    ![M10.png](./messiers/M10.png)
 
 ??? Info
 
@@ -275,8 +269,6 @@ Legend:
     Find the longest side of **Scutum**
 
     Starting from the star closest to **Aquila**, move 1°33’ along this side, M11 is slightly outside the shape of **Scutum**
-
-    ![M11.png](./messiers/M11.png)
 
 ??? Info
 
