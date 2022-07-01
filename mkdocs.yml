@@ -89,6 +89,7 @@ nav:
                 - 'celestial/mechanics/jeans.md'
                 - 'celestial/mechanics/binary_system_total_energy.md'
                 - 'celestial/mechanics/COAM.md'
+                - 'celestial/mechanics/lagrange_points.md'
 
     - Stellar Astronomy:
           - Getting Started: stellar/index.md
