@@ -68,7 +68,7 @@ $$
 \lambda_{max} = \frac{b}{T} \approx\frac{0.002898 m \cdot K}{T}
 $$
 
-where $T$ is the temperature of the surface of the star (from which radiation is emitted). The constant $b \approx 0.002898 \cdot mK$ is known as _Wien’s Wavelength Displacement Constant_.
+where $T$ is the temperature of the surface of the star (from which radiation is emitted). The constant $b \approx 0.002898 m \cdot K$ is known as _Wien’s Wavelength Displacement Constant_.
 
 !!! Question
 
