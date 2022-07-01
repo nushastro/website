@@ -65,10 +65,10 @@ This published postulate (a.k.a. suggestion) was specifically cited by the Nobel
 Wien’s displacement formula gives the wavelength that a blackbody radiate which releases the highest spectral emission intensity. The following shows the formula:
 
 $$
-\lambda_{max} = \frac{b}{T} \approx\frac{0.002898 \cdot mK}{T}
+\lambda_{max} = \frac{b}{T} \approx\frac{0.002898 m \cdot K}{T}
 $$
 
-where $T$ is the temperature of the surface of the star (from which radiation is emitted). The constant $b \approx 0.002898 \cdot mK$ is known as _Wien’s Wavelength Displacement Constant_.
+where $T$ is the temperature of the surface of the star (from which radiation is emitted). The constant $b \approx 0.002898 m \cdot K$ is known as _Wien’s Wavelength Displacement Constant_.
 
 !!! Question
 
@@ -114,7 +114,7 @@ If we decide to define a variable $y$, we get $y = (x-5)e^x + 5$, and from here 
 
 ![](../img/lambertw.png)
 
-This is, in fact, analytically solved via the Lambert W~~acky~~ Function to get $x \approx 4.965114231744276303$. We then let $\lambda_{max} = \frac{hc}{xk_BT}$.
+This is, in fact, analytically solved via the Lambert W Function to get $x \approx 4.965114231744276303$. We then let $\lambda_{max} = \frac{hc}{xk_BT}$.
 
 To derive these values, let's use Phyton (totally not free publicity).
 
