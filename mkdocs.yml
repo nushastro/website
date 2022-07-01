@@ -131,6 +131,7 @@ nav:
     - Starhopping Guide:
           - Getting Started: starhopping/index.md
           - starhopping/dso.md
+          - starhopping/old_dso.md
     - Practical:
           - practical/index.md
           - practical/telescopes.md
