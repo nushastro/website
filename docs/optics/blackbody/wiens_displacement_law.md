@@ -114,7 +114,7 @@ If we decide to define a variable $y$, we get $y = (x-5)e^x + 5$, and from here 
 
 ![](../img/lambertw.png)
 
-This is, in fact, analytically solved via the Lambert W~~acky~~ Function to get $x \approx 4.965114231744276303$. We then let $\lambda_{max} = \frac{hc}{xk_BT}$.
+This is, in fact, analytically solved via the Lambert W Function to get $x \approx 4.965114231744276303$. We then let $\lambda_{max} = \frac{hc}{xk_BT}$.
 
 To derive these values, let's use Phyton (totally not free publicity).
 
