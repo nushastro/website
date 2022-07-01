@@ -28,7 +28,7 @@ fully ionized (all electrons are stripped from atoms to form nuclei), so the con
 interact strongly with light. Overall, due to the sheer density of the radiative zone, a photon takes a few million
 years to reach the edge of the radiative zone from the core. This is in spite of the fact that
 photons travel at the speed of light. This bouncing also gradually causes the photon to lose
-energy over time, and its wavelength will decrease, causing it to fall from the gamma range to
+energy over time, and its wavelength will increase, causing it to fall from the gamma range to
 the visible-UV range in the electromagnetic spectrum.
 
 
