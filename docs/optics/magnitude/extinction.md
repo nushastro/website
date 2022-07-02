@@ -164,7 +164,7 @@ where $r$ is the distance to the star, and $a=2.5\alpha\log e$ being the extinct
 
         We just get a random $d$ by just randomly estimating or guessing, and get a slightly more accurate $d_{new}$ using:
 
-        $$d_{new} = 10\times10^{2-0.0004\timesd_{old}}$$
+        $$d_{new} = 10\times10^{2-0.0004\times d_{old}}$$
 
         Now just plug the new $d_{old}$ value and repeat until it approaches some value.
 
@@ -207,7 +207,7 @@ We can write the visual apparent magnitude $V$ of a star as such:
 
 $$
 \begin{align*}
-m - M = V - M_V &= 5\log\left(\frac{d}{10\text{pc}}\right)+A_V
+m - M = V - M_V &= 5\log\left(\frac{d}{10\text{pc}}\right)+A_V\\
 V &= M_V + 5\log\left(\frac{d}{10\text{pc}}\right)+A_V
 \end{align*}
 $$

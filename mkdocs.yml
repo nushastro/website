@@ -124,6 +124,7 @@ nav:
           - Telescopes:
                 - optics/telescopes/overview.md
                 - optics/telescopes/refractor.md
+                - optics/telescopes/resolution.md
           - optics/solid_angle.md
     - Positional Astronomy:
           - Getting Started: positional/index.md
