@@ -88,3 +88,40 @@ To understand how something can weigh less than the sum of its parts, the video 
 ![binding_energy](../assets/binding_energy_dark.svg#only-dark)
 
 <figcaption>Binding energy curve for common isotopes. Energy is released as you move towards Fe-56, whether it be through fusion (from left) or through fission (from the right)</figcaption>
+
+!!! Question "Mass Loss"
+
+    === "Question"
+
+        Calculate the mass lost from fusion in the sun in 1 second.
+
+        Luminosity of the sun $L_{\odot} = 3.828 \times 10^{26} J/s$, Hydrogen's mass is 1.00784u, Helium-4's mass is 4.0026u, and 1u = $1.66\times10^{-27}kg$
+
+    === "Solution"
+
+        First we calculate the amount of energy released from 1 fusion (4 H → 1 He-4)
+
+        $$\begin{align*}
+        \Delta m &= 4(1.00784u) - 4.0026u \\
+        &= 0.02876u\\
+        &= 0.02876 \times 1.66\times 10^{-27}\\
+        &= 4.77\times10^{-29} kg\\
+        E &= \Delta m c^2\\
+        &= 4.77\times10^{-29}\times(3\times 10^{8})^2\\
+        &= 4.291\times10^{-12} J
+        \end{align*}$$
+
+        We can then calculate the number of fusion reactions per second. Since luminosity is just energy produced in 1 second:
+
+        $$\begin{align*}
+        N &= \frac{L_\odot}{E}\\
+        &= \frac{3.828\times10^{26}}{4.291\times10^{-12}}\\
+        &= 8.921\times10^{37}
+        \end{align*}$$
+
+        Multiplying this by the mass loss per fusion reaction:
+
+        $$\begin{align*}
+        \Delta M &= 8.921\times10^{37}\times4.77\times10^{-29} kg\\
+        &\approx 4.26\times10^{9} kg/s
+        \end{align*}$$
