@@ -19,7 +19,7 @@ However the problem that rose from this system was that it was highly arbitrary 
 
 Norman Pogson was an astrophysicist at the prestigious Oxford University back in 1856 when he came with a solution to the magnitude scaling problem.
 
-He proferred a solution that used a logarithmic scale rather than a linear scale. Since detectors were actually present back then, Pogson was able to come to a unique scale system: each factor of difference in magnitude denoted $100^{\frac{1}{5}} \approx 2.512$ as a change of luminosity. That is to say, a star of magnitude +4.00 was $2.512$ times as bright as a star of magnitude +5.00, or rather, a star of magnitude +0.00 was a 100 times a bright that of magnitude +5.00.
+He preferred a solution that used a logarithmic scale rather than a linear scale. Since detectors were actually present back then, Pogson was able to come to a unique scale system: each factor of difference in magnitude denoted $100^{\frac{1}{5}} \approx 2.512$ as a change of luminosity. That is to say, a star of magnitude +4.00 was $2.512$ times as bright as a star of magnitude +5.00, or rather, a star of magnitude +0.00 was a 100 times a bright that of magnitude +5.00.
 
 At that point Polaris was used a reference point, since it had a good old nice value of $m = +2.00$.
 
