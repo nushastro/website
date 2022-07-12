@@ -125,6 +125,54 @@ We can hence plot $a$ against $r$ and obtain the below graph:
 
 The intersections at zero represent the first three Lagrange points. The qualitative trend of the graphs is very helpful to remember as well.
 
+## Mathematical Derivation
+Disclaimer (although it should be obvious): this requires PO.
+
+Let's start by representing the masses at each point as $m_1$, $m_2$ and $m_3$, and let $\vec r_1$, $\vec r_2$ and $\vec r_3$ represent the position vectors of said points based off an arbitrary origin point on the plane with all 3 points. The centre of mass of said system has the following position vector:
+$$\vec r_{\text{cm}} = \frac{m_1\vec r_1 + m_2\vec r_2 + m_3\vec r_3}{m_1+m_2+m_3}$$
+
+Let's denote the distance between any two masses $m_i$ and $m_j$ to be $r_{ij}$. We state that these points are in fact moving in a circular motion about said centre-of-mass. To simplify the situation, let's denote $\vec r_{\text{cm}}$ as the origin. This would mean that:
+
+$$
+\begin{align*}
+\vec r_{\text{cm}} &=  \vec 0 \\
+\frac{m_1\vec r_1 + m_2\vec r_2 + m_3\vec r_3}{m_1+m_2+m_3} &= \vec 0 \\
+m_1\vec r_1 + m_2\vec r_2 + m_3\vec r_3 &= \vec 0 \\
+\text{Thus for any }m_k,& \\
+\vec r_k &= -\frac{1}{m_k} \left(\sum m_j\vec r_j \right) \\
+\end{align*}
+$$
+
+From here, let's say we wish to determine the gravitational force exterted by a given mass $m_i$ on another mass $m_j$, $F_{g, ij}$ we can determine this by plugging in Newton's Law of Universal Gravitation.
+
+$$
+\begin{align*}
+\vec F_{g,ij} &= G\frac{m_i m_j}{r_{ij}^3} \vec r_{ij} \\
+&= Gm_i m_j \left(\frac{\vec r_i - \vec r_j}{|\vec r_i - \vec r_j|^3} \right)
+\end{align*}
+$$
+
+Thus, for instance for mass 1, masses 2 and 3 exert differing forces $\vec F_{g, 21}$ and $\vec F_{g, 31}$ which can be summed up to compute the overall centripetal force of motion.
+
+$$
+\begin{align*}
+\vec F_{g,21} &= Gm_1 m_2 \left(\frac{\vec r_2 - \vec r_1}{|\vec r_2 - \vec r_1|^3} \right) \\
+\vec F_{g,31} &= Gm_1 m_3 \left(\frac{\vec r_3 - \vec r_1}{|\vec r_3 - \vec r_1|^3} \right) \\
+\vec F_{g,1} &= Gm_1 \left[ m_2 \left(\frac{\vec r_2 - \vec r_1}{|\vec r_2 - \vec r_1|^3} \right) + m_3 \left(\frac{\vec r_3 - \vec r_1}{|\vec r_3 - \vec r_1|^3} \right) \right] \\
+\end{align*}
+$$
+
+This is the centripetal force here from the centre of mass.
+
+$$
+\begin{align*}
+m_1(\vec r_1) \omega^2 &= Gm_1 \left[ m_2 \left(\frac{\vec r_2 - \vec r_1}{|\vec r_2 - \vec r_1|^3} \right) + m_3 \left(\frac{\vec r_3 - \vec r_1}{|\vec r_3 - \vec r_1|^3} \right) \right] \\
+\omega^2 &= G\left[ m_2 \left(\frac{\vec r_2 - \vec r_1}{|\vec r_2 - \vec r_1|^3} \right) + m_3 \left(\frac{\vec r_3 - \vec r_1}{|\vec r_3 - \vec r_1|^3} \right) \right] \cdot \vec r_1 \\
+\omega &= \sqrt{G} \sqrt{\frac{m_2}{|\vec r_2 - \vec r_1|^3} \left(\vec r_2 \cdot \vec r_1 - r_1^2 \right) + \frac{m_3}{|\vec r_3 - \vec r_1|^3} \left(\vec r_3 \cdot \vec r_1 - r_1^2 \right)}
+\end{align*}
+$$
+(TBC)
+
 ## Applications
 
 If you are wondering, if these Lagrange points are so good at maintaining orbital equilibrium, why doesn't NASA just put its satellites there? The thing is, they do. The recently launched James Webb Space Telescope (JWST) orbits the Sun-Earth system at $L_2$!
