@@ -2,7 +2,7 @@
 
 ![Instability_strip.svg](../assets/Instability_strip.svg)
 
-<figcaption>The 5 Lagrange points for our Sun-Earth System</figcaption>
+<figcaption>The Instability Strip on a Hertsprung-Russell Diagram</figcaption>
 
 ## Cepheid variables
 
@@ -36,18 +36,22 @@ The process then repeats.
     There even more types of cepheids like Anomalous Cepheids (higher luminosities than expected) and Double-mode cepheids (pulsating in more than one mode at the same time), but those are still rarer.
 
 ## RR Lyrae variables
+![Instability_strip.svg](../assets/m5stars.png)
 
 RR Lyrae variables are periodic variable stars, commonly found in globular clusters.
 They are pulsating horizontal branch stars of spectral class A or F, with a mass of around half the Sun's.
+
 They are thought to have shed mass during the red-giant branch phase, and were once stars of similar or slightly less mass than the Sun, around 0.8 solar masses.
 
-The absolute magnitudes of the RR Lyrae stars are about $M_V = 0.6±0.3$.
+The absolute magnitudes of the RR Lyrae stars are about $M_V = 0.6 \pm 0.3$.
 They are all of roughly the same age and mass, and thus represent the same evolutionary phase, where helium is just beginning to burn in the core.
 Since the absolute magnitudes of the RR Lyrae variables are known, they can be used to determine distances to the globular clusters.
 
 Although RR Lyrae variables do not follow a strict period-luminosity relationship at visual wavelengths, they do in the infrared K band.
 
 They pulse using the same $\kappa$-mechanism as cepheids, although RR Lyrae variables are much more metal-poor.
+
+RR Lyrae variables are typically found in a particular area of the [Hertzsprung-Russell Diagram](../../classification/hr_diagram/) called the "horizontal branch", and further described as the "RR Lyrae gap" since most of the stars in that area are RR Lyraes.
 
 ## Delta Scuti variables
 
