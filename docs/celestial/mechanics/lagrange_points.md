@@ -1,4 +1,4 @@
-# Lagrange points
+# Lagrange Points
 
 Lagrange points are places in space where we can place a light object alongside 2 other heavy objects in orbit, such that the light object is in equilibrium. Accurately, that means:
 
@@ -62,6 +62,7 @@ $$
 \begin{align*}
 \frac{M_2}{r^2}-\frac{M_1}{R^2}(3\frac{r}{R}) &\approx 0\\
 r&=R\sqrt[3]{\frac{M_2}{3M_1}}
+\end{align*}
 $$
 
 Now we have found $L_1$!
