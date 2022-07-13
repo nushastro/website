@@ -129,6 +129,7 @@ The intersections at zero represent the first three Lagrange points. The qualita
 Disclaimer (although it should be obvious): this requires PO.
 
 Let's start by representing the masses at each point as $m_1$, $m_2$ and $m_3$, and let $\vec r_1$, $\vec r_2$ and $\vec r_3$ represent the position vectors of said points based off an arbitrary origin point on the plane with all 3 points. The centre of mass of said system has the following position vector:
+
 $$\vec r_{\text{cm}} = \frac{m_1\vec r_1 + m_2\vec r_2 + m_3\vec r_3}{m_1+m_2+m_3}$$
 
 Let's denote the distance between any two masses $m_i$ and $m_j$ to be $r_{ij}$. We state that these points are in fact moving in a circular motion about said centre-of-mass. To simplify the situation, let's denote $\vec r_{\text{cm}}$ as the origin. This would mean that:
@@ -171,6 +172,7 @@ m_1(\vec r_1) \omega^2 &= Gm_1 \left[ m_2 \left(\frac{\vec r_2 - \vec r_1}{|\vec
 \omega &= \sqrt{G} \sqrt{\frac{m_2}{|\vec r_2 - \vec r_1|^3} \left(\vec r_2 \cdot \vec r_1 - r_1^2 \right) + \frac{m_3}{|\vec r_3 - \vec r_1|^3} \left(\vec r_3 \cdot \vec r_1 - r_1^2 \right)}
 \end{align*}
 $$
+
 (TBC)
 
 ## Applications
