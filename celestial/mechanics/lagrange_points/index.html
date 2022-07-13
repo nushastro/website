@@ -2031,8 +2031,8 @@ r&amp;=R\sqrt[3]{\frac{M_2}{3M_1}}
 <p>The intersections at zero represent the first three Lagrange points. The qualitative trend of the graphs is very helpful to remember as well.</p>
 <h2 id="mathematical-derivation">Mathematical Derivation</h2>
 <p>Disclaimer (although it should be obvious): this requires PO.</p>
-<p>Let's start by representing the masses at each point as <span class="arithmatex">\(m_1\)</span>, <span class="arithmatex">\(m_2\)</span> and <span class="arithmatex">\(m_3\)</span>, and let <span class="arithmatex">\(\vec r_1\)</span>, <span class="arithmatex">\(\vec r_2\)</span> and <span class="arithmatex">\(\vec r_3\)</span> represent the position vectors of said points based off an arbitrary origin point on the plane with all 3 points. The centre of mass of said system has the following position vector:
-<span class="arithmatex">\(<span class="arithmatex">\(\vec r_{\text{cm}} = \frac{m_1\vec r_1 + m_2\vec r_2 + m_3\vec r_3}{m_1+m_2+m_3}\)</span>\)</span></p>
+<p>Let's start by representing the masses at each point as <span class="arithmatex">\(m_1\)</span>, <span class="arithmatex">\(m_2\)</span> and <span class="arithmatex">\(m_3\)</span>, and let <span class="arithmatex">\(\vec r_1\)</span>, <span class="arithmatex">\(\vec r_2\)</span> and <span class="arithmatex">\(\vec r_3\)</span> represent the position vectors of said points based off an arbitrary origin point on the plane with all 3 points. The centre of mass of said system has the following position vector:</p>
+<div class="arithmatex">\[\vec r_{\text{cm}} = \frac{m_1\vec r_1 + m_2\vec r_2 + m_3\vec r_3}{m_1+m_2+m_3}\]</div>
 <p>Let's denote the distance between any two masses <span class="arithmatex">\(m_i\)</span> and <span class="arithmatex">\(m_j\)</span> to be <span class="arithmatex">\(r_{ij}\)</span>. We state that these points are in fact moving in a circular motion about said centre-of-mass. To simplify the situation, let's denote <span class="arithmatex">\(\vec r_{\text{cm}}\)</span> as the origin. This would mean that:</p>
 <div class="arithmatex">\[
 \begin{align*}
@@ -2059,14 +2059,14 @@ m_1\vec r_1 + m_2\vec r_2 + m_3\vec r_3 &amp;= \vec 0 \\
 \end{align*}
 \]</div>
 <p>This is the centripetal force here from the centre of mass.</p>
-<p>$$
-\begin{align<em>}
-m_1(\vec r_1) \omega^2 &amp;= Gm_1 \left[ m_2 \left(\frac{\vec r_2 - \vec r_1}{|\vec r_2 - \vec r_1|^3} \right) + m_3 \left(\frac{\vec r_3 - \vec r_1}{|\vec r_3 - \vec r_1|^3} \right) \right] \
-\omega^2 &amp;= G\left[ m_2 \left(\frac{\vec r_2 - \vec r_1}{|\vec r_2 - \vec r_1|^3} \right) + m_3 \left(\frac{\vec r_3 - \vec r_1}{|\vec r_3 - \vec r_1|^3} \right) \right] \cdot \vec r_1 \
+<div class="arithmatex">\[
+\begin{align*}
+m_1(\vec r_1) \omega^2 &amp;= Gm_1 \left[ m_2 \left(\frac{\vec r_2 - \vec r_1}{|\vec r_2 - \vec r_1|^3} \right) + m_3 \left(\frac{\vec r_3 - \vec r_1}{|\vec r_3 - \vec r_1|^3} \right) \right] \\
+\omega^2 &amp;= G\left[ m_2 \left(\frac{\vec r_2 - \vec r_1}{|\vec r_2 - \vec r_1|^3} \right) + m_3 \left(\frac{\vec r_3 - \vec r_1}{|\vec r_3 - \vec r_1|^3} \right) \right] \cdot \vec r_1 \\
 \omega &amp;= \sqrt{G} \sqrt{\frac{m_2}{|\vec r_2 - \vec r_1|^3} \left(\vec r_2 \cdot \vec r_1 - r_1^2 \right) + \frac{m_3}{|\vec r_3 - \vec r_1|^3} \left(\vec r_3 \cdot \vec r_1 - r_1^2 \right)}
-\end{align</em>}
-$$
-(TBC)</p>
+\end{align*}
+\]</div>
+<p>(TBC)</p>
 <h2 id="applications">Applications</h2>
 <p>If you are wondering, if these Lagrange points are so good at maintaining orbital equilibrium, why doesn't NASA just put its satellites there? The thing is, they do. The recently launched James Webb Space Telescope (JWST) orbits the Sun-Earth system at <span class="arithmatex">\(L_2\)</span>!</p>
 <p><img alt="JWST.png" src="../../img/L2_JWST.png" /></p>
