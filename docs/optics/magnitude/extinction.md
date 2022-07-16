@@ -237,7 +237,7 @@ $$
 
 where $(B − V)_0 = M_B − M_V$ is the _intrinsic color_ of the star and $E_{B-V} = (B-V) - (B-V)_0$ is the _color excess_
 
-One interesting fact is that the ratio between $A_V$ and $E_{B-V}$ is almost constant for all stars:
+One interesting fact is that the ratio between the extinction $A_V$ and reddening $E_{B-V}$ is almost constant for all stars:
 
 $$
 \frac{A_V}{E_{B-V}} \approx 3.0
