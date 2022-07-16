@@ -52,17 +52,18 @@ The more the radiation distribution differs from a F5 star, the higher $\text{BC
 
 !!! Note "Absolute Bolometric Magnitude"
 
-    The absolute bolometric magnitude can be expressed in terms of the luminosity.
+    The absolute bolometric magnitude can be expressed in terms of the luminosity (since it's a standardized distance from the star).
     Let the total flux density at a distance r = 10 pc be $F$ and let $F_\odot$ be the equivalent quantity for the Sun.
     Since the luminosity is $L = 4\pi r2F$, we get:
 
     $$
-    M_{bol} - M_{bol, \odot} &= -2.5\log\left(\frac{F}{F_\odot}}\right)
-    &= -2.5\log\left(\frac{\frac{L}{4\pi r^2}}{\frac{L_\odot}{4\pi r^2}}}\right)
+    \begin{align*}
+    M_{bol} - M_{bol, \odot} &= -2.5\log\left(\frac{F}{F_\odot}\right)\\
+    &= -2.5\log\left(\frac{\frac{L}{4\pi r^2}}{\frac{L_\odot}{4\pi r^2}}\right)\\
     &= -2.5\log\left(\frac{L}{L_\odot}\right)
-    $$
+    \end{align*}$$
 
-    The absolute bolometric magnitude $M_{bol} = 0$ corresponds to a luminosity $L_0 = 3.0 × 1028 \text W$
+    The absolute bolometric magnitude $M_{bol} = 0$ corresponds to a luminosity $L_0 = 3.0 × 10^{28} \text W$
 
 ## Filters and the UBV system
 
