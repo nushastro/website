@@ -84,7 +84,7 @@ $$F_{ring} = \frac{GmM_{ring}}{x^2}\cos\alpha$$
 
 However, as it turns out this ring is actually infinitely thin with infinitesimal mass so we have to use differentials instead:
 
-$$dF = \frac{Gm\cdot dm}{x^2\cos\alpha}$$
+$$dF = \frac{Gm\cdot dm}{x^2}\cos\alpha$$
 
 We can now integrate it to get the gravitational force caused by a shell:
 
