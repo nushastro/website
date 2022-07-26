@@ -123,9 +123,11 @@ The constants $F_0$ for $U$, $B$ and $V$ magnitudes are selected such that $B-V 
 
     Vega ($\alpha \, \text{Lyr}$, A0V) has
 
-    - $V = 0.04$
+    - $V = 0.04$ (approx 0)
     - $B-V = 0.00$
     - $U-B = 0.00$
+
+    **Note that Vega is (was) the standard zero magnitude star for UBV**
 
     The Sun has
 
