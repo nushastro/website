@@ -9,7 +9,7 @@
       
       
       <link rel="icon" href="../../../assets/favicon.png">
-      <meta name="generator" content="mkdocs-1.3.0, mkdocs-material-8.2.9">
+      <meta name="generator" content="mkdocs-1.3.1, mkdocs-material-8.4.2">
     
     
       
@@ -17,11 +17,12 @@
       
     
     
-      <link rel="stylesheet" href="../../../assets/stylesheets/main.120efc48.min.css">
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.69437709.min.css">
       
         
-        <link rel="stylesheet" href="../../../assets/stylesheets/palette.9647289d.min.css">
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.cbb835fc.min.css">
         
+      
       
     
     
@@ -37,7 +38,7 @@
     
       <link rel="stylesheet" href="../../../stylesheets/style.css">
     
-    <script>__md_scope=new URL("../../..",location),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -1513,8 +1514,8 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../optics/telescopes/resolution.md" class="md-nav__link">
-        None
+      <a href="../../../optics/telescopes/resolution/" class="md-nav__link">
+        Resolution
       </a>
     </li>
   
@@ -2054,7 +2055,7 @@ This is because we can effectively discard the shell above the point due to poin
 <div class="arithmatex">\[F_{ring} = \frac{GmM_{ring}}{x^2}\cos\alpha\]</div>
 <h3 id="finding-gravitational-force-caused-by-a-shell">Finding gravitational force caused by a shell</h3>
 <p>However, as it turns out this ring is actually infinitely thin with infinitesimal mass so we have to use differentials instead:</p>
-<div class="arithmatex">\[dF = \frac{Gm\cdot dm}{x^2\cos\alpha}\]</div>
+<div class="arithmatex">\[dF = \frac{Gm\cdot dm}{x^2}\cos\alpha\]</div>
 <p>We can now integrate it to get the gravitational force caused by a shell:</p>
 <div class="arithmatex">\[\begin{align*}F_{shell} &amp;= \int dF\\&amp;=\int\frac{Gm\cos\alpha}{x^2}dm \end{align*}\]</div>
 <p>Now the hard part is finding <span class="arithmatex">\(dm\)</span>, because not all rings have the same mass (because they will not all have the same size)</p>
@@ -2099,8 +2100,12 @@ This is because we can effectively discard the shell above the point due to poin
 <div class="arithmatex">\[\begin{align*} F &amp;= \frac{\pi t\rho RGm}{d^2}\left[\frac{R^2-d^2}{x}+x\right]_{R-d}^{d+R} \end{align*}\]</div>
 <p>you can indeed verify that this is 0. Since a thick hollow sphere is just many concentric shells, adding together many <span class="arithmatex">\(0\)</span>s still results in a <span class="arithmatex">\(0\)</span> net force.</p>
 
+
+
+
               
             </article>
+            
           </div>
         </div>
         
@@ -2108,7 +2113,8 @@ This is because we can effectively discard the shell above the point due to poin
       
         <footer class="md-footer">
   
-    <nav class="md-footer__inner md-grid" aria-label="Footer">
+    
+    <nav class="md-footer__inner md-grid" aria-label="Footer" >
       
         
         <a href="../gravitational_field/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Gravitational Field" rel="prev">
@@ -2163,10 +2169,11 @@ This is because we can effectively discard the shell above the point due to poin
     <div class="md-dialog" data-md-component="dialog">
       <div class="md-dialog__inner md-typeset"></div>
     </div>
-    <script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.tabs", "search.suggest", "search.share"], "search": "../../../assets/javascripts/workers/search.2a1c317c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
+    
+    <script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.tabs", "search.suggest", "search.share"], "search": "../../../assets/javascripts/workers/search.ecf98df9.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
     
     
-      <script src="../../../assets/javascripts/bundle.6e54b5cd.min.js"></script>
+      <script src="../../../assets/javascripts/bundle.9c69f0bc.min.js"></script>
       
         <script src="../../../javascripts/mathjax.js"></script>
       
