@@ -2,8 +2,7 @@
 
 !!! danger
 
-    There is likely to be inaccurate information here
-    ig its a WIP?
+    There is likely to be inaccurate information here. That and the evolution of high-mass stars is very poorly understood.
 
 High-mass stars evolve much faster than their low-mass counterparts.
 The more massive a star, the faster it consumes fuel and the shorter its main-sequence lifespan becomes.
@@ -41,7 +40,7 @@ A high mass star, however, can fuse not just Hydrogen and Helium, but Carbon, Ne
 
 ## Helium Burning
 
-In high-mass stars, evolution is so fast that the star doesn't even reach the re-giant region before it starts fusing Helium.
+In high-mass stars, evolution is so fast that the star doesn't even reach the red giant region before it starts fusing Helium.
 
 As each element is burned to depletion at the center, the core contracts and heats up, and fusion starts again.
 A new inner core forms, contracts again, heats again, and so on.
@@ -82,7 +81,7 @@ After approximately 1000 years of carbon burning, the inert core consists of O/N
 The core contracts and heats up, and creates unstable shell burning.
 This leads to large thermal pulses that destabilize the envelope of the star.
 
-This star is known as a **Cepheid Variable**.
+This star is known as a **Cepheid Variable** (Although they can form from higher-mass stars).
 
 Eventually they eject their envelopes like our sun, giving us a planetary nebula and leaving a hot and dense O/Ne/Mg core behind (white dwarf)
 
@@ -144,11 +143,22 @@ The iron core reaches a mass of around $1$ to $2M_\odot$, and contracts and heat
 
 ## Iron core collapse
 
-Here is where things go badly for the star. There are photons that are so high energy that they disintegrate the nuclei (photodisintegration).
-However, the only things that were supporting up the star was photons via radiation pressure, so the star gets robbed of its energy.
+Here is where things go badly for the star. There are photons that are so high energy that they disintegrate the nuclei (photodisintegration). However, the only things that were supporting up the star was photons via radiation pressure, so the star gets robbed of its energy.
 
 Free protons and electrons fuse into a neutron and a neutrino, however the neutrino does not contribute to radiation pressure, so this takes energy away from the core.
 
 Eventually radiation pressure caves to gravity and the core **collapses**. **Catastrophically**.
 
-The earth-sized iron core (6000km) shrinks to about the width of Singapore (50km) in **one second**, at about $\frac{1}{4}$ the speed of light
+![](../assets/ironmeme.png)
+
+## Supernova(?)
+
+This core collapse causes a rapid increase in temperature and density of the core.
+What happens next depends on the collapsing core.
+It will either form a neutron star for lower-mass stars and a black hole for higher-mass stars.
+
+The earth-sized iron core (6000km) shrinks to about the width of Singapore (30~50km) in **one second**, at about $\frac{1}{4}$ the speed of light.
+Its density is similar to an atomic nucleus.
+Neutron degeneracy pressure tries to hold up the core.
+
+depending on the core mass it will become a supernova (neutron star/black hole) or go straight to a black hole (direct collapse)

@@ -2,8 +2,11 @@ site_name: NUSH Astro
 
 theme:
     name: 'material'
+
     features:
         - navigation.tabs
+        - search.suggest
+        - search.share
 
     # 404 page
     static_templates:
@@ -23,16 +26,21 @@ theme:
         logo: material/telescope
 
     palette:
-        - scheme: slate
+        - media: '(prefers-color-scheme: dark)'
+          scheme: slate
           primary: black
           toggle:
               icon: material/toggle-switch
               name: Switch to light mode
-        - scheme: default
+        - media: '(prefers-color-scheme: light)'
+          scheme: default
           primary: black
           toggle:
               icon: material/toggle-switch-off-outline
               name: Switch to dark mode
+
+extra_css:
+    - stylesheets/style.css
 
 markdown_extensions:
     - pymdownx.highlight:
@@ -72,10 +80,15 @@ nav:
                 - 'celestial/gravitation/gravitational_field.md'
                 - 'celestial/gravitation/shell_theorem.md'
                 - 'celestial/gravitation/gravitational_potential.md'
+                - 'celestial/gravitation/satellite_motion.md'
+                - 'celestial/gravitation/binary_stars.md'
+                - 'celestial/gravitation/escape_velocity.md'
           - Orbital Mechanics:
-                - 'celestial/mechanics/conservation_of_quantities.md'
-                - 'celestial/mechanics/trajectory_of_particle.md'
+                - 'celestial/mechanics/getting_started.md'
+                - 'celestial/mechanics/virial.md'
+                - 'celestial/mechanics/jeans.md'
                 - 'celestial/mechanics/binary_system_total_energy.md'
+                - 'celestial/mechanics/COAM.md'
                 - 'celestial/mechanics/lagrange_points.md'
 
     - Stellar Astronomy:
@@ -92,21 +105,34 @@ nav:
                 - stellar/evolution/low_mass_stars.md
                 - stellar/evolution/sun_like.md
                 - stellar/evolution/high_mass.md
+          - Variables:
+                - stellar/variable/kappa.md
+                - stellar/variable/instability_strip.md
     - Light and Optics:
+          - Getting Started: optics/index.md
+          - Perceiving Space:
+                - optics/thesky/Rayleigh Scattering.md
+          - The Magnitude System:
+                - optics/magnitude/apparent_absolute_magnitude.md
+                - optics/magnitude/magnitude_systems.md
+                - optics/magnitude/extinction.md
           - Blackbody Radiation:
                 - optics/blackbody/blackbody_radiation.md
                 - optics/blackbody/wiens_displacement_law.md
                 - optics/blackbody/stefan_boltzmann_law.md
                 - optics/blackbody/radiation_pressure.md
-          - The Magnitude System:
-                - optics/magnitude/apparent_absolute_magnitude.md
-                - optics/magnitude/magnitude_systems.md
-                - optics/magnitude/extinction.md
+          - Telescopes:
+                - optics/telescopes/overview.md
+                - optics/telescopes/refractor.md
+                - optics/telescopes/resolution.md
+          - optics/solid_angle.md
     - Positional Astronomy:
           - Getting Started: positional/index.md
           - Project Circinus: positional/assets/Project Circinus v1.2.32.pdf
     - Starhopping Guide:
           - Getting Started: starhopping/index.md
+          - starhopping/dso.md
+          - starhopping/old_dso.md
     - Practical:
           - practical/index.md
           - practical/telescopes.md

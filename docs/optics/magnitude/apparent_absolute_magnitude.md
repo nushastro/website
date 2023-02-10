@@ -19,7 +19,7 @@ However the problem that rose from this system was that it was highly arbitrary 
 
 Norman Pogson was an astrophysicist at the prestigious Oxford University back in 1856 when he came with a solution to the magnitude scaling problem.
 
-He proferred a solution that used a logarithmic scale rather than a linear scale. Since detectors were actually present back then, Pogson was able to come to a unique scale system: each factor of difference in magnitude denoted $100^{\frac{1}{5}} \approx 2.512$ as a change of luminosity. That is to say, a star of magnitude +4.00 was $2.512$ times as bright as a star of magnitude +5.00, or rather, a star of magnitude +0.00 was a 100 times a bright that of magnitude +5.00.
+He preferred a solution that used a logarithmic scale rather than a linear scale. Since detectors were actually present back then, Pogson was able to come to a unique scale system: each factor of difference in magnitude denoted $100^{\frac{1}{5}} \approx 2.512$ as a change of luminosity. That is to say, a star of magnitude +4.00 was $2.512$ times as bright as a star of magnitude +5.00, or rather, a star of magnitude +0.00 was a 100 times a bright that of magnitude +5.00.
 
 At that point Polaris was used a reference point, since it had a good old nice value of $m = +2.00$.
 
@@ -35,20 +35,26 @@ This came to a head when, in recent years, Vega was also found to be variable. H
 
 Using this method, we have been able to standardize the following variables for easy reference:
 
-| Object                                            | Magnitude         |
-| ------------------------------------------------- | ----------------- |
-| $m_{sun} = m_\bigodot$                            | -26.7 (VERY LOW)  |
-| $m_{moon}$ (when brightest)                       | -12.9 (Quite Low) |
-| $m_{venus}$ (when brightest)                      | -4.9              |
-| $m_{sirius}$ (brightest star)                     | -1.5              |
-| $m_{vega}$ ((ex-)reference point)                 | +0.0              |
-| $m_{min}$ (faintest star visible to the naked eye | +6.0              |
+| Object                                                 | Magnitude         |
+| ------------------------------------------------------ | ----------------- |
+| $m_\text{Sun} = m_\bigodot$                            | -26.7 (VERY LOW)  |
+| $m_\text{Moon}$ (when brightest)                       | -12.9 (Quite Low) |
+| $m_\text{Venus}$ (when brightest)                      | -4.9              |
+| $m_\text{Sirius}$ (brightest star)                     | -1.5              |
+| $m_\text{Vega}$ ((ex-)reference point)                 | +0.0              |
+| $m_\text{min}$ (faintest star visible to the naked eye | +6.0              |
 
 ### Pogson's Law
 
 Pogson's Law is used to compare between two different objects in the night sky. We use a logarithmic scale of base 10, or 2.512. The equation is as follows:
 
-$$\begin{align*}\frac{F_1}{F_2} &= 10^{\frac{2}{5} \left(m_2 - m_1 \right)}\\m_2-m_1 &= 2.5\log\left(\frac{F_1}{F_2}\right) \\ m_1-m_2 &= -2.5\log\left(\frac{F_1}{F_2}\right)\end{align*}$$
+$$
+\begin{align*}
+\frac{F_1}{F_2} &= 10^{\frac{2}{5} \left(m_2 - m_1 \right)}\\
+m_2-m_1 &= 2.5\log\left(\frac{F_1}{F_2}\right)\\
+m_1-m_2 &= -2.5\log\left(\frac{F_1}{F_2}\right)
+\end{align*}
+$$
 
 $F$ refers to the _Flux_ of light (brightness). This law is applicable in calculations such as:
 
@@ -60,12 +66,16 @@ $F$ refers to the _Flux_ of light (brightness). This law is applicable in calcul
     === "Solution"
         Since we know that the Sun's Apparent Magnitude is -26.7, and the Full Moon's Apparent Magnitude is -12.9, we can apply it to the formula below:
 
-        $$\begin{align*} \frac{F_\bigodot}{F_{moon}} &= 10^{\frac{2}{5} \left(-12.9 - (-26.7) \right)} \\ &= 10^{\frac{2}{5}\left(13.8\right)} \\ &\approx 10^6 = 1 000 000 \end{align*}$$
+        $$\begin{align*}
+        \frac{F_\bigodot}{F_\text{moon}} &= 10^{\frac{2}{5} \left(-12.9 - (-26.7) \right)}\\
+        &= 10^{\frac{2}{5}\left(13.8\right)}\\
+        &\approx 10^6 = 1 000 000
+        \end{align*}$$
 
         By this, we note that the sun is a million times brighter than the moon in the Earth sky.
 
 However, this only allows us to **compare** apparent magnitudes, and not actualy get a value for them.
-To get a value for them, we have to find a value $F_0$, which is a value of flux that we choose _such that_ $m = 0$.
+To get a value for them, we have to find a value $F_0$, which is a _value of flux that we choose such that_ $m = 0$.
 
 $$
 m - m_0 = -2.5\log\left(\frac{F}{F_0}\right)
@@ -81,7 +91,13 @@ If we are comparing the apparent magnitude of a star at different distances, we 
 
 Since $F \propto \frac{L}{4\pi d^2}$:
 
-$$\begin{align*}\frac{F_1}{F_2} &= 10^{\frac{2}{5} \left(m_2 - m_1 \right)} \\ \frac{\frac{L}{4\pi d_1^2}}{\frac{L}{4\pi d_2^2}} &= 10^{\frac{2}{5} \left(m_2 - m_1 \right)} \\ \frac{d_2^2}{d_1^2} &= 10^{\frac{2}{5} \left(m_2 - m_1 \right)} \\ \log\left(\frac{d_2^2}{d_1^2}\right) &= \frac{2}{5} (m_2-m_1) \\\\ 2\log\left(\frac{d_2}{d_1}\right) &= \frac{2}{5} (m_2-m_1) \\ \therefore m_2 - m_1 &= 5\log\left(\frac{d_2}{d_1}\right) \end{align*}$$
+??? Abstract "Derivation"
+
+    $$\begin{align*}\frac{F_1}{F_2} &= 10^{\frac{2}{5} \left(m_2 - m_1 \right)} \\ \frac{\frac{L}{4\pi d_1^2}}{\frac{L}{4\pi d_2^2}} &= 10^{\frac{2}{5} \left(m_2 - m_1 \right)} \\ \frac{d_2^2}{d_1^2} &= 10^{\frac{2}{5} \left(m_2 - m_1 \right)} \\ \log\left(\frac{d_2^2}{d_1^2}\right) &= \frac{2}{5} (m_2-m_1) \\\\ 2\log\left(\frac{d_2}{d_1}\right) &= \frac{2}{5} (m_2-m_1) \\ \therefore m_2 - m_1 &= 5\log\left(\frac{d_2}{d_1}\right) \end{align*}$$
+
+$$
+m_2 - m_1 = 5\log\left(\frac{d_2}{d_1}\right)
+$$
 
 !!! Question "Binary Star System"
 
@@ -176,12 +192,11 @@ $$\begin{align*}\frac{F_1}{F_2} &= 10^{\frac{2}{5} \left(m_2 - m_1 \right)} \\ \
 
 One thing to note is that we don't know if a sky in the night sky is dim simply because it's dim or because it's too far away to be visible. Hence, many decided to build on Pogson's "apparent" magnitude system with a new conception known to man as the **Absolute Magnitude**. (see the origins of the system [here](https://articles.adsabs.harvard.edu/cgi-bin/nph-iarticle_query?2006JAHH....9..173H&defaultprint=YES&filetype=.pdf))
 
-Absolute magnitude is actually just the apparent magnitude of a star **10 parsecs** away.
-Hence we can derive the following equation:
+Absolute magnitude is actually just the apparent magnitude of a star **10 parsecs** away. Hence we can derive the following equation:
 
 $$ m - M = 5log\left(\frac{d}{10 pc}\right) $$
 
-$pc$ in this case is a _parsec_ which is $3.086 \times 10^{16}m$ or $3.262$ light years.
+$pc$ in this case is a _parsec_ which is $3.086 \times 10^{16} \text{ m}$ or $3.262$ light years.
 
 $m - M$ is also known as the _distance modulus_, since it only depends on the distance to the star
 
@@ -216,7 +231,7 @@ $m - M$ is also known as the _distance modulus_, since it only depends on the di
     === "Solution"
 
         $$\begin{align*}
-        M_{new} - M{old} &= -2.5\log\left(\frac{F_{new}}{F_{old}}\right)\\
+        M_{new} - M_{old} &= -2.5\log\left(\frac{F_{new}}{F_{old}}\right)\\
         M_{new} &= M_{old} -2.5\log(10^9)\\
         M_{new} &= -17.5
         \end{align*}$$
@@ -229,3 +244,26 @@ $m - M$ is also known as the _distance modulus_, since it only depends on the di
           &= -17.5 + 5\log\left(\frac{690 000}{10}\right)\\
         m &\approx 6.7
         \end{align*}$$
+
+
+## Limiting Magnitude
+
+We note that in practical astronomy, we utilise lenses of specific surface areas. Another concept is that of limiting magnitude, that is to say the minimum magnitude perceived by a specific input sensitive to light (eg lenses, your sensory system etc).
+
+We note that for a given bigger lens, more light permeates through the lens, and hence the minimum flux, $F_{min}$ is much lower. Essentially, we can say that $F_{min}$ is inversely proportional to the area of the lens, $A$. From here, we modify Pogson's Law by introducing $\frac{1}{A}$ in place of $F$:
+
+$$\frac{A_2}{A_1} = 100^{(m_2-m_1)/5}$$
+
+From this, we can actually identify the given limiting magnitude of an lens via simply comparing the values to others in different contexts. The known values are those of the eye, which are shown in the table below:
+
+|Quantity|Value for Humans|
+|---|---|
+|Average Pupil Diameter, $d$|8 mm = 0.008 mm|
+|Average Pupil Area, $A$|$\pi(0.004)^2$|
+|Limiting Magnitude, $m_{max}$|+6.00|
+
+Here, we then go on to assume lenses are circular, and hence utilse the diameter, $d$ instead, to get:
+
+$$\frac{d_2}{d_1} = 10^{(m_2-m_1)/5}$$
+
+And there we have it, the comparison seems a bit more sane.
