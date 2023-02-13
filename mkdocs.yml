@@ -124,15 +124,19 @@ nav:
           - Telescopes:
                 - optics/telescopes/overview.md
                 - optics/telescopes/refractor.md
+                - optics/telescopes/reflector.md
                 - optics/telescopes/resolution.md
           - optics/solid_angle.md
     - Positional Astronomy:
           - Getting Started: positional/index.md
           - Project Circinus: positional/assets/Project Circinus v1.2.32.pdf
+    - Cosmology:
+          - Getting Started: cosmology/index.md
     - Starhopping Guide:
           - Getting Started: starhopping/index.md
           - starhopping/dso.md
           - starhopping/old_dso.md
+          - 1000 Star maps: starhopping/1000 star maps.pdf
     - Practical:
           - practical/index.md
           - practical/telescopes.md
