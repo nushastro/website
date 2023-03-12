@@ -35,14 +35,14 @@ This came to a head when, in recent years, Vega was also found to be variable. H
 
 Using this method, we have been able to standardize the following variables for easy reference:
 
-| Object                                                  | Magnitude         |
-| ------------------------------------------------------- | ----------------- |
-| $m_\text{Sun} = m_\bigodot$                             | -26.7 (VERY LOW)  |
-| $m_\text{Moon}$ (when brightest)                        | -12.9 (Quite Low) |
-| $m_\text{Venus}$ (when brightest)                       | -4.9              |
-| $m_\text{Sirius}$ (brightest star)                      | -1.5              |
-| $m_\text{Vega}$ ((ex-)reference point)                  | +0.0              |
-| $m_\text{min}$ (faintest star visible to the naked eye) | +6.0              |
+| Object                                                 | Magnitude         |
+| ------------------------------------------------------ | ----------------- |
+| $m_\text{Sun} = m_\bigodot$                            | -26.7 (VERY LOW)  |
+| $m_\text{Moon}$ (when brightest)                       | -12.9 (Quite Low) |
+| $m_\text{Venus}$ (when brightest)                      | -4.9              |
+| $m_\text{Sirius}$ (brightest star)                     | -1.5              |
+| $m_\text{Vega}$ ((ex-)reference point)                 | +0.0              |
+| $m_\text{min}$ (faintest star visible to the naked eye | +6.0              |
 
 ### Pogson's Law
 
@@ -105,32 +105,7 @@ $$
 
         In a binary system, the apperant magnitude of the primary star is 1.0 and that of the secondary star is 2.0 Find the maximum combined magnitude of this system
 
-    === "Solution (new)"
-
-        Let $F_1$, $F_2$, $F_c$ be the flux of the primary star, secondary star and combined flux, respectively
-
-        First let us express the magnitudes with respect to their respective fluxes:
-
-        $$
-        \begin{align*}
-        m &= -2.5\log\left(\frac{F}{F_0}\right)\\
-        -\frac{2}{5} &= \log\left(\frac{F}{F_0}\right)\\
-        \therefore \frac{F}{F_0} &= 10^{-\frac{2}{5}m}
-        \end{align*}$$
-
-        we know that $F_c = F_1 + F_2$, and hence
-
-        $$
-        \begin{align*}
-        \frac{F_c}{F_0} &= \frac{F_1}{F_0} + \frac{F_2}{F_0}\\
-        \frac{F_c}{F_0} &= 10^{-\frac{2}{5}m_1} + 10^{-\frac{2}{5}m_2}\\
-        m_c &= -2.5\log\left(\frac{F_c}{F_0}\right)\\
-            &= -2.5\log\left( 10^{-\frac{2}{5}m_1} + 10^{-\frac{2}{5}m_2} \right)\\
-            &= -2.5\log\left( 10^{-\frac{2}{5}1.0} + 10^{-\frac{2}{5}2.0} \right)\\
-            &= +0.64
-        \end{align*}$$
-
-    === "Solution (old)"
+    === "Solution"
 
         Let $F_1$, $F_2$, $F_c$ be the flux of the primary star, secondary star and combined flux, respectively
 
@@ -158,7 +133,7 @@ $$
         \end{align*}$$
 
 
-        This "general strategy" is to express combined fluxes as the sum of component fluxes, and split the fraction into individual fractions to evaluate
+        The "general strategy" is to express combined fluxes as the sum of component fluxes, and split the fraction into individual fractions to evaluate
 
 !!! Question "Triple star system"
 
@@ -168,34 +143,7 @@ $$
         Two of its components have magnitudes 1.0 and 2.0.
         What is the magnitude of the third component?
 
-    === "Solution (new)"
-
-        Let the magnitude of the first star be $m_1 = 1.0$, the magnitude of the second star to be $m_2 = 2.0$, $m_3$ being the unknown quantity to be determined, and combined magnitude $m_c = 0.0$
-        We also have $F_1$, $F_2$, $F_3$ be the fluxes of its components and $F_c$ be the combined flux from the triple star system.
-
-        First let us express the magnitudes with respect to their respective fluxes again:
-
-        $$
-        \begin{align*}
-        m &= -2.5\log\left(\frac{F}{F_0}\right)\\
-        -\frac{2}{5} &= \log\left(\frac{F}{F_0}\right)\\
-        \therefore \frac{F}{F_0} &= 10^{-\frac{2}{5}m}
-        \end{align*}$$
-
-        we know that $F_c = F_1 + F_2 + F_3$, and hence
-
-        $$
-        \begin{align*}
-        \frac{F_c}{F_0} &= \frac{F_1}{F_0} + \frac{F_2}{F_0} + \frac{F_3}{F_0}\\
-        10^{-\frac{2}{5}m_c} &= 10^{-\frac{2}{5}m_1} + 10^{-\frac{2}{5}m_2} + \frac{F_3}{F_0}\\
-        \frac{F_3}{F_0} &= 10^{-\frac{2}{5}m_c} - 10^{-\frac{2}{5}m_1} - 10^{-\frac{2}{5}m_2}\\
-        m_3 &= -2.5\log\left(\frac{F_3}{F_0}\right)\\
-            &= -2.5\log\left( 10^{-\frac{2}{5}m_c} - 10^{-\frac{2}{5}m_1} - 10^{-\frac{2}{5}m_2} \right)\\
-            &= -2.5\log\left( 10^{-\frac{2}{5}0.0} - 10^{-\frac{2}{5}1.0} - 10^{-\frac{2}{5}2.0} \right)\\
-            &= +0.88
-        \end{align*}$$
-
-    === "Solution (old)"
+    === "Solution"
 
         Let the magnitude of the first star be $m_1 = 1.0$, the magnitude of the second star to be $m_2 = 2.0$, $m_3$ being the unknown quantity to be determined, and combined magnitude $m_c = 0.0$
         We also have $F_1$, $F_2$, $F_3$ be the fluxes of its components and $F_c$ be the combined flux from the triple star system.
@@ -297,6 +245,7 @@ $m - M$ is also known as the _distance modulus_, since it only depends on the di
         m &\approx 6.7
         \end{align*}$$
 
+
 ## Limiting Magnitude
 
 We note that in practical astronomy, we utilise lenses of specific surface areas. Another concept is that of limiting magnitude, that is to say the minimum magnitude perceived by a specific input sensitive to light (eg lenses, your sensory system etc).
@@ -307,11 +256,11 @@ $$\frac{A_2}{A_1} = 100^{(m_2-m_1)/5}$$
 
 From this, we can actually identify the given limiting magnitude of an lens via simply comparing the values to others in different contexts. The known values are those of the eye, which are shown in the table below:
 
-| Quantity                      | Value for Humans |
-| ----------------------------- | ---------------- |
-| Average Pupil Diameter, $d$   | 8 mm = 0.008 mm  |
-| Average Pupil Area, $A$       | $\pi(0.004)^2$   |
-| Limiting Magnitude, $m_{max}$ | +6.00            |
+|Quantity|Value for Humans|
+|---|---|
+|Average Pupil Diameter, $d$|8 mm = 0.008 mm|
+|Average Pupil Area, $A$|$\pi(0.004)^2$|
+|Limiting Magnitude, $m_{max}$|+6.00|
 
 Here, we then go on to assume lenses are circular, and hence utilse the diameter, $d$ instead, to get:
 

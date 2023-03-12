@@ -89,7 +89,7 @@ To understand how something can weigh less than the sum of its parts, the video 
 
 <figcaption>Binding energy curve for common isotopes. Energy is released as you move towards Fe-56, whether it be through fusion (from left) or through fission (from the right)</figcaption>
 
-!!! Question "Mom can I use $E = mc^2$ unironically"
+!!! Question "Mass Loss"
 
     === "Question"
 
@@ -124,36 +124,4 @@ To understand how something can weigh less than the sum of its parts, the video 
         $$\begin{align*}
         \Delta M &= 8.921\times10^{37}\times4.77\times10^{-29} kg\\
         &\approx 4.26\times10^{9} kg/s
-        \end{align*}$$
-
-!!! Question "Helium lifespan"
-
-    === "(I08 - T04 - B)"
-
-        Suppose a star has a mass of $20M_{\odot}$ If 20% of the star’s mass is now in the form of helium, calculate the helium-burning lifetime of this star.
-
-        Assume that the luminosity of the star is $100L_{\odot}$, in which 30% is contributed by helium burning.
-
-        Assume no additional helium is being produced in this time. The fusion of helium into carbon by triple-α process is given by $3\;^4\text{He} \rightarrow \:^{12}\text{C}+\gamma$. Helium-4's mass is 4.002603u while Carbon-12's mass is 12.000000u
-
-
-
-    === "Solution"
-
-        First let's find the mass defect
-
-        $$\begin{align*}
-        \Delta m &= 3\times4.002603u - 12.000000u\\
-        &= 0.007809u
-        \end{align*}$$
-
-        Then we find the total mass lost by finding the **fraction** of mass lost from burning helium:
-
-        $$\begin{align*}
-        m_{frac} &= \frac{\text{mass lost}}{original mass}\\
-        &= \frac{0.007809u}{3\times4.002603u}\\
-        &= 6.503\times10^{-4}\\
-        \Delta M &= m_{frac} \times 20\% 100M_\odot\\
-        &= 6.503\times10^{-4} \times 20 \times 1.989 \times 10^{30}\\
-        &= 2.587\times10^{28}
         \end{align*}$$
