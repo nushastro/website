@@ -1,3 +1,3 @@
 # NUS High Astronomy Club website
 
-at https://nushastro.ml/
+at https://nushastro.github.io/website/
