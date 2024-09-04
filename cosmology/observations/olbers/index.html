@@ -2777,6 +2777,26 @@
 <div class="arithmatex">\[|f-1|=e^{-\pi l^2 \rho r}\]</div>
 <div class="arithmatex">\[f=1-e^{-\pi l^2 \rho r} (\because 0 \leq f \leq 1)\]</div>
 <p>As we can see, as <span class="arithmatex">\(r\)</span> tends to infinity, the fraction covered will tend to 1. This affirms the fact that the infinite sky will have all lines of sight intercepting a star's surface, and the sky would look like a giant star.</p>
+<div class="admonition question">
+<p class="admonition-title">Question</p>
+<div class="tabbed-set tabbed-alternate" data-tabs="1:2"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">Infinitely Bright</label><label for="__tabbed_1_2">Solution</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<p>Using the same setup as above, but now treating the stars as point sources with luminosity <span class="arithmatex">\(L\)</span>, find the flux received by an observer looking out to all stars with a distance less than a radius <span class="arithmatex">\(r\)</span>, and find this as <span class="arithmatex">\(r\)</span> tends to <span class="arithmatex">\(\infty\)</span>.</p>
+</div>
+<div class="tabbed-block">
+<p>We can use our layer method again: there are <span class="arithmatex">\(4 \pi r^2 dr \rho\)</span> stars in a layer at radius <span class="arithmatex">\(r\)</span>, with luminosity <span class="arithmatex">\(4 \pi r^2 dr \rho L\)</span>.</p>
+<p>Since this layer is at a constant <span class="arithmatex">\(r\)</span> from the observer, the flux is:</p>
+<div class="arithmatex">\[\frac{4 \pi r^2 dr \rho L}{4 \pi r^2} = L \rho dr\]</div>
+<p>Integrating this:</p>
+<div class="arithmatex">\[\int_{0}^{r}L \rho dr = L \rho r\]</div>
+<p>It should seem fairly obvious by now, but:</p>
+<div class="arithmatex">\[\int_{0}^{\infty}L \rho dr = \infty\]</div>
+<p>And we get an infinite flux at the observer. Note that in the example above about the line-of-sight, nothing is said about the flux, so this is not at odds with the previous example (although it is at odds with common sense).</p>
+</div>
+</div>
+</div>
+</div>
 <p>Of course, by simple observation, our night sky does not look like that, as we are able to sleep comfortably and even exist at all. How would we resolve this?</p>
 <h2 id="resolution">Resolution</h2>
 <p>There are a couple of legit and scam resolutions to Olber's paradox. Let's start with the scam ones:</p>
