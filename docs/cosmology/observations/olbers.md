@@ -37,6 +37,30 @@ $$f=1-e^{-\pi l^2 \rho r} (\because 0 \leq f \leq 1)$$
 
 As we can see, as $r$ tends to infinity, the fraction covered will tend to 1. This affirms the fact that the infinite sky will have all lines of sight intercepting a star's surface, and the sky would look like a giant star.
 
+!!! Question
+
+    === "Infinitely Bright"
+
+        Using the same setup as above, but now treating the stars as point sources with luminosity $L$, find the flux received by an observer looking out to all stars with a distance less than a radius $r$, and find this as $r$ tends to $\infty$.
+
+    === "Solution"
+
+        We can use our layer method again: there are $4 \pi r^2 dr \rho$ stars in a layer at radius $r$, with luminosity $4 \pi r^2 dr \rho L$.
+        
+        Since this layer is at a constant $r$ from the observer, the flux is:
+
+        $$\frac{4 \pi r^2 dr \rho L}{4 \pi r^2} = L \rho dr$$
+
+        Integrating this:
+
+        $$\int_{0}^{r}L \rho dr = L \rho r$$
+
+        It should seem fairly obvious by now, but:
+
+        $$\int_{0}^{\infty}L \rho dr = \infty$$
+
+        And we get an infinite flux at the observer. Note that in the example above about the line-of-sight, nothing is said about the flux, so this is not at odds with the previous example (although it is at odds with common sense).
+
 Of course, by simple observation, our night sky does not look like that, as we are able to sleep comfortably and even exist at all. How would we resolve this?
 
 ## Resolution
