@@ -129,6 +129,11 @@ nav:
     - Positional Astronomy:
           - Getting Started: positional/index.md
           - Project Circinus: positional/assets/Project Circinus v1.2.32.pdf
+    - Cosmology:
+          - Getting Started: cosmology/index.md
+          - Observations:
+                - cosmology/observations/history.md
+                - cosmology/observations/olbers.md
     - Starhopping Guide:
           - Getting Started: starhopping/index.md
           - starhopping/dso.md
