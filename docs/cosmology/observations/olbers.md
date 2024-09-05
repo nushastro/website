@@ -7,7 +7,10 @@ If we have a static and infinitely old universe with stars distributed homogenou
 
 Intuitively, when we look to any direction, our line of sight will eventually reach the surface of a star. Since surface brightness is unchanged with distance, all of the night sky would have the same brightness as a star.
 
-![Olber's Paradox](../img/olbers.jpg)
+<figure markdown>
+  ![](../img/olbers.jpg){ width="450" }
+  <figcaption>Every line of sight will end on a star</figcaption>
+</figure>
 
 ## Quantification
 
