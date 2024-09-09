@@ -20,8 +20,8 @@ Imagine looking out to a thin layer of a sphere centered around you with a radiu
 
 The area blocked by the stars would be $4 \pi r^2 dr \rho (\pi l^2)$. Of course, some of these stars are blocked by others in layers with a smaller radius, so more helpful would be how much $f(r)$ increases with each step $dr$:
 
-$$\begin{align*}df(r)&= (unblocked)\times (fraction)\\
-&=(1-f(r))(\frac{4 \pi r^2 dr \rho (\pi l^2)}{4 \pi r^2})\\
+$$\begin{align*}df(r)&= (\text{unblocked})\times (\text{fraction})\\
+&=(1-f(r))\left(\frac{4 \pi r^2 dr \rho (\pi l^2)}{4 \pi r^2}\right)\\
 &=(1-f(r))(\pi l^2 \rho dr)\end{align*}$$
 
 We get this differential equation:
