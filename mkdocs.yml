@@ -135,6 +135,7 @@ nav:
                 - cosmology/observations/history.md
                 - cosmology/observations/olbers.md
                 - cosmology/observations/galaxy_redshift.md
+                - cosmology/observations/cmb.md
     - Starhopping Guide:
           - Getting Started: starhopping/index.md
           - starhopping/dso.md
