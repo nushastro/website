@@ -14,7 +14,7 @@ Although this radiation was full of energy during recombination, the expansion o
 
 ## Big Bang
 
-But what was this 'start of the universe'? We can extrapolate by turning back the clock and undoing the expansion of the universe. This leads to the universe contracting down to a single point, containing every single thing in the universe. This state is called a singularity (since we're effectively multiplied all distances by 0), and the resulting expansion is the Big Bang. 
+But what was this 'start of the universe'? We can extrapolate by turning back the clock and undoing the expansion of the universe. This leads to the universe contracting down to a single point, containing every single thing in the universe. This state is called a singularity (since we've effectively multiplied all distances by 0), and the resulting expansion is the Big Bang. 
 
 ### Location
 
@@ -25,6 +25,8 @@ The Big Bang happened everywhere. This may seem counterintuitive, but remember: 
 This may be easier to see with our expanding balloon analogy. As we deflate the balloon to a single point, the ants rush together, with their distances decreasing down to 0. When the balloon is completely deflated (radius = 0), all the ants are at the same point, and each can think that they were where the inflation started from!
 
 ## Isotropy
+
+### Dipole
 
 We've stated earlier that the signal (CMB) was uniform in all directions. This is a bit of a lie.
 
@@ -53,7 +55,7 @@ When we remove the relative motion part from the CMB, we get this image:
 
 This figure is somewhat isotropic, with some very minor irregularities. However, there are still a few creases we need to wrinkle out, or at least acknowledge.
 
-### Isotropy problems
+### Other Isotropy problems
 
 First, there is no reason for the CMB to be isotropic. If we look at opposite sides of the sky, we see that they're about the same temperature based on the photons emitted. But, if the photons are reaching us now, how would these completely separate parts of the sky interact with each other in the early universe to achieve thermal equilibrium? The photons couldn't have reached each other if they're only reaching us now!
 
@@ -66,6 +68,11 @@ First, there is no reason for the CMB to be isotropic. If we look at opposite si
 This is the horizon problem, one of the problems with the Hot Big Bang model. We will revisit this when discussing cosmic inflation, which expanded the universe by an astoundingly large factor close to the Big Bang.
 
 Second, there are still some patterns in the anisotropy of the CMB. The quadrupole and octupole moments of the CMB appear to have some alignment with each other, and are aligned with the ecliptic plane as well. When this was first identified from the results of the Wilkinson Microwave Anisotropy Probe (WMAP), some chalked it up to errors. However, the results from the more accurate Planck Telescope still had signs of anisotropy.
+
+<figure markdown>
+  ![](../img/cold_spot.jpg){ width="450" }
+  <figcaption>Cold Spot in Eridanus (centre)</figcaption>
+</figure>
 
 There are also some large structures in the CMB, including the "Cold Spot" in Eridanus, which are quite big and are unlikely to form. Some have proposed a very large void to explain the decrease in temperature, making it one of the largest structures in the universe. 
 
