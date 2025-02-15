@@ -3,7 +3,7 @@
 
 ## The Paradox
 
-If we have a static and infinitely old universe with stars distributed homogenously, the night sky will be bright.
+If we have a static and infinitely old universe with stars distributed homogeneously, the night sky will be bright.
 
 Intuitively, when we look to any direction, our line of sight will eventually reach the surface of a star. Since surface brightness is unchanged with distance, all of the night sky would have the same brightness as a star.
 
@@ -88,6 +88,6 @@ To resolve this paradox, we look back at our assumptions: a static, infinite and
 
 As it turns out, our universe is a mix of 1 and 3, and possibly 2 as well.
 
-Note that if, say, a very bright event occured throughout the universe at some point in the past, like widespread nuclear fusion, some of the light would still be reaching us and we would still see a bright night. It is only with the modification of light during its travel that the event's light is no longer visible.
+Note that if, say, a very bright event occurred throughout the universe at some point in the past, like widespread nuclear fusion, some of the light would still be reaching us and we would still see a bright night. It is only with the modification of light during its travel that the event's light is no longer visible.
 
 As it turns out, such an event did indeed happen, and whose light, which was once visible, was altered to only be detectable with special equipment which are not our eyes. More on this later!

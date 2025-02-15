@@ -44,7 +44,7 @@ Edwin Hubble took some of Slipher's data and compared the velocities with distan
 
 $$v = H_0 d$$
 
-Here, $H_0$ is the Hubble constant, which stands at around 70 km/s/Mpc, $\pm$ quite a bit, due to something called Hubble Tension, a disrepancy in the measured Hubble constant from different methods.
+Here, $H_0$ is the Hubble constant, which stands at around 70 km/s/Mpc, $\pm$ quite a bit, due to something called Hubble Tension, a discrepancy in the measured Hubble constant from different methods.
 
 What could be causing such galaxies to rush away?
 
