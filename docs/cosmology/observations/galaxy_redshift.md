@@ -7,7 +7,7 @@ In 1912, Vesto Slipher observed that the absorption lines in some galaxies was s
 The absorption lines came from stellar light that passed through some cool gas (or stellar atmosphere) in the galaxy, leading to absorption at specific frequencies of light corresponding to the difference in energy levels for the atoms in the gas. The frequency and energy difference is related by $E=hf$.
 
 <figure markdown>
-  ![](../img/energylevels.jpg){ width="450" }
+  ![](../img/observations/energylevels.jpg){ width="450" }
   <figcaption>Emission and absorption of photons</figcaption>
 </figure>
 
@@ -16,7 +16,7 @@ The atoms in the gas absorb light in these frequencies, resulting in dark bands 
 In this case, all the absorption lines from the distant galaxy were shifted toward the red part of the spectrum, as shown in this diagram:
 
 <figure markdown>
-  ![](../img/redshift.png){ width="450" }
+  ![](../img/observations/redshift.png){ width="450" }
   <figcaption>Redshift and blueshift</figcaption>
 </figure>
 
@@ -53,7 +53,7 @@ What could be causing such galaxies to rush away?
 As it turns out, the universe is expanding uniformly. Distances to faraway objects like these galaxies increase over time, and appear to rush away from our point of view. The best analogy is inflating a balloon. Imagine blowing up a balloon, with little ants on it. From the point of view of an ant on the balloon, all of the other ants are moving away, simply because there is now more space between each ant. And the further out the ant is, more space gets created proportionally, very much like Hubble's Law!
 
 <figure markdown>
-  ![](../img/hubble.gif){ width="450" }
+  ![](../img/observations/hubble.gif){ width="450" }
   <figcaption>I hope this looks like a balloon to you</figcaption>
 </figure>
 

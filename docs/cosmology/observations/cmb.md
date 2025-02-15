@@ -33,8 +33,8 @@ We've stated earlier that the signal (CMB) was uniform in all directions. This i
 The CMB has a significant dipole moment, as shown below. The blue parts are cooler and the red hotter.
 
 <figure markdown>
-  ![cmb_dipole.png](../img/cmb_dipole.png#only-light){ width="450"}
-  ![cmb_dipole.png](../img/cmb_dipole_dark.png#only-dark){ width="450"}
+  ![cmb_dipole.png](../img/observations/cmb_dipole.png#only-light){ width="450"}
+  ![cmb_dipole.png](../img/observations/cmb_dipole_dark.png#only-dark){ width="450"}
   <figcaption>Dipole moment</figcaption>
 </figure>
 
@@ -49,7 +49,7 @@ We can somewhat conceptualize this by imagining a globular cluster. The entire g
 When we remove the relative motion part from the CMB, we get this image:
 
 <figure markdown>
-  ![](../img/cmb.png){ width="450" }
+  ![](../img/observations/cmb.png){ width="450" }
   <figcaption>The Cosmic Microwave Background</figcaption>
 </figure>
 
@@ -60,8 +60,8 @@ This figure is somewhat isotropic, with some very minor irregularities. However,
 First, there is no reason for the CMB to be isotropic. If we look at opposite sides of the sky, we see that they're about the same temperature based on the photons emitted. But, if the photons are reaching us now, how would these completely separate parts of the sky interact with each other in the early universe to achieve thermal equilibrium? The photons couldn't have reached each other if they're only reaching us now!
 
 <figure markdown>
-  ![horizon.svg](../img/horizon.svg#only-light){ width="480"}
-  ![horizon.svg](../img/horizon_dark.svg#only-dark){ width="480"}
+  ![horizon.svg](../img/observations/horizon.svg#only-light){ width="480"}
+  ![horizon.svg](../img/observations/horizon_dark.svg#only-dark){ width="480"}
   <figcaption>The Horizon Problem</figcaption>
 </figure>
 
@@ -70,7 +70,7 @@ This is the horizon problem, one of the problems with the Hot Big Bang model. We
 Second, there are still some patterns in the anisotropy of the CMB. The quadrupole and octupole moments of the CMB appear to have some alignment with each other, and are aligned with the ecliptic plane as well. When this was first identified from the results of the Wilkinson Microwave Anisotropy Probe (WMAP), some chalked it up to errors. However, the results from the more accurate Planck Telescope still had signs of anisotropy.
 
 <figure markdown>
-  ![](../img/cold_spot.jpg){ width="450" }
+  ![](../img/observations/cold_spot.jpg){ width="450" }
   <figcaption>Cold Spot in Eridanus (centre)</figcaption>
 </figure>
 
